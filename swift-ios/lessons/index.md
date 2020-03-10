@@ -16,7 +16,7 @@ Find all lessons below. Note that the lessons are organized by topic below.
 - [Object Interaction]({{ site.url }}/swift-ios/lessons/object-interaction)
 
 ## StoryBoard
-
+- [Xcode Projects]({{ site.url }}/swift-ios/lessons/xcode-projects)
 - [StoryBoard]({{ site.url }}/swift-ios/lessons/storyboard)
 - [Actions & Outlets]({{ site.url }}/swift-ios/lessons/actions-outlets)
 - [Accessing Camera & Displaying Photos]({{ site.url }}/swift-ios/lessons/access-camera-display-photos)

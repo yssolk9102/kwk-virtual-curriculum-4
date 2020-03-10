@@ -1,12 +1,10 @@
 ---
-title: StoryBoard
+title: Xcode Projects
 ---
 
 ## Learning Goals
 
-* Add UI elements to the StoryBoard using the Object Library
-* Make UI look clean on all device sizes using constraints
-* Add a home screen icon into the project
+* Navigate the Xcode Project application
 
 ## Technical Vocabulary
 
@@ -14,7 +12,6 @@ title: StoryBoard
 * Navigation Pane
 * Utilities Pane
 * Debug Area
-
 
 ## Xcode Projects
 
