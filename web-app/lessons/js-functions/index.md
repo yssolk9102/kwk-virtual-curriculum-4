@@ -24,13 +24,13 @@ You will have one minute to click through the application as you normally would 
 - Partner A should be the "user" - clicking, scrolling, etc.
 - Partner B should be tallying the number of times the application DOES something (examples: load content, respond to a click/tap by showing a different screen or new content, etc.)
 
-To build a web application, developers write LOTS of functions. Every time you click a button and see something happened, a function (or many functions) just performed its job. Every time you see new data load (you account page, someone else's profile page, detail of an image, etc.), a function just performed its job.
+To build a web application, developers write LOTS of functions. Every time you click a button and see something happened, a function (or many functions) just performed its job. Every time you see new data load (your account page, someone else's profile page, detail of an image, etc.), a function just performed its job.
 
 As we start learning about functions today, we won't be writing ones quite as involved as some that are powering your favorite apps - but we will get the foundations!
 
 ## What is a Function?
 
-A function is an action in our code. It has a specific job, and it sits around waiting to be asked to do it. It can perform its job as many or as few times as we tell it to. It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We get to write them so we have control over what each function does!
+A function is an action in our code. It has a specific job, and it sits around waiting to be asked to do it. It can perform its job as many or as few times as we need. It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We write them, so we have control over what each function does!
 
 In our class example today, we will write instructions for a robot to walk a dog.
 
@@ -46,9 +46,9 @@ function walkDog() {
 
 We start with the keyword `function`, then name our function whatever we want. The name should describe the type of action our function is taking. Like variables, we use camelCase.
 
-Directly after the function name, we see an open and close parentheses, then an open and close curly bracket. The directions we want our function to take will live inside the curly braces. We can give a function as many directions as we'd like!
+Directly after the function name, we see open and close parentheses, then open and close curly brackets. The directions we want our function to take will live inside the curly braces. We can give a function as many directions as we'd like!
 
-Let's add some of the steps our robot needs to take to walk a dog. For now, we will use `console.log()` to print out the steps so we know when our function is working.
+Let's add some of the steps our robot needs to take to walk a dog. For now, we will use `console.log()` to print out the steps, so we know when our function is working.
 
 ```js
 function walkDog() {
@@ -58,11 +58,11 @@ function walkDog() {
 }
 ```
 
-Now, this code alone won't do anything. We have **declared** the function - told it what its job is. But we haven't **called** the function - or told it to carry out its job.
+Now, this code alone won't do anything. We have **declared** the function - told it what its job is. But we haven't **called** the function - or told it to carry out its task.
 
 ## Call a Function
 
-We have a really nice function written, but we need to **call** it for it to run. The nice thing about functions is you can decide when they do their job. Maybe we only want a certain function to run when a user interacts with our site in a specific way. This puts us in complete control.
+We have a nice function written, but we need to **call** it for the function to actually run. The great thing about functions is you can decide when they do their job. Maybe we only want a particular function to run when a user interacts with our site in a specific way. This puts us in complete control.
 
 ```js
 function walkDog() {
@@ -74,7 +74,7 @@ function walkDog() {
 walkDog();
 ```
 
-The last line of the code snippet is what **calls** the function. If we have this code in a CodePen, and open up the console, we should see each step printed out.
+The last line of the code snippet is what **calls** the function. If we have this code in a CodePen and open up the console, we should see each step printed out.
 
 <div class="try-it">
   <h2>Try It: Declaring & Calling a Function</h2>
@@ -85,9 +85,9 @@ The last line of the code snippet is what **calls** the function. If we have thi
 
 ## Arguments and Parameters
 
-If we are really going to have this robot help out, we need it to be a little 'smarter'. We need it to know that if there are two dogs, it needs to put two leashes on, bring two poops bags, etc.
+If we are really going to have this robot help out, we need it to be a little 'smarter.' We need it to know that if there are two dogs, it needs to put two leashes on, bring two poops bags, etc.
 
-We can make functions a little 'smarter' with something called **arguments** and **parameters**. Check out the code below, then we'll talk about what is happening:
+We can make functions a little 'smarter' with something called **arguments** and **parameters**. Check out the code below, and then we'll talk about what's happening:
 
 ```js
 function walkDog(numberOfDogs) {
@@ -109,13 +109,13 @@ walkDog(7);
 //=>Put 7 poop bags in pocket
 ```
 
-To allow our functions to be more _dynamic_, or work in more situations, we can write the declaration with **parameters**. The parameter(s) live inside the parenthesis right after the function name. If there are more than one, they should be separated by a comma and a space.
+To allow our functions to be more _dynamic_ or work in more situations, we can write the declaration with **parameters**. The parameter(s) live inside the parenthesis right after the function name. If there are more than one, they should be separated by a comma and a space.
 
 When we call the function, it will now be expecting an **argument**. The argument is the value(s) you want to store to the parameter variable(s).
 
-In our example above, `walkDog(2)` was called. `2` was the argument that was passed in. So, the parameter `numberOfDogs` is now a variable that holds the value of `2`. Anytime `numberOfDogs` is referenced inside of this function for this one time its being run, `2` will be the value it points to.
+In our example above, `walkDog(2)` was called with `2` passed in as an argument. So, the parameter `numberOfDogs` is now a variable that holds the value of `2`. Anytime `numberOfDogs` is referenced inside of this function for this specific time it's being run, `2` will be the value it uses.
 
-Below, `walkDog(7)` was called. Anytime `numberOfDogs` is referenced inside of this function for this one time its being run, `7` will be the value it points to.
+Below, `walkDog(7)` was called. Anytime `numberOfDogs` is referenced inside of this function for this specific time it's being run, `7` will be the value it uses.
 
 ### Using Parameters Like Variables
 
@@ -137,7 +137,7 @@ function timeToWalk(numberOfDogs) {
 
 ## Return Values
 
-Up until now, inside our functions we've only called `console.log` on values - in the future we will need our functions to return values so we can use them elsewhere. This may not completely make sense now, but in the next couple lessons all the pieces will tie together. It's good to get some exposure to it today.
+Up until now, inside our functions, we've only called `console.log` on values - in the future, we will need our functions to return values so we can use them elsewhere. This may not completely make sense now, but in the next couple lessons, all the pieces will tie together. It's good to get some exposure to it today.
 
 ```js
 function timeToWalk(numberOfDogs) {
@@ -159,7 +159,7 @@ console.log(`You should walk a total of ${minutes} minutes.`);
 //=> You should walk a total of 3 minutes.
 ```
 
-A couple things to know about `return`:
+A couple of things to know about `return`:
 - Each function can only return **one** value
 - If we don't explicitly return a value with the return keyword, the default return value is `undefined`
 - Once the program reads the `return` keyword and the rest of the code on that line, it will exit that function. So, no code written below the `return` keyword will ever be read.
@@ -177,7 +177,7 @@ Takeaways:
 
 ### Incorporating Conditionals
 
-If we were only walking 1 dog, the sentences would read incorrectly, for example "put on 1 leashes". Let's write a conditional inside the function; if the `numberOfDogs` passed in is 1, we will print out one set of directions, and if it is greater than 1, we will print out another set.
+If we were only walking 1 dog, the sentences would read incorrectly, for example, "put on 1 leashes". Let's write a conditional inside the function; if the `numberOfDogs` passed in is 1, we will print out one set of directions, and if it is greater than 1, we will print out another set.
 
 ```js
 function walkDog(numberOfDogs) {
@@ -201,7 +201,7 @@ function walkDog(numberOfDogs) {
 
 ## Functions
 
-Over the course of camp, we will write a lot of functions! They will have different jobs, and some will look quite different from ours today, but you've got a great foundation. Get a little more practice by completing the task below.
+Over the course of this camp, we will write a lot of functions! They will have different jobs, and some will look quite different from ours today, but you've got a great foundation. Get a little more practice by completing the task below.
 
 <div class="practice">
   <h2>Practice: Functions, Arguments, Return Values</h2>
