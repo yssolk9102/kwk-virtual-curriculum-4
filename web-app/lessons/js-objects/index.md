@@ -16,7 +16,7 @@ title: Objects
 
 ## Objects
 
-An **Object** is another complex data type available in JavaScript. Objects, like Arrays, can be classified as _collections_. There is one big difference between them and arrays: Objects are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
+An **Object** is another complex data type available in JavaScript. Objects, like Arrays, can be classified as _collections_. There is, however, one big difference between them and arrays: Objects are not ordered by index (0, 1, 2, etc.). Instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
 
 ## When to use Objects
 
@@ -25,7 +25,7 @@ We just got the hang of arrays and are feeling pretty great about them - when/wh
 - When we don’t care about the order of items (array)
 - When we need an associative relationship (title for some info)
 
-If I wanted to make a list of the handles of all my favorite creators on TikTok, I should use an array. They are all strings, they are all holding the same type of information. I don’t care about the number of followers they have, if they are verified, or anything else.
+If I wanted to make a list of the handles of all my favorite creators on TikTok, I should use an array. They are all strings, and they are all holding the same type of information. I don’t care about the number of followers they have, if they are verified, or anything else.
 
 If I wanted to make a list of the handles of all my favorite creators on TikTok **and** their number of followers, I should use an object. There is an _associative_ relationship between each creator and their follower count.
 
@@ -45,9 +45,9 @@ If I wanted to make a list of the handles of all my favorite creators on TikTok 
 
 ## Syntax
 
-Momofuku is creating a digital version of all of their recipes, including The Perfect 10, a delicious & healthy Kookie that Karlie herself created! Each recipe has a set of ingredients with the amount needed, and a list of instructions. For now, let’s focus on organizing the ingredients and amounts.
+Momofuku is creating a digital version of all of their recipes, including The Perfect 10, a delicious & healthy Kookie that Karlie herself created! Each recipe has a set of ingredients with the needed amount and a list of instructions. For now, let’s focus on organizing the ingredients and amounts.
 
-We will store the list of ingredients in a JavaScript object, because we want to make sure that each ingredient is associated with the amount of it that we need. The key will be the ingredient name, and the value will be the amount. We can create a variable called `perfectTen` to store the data in.
+We will store the list of ingredients in a JavaScript object because we want to make sure that each ingredient is associated with the amount of it that we need. The key will be the ingredient name, and the value will be the amount. We can then create a variable to store the data in called `perfectTen`.
 
 ```js
 var perfectTen = {
@@ -58,10 +58,10 @@ var perfectTen = {
 ```
 
 Syntax Takeaways:
-- All keys should be written in camelCase. They should not be enclosed in quotes.
+- All keys should be written in camelCase and should not be enclosed in quotes.
 - To indicate that the key name has ended and the value will be provided next, we use a colon `:`
 - A value can be a string, number, boolean, array, or another object. For the most part, we will use strings and numbers. All values in one object do _not_ have to be the same data type.
-- Each key/value pair is separated by a comma.
+- A comma separates each key/value pair.
 
 ### Access a Value
 
@@ -85,7 +85,7 @@ The syntax used above to access a value is called **dot notation**.
 
 ### Updating, Adding & Removing Data
 
-We won't go into detail on how to do this here as it likely won't be used during camp. If you are curious to learn more or find yourself needing a resource while working on your personal project, here are a couple resources:
+We won't go into detail on how to do this here, as it likely won't be used during camp. If you are curious to learn more or find yourself needing a resource while working on your personal project, here are a couple of resources you might want to check out:
 - [JavaScript Info](https://javascript.info/object)
 - [Free Code Camp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object/)
 
@@ -93,7 +93,7 @@ We won't go into detail on how to do this here as it likely won't be used during
 
 Similar to arrays, it's very likely that every application you've used utilized objects in the code that built it.
 
-In the array lesson, we talked about how TikTok used an array to store info about popular creators. They probably didn't just have an array of names, since they should several pieces of information about each creator. The array probably looks more like this in the code:
+In the array lesson, we talked about how TikTok used an array to store info about popular creators. They probably didn't just have an array of names since they should hold several pieces of information about each creator. The array probably looks more like this in the code:
 
 ```js
 var trending = [
@@ -129,7 +129,7 @@ Or, for a more visual representation:
 
 <img src="./assets/tiktok-array-obj.png" alt="Objects written inside of array alongside images of cards from TikTok website">
 
-There are still 4 elements in this array, but each element is now an object so there are many more lines of code! We may or may not need an array that has so many moving pieces; this piece of the lesson was just intended to help you make a real-life connection.
+There are still 4 elements in this array, but each element is now an object, so there are many more lines of code! We may or may not need an array that has so many moving pieces; this piece of the lesson is just intended to help you make a real-life connection.
 
 ## Putting It All Together
 
