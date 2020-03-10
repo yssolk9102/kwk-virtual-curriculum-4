@@ -23,9 +23,9 @@ On each sticky note at your table, write one thing you've already learned about 
 
 ## Conditionals
 
-Every programming language has conditionals. If you've worked in Python or Java you've probably seen something similar to what we'll be working on today!
+Every programming language has conditionals. If you've worked in Python or Java, you've probably seen something similar to what we'll be working on today!
 
-Conditionals let us instruct our program to do something **if** a certain condition is met. In one web application, there are hundreds if not thousands of conditionals written into the code. Without conditions, web applications would not be able to do much customization for each user.
+Conditionals let us instruct our program to do something **if** a specific condition is met. In one web application, there are hundreds if not thousands of conditionals written into the code. Without conditions, web applications would not be able to do much customization for each user.
 
 ## Comparison Operators
 
@@ -80,7 +80,7 @@ Notice the `===`. This checks if two pieces of data are equal to each other. The
 //=> 0
 ```
 
-The `not equal` operator - `!==` - checks that two values are not equal. It is the opposite of our `===` operator - the first `=` is replaced with an `!`.
+The `not equal` operator - `!==` - checks that two values are not equal. It is the opposite of our `===` operator. Notice how an `!` replaces the first `=`.
 
 The `modulo` operator - `%` - finds the remainder of the two numbers. It is a helpful tool to determine if numbers are even or odd. Learn more <a target="blank" href="https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/">here</a>!
 
@@ -133,7 +133,7 @@ year < nextYear
 
 Just like in real life, programming is full of decisions. We usually make decisions based on our current state or mood.
 
-**A real life example:**
+**A real-life example:**
 
 Am I hungry?
 
@@ -163,7 +163,7 @@ if (queen === "Beyoncé") {
 }
 ```
 
-For the example above, "You are correct!" will print to the console. Let's break this down line-by-line.
+For the example above, an alert will display the text, "You are correct!". Let's break this down line-by-line.
 
 ```js
 var queen = "Beyoncé";          // new variable created
@@ -175,10 +175,10 @@ if (queen === "Beyoncé") {       // program checks for this condition
   alert("Beyoncé is the only queen.")
 }
 ```
-We call this entire piece of code an `if statement`.
+We call this entire piece of code an `if statement.`
 
-Inside the parenthesis after the keyword `if`, we have to give JavaScript an expression that can be evaluated to `true` or `false`. That expression is called a **condition**.
-- If the condition evaluates to `true`, the code in the block below it will execute, or run. It will then ignore the rest of the options.
+Inside the parenthesis after the keyword `if`, we have to give JavaScript an expression that can evaluate to `true` or `false`. That expression is called a **condition**.
+- If the condition evaluates to `true`, the code in the block below it will execute or run. It will then ignore the rest of the options.
 - If it evaluates to `false`, it will check the condition in the next block.
 
 <div class="try-it">
@@ -206,6 +206,8 @@ if (queen === "Beyoncé") {
 }
 ```
 
+Note that this time we are using `console.log()` instead of `alert()`, so make sure to have your console open in CodePen.
+
 Takeaways:
 - We can use any comparison operator in a condition
 - We can use strings or numbers in a condition
@@ -229,7 +231,7 @@ Takeaways:
 
 ## JavaScript
 
-JavaScript is pretty different from HTML and CSS. It feels like a really different way of thinking for some people! If it's new and a little uncomfortable to you, that's ok! Keep asking questions and working together.
+JavaScript is pretty different from HTML and CSS. It feels like a really different way of thinking for some people! If it's new and a little uncomfortable for you, that's ok! Keep asking questions and working together.
 
 <div class="practice">
   <h2>Practice: Operators & Conditionals</h2>
