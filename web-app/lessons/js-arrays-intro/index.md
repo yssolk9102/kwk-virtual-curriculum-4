@@ -26,7 +26,7 @@ In JavaScript, there are two types of collections: arrays and objects. In this l
 
 ## Arrays
 
-An **array** is a complex data type. It is an ordered collection that stores multiple values. They are useful whenever you need to keep track of an ordered list of things. This is similar to how we keep track of lists in the real world. Think back to the Warm Up - if there are 15 or 20 scholars in the room, writing out a variable for each and every one can be time consuming. An array will allow us to store all scholar names in **one** variable!
+An **array** is a complex data type. It is an ordered collection that stores multiple values. They are useful whenever you need to keep track of an ordered list of things. This is similar to how we keep track of list items in the real world. Think back to the Warm Up - if there are 15 or 20 scholars in the room, writing out a variable for each one can be time-consuming. An array will allow us to store all scholar names in **one** variable!
 
 An array can store any kind of element - from numbers to strings to ... other arrays. Usually, a single array holds a lot of items that are all of the _same type_.
 
@@ -43,13 +43,13 @@ We can't see all the code that built every application, but there are some place
 
 - [Instagram](https://www.instagram.com/alfie_the_alpaca_in_adelaide/) uses arrays to hold all the posts for a given user. Alfie the Alpaca has over 700 posts, so the array is over 700 elements long!
 - [Twitch](https://www.twitch.tv/) has an array of recommended channels. They advertise these channels in the top left corner of their landing page.
-- [TikTok](https://www.tiktok.com/discover?lang=en) has an array of trending creators stored in their program. TikTok shows the information of first four creators on the "Discover" page. When a user clicks the arrow to see more, TikTok shows the information of the second four trending creators, etc.
+- [TikTok](https://www.tiktok.com/discover?lang=en) has an array of trending creators stored in their program. TikTok shows the information of the first four creators on the "Discover" page. When a user clicks the arrow to see more, TikTok shows the information of the second four trending creators, etc.
 
 <img src="./assets/tiktok-array.png" alt="Screenshot of TikTok's discover page showing 4 trending user cards">
 
 ### Syntax
 
-An array starts and ends with square brackets: `[]`. Each item inside of the array is called an **element**. Elements inside an array are separated by a comma. In almost all cases, we will store the arrays we write in variables.
+An array starts and ends with square brackets: `[]`. Each item inside of the array is called an **element**. A comma separates each element inside an array. In almost all cases, we will store the arrays we write in variables.
 
 ```js
 // An array of strings:
@@ -107,7 +107,7 @@ trending.length;
 
 ### Updating Elements
 
-We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change, and then reassign a new value for that index with a `=`.
+We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change and then reassign a new value for that index with a `=`.
 
 ```js
 var trending = ["@thecardguy", "@spencerx", "@avani", "@lorengray"];
@@ -120,7 +120,7 @@ console.log(trending);
 
 ### Adding Elements
 
-A common way to add something to an already existing array is to use the `push()` method which will add an element to the end of the array.
+A common way to add something to an already existing array is to use the `push()` method, which will add an element to the end of the array.
 
 ```js
 var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"];
@@ -131,7 +131,7 @@ console.log(trending);
 //=> ["@thecardguy", "@cosette", "@avani", "@lorengray", "@jamescharles"]
 ```
 
-In the code snippet above, `.push()` is called on the `trending` array. We give `.push()` an argument of the new element we want to be added on the array. In this case, it was the string of `@jamescharles`.
+In the code snippet above, `.push()` is called on the `trending` array. We add to the array by giving `.push()` an argument of the new element we want to add. In this case, it was the string of `@jamescharles`.
 
 ### Removing Elements
 
@@ -161,7 +161,7 @@ _A little different from `.push()`, `.pop()` does not take arguments - it knows 
 
 ### Random Elements
 
-Sometimes, we want to pull an element out of an array at random - have any of your teachers ever used popsicle sticks to decide who to call on? That's a real life example. We can do the same thing with programming!
+Sometimes, we want to pull an element out of an array at random - have any of your teachers ever used popsicle sticks to decide who to call on? That's a real-life example. We can do the same thing with programming!
 
 JavaScript gives us a tool called `Math` to do advanced math, like square roots, logarithms, etc. Included in that are some options on how to use it. We've got:
 
@@ -197,7 +197,7 @@ var final = Math.floor(random);
 //=> 11
 ```
 
-Going back to `why would this be useful`? A teacher could have a program with an array of names, like this:
+Going back to "why would this be useful"? A teacher could have a program with an array of names, like this:
 
 ```js
 var students = ["Leta", "Ellen Mary", "Pam", "Megan", "Amy", "Sarah", "Robyn", "Courtney", "Rachel", "Allison", "Ruby", "Maile", "Julie", "Meg", "Christie", "Emmie", "Aurora", "Tori", "Juliana", "Kerry"];
@@ -233,14 +233,14 @@ Instead of calling `students[0]` or `students[7]`, we called `students[rounded]`
 </div>
 
 Takeaways:
-- `Math.random()` generates a random decimal between 0 and 1. It is built in to JavaScript
+- `Math.random()` generates a random decimal between 0 and 1. It's a built-in function of JavaScript
 - We multiplied the result of `Math.random()` by 20 for the example above because we wanted to generate a number between 1 and 20. We wanted a number between 1 and 20 because there are 20 elements in the array we are working with
-- We passed an argument to `Math.floor()` because it's job is to round a number down to the nearest whole number. It needs to know which number to round
+- We passed an argument to `Math.floor()` because its job is to round a number down to the nearest whole number. It needs to know which number to round
 - It _is_ possible for the function to return the same number more than one time
 
 ## Putting It All Together
 
-Arrays are a type of collection that developers use on a daily basis. It's important to have an understanding of their job and the ability to create and identify them. However, keep in mind that even professional developers can't remember it all and have to use their resources!
+Arrays are a type of collection that developers use on a daily basis. It's important to have an understanding of their job and the ability to create and identify them. However, keep in mind that even professional developers can't remember everything and have to use their resources!
 
 <img class="small" src="./assets/kelly-vaughn.png" alt="Tweet about having to google even with 15 years of experience">
 
