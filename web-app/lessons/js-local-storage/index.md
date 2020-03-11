@@ -19,11 +19,11 @@ title: Local Storage
 
 ## Storing User Data
 
-Up until this point, the data in our projects has disappeared whenever we refresh our page, which is not ideal. It would be nice if we could keep our to-dos on the page without having to recreate them every time we leave the window. There are two places we could store our data to make that happen.
+Up until this point, the data in our projects disappear whenever we refresh our page, which is not ideal. It would be nice if we could keep our to-dos on the page without having to recreate them every time we leave the window. There are two places we could store our data to make that happen.
 
-**Server-side storage:** This is when data is on someone else’s computer (often times one that is in a data warehouse), in a database. It is good for storing sensitive information, or any information that other users would be able to see (social media profile). This is what a back-end developer usually handles.
+**Server-side storage:** This is when data is on someone else’s computer (often, this is located in a data warehouse) in a database. It's suitable for storing sensitive information, or any information that other users would be able to see (social media profile). This is what a back-end developer usually handles.
 
-**Client-side storage:** This is when data is on the user’s computer. This is good for less sensitive information (shopping cart). Front-end developers write the code to make this happen.
+**Client-side storage:** This is when data is on the user’s computer. This type of storage is good for less sensitive information (shopping cart). Front-end developers write the code to make this happen.
 
 Since we are front-end developers, we will learn how to use Local Storage, a form of client-side storage, as a database to hold our information. Once we do this, we can refresh a page after a user has added data, and the data will **persist** (still be on the page)!
 
@@ -39,15 +39,15 @@ Since we are front-end developers, we will learn how to use Local Storage, a for
 
 ## Local Storage
 
-Local Storage is like a local database. Each user that uses an application have have information saved to the app, on that computer. Let's say you make a to-do list app that uses Local Storage:
+Local Storage is like a local database. Each user that uses an application can have information saved to the app on that computer. Let's say you make a to-do list app that uses Local Storage:
 - You could add a to-do, refresh, and still have that to-do. You could add ten more, refresh, and now have all 11 to-dos.
-- If your partner opens your to-do app, they won't see any of your to-dos. They can add to-dos, refresh, and the todo-s will still be there. You'll never see any of your partners to-dos.
+- If your partner opens your to-do app, they won't see any of your to-dos. They can add to-dos, refresh, and the todo-s will still be there. You'll never see any of your partner's to-dos.
 
-Local Storage has this behavior because it is a **client-side** database. It is stored in the browser on your computer, specific to that site.
+Local Storage has this behavior because it is a **client-side** database. It's stored in the browser on your computer, specific to that site.
 
 ## Local Storage Syntax
 
-`localStorage` is a variable that it built into JavaScript. It allows us to access a local storage object for persisting data.
+`localStorage` is a variable that is built into JavaScript. It allows us to access a local storage object for persisting data.
 
 <div class="try-it">
   <h2>Turn & Talk: Local Storage</h2>
@@ -64,7 +64,7 @@ Takeaways:
 - When we call `localStorage` in the Dev Tools, we will get back something that looks like a JavaScript object. We know this because it starts and ends in curly braces, and we see property/value pairs separated by commas
 - All of the values in red are enclosed in double quotes
 
-`localStorage` stores a JavaScript object with key/value pairs. The key is like a label and the value holds the actual data we want to be stored.
+`localStorage` stores a JavaScript object with key/value pairs. The key is like a label, and the value holds the actual data we want to be stored.
 
 ### Local Storage in Netflix
 
@@ -72,14 +72,14 @@ Here's a screenshot of the `localStorage` object for [Netflix](https://www.netfl
 
 <img src="./assets/netflix-ls.png" alt="JavaScript object">
 
-The first key/value pair is `bounceLolomo: "false"`. This means little to nothing to a user, but is probably important information for the developers at Netflix.
+The first key/value pair is `bounceLolomo: "false"`. This means little to nothing to a user but is probably important information for the developers at Netflix.
 <br>
 
 ## Local Storage Methods
 
 `localStorage` has the following methods:
 
-- `localStorage.setItem();` takes two arguments—a key and value (key must be string)—and stores the given value under the provided key.
+- `localStorage.setItem();` takes two arguments—a key and value (key must be a string)—and stores the given value under the provided key.
 - `localStorage.getItem();` gets an item from storage based on the key provided.
 - `localStorage.removeItem();` takes a key and removes that key and its associated value from storage.
 - `localStorage.clear();` removes **all** items from storage for that domain.
@@ -114,7 +114,7 @@ You may be thinking, this is great, but we're writing code in the browser; what 
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-To see what it does, you'll need to open this pen in the browser, and have the Dev Tools console opened. In the CodePen browser, type in your name in the input field and click submit. What logs to the console? Do you see your name in a key/value pair?
+To see what it does, you'll need to open this pen in the browser and have the Dev Tools console open. In the CodePen browser, type in your name in the input field and click submit. What logs to the console? Do you see your name in a key/value pair?
 
 <div class="try-it">
   <h2>Try It: Color Picker</h2>
@@ -130,7 +130,7 @@ To see what it does, you'll need to open this pen in the browser, and have the D
 
 Your pseudo-code and the class discussion probably included the following ideas:
 - Inside the event handler, we need to set the newly-selected color to storage
-- When the page loads, we need to find out what color is in local storage and set the `div`s background color to that. If there isn't a color in local storage, we need to set it to black.
+- When the page loads, we need to find out what color is in Local Storage and set the `div`s background color to that. If there isn't a color in Local Storage, we need to set it to black.
 
 To save the color to storage, we'll add this line inside of the event handler:
 
@@ -159,8 +159,8 @@ Save the CodePen, select a color, and then refresh the page. Does the color pers
 JSON stands for “JavaScript Object Notation” and is a standard for sending information back and forth over the web. It’s a subset of JavaScript’s object syntax. JSON is a language-independent data format that is easy for humans to read and write and easy for machines to parse and generate. **JSON is a means of sending data.**
 
 JSON has the following rules:
-- Keys must be double quoted.
-- Values must be one of the following types, but must be wrapped in double quotes:
+- Keys must be double-quoted.
+- Values must be one of the following types, and must be wrapped in double-quotes:
   * Strings
   * Numbers
   * Booleans
@@ -171,9 +171,9 @@ There are two methods we can use on a JSON object:
 - `JSON.stringify();` turns any JavaScript object into valid JSON.
 - `JSON.parse();` turns any valid JSON into a JavaScript object.
 
-Instead of wrapping everything in double quotes, we can call `JSON.stringify` and it will do that for us. This should be used before we set something into `localStorage`.
+Instead of wrapping everything in double-quotes, we can call `JSON.stringify`, and it will do that for us. This should be used before we set something into `localStorage`.
 
-> We can think of the `.stringify()` and `.parse()` methods as translators. Imagine two people who don't speak the same language are trying to communicate. The translator is a person who speak both languages. Person A will say something in their language, but before Person B can understand it, the translator will have to say it in the language they understand. They will go back and forth until both Person A and B understand what the other has said. In this analogy, `.stringify()` is like translating from language A to B, and `.parse()` is like translating from language B to A.
+> We can think of the `.stringify()` and `.parse()` methods as translators. Imagine two people who don't speak the same language are trying to communicate. A translator is a person who speaks both languages. Person A will say something in their language, but before Person B can understand it, the translator will have to say it in the language they understand. They will go back and forth until both Person A, and B understand what the other has said. In this analogy, `.stringify()` is like translating from language A to B, and `.parse()` is like translating from language B to A.
 
 ```javascript
 var names = ["Leta", "Brianne", "Cindy"];
