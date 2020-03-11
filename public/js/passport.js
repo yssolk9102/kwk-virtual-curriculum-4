@@ -12,29 +12,37 @@ function checkLocation() {
     loginBtn.addEventListener('click', logIn);
   } else if (relativeURL !== '/kwk-curriculum-site/login/' && check === 'true') {
     showLinks();
-  // } else if (relativeURL !== '/kwk-curriculum-site/login/' && check === 'false') {
-  //   window.location.replace('/kwk-curriculum-site/login/');
+  } else if (relativeURL !== '/kwk-curriculum-site/login/' && check === 'false') {
+    window.location.replace('/kwk-curriculum-site/login/');
   }
 
 }
 
 checkLocation();
 
+const logOutForm = document.querySelector('.logout-form');
+const logInForm = document.querySelector('.login-form');
+
+
+function displayLogin() {
+  logOutForm.style.display = 'none';
+  logInForm.style.display = 'block';
+}
+
+function displayLogout() {
+  logOutForm.style.display = 'block';
+  logInForm.style.display = 'none';
+  logOutForm.addEventListener('submit', logOut);
+}
+
+function showLinks() {
+  var links = document.querySelectorAll(".navbar-navigation--links .curriculum-links");
+  for (var i = 0; i < 2; i++) {
+    links[i].style.display = 'block';
+  }
+}
+
 document.addEventListener("DOMContentLoaded", function() {
-  const logOutForm = document.querySelector('.logout-form');
-  const logInForm = document.querySelector('.login-form');
-
-
-  function displayLogin() {
-    logOutForm.style.display = 'none';
-    logInForm.style.display = 'block';
-  }
-
-  function displayLogout() {
-    logOutForm.style.display = 'block';
-    logInForm.style.display = 'none';
-    logOutForm.addEventListener('submit', logOut);
-  }
 
   function logIn(event) {
     event.preventDefault();
@@ -48,13 +56,6 @@ document.addEventListener("DOMContentLoaded", function() {
       showLinks();
     } else {
       alert("Sorry! Try again.")
-    }
-  }
-
-  function showLinks() {
-    var links = document.querySelectorAll(".navbar-navigation--links .curriculum-links");
-    for (var i = 0; i < 2; i++) {
-      links[i].style.display = 'block';
     }
   }
 
