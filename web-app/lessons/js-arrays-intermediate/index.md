@@ -19,7 +19,7 @@ title: Intermediate Arrays
 
 Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we’ll walk through using scenarios we are familiar with to demonstrate the concept.
 
-These are examples that would be programmatically challenging because they would require several steps, but are things that we do everyday.
+These are examples that would be programmatically challenging because they would require several steps, but are things that we do every day.
 
 <table>
   <thead>
@@ -61,7 +61,7 @@ These are examples that would be programmatically challenging because they would
   </tbody>
 </table>
 
-We can also iterate in programming. By “in programming”, we mean things that could be done, with relative ease, by a computer. Like crunching numbers.
+We can also iterate in programming. By “in programming,” we mean things that could be done, with relative ease by a computer, like crunching numbers.
 
 <table>
   <thead>
@@ -150,11 +150,11 @@ We can also iterate in programming. By “in programming”, we mean things that
 
 ## Iterator Methods
 
-In our Intro to Arrays lesson, you learned about the array methods `.push()` and `.pop()`. Today we will learn about another array method, `.forEach`. It is called an iterator method because its job is to run a function not only once, but one time **for each element** in the array.
+In our Intro to Arrays lesson, you learned about the array methods `.push()` and `.pop()`. Today we will learn about another array method, `.forEach()`. It's what is referred to as an iterator method because its job is to run a function not only once, but one time **for each element** in the array.
 
 ## `forEach`
 
-The benefit of iterators is they save us time. When we want do to the same thing for lots of items, we only have to write that command once. For example, if we wanted to do something with each string in the `trending` array, our code would look like this:
+The benefit of iterators is they save us time. When we want to repeat the same thing for a lot of items, we only have to write that command once. For example, if we wanted to do something with each string in the `trending` array, our code would look like this:
 
 ```js
 var trending = ["@cosette", "@avani", "@lorengray", "@jamescharles"];
@@ -186,9 +186,9 @@ trending.forEach(function(creator) {
 
 Let's break this code down:
 - `trending` is the array we are going to iterate over
-- `.forEach()` is a built-in function that runs through each element of the array it is called on, one-by-one. It takes on argument, a function. This is different from anything we've seen before. It's saying it will run this function _for each_ element in the array.
-- `function(creator) {` is the function that will run on each element in the array. If there are 10 elements in the array, it will run 10 times. 100 elements? 100 times. `creator` is the variable that represents the current element in the array that is being iterated over.
--  `console.log(creator)` is the code that will run for each element. In this case, each creators handle in the array will print to the console.
+- `.forEach()` is a built-in function that runs through each element of the array it's called on, one-by-one. It takes one argument, a function. This is different from anything we've seen before. It's saying it will run this function _for each_ element in the array.
+- `function(creator) {` is the function that will run on each element in the array. If there are 10 elements in the array, it will run 10 times. 100 elements? 100 times. `creator` is the variable that represents the current element in the array being iterated over.
+-  `console.log(creator)` is the code that will run for each element. In this case, each creator's handle in the array will print to the console.
 
 <div class="try-it">
   <h2>Try It: forEach</h2>
@@ -200,13 +200,13 @@ Let's break this code down:
 
 Sometimes, when iterating over an array, our end goal won't be to do the exact same thing to each element. Sometimes we'll want to combine elements. Sometimes we'll want to filter through them and only use some of them.
 
-Here's a real-life example: [Tumblr](https://www.tumblr.com/search/kode+with+klossy) has an array of posts related to each term. When we first search a term, we'll see all posts. If we select "Link" from the filter drop-down, we'll only see the two posts that are links.
+Here's a real-life example: [Tumblr](https://www.tumblr.com/search/kode+with+klossy) has an array of posts related to each term. When we first search a term, we'll see all the posts. If we select "Link" from the filter drop-down, we'll only see the two posts that are links.
 
-How did Tumblr do that? They iterated over the array of **all** posts, checked each one for a piece of criteria, and put those that did meet the criteria in a placeholder. After it finished iterating, it returned the placeholder and displayed them in the browser.
+How did Tumblr do that? They iterated over the array of **all** posts, checked each one for a piece of criteria, and put those that met the criteria in a placeholder. After it finished iterating, it returned the placeholder and displayed them in the browser.
 
 <img src="./assets/tumblr-filter.png" alt="Screen shot of filter drop down and results">
 
-Let's solve a slightly less involved challenge, but one that gets at the same idea. Our goal will be to take an array of numbers, and return an array of only the numbers from the original array that are greater than 10. One important thing to know about `forEach` is that it won't ever change the array it was called on.
+Let's solve a slightly less involved challenge, but one that gets at the same idea. Our goal will be to take an array of numbers and return an array of only the numbers from the original array that are greater than 10. One important thing to know about `forEach` is that it won't ever change the array it was called on.
 
 ```js
 // start with an array of numbers
