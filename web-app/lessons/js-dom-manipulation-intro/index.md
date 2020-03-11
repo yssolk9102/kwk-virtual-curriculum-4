@@ -27,14 +27,14 @@ title: Intro to DOM Manipulation
 
 ## What is the DOM?
 
-The **DOM**, or Document Object Model, represents how HTML is read by the browser. It allows JavaScript to interact with your HTML, which ultimately lets us manipulate, structure, and style our websites.
+The **DOM**, or Document Object Model, represents how the browser reads HTML. It allows JavaScript to interact with your HTML, which ultimately lets us manipulate, structure, and style our websites.
 
-**Manipulating the DOM** refers to changes that are made in the browser, that are prompted but not directly made by the user.
+**Manipulating the DOM** refers to changes that are made in the browser, which are prompted but not directly created by the user.
 
 Here's a real-life example of DOM Manipulation:
-> If I type my email in a form then click "Submit", I might see a message like "Thanks for signing up!".
+> If I type my email in a form, then click "Submit," I might see a message like "Thanks for signing up!"
 
-I clicked the button and in response, JavaScript made that message appear. In this lesson, we will learn how to change something on our site based on user interaction.
+I clicked the button, and in response, JavaScript made that message appear. In this lesson, we will learn how to change something on our site based on user interaction.
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -44,7 +44,7 @@ I clicked the button and in response, JavaScript made that message appear. In th
 
 ## Access Elements from the DOM
 
-Accessing elements is the first step in building out the functionality to respond to user input. By the end of this lesson, you'll be able to let a user click a button, and see something happen on the screen in response to the click. We have a lot to learn in the meantime, but we will take it step by step.
+Accessing elements is the first step in building out the functionality to respond to user input. By the end of this lesson, you'll be able to let a user click a button, and see something happen on the screen in response to the click. We have a lot to learn in the meantime, but we'll take it step by step.
 
 JavaScript has some `built-in` functions that allow us to access elements from the DOM. Here's an example of accessing an `h1` element.
 
@@ -60,7 +60,7 @@ Let's break this down:
 - `('h1')` - this is the argument passed to the `.querySelector` function. It says: go look in the HTML document for the _first_ `h1` that you find.
 - Since we stored the value of this in the `header` variable, we can `console.log()` this and see the HTML element.
 
-We can also access elements by classes. Instead of `('h1')` we would need to write something like `('.class-name')` , using the same selectors we would when writing CSS rules for classes.
+We can also access elements by classes. Instead of `('h1')` we would need to write something like `('.class-name')`, using the same selectors we would when writing CSS rules for classes.
 
 <div class="try-it">
   <h2>Try It: Accessing Elements</h2>
@@ -72,7 +72,7 @@ We can also access elements by classes. Instead of `('h1')` we would need to wri
 
 ## jQuery
 
-There is a popular **library**, or chunk of code someone else wrote, called **jQuery**. There are a lot of things it can do, all of which are JavaScript, but it's less for us to write! Here's one example:
+There is a popular **library**, or chunk of code someone else wrote, called **jQuery**. There are a lot of things it can do, all of which are still JavaScript, but it's less for us to write! Here's one example:
 
 ```javascript
 var header = document.querySelector('h1');    // JavaScript
@@ -84,7 +84,7 @@ In jQuery, we can use the `$` in place of the `document.querySelector` which sav
 
 ### Load jQuery into a CodePen
 
-jQuery doesn't just magically "work" in a JavaScript file; we have to import the library. To do this, click the gear icon to open the settings next to "JS". Under "Add External Scripts/Pens", start typing in "jQuery", then select the first option. Click "Save & Close"
+jQuery doesn't just magically "work" in a JavaScript file; we have to import the library. To do this, click the gear icon to open the settings next to "JS." Under "Add External Scripts/Pens," start typing in "jQuery," then select the first option. Click "Save & Close."
 
 <img src="./assets/jquery.gif">
 
@@ -108,7 +108,7 @@ header.text("HIIII");
 //=> In the browser, the hi now says HIIII
 ```
 
-What's happening? The `h1` element has an attribute called `text`. When we originally wrote the `h1`, we gave it an `text` value of "hello" by typing "hello" between the tags. jQuery gives us a method to change that original text. Whatever string is passed into, or typed into the parenthesis after, `.text` will replace the text inside of the `h1`.
+What's happening? The `h1` element has an attribute called `text`. When we originally wrote the `h1`, we gave it a `text` value of "hello" by typing "hello" between the tags. jQuery  provides us with a method to change that original text. Whatever string is passed into, or typed into the parenthesis after `.text`, will replace the text inside of the `h1`.
 
 
 <div class="try-it">
@@ -118,15 +118,15 @@ What's happening? The `h1` element has an attribute called `text`. When we origi
   <p><strong>Medium Challenge:</strong> If you changed the text of the <code class="try-it-code">h1</code> on one line of code, then on the line below changed it to something else, which one would show in the browser? Why? </p>
 </div>
 
-This was interesting, but we could have just written different text inside the HTML tags to accomplish what we just did here. It was mentioned earlier, we are taking today's concept step by step. Move on to Event Listeners and you'll start seeing some ✨magic✨ happen!
+This was interesting, but we could have just written different text inside the HTML tags to accomplish what we just did here. As was mentioned earlier, we are taking today's concept step by step. Move on to Event Listeners,and you'll start seeing some ✨magic✨ happen!
 
 ## Events
 
-Events are really at the core of DOM Manipulation. When we talked about user interaction earlier, that's exactly what events are. An **event** is any action that the user takes while on our site. Clicking a button, scrolling down, hovering over something, and more.
+Events are really at the core of DOM Manipulation. When we talked about user interaction earlier, that's exactly what we mean. An **event** is any action that the user takes while on our site. Clicking a button, scrolling down, hovering over something, and more.
 
 ### Event Listener
 
-In order for our site to respond to events, we need to write some code that so that our site becomes "smart" enough to lookout for a specific event on a specific element. This "lookout" is called an **event listener**. Their job is to sit around and wait for an event to take place in the browser, and when it does, it will call a function for us.
+In order for our site to respond to events, we need to write some code so that our site becomes "smart" enough to look out for a specific event on a specific element. This "look out" is called an **event listener**. Their job is to sit around and wait for an event to take place in the browser, and call a function for us when it does.
 
 This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in the browser. Click the button. Click the button a second time. What happens each time you click the button?
 
@@ -146,12 +146,12 @@ This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in
 
 Takeaways:
 - `Line 1` declares a variable that stores the `button` element
-- `Line 3` creates an event listener. Our program will now be "on the lookout" for a click that takes place on the button. It won't listen for clicks anywhere else. It won't listen to any other events on that button. Just a click and just on that button. When that button is clicked, it will call the function `doSomething`.
-- `Line 5` declares the function `doSomething`. It is just a set of directions, waiting around to do its job. It will be called when the button is clicked.
+- `Line 3` creates an event listener. Our program will now be "on the lookout" for a click that takes place on the button. It won't listen for clicks anywhere else. It won't listen to any other events on that button. Just a click and only on that button. When that button is clicked, it will call the function `doSomething`.
+- `Line 5` declares the function `doSomething`. It's just a set of directions, waiting around to do its job. It will be called when the button is clicked.
 
 ### Event Handlers
 
-The event listener is responsible for monitoring an element for events, and doing something when the event occurs. The **event handler** is the function that is called when the event occurs. In our previous example, the function `doSomething` was our event handler. These terms are commonly used interchangeably.
+The event listener is responsible for monitoring an element for an event and doing something when the event occurs. The **event handler** is the function that's called when the event occurs. In our previous example, the function `doSomething` was our event handler. These terms are commonly used interchangeably.
 
 <div class="try-it">
   <h2>Try It: Event Listeners & Handlers</h2>
@@ -216,7 +216,7 @@ container.css('backgroundColor', 'mediumaquamarine');
 ```
 
   * `container` references the `container` variable
-  * `.css` says: I'm about to give you directions on adding styles, or CSS rules. `.css` takes two arguments, a property and a value.
+  * `.css` says: I'm about to give you directions on adding styles, or CSS rules. `.css` takes two arguments, a property, and a value.
   * `backgroundColor` says: here is the property I'd like you to add to this element
   * `'mediumaquamarine'` says: here is the value I'd like you to update this property to. We can give any valid color name, hex code, or rgba value. It must be in a string.
 
