@@ -6,7 +6,7 @@ title: Forms
 
 * Understand the required structure of an HTML form
 * Grab the user input from a form
-* Give user a customized response after a user completes a form
+* Give the user a customized response after a user completes a form
 
 ## Technical Vocabulary
 
@@ -17,9 +17,9 @@ title: Forms
 
 ## Warm Up
 
-Visit [the DisneyPlus login page](https://www.disneyplus.com/login). As a user, if you were to enter your email then click "Continue", what what you expect to happen next?
+Visit [the DisneyPlus login page](https://www.disneyplus.com/login). As a user, if you were to enter your email, then click "Continue," what would you expect to happen next?
 
-Visit [the Discord login page](https://discordapp.com/login). As a user, if you were to enter your email and password then click "Login", what what you expect to happen next?
+Visit [the Discord login page](https://discordapp.com/login). As a user, if you were to enter your email and password, then click "Login," what would you expect to happen next?
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -28,16 +28,16 @@ Visit [the Discord login page](https://discordapp.com/login). As a user, if you 
 
 ## Forms
 
-As we illustrated in the Warm Up, forms are an important part of a website. Without them, there would be little that apps could to do customize our experience as users.
+As we illustrated in the Warm Up, forms are an essential part of a website. Without them, apps wouldn't be able to do much to customize our experience as users.
 
 So far, we’ve done an excellent job of displaying information to the user, but we haven’t really asked them for their input. HTML also includes a set of elements for building forms. In this lesson, we'll learn about how to build the skeleton of a form with HTML, then how to make it grab the information a user provides with JavaScript.
 
 ## Form Basics: Inputs and Buttons
 
-There is a lot to forms that we’ll go more into depth with in a moment, but to start we’ll focus on two elements:
+There is a lot more to forms that we’ll go into depth with later, but to start we’ll focus on two elements:
 
 - `<input>` creates an input field. `<input>` is like `<img>` in that it does not require or support a closing tag. It can take an optional type attribute that helps validate user input in some browsers (<a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">visit MDN</a> to find out more).
-- `<button>` creates a button. `<button>` on the other hand does support a closing tag.
+- `<button>` creates a button. `<button>`, unlike `<input>`, supports a closing tag.
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="qwyyqe" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Inputs and Buttons">
   <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/qwyyqe/">
@@ -49,14 +49,14 @@ There is a lot to forms that we’ll go more into depth with in a moment, but to
 
 ## Forms: Next Level
 
-Basic input and button elements are a great starting point, but to build a truly usable form we need to use the following base elements:
+Basic input and button elements are a great starting point, but to build a truly usable form, we need to use the following base elements:
 
 - `form`
 - `label`
 - `input`
 - `type` attribute
 
-As you look at the code for forms, you will notice quite a bit of nesting; this is necessary. It's important to indent properly to made you code more readable!
+As you look at the code for forms, you will notice quite a bit of nesting; this is necessary. It's important to indent properly to make your code more readable!
 
 Here's a **good** example of indentation:
 
@@ -89,7 +89,7 @@ Here's a **bad** example of indentation:
 
 ## What can you do within a form?
 
-Most often, we ask users for text. If they are registering for an event like camp, we probably ask for their name, age, address, and food allergies. Sometimes we ask for an age/birthdate, sometimes we ask them to "check all that apply". We can have special inputs based on the information we are asking our users for. Here are some common input types you've probably seen. Can you predict what they do?
+Most often, we ask users for text. If they are registering for an event like camp, we probably ask for their name, age, address, and food allergies. Sometimes we ask for an age/birthdate, and sometimes we ask them to "check all that apply." We can have special inputs based on the information we are asking our users for. Here are some common input types you've probably seen. Can you predict what they do?
 
 - `<input type="password">`
 - `<input type="number">`
@@ -116,7 +116,7 @@ These forms have all the right components, but don't look very professional. Bec
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 
-On the other hand, this doesn't quiet yet look like a professional form. Wrapping the `<input>` inside the label is something you may or may not want to do - it makes it harder to line up the start of the input fields.  
+On the other hand, this doesn't quite yet look like a professional form. Wrapping the `<input>` inside the label is something you may or may not want to do - it makes it harder to line up the start of the input fields.  
 
 <div class="try-it">
   <h2>Try It: Styling Forms</h2>
@@ -137,14 +137,14 @@ One thing that can feel hard at first but is a huge part of a developers job is 
 
 ## Using User Input
 
-Now we know how to write HTML forms, let's make them functional! Usually, the flow of interactions is as follows:
+Now that we know how to write HTML forms let's make them functional! Usually, the flow of interactions is as follows:
 - User types in information
 - User clicks a button
 - User gets some sort of response
 
 To make this happen, we will have to write code that:
 - Listens for the button click
-- Gets the information that user typed in
+- Gets the information that the user typed in
 - Use that information in a message/response
 
 Check out the CodePen below to see what that looks like in JavaScript:
@@ -171,13 +171,13 @@ Check out the CodePen below to see what that looks like in JavaScript:
 Takeaways:
 - Inside our event handler, we can instruct our program to grab the current value of an input element. We do this with `.val()`.
 - We need to store the value of the input element in a variable.
-- We have to wait until we are inside the event handler to grab the input value, otherwise it would still be an empty string.
+- We have to wait until we are inside the event handler to grab the input value. Otherwise, it would still be an empty string.
 
 ## Forms
 
 Earlier in the lesson, we wrapped inputs in a `form` element. In the example above, we've just left `input` elements floating around. The `form` element has some default behavior that can be tricky, but we'll briefly go into it.
 
-By default, when a `form` is submitted, it will attempt to send that request somewhere (to our back-end, if we had one), then refresh the page. This is not ideal for us because we don't actually want to send information off or refresh the page. The video below illustrates the default behavior:
+By default, when a `form` is submitted, it will attempt to send that request somewhere (to our back-end, if we had one), then refresh the page. This isn't ideal for us because we don't actually want to send the information off or refresh the page. The video below illustrates the default behavior:
 
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqhebOZmE0&v=5&ff=1" allowfullscreen="true"></iframe>
 
