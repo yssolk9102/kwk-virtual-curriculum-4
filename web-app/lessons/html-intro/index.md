@@ -17,8 +17,8 @@ title: Intro to HTML
 
 ## Warm Up
 
-In your notebook, jot down your answers. Then, we'll discuss as a class.
-- What are you favorite websites/mobile apps?
+In your notebook, jot down your answers to the following questions. Then, we'll discuss them as a class.
+- What are your favorite websites/mobile apps?
 - What is it about them that you like? The look? The functionality/purpose?
 
 ## Overview
@@ -29,9 +29,9 @@ Of all of the major technologies used on the web, on either the front- or the ba
 
 ## Syntax
 
-At the end of the day, HTML is made up two things: text, and **tags** that mark up that text. (HTML stands for hyper text markup language!)
+HTML is made up of two things: text and **tags** that mark up that text. (HTML stands for hypertext markup language!)
 
-Let’s say that we had some text and we wanted to communicate that this text was a paragraph.
+Let’s say that we had some text, and we wanted to communicate that this text was a paragraph.
 
 ```
 This text is a paragraph.
@@ -47,7 +47,7 @@ You’ll notice that there are tags on both ends of the text. The entire code bl
 
 <img class="html-tags-detail" src="./assets/html-tags-detail-how-to.jpg">
 
-We use `<p>` (the opening tag) to tell the browser that everything that’s about to follow is part of a paragraph and `</p>` (the closing tag) to tell the browser that this paragraph is done. When a user visits our site, the browser loads up the HTML and parses it into the elements that will eventually make up our user interface. The `p` stands for paragraph in this case. We can't make up tags - HTML is a language that provides a wide variety of tags that we must utilize.
+We use `<p>` (the opening tag) to tell the browser that everything that’s about to follow is part of a paragraph and `</p>` (the closing tag) to tell the browser that this paragraph is complete. When a user visits our site, the browser loads up the HTML and parses it into the elements that will eventually make up our user interface. The `p` stands for paragraph in this case. We can't make up tags - HTML is a language that provides a wide variety of tags that we must utilize.
 
 Here is an example of a slightly more complex HTML document:
 
@@ -96,7 +96,7 @@ Consider the following:
 <img src="http://indonesiatatler.com/images/i/story-20170113165507-kwk-hero-image-670x447_resized_670x447.jpg" alt="Karlie Kloss kicking off a Kode with Klossy camp">
 ```
 
-There are two new things happening here:
+Two new things are happening here:
 
 **First**, we have an `<img>` tag that is somewhat unique in that it doesn’t have a closing tag like all of the others we’ve seen so far.
 
@@ -121,7 +121,7 @@ There are two new things happening here:
 
 ## Commonly Used Elements
 
-There are close to 100 elements available to us when we write HTML! You don't need to know all of them, but there are a few that you'll find extremely helpful. We'll learn some today, and more in the next lesson.
+There are close to 100 elements available to us when we write HTML! You don't need to know all of them, but there are a few that you'll find extremely helpful. We'll learn some today and more in the next lesson.
 
 Follow the directions your instructor gives you to explore the following elements:
 
