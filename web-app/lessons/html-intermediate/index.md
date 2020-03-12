@@ -22,7 +22,7 @@ title: Intermediate HTML
 
 ## Intro
 
-A lot of the content in this lesson will feel really connected to CSS. In fact, we will reference CSS several times and need to use it a couple times!
+A lot of the content in this lesson will feel very intertwined with CSS. We will reference CSS several times and even get to use it a couple of times!
 
 The reason for this is that as we begin to build more professional looking sites, we have to understand the relationship between HTML and CSS, and how they can work together. We can't learn much about either of them without talking about both.
 
@@ -30,7 +30,7 @@ The reason for this is that as we begin to build more professional looking sites
 
 In most HTML documents, we will see **nesting**. This means that one (or more) elements will live inside of another element.
 
-One common example is when you see one word within a paragraph that is a link. To aid in formatting pages (which we will go into more in our next CSS lesson), we can use **container** elements. Their job is to hold a group of elements together. The Turn & Talk box below is made with a container element! Inside of it is an `h2` and several `p` tags.
+One common example is when you see one word within a paragraph that is a link. To aid in formatting pages (which we will go into more in our next CSS lesson), we can use **container** elements. Their job is to hold a group of elements together. The Turn & Talk box below is made with a container element that has an `h2` and several `p` tags within it.
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -56,7 +56,7 @@ There are two words you'll hear in regards to nesting: **nest** and **wrap**.
 
 In the second example, the `nav` element _is wrapping_ the `h1`, `p`, `input`, and `button` elements. You could also say that the `h1`, `p`, `input`, and `button` elements _are nested in_ the `nav` element.
 
-It's also important to point out the use of indentation in the example above. Since `nav` is the parent, or wrapping element, it is not indented at all. Every element nested inside of it is indented one tab. The HTML will _work_ even if indentation is not used; but it makes it much more readable for you and others.
+It's also important to point out the use of indentation in the example above. Since `nav` is the parent or wrapping element, it is not indented at all. Every element nested inside of it is indented one tab. The HTML will _work_ even if indentation isn't used, but it makes it much more readable for you and others.
 
 <div class="try-it">
   <h2>Try It: Nesting Elements</h2>
@@ -98,20 +98,20 @@ For all the container elements listed above, they behave the same as a `div`. Th
 
 ## Block vs. Inline Elements
 
-You might notice that some elements behave a little differently in a layout than others. Some elements make content stack, while others let content sit next to each other. What’s that about?
+You might notice that some elements behave a little differently in a layout than others. Some elements make the content stack, while others let content sit next to each other. What’s that about?
 
 This is an important difference:
 
 * **Block elements** stack on top of each other. Each one starts and ends on its own line.
 * **Inline elements** can be used to mark up a few words inside of a block element.
 
-Most elements are block elements. When you write two paragraph, `<p>`, elements in your HTML file, they will show up on different lines, right? That is because they are block elements. Other block elements we've worked with:
+Most elements are block elements. When you write two paragraph `<p>`, elements in your HTML file, they will show up on different lines, right? That is because they are block elements. Other block elements we've worked with:
 
 - `h1`
 - `h2` (and `h3` - `h6`)
 - `div`
 
-Some common inline elements that are used:
+Some commonly used inline elements:
 
 - `a`
 - `em`
@@ -162,7 +162,7 @@ A couple of things to note about **class** attributes:
 
 ### Why do we need classes?
 
-Classes allow us to more specifically target an element with CSS. If we wanted to have many paragraphs on a page, some being black and some magenta, there's no way that this rule alone would do the job:
+Classes allow us to target an element with CSS more specifically. If we wanted to have many paragraphs on a page, some being black and some magenta, there's no way that this rule alone would do the job:
 
 ```css
 p {
@@ -197,7 +197,7 @@ The browser needs very specific directions in order to show your content just ho
 
 The rule above will look for every element — regardless of type — that has the class of `magenta-text` and style it with a magenta color.
 
-Notice the syntax - when we were just targeting an `p` element, we would just type `p`. Since we are targeting a class, we have to be really specific in telling the computer how to do that - when it sees a `.` it will look for a class name that matches the words following the `.`.
+Notice the syntax - when we were just targeting a `p` element, we would type `p`. Since we are targeting a class, we have to be really specific in telling the computer how to do that - when it sees a `.`, it will look for a class name that matches the words following the `.`.
 
 <div class="try-it">
   <h2>Try It: Targeting with Classes</h2>
