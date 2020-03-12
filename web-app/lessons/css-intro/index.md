@@ -33,7 +33,7 @@ Take a few minutes to check out the <a target="blank" href="http://www.csszengar
 
 You'll learn that there is so much that CSS can do, and there are so many specific ways we can give directions, in code, to style our webpages.
 
-Over the course of our first 2 CSS lessons, we'll talk about most of the commonly-used things that CSS can do. By the middle of the week, you'll have most of the CSS tools you'll need to build a beautiful site!
+Throughout our first 2 CSS lessons, we'll talk about most of the commonly-used things that CSS can do. By the middle of the week, you'll have most of the CSS tools you'll need to build a beautiful site!
 
 ## Syntax
 
@@ -43,22 +43,22 @@ In CSS, we write a set of rules for how our document should look. The browser ev
 
 In the example above, the browser will set the color of any text element inside the `<body>` element. We can define multiple sets of properties and values in a given rule.
 
-In the previous section, we said that "there is so much that CSS can do". Each little thing it does comes from a **property**. One example of `color` - that property can help us change the color of some text. There are many, many properties that we could use. There are some that you will use frequently and quickly memorize. However, you do _not_ need to memorize the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding!
+In the previous section, we said that "there is so much that CSS can do." Each little thing it does comes from a **property**. One example of `color` - that property can help us change the color of some text. There are many, many properties that we could use. There are some that you will use frequently and quickly memorize. However, you do _not_ need to remember the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding!
 
 ## Text
 
-While we may take it for granted, the decisions that a developer makes for a webpage makes regarding text has a huge influence on the experience a user has on that webpage! Here are some things to notice about any piece of text:
+While we may take it for granted, the decisions that a developer makes for a webpage's text has a huge influence on the experience a user has! Here are some things to notice about any piece of text:
 
 - Font
 - Size
 - Weight
 - Color
 
-Using CSS, we can control all of that! If you visit [TikTok](https://www.tiktok.com/en/) on a laptop, you'll see a menu on the left hand side (image below).
+Using CSS, we can control all of that! If you visit [TikTok](https://www.tiktok.com/en/) on a laptop, you'll see a menu on the left-hand side (image below).
 
 <img src="./assets/tiktok.png" alt="Screen shot of TikTok website with simple menu">
 
-Each link that a user can click on has the follow CSS rules applied to it. All of these lines of code are there solely to control the look and feel of those small links!
+Each link that a user can click on has the following CSS rules applied to it. All of these lines of code are there solely to control the look and feel of those small links!
 
 ```css
 p {
@@ -113,8 +113,8 @@ One of the most helpful CSS properties to use while you are in the process of bu
 
 Takeaways from this exploration:
 - Any element can have a border
-- We can define how thick it is, the style of it, and the color of it
-- When we apply the rule, a border is added to all four sides of an element. (If you ever want to just apply it to one side - google around for `border-bottom`, `border-top`, etc.)
+- We can define how thick the border is, as well as the style  and color
+- When we apply the rule, a border is added to all four sides of an element. (If you ever want to apply a border to just one side - google around for `border-bottom`, `border-top`, etc.)
 - If we don't define a border, no border will show up!
 
 ## Buttons
