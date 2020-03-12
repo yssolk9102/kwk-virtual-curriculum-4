@@ -5,7 +5,7 @@ title: Flexbox
 ## Learning Goals
 
 * Explain the difference between a parent and child, and a direct child
-* Apply Flexbox to containers in order to achieve a desired layout
+* Apply Flexbox to containers to achieve a desired layout
 
 ## Technical Vocabulary
 
@@ -17,20 +17,20 @@ title: Flexbox
 
 ## What is Flexbox?
 
-Flexbox is a part of CSS that provides a more efficient way to lay out, align and distribute space among items in a container. It helps us when we have those silly block elements that can be hard to do just what we want them to do.
+Flexbox is a part of CSS that provides a more efficient way to layout, align, and distribute space among items in a container. It helps us when we have those silly block elements that can be hard to do just what we want them to do.
 
 ## Flexbox IRL
 
 Flexbox is used _all over_ the internet. It's a little tough to learn, but once you know it, it makes your life a lot easier! That's why it is so popular among front-end developers.
 
 Here are just a few popular pages that use Flexbox:
-- [Disney Plus](https://www.disneyplus.com/) uses Flexbox on the top Nav bar and the grey bar at the bottom of the landing page
+- [Disney Plus](https://www.disneyplus.com/) uses Flexbox on the top Navbar and the grey bar at the bottom of the landing page
 - [Lomotif](https://lomotif.com/) uses Flexbox to control the content on the right side of the landing page (title, subtitle, and two buttons)
 - [The Ringer](https://www.theringer.com/) uses Flexbox to organize the links in the nav bar at the top of the page. It also uses Flexbox for each "section" of content - usually an image, title, subtitle, author, date, and tag
 
 ## Parents and Children
 
-Before we start working with Flexbox, we need to make sure we are referring to elements and their relationship to other elements correctly. We need to be careful about the CSS rules we apply to a _parent_ element vs. those to a _child_ element. A **parent** element wraps other elements, a **child** is nested inside the parent. We will also refer to parents as **containers**, and children as **items**.
+Before we start working with Flexbox, we need to make sure we are referring to elements and their relationship to other elements correctly. We need to be careful about the CSS rules we apply to a _parent_ element vs. those to a _child_ element. A **parent** element wraps other elements, and a **child** is nested inside the parent. We will also refer to parents as **containers**, and children as **items**.
 
 Let's look an some HTML to make sure we are all on the same page:
 
@@ -99,9 +99,9 @@ Takeaways:
 
 ### Flex helps even things out
 
-Adding `display: flex` to the CSS rule on the parent makes the parent element a flex container, and opens up a world of possibilities.
+Adding `display: flex` to the CSS rule on the parent makes the parent element a flex container and opens up a world of possibilities.
 
-We can apply a width to each item. If all items can fit in the container at that width, that's the width they will be. If the width wouldn't leave enough room for all the items, they will become as wide as they can, and remain evenly spaced. In the CodePen below, change to width of the `article` to several different values and see what happens.
+We can apply a width to each item. If all items can fit in the container at that width, that's the width they will be. If the width wouldn't leave enough room for all the items, they will become as wide as they can and remain evenly spaced. In the CodePen below, change the width of the `article` to several different values and see what happens.
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="VNdVLv" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox: Items Too Wide">
   <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/VNdVLv/">
@@ -123,7 +123,7 @@ In professional apps, we typically see white space (margin or padding) used, and
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 
-By adding `justify-content: center;`, the items in the container are now centered, instead of being crunched up on the left side of the container.
+By adding `justify-content: center;`, the items in the container are now centered instead of being crunched up on the left side of the container.
 
 <div class="try-it">
   <h2>Try It: Justify Content</h2>
@@ -188,8 +188,8 @@ Here is a visual, created by the amazing [Samantha Ming](https://www.samanthamin
 Now, sometimes we don't want _all_ our items on the same row or column. We can use the property `flex-wrap`. It allows items to wrap onto the next line. The three values it takes are:
 
 - `no-wrap` (default): one line, direction is defined by `flex-direction`
-- `wrap`: multi-lines, direction is defined by `flex-direction`
-- `wrap-reverse`: multi-lines, opposite to direction defined by `flex-direction`
+- `wrap`: multi-lines, the direction is defined by `flex-direction`
+- `wrap-reverse`: multi-lines, opposite to the direction defined by `flex-direction`
 
 <p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="qwKQwa" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox: Wrap">
   <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/qwKQwa/">
