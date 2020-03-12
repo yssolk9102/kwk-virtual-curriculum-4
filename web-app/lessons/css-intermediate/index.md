@@ -60,7 +60,7 @@ p {
   <p>Fork <a href="https://codepen.io/turing-kwk/pen/ZEYXOxw">this CodePen</a>. One by one, copy and paste the two CSS rules above, into your CSS file in CodePen. What happens when you paste in the rule for the buttons? For the paragraphs?</p>
 </div>
 
-In our next CSS lesson, we'll go a step further with layout. Understanding the difference between block and inline elements, and being able to change them, allows us to control the layout of a page a little more.
+In our next CSS lesson, we'll go a step further with layout design. Understanding the difference between block and inline elements, and being able to change them, allows us to control the layout of a page a little more.
 
 ## CSS Box Model
 
@@ -76,7 +76,7 @@ Each element is a rectangular box. CSS leverages the **box model** to control la
 
 <!-- directions for instructor to know walk through examples of where we see breathing room -->
 
-**Padding** creates space between the content and the border. **Margin** creates space outside the border, between other elements. The image below shows these coming together, including the color coding that the Chrome dev tools use:
+**Padding** creates space between the content and the border. **Margin** creates space outside the border, between other elements. The image below shows these coming together, including the color-coding that the Chrome dev tools use:
 
 <div class="try-it">
   <h2>Check It Out: Box Model</h2>
@@ -86,7 +86,7 @@ Each element is a rectangular box. CSS leverages the **box model** to control la
 
 ## Padding
 
-**Padding** creates space between the content and the border. Most element don't have any by default, so a lot of times our content can look squished. `padding` is a CSS property we can use to add what we call "breathing room" between content and it's border.
+**Padding** creates space between the content and the border. Most elements don't have any by default, so a lot of the time, our content can look squished. `padding` is a CSS property we can use to add what we call "breathing room" between a piece of content and its border.
 
 Thinking back to Twitter, the following CSS rule is on each of the 4 `a` elements on that "Tweets/Tweets & Replies/Media/Likes" section:
 
@@ -99,11 +99,11 @@ Thinking back to Twitter, the following CSS rule is on each of the 4 `a` element
 }
 ```
 
-We can also see this by using the dev tools to inspect. The part highlighted in blue is the content and the part highlighted in green was space created by the `padding` rules.
+We can also see this by using the dev tools to inspect. The part highlighted in blue is the content, and the part highlighted in green is space created by the `padding` rules.
 
 <img class="medium" src="./assets/padding.png" alt="Padding used on Twitter card">
 
-There are several ways we can tell CSS that we want it to add padding. In the rule above that Twitter used, they wrote out a declaration for each side of the element. They could have written this rule and had the exact same outcome:
+There are several ways we can tell CSS that we want to add padding. In the rule above that Twitter used, they wrote out a declaration for each side of the element. They could have written this rule and had the exact same outcome:
 
 ```css
 .r-1oqcu8e {
@@ -135,7 +135,7 @@ In the code snippet above, the element would have 10px of padding on the bottom 
 
 ## Margin
 
-Similar to padding, `margin` is a CSS property that helps us control spacing of elements. The difference between the two is, **margin** creates space outside the border, between other elements. Twitter uses margin to create some space around the content and the edges of the screen (notice the orange parts):
+Similar to padding, `margin` is a CSS property that helps us control the spacing of elements. The difference between the two is, **margin** creates space outside the border, between other elements, whereas padding is within the border. Twitter uses margin to create some space around the content and the edges of the screen (notice the orange parts):
 
 <img class="medium" src="./assets/margin.png" alt="Margin used around Twitter card">
 
@@ -179,13 +179,13 @@ One thing to note - you may have noticed that the browser provides some "built-i
 }
 ```
 
-The `*` means: apply this rule to ALL elements. `box-sizing: border-box` is a little complicated; it basically means that if borders are used, they will be counted as the content. If you are doing very specific work with margins, where it would be obvious if you were off by 1 tiny pixel, this would be very important.
+The `*` means: apply this rule to ALL elements. `box-sizing: border-box` is a little complicated; it means that if borders are used, they will be counted as the content. If you are doing very specific work with margins, where it would be obvious if you were off by 1 tiny pixel, this would be very important.
 
 ## Sizing Images
 
 Many times, the photos we bring in will not be the exact size we want it to be for our site. We can use the `width` and `height` properties to handle this.
 
-We will almost always want to preserve the ratio of the image, so we can give either a width or height. Once we set the width or height, the other dimension will be determined by the ratio of the original image.
+We will almost always want to preserve the ratio of the image, so we should give either width or height, but not both. Once we set the width or height, the other dimension will be determined by the ratio of the original image.
 
 If you want to give both width and height for some reason, you may need to apply the `object-fit` property. This might come in handy if you want to display a row of photos of the same height and width, but which all started off in various sizes.
 
