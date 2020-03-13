@@ -28,7 +28,7 @@ Create a list of items you need to complete on the Reminders App on your iPad. T
 
 ## What is Swift?
 
-Swift is a programming language developed by Apple, specifically for writing applications to be used on iOS devices. It is responsible for allowing an app to respond to user interaction.
+Swift is a programming language developed by Apple, specifically for writing applications used on iOS devices. It is responsible for allowing an app to respond to user interaction.
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -41,9 +41,9 @@ Swift is a programming language developed by Apple, specifically for writing app
 </div>
 
 Takeaways:
-- Some of the behaviors of the app: creates a list and as many items in the list as we want, flags specific list items as important or with a specific due date
-- Behaviors all happen _after_ the user has interacted - tapping the empty area to open up keyboard, swiping a list item left to get the option to flag or delete, etc.
-- Some actions result in more than one outcome - when a list item is deleted, it is removed and the number next to `All` decreases by one
+- Some of the behaviors of the app: a user can create a list and add as many items on the list as they want. They can also flag specific list items as important or with a specific due date.
+- Behaviors all happen _after_ the user has interacted - tapping the empty area to open up the keyboard, swiping a list item left to get the option to flag or delete, etc.
+- Some actions result in more than one outcome. When a list item is deleted, it's removed from the list, and the number next to `All` decreases by one.
 - All of the behaviors on this app were built by someone who wrote code in the Swift language!
 
 ## Strings
@@ -54,9 +54,9 @@ You can think of strings as a series of characters (alpha, numeric, spaces, and 
 "Hello, World!"
 ```
 
-In Swift, we **must** use double quotes around any characters that we want included in the string.
+In Swift, we **must** use double quotes around any characters that we want to be included in the string.
 
-In order to experiment with things, we'll open a Swift Playground. A playground is a term that developers use for a place where we can write code just to learn or experiment. The code we write today won't directly contribute towards building an app, but it will help us build an understanding of the foundations.
+In order to experiment with things, we'll open a Swift Playground. A playground is a term that developers use for a place where we write code just to learn or experiment. The code we write today won't directly contribute to building an app, but it will help us develop an understanding of the foundations.
 
 <img src="./assets/playground.png" alt="Screenshot of Swift Playground being used">
 
@@ -72,7 +72,7 @@ In order to experiment with things, we'll open a Swift Playground. A playground 
 Takeaways:
 
 - Strings can hold any type of character, including spaces
-- The way we type a string will be the exact way a computer sees is (it won’t assume we meant to capitalize that first letter, catch if we misspell something, etc.)
+- The way we type a string will be the exact way a computer sees it (it won’t assume we meant to capitalize that first letter, catch if we misspell something, etc.)
 
 ### Printing
 
@@ -96,7 +96,7 @@ var totalReminders = "five"
 var reminder = "Take the dogs for a walk"
 ```
 
-To define a variable, we use the `var` keyword followed by a name we choose for the variable. Notice that all of the variables start with a lowercase letter. If you are choosing a variable name that has two words, uppercase the first letter of the second word. This is called `camelCase`.
+To define a variable, we use the `var` keyword, followed by a name we choose for the variable. Notice that all of the variables start with a lowercase letter. If you're making a variable name that has two words, uppercase the first letter of the second word. This is called `camelCase`.
 
 After naming the variable, we use the `=` sign to show what value the variable will hold.
 
@@ -149,7 +149,7 @@ If we want to store information that we know will NEVER change, use the `let` ke
 let name = "Karlie"
 ```
 
-We can still access the string "Karlie" anytime, we just **cannot re-assign it**.
+We can still access the string "Karlie" anytime, we just **can't re-assign it**.
 
 <div class="try-it">
   <h2>Tun & Talk: Uses for Constants</h2>
@@ -159,7 +159,7 @@ We can still access the string "Karlie" anytime, we just **cannot re-assign it**
 
 ## Declaring Variables with No Value
 
-In other languages you may have seen variables declared _without_ being assigned a value. To do that in Swift, we have to tell the program what data type it should be.
+In other languages, you may have seen variables declared _without_ being assigned a value. To do that in Swift, we have to tell the program what data type it should be.
 
 ```swift
 var name : String
@@ -190,7 +190,7 @@ print("There are \(totalReminders) items on the \(listName) list.")
 //=> There are five items on the Reminders list.
 ```
 
-The computer reads anything inside of the `\( )` as Swift code. In the code snippet above, the string `"There are "` was printed, then the program saw `\( ` and read `totalReminders` as a variable. Instead of printing out the word `totalReminders`, it substituted the value that is stored in it, in it's place. Once the program read the closing `)`, it printed out `" items on the "`, then continued with the same process for the second variable.
+The computer reads anything inside of the `\( )` as Swift code. In the code snippet above, the string `"There are "` was printed, then the program saw `\( ` and read `totalReminders` as a variable. Instead of printing out the word `totalReminders`, it substituted it's stored value of "five" instead. Once the program read the closing `)`, it printed out `" items on the "`, then continued with the same process for the second variable.
 
 <div class="try-it">
   <h2>Try It: Strings</h2>
@@ -222,7 +222,7 @@ var scheduled = 3
 var flagged = 1
 ```
 
-We can also reassign variables that store numbers. In the Reminders App, this is how the program keeps track of the total number of reminders on a given list.
+We can also re-assign variables that store numbers. In the Reminders App, this is how the program keeps track of the total number of reminders on a given list.
 
 ```swift
 var totalReminders = 0
@@ -245,7 +245,7 @@ totalReminders += 1
 
 Takeaways:
 - On a users birthday, an app should increment their age
-- Social media apps uses incrementing to keep track of the number of likes, replies, followers, etc.
+- Social media apps use incrementing to keep track of the number of likes, replies, followers, etc.
 - Apps that involve scheduling - calendar events, flights, live video classes, etc. usually have a countdown timer to keep the user informed on the amount of time until something will happen
 
 ### Integers in Action
@@ -262,7 +262,7 @@ print("There are \(totalReminders) items on the \(listName) list.")
 //=> There are 6 items on the Reminders list.
 ```
 
-We can do math with numbers in Swift! The same math operators you are used to from math class work here.
+We can do math with numbers in Swift! The same math operators you are used to from math-class work here.
 
 ```swift
 3 + 5
@@ -275,7 +275,7 @@ We can do math with numbers in Swift! The same math operators you are used to fr
 //=> 10
 ```
 
-We can also use parenthesis and the Order of Operation holds true here as well.
+We can also use parenthesis, and the Order of Operation holds true here as well.
 
 ```swift
 (3 + 2) * 8
@@ -283,7 +283,7 @@ We can also use parenthesis and the Order of Operation holds true here as well.
 //=> 40
 ```
 
-We can also use math on variables, if those variables hold numbers.
+We can also use math on variables if those variables hold numbers.
 
 ```swift
 var name = "Karlie"
@@ -317,11 +317,11 @@ print("Because \(tinsOfKookies) tins of kookies were purchased during Fashion's 
 
 ### Doubles
 
-In the Try It section above, Swift calculated the average of the four temperatures to be `51`, even though we can verify on a calculator that the more precise answer is `51.5`. This is because if we ask Swift to take an operation on two Integers, it will result in an Integer. From our example above, we can see that it rounded down.
+In the Try It section above, Swift calculated the average of the four temperatures to be `51`, even though we can verify on a calculator that the more precise answer is `51.5`. This is because if we ask Swift to perform an operation on two Integers, it will result in an Integer. From our example above, we can see that it rounded down.
 
 What if we wanted a more precise answer? We would need to use a Double.
 
-Swift gives you two data types with which to store numbers that have a decimals - Floats and Doubles. They can be positive or negative. Examples would be `1.1`, `42.45`, `3.14`, `-123786234.64`. There are some technical differences between the two, but for our purposes this summer, if you ever need a decimal **use a Double** because you'll get more accuracy that way.
+Swift gives you two data types with which to store numbers that have a decimal - Floats and Doubles. They can be positive or negative. Examples would be `1.1`, `42.45`, `3.14`, `-123786234.64`. There are some technical differences between the two, but for our purposes this summer, if you ever need a decimal **use a Double** because you'll get more accuracy that way.
 
 ```swift
 var januaryAvg = 12
@@ -335,11 +335,11 @@ Double(total) / 4.0
 => 51.5
 ```
 
-On the last line of code in the snippet above, we changes two key things:
+On the last line of code in the snippet above, we changed two key things:
 1. We converted the total of the 4 temperatures into a double with the `Double(total)` syntax. That changed `206` to `206.0`. It seems like a small difference to us, but it is a big difference to Swift.
 2. We divided by `4.0`, a Double, instead of `4`, an Integer. We did this for consistency.
 
-We **cannot** use all math operations on a double and an integer. Why? They are technically different data types. Even though they all look like numbers to us - they are stored differently. To use most math operations on an Integer with a Double, we would convert the integer into a double.
+We **can't** use all math operations on a double and an integer. Why? They are technically different data types. Even though they all look like numbers to us - they are stored differently. To use most math operations on an Integer with a Double, we would convert the integer into a double.
 
 Example:
 
