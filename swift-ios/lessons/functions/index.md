@@ -22,15 +22,15 @@ With your partner, choose one application that you both like to use.
 
 You will have one minute to click/tap through the application as you normally would while using it.
 - Partner A should be the "user" - tapping, scrolling, etc.
-- Partner B should be tallying number of times the application DOES something (examples: load content, respond to a click/tap by showing a different screen or new content, etc.)
+- Partner B should be tallying the number of times the application DOES something (examples: load content, respond to a click/tap by showing a different screen or new content, etc.)
 
-To build a mobile application, developers write LOTS of functions. Every time you click a button and see something happened, a function (or many functions) just performed its job. Every time you see new data load (you account page, someone else's profile page, detail of an image, etc.), a function just performed its job.
+To build a mobile application, developers write A LOT of functions. Every time you click a button and see something happen, a function (or many functions) just performed its job. Every time you see new data load (your account page, someone else's profile page, detail of an image, etc.), a function just performed its job.
 
-As we start learning about functions today, we won't be writing ones quite as involved as some that are powering your favorite apps - but we will get the foundations!
+As we start learning about functions today, we won't be writing ones quite as involved as some that are powering your favorite apps - but we will begin to understand the foundations!
 
 ## What is a Function?
 
-A function is an action in our code. It has a specific job, and it sits around waiting to be asked to do it. It can perform its job as many or as few times as we tell it to. It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We get to write them so we have control over what each function does!
+A function is an action in our code. It has a specific job, and it sits around waiting to be asked to perform it. It can do this job as many or as few times as we tell it to. A function can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We get to write them, so we have control over what each function does!
 
 In our class example today, we will write instructions for a robot to walk a dog.
 
@@ -44,11 +44,11 @@ func walkDog() {
 }
 ```
 
-We start with the keyword `func`, then name our function whatever we want. The name should describe the type of action our function is taking. Like variables, we use camelCase.
+We start with the key word `func`, then name our function whatever we want. The name should describe the type of action our function is taking. Like variables, we use camelCase.
 
-Directly after the function name, we see an open and close parentheses, then an open and close curly bracket. The directions we want our function to take will live inside the curly braces. We can give a function as many directions as we'd like!
+Directly after the function name, we see open and close parentheses, then open and close curly brackets. The directions we want our function to take will live inside the curly braces. We can give a function as many directions as we'd like!
 
-Let's add some of the steps our robot needs to take to walk a dog. For now, we will use `print()` to print out the steps so we know when our function is working.
+Let's add some of the steps our robot needs to take to walk a dog. For now, we will use `print()` to print out the steps, so we know when our function is working.
 
 ```swift
 func walkDog() {
@@ -62,7 +62,7 @@ Now, this code alone won't do anything. We have **declared** the function - told
 
 ## Call a Function
 
-We have a really nice function written, but we need to **call** it for it to run. The nice thing about functions is you can decide when they do their job. Maybe we only want a certain function to run when a user interacts with our site in a specific way. This puts us in complete control.
+We have a really nice function written, but we need to **call** it for it to run. The great thing about functions is you can decide when they do their job. Maybe we only want one certain function to run when a user interacts with our site in a specific way. This puts us in complete control.
 
 ```swift
 func walkDog() {
@@ -74,7 +74,7 @@ func walkDog() {
 walkDog()
 ```
 
-The last line of the code snippet is what **calls** the function. If we have this code in a Playground, and open up the console, we should see each step printed out.
+The last line of the code snippet is what **calls** the function. If we have this code in a Playground and open up the console, we should see each step printed out.
 
 <div class="try-it">
   <h2>Try It: Declaring & Calling a Function</h2>
@@ -87,7 +87,7 @@ The last line of the code snippet is what **calls** the function. If we have thi
 
 If we are really going to have this robot help out, we need it to be a little 'smarter'. We need it to know that if there are two dogs, it needs to put two leashes on, bring two poops bags, etc.
 
-We can make functions a little 'smarter' with something called **arguments** and **parameters**. Check out the code below, then we'll talk about what is happening:
+We can make functions a little 'smarter' with something called an **argument** and a **parameter**. Check out the code below, and then we'll talk about what is happening:
 
 
 ```swift
@@ -106,17 +106,17 @@ walkDog(numberOfDogs : 7)
 //=> Put 7 poop bags in pocket
 ```
 
-To allow our functions to be more _dynamic_, or work in more situations, we can write the declaration with **parameters**. The parameter(s) live inside the parenthesis right after the function name. If there are more than one, they should be separated by a comma and a space.
+To allow our functions to be more _dynamic_ or work in more situations, we can write the declaration with **parameters**. The parameter(s) live inside the parenthesis right after the function name. If there are more than one, they should be separated by a comma and a space.
 
 When we call the function, it will now be expecting an **argument**. The argument is the value(s) you want to store to the parameter variable(s).
 
-In our example above, `walkDog(numberOfDogs: 2)` was called. `2` was the argument that was passed in. So, the parameter `numberOfDogs` is now a variable that holds the value of `2`. Anytime `numberOfDogs` is referenced inside of this function for this one time its being run, `2` will be the value it points to.
+In our example above, `walkDog(numberOfDogs: 2)` was called. `2` was the argument that was passed in. So, the parameter `numberOfDogs` is now a variable that holds the value of `2`. Anytime `numberOfDogs` is referenced inside of this function for this one specific time it's being run it will point to the value of `2`.
 
-Below, `walkDog(numberOfDogs: 7)` was called. Anytime `numberOfDogs` is referenced inside of this function for this one time its being run, `7` will be the value it points to.
+Below, `walkDog(numberOfDogs: 7)` was called. Anytime `numberOfDogs` is referenced inside of this function for this one time its being run it will point to the value of `7`.
 
 ### Using Parameters Like Variables
 
-We can also do some calculations with our parameters - just like we've done with variables. Let's say we want to set an expectation that the robot walks each dog for 15 minutes. We can use the parameter to tailor the total number of minutes walked for each walk.
+We can also do some calculations with our parameters, just like we've done with variables. Let's say we want to set an expectation that the robot walks each dog for 15 minutes. We can use the parameter to tailor the total number of minutes walked for each walk.
 
 ```swift
 func timeToWalk(numberOfDogs : Int) {
@@ -134,7 +134,7 @@ func timeToWalk(numberOfDogs : Int) {
 
 ## Return Values
 
-Up until now, inside our functions we've only called `print` on values - in the future we will need our functions to return values so we can use them elsewhere. This may not completely make sense now, but in the next couple lessons all the pieces will tie together. It's good to get some exposure to it today.
+Up until now, inside our functions, we've only called `print` on values - in the future, we will need our functions to return values so we can use them elsewhere. This may not completely make sense now, but in the next couple of lessons, all the pieces will tie together. It's good to get some exposure to it today.
 
 ```swift
 func timeToWalk(numberOfDogs : Int) -> Int {
@@ -170,15 +170,15 @@ Important things to know about returning a value:
 
 Takeaways:
 - `func timeToWalk(numberOfDogs : Int) -> Int {` declares the function
-- `(numberOfDogs : Int)` states that we plan to get one piece of data when this function is called. It must be an Integer and we will called `numberOfDogs`
+- `(numberOfDogs : Int)` states that we plan to get one piece of data when this function is called. It must be an Integer returned when we call `numberOfDogs`
 - `-> Int` declares that we plan to return an Integer out of this function
-- `var totalMinutes = numberOfDogs * 15;` declares a new variable that store the result of 15 multiplied by the number passed into the function
+- `var totalMinutes = numberOfDogs * 15;` declares a new variable that stores the result of 15 multiplied by the number passed into the function
 - `return totalMinutes;` returns the value of the `totalMinutes` variable
 - `var minutes = timeToWalk(numberOfDogs : 3);` calls the function `timeToWalk` and passes in 3 as the argument. The return value of that is stored in the new variable `minutes`
 
 ### Incorporating Conditionals
 
-If we were only walking 1 dog, the sentences would read incorrectly, for example "put on 1 leashes". Let's write a conditional inside the function; if the `numberOfDogs` passed in is 1, we will print out one set of directions, and if it is greater than 1, we will print out another set.
+If we were only walking 1 dog, the sentences would read incorrectly, for example, "put on 1 leashes". Let's write a conditional inside the function; if the `numberOfDogs` passed in is 1, we will print out one set of directions, and if it is greater than 1, we will print out another set.
 
 ```swift
 func walkDog(numberOfDogs : Int) {
@@ -202,21 +202,21 @@ func walkDog(numberOfDogs : Int) {
 
 ## Functions
 
-Over the course of camp, we will write a lot of functions! They will have different jobs, and some will look quite different from ours today, but you've got a great foundation. Get a little more practice by completing the task below.
+Throughout camp, we will write a lot of functions! They will have different jobs, and some will look quite different from ours today, but you've got a great foundation. Get a little more practice by completing the task below.
 
 <div class="practice">
   <h2>Practice: Function</h2>
   <h3>Mild: Functions</h3>
   <ul>
-    <li>With your partner, brainstorm another task you'd like to have this robot complete. You should agree on using the same task that way you can check in with each other throughout the lab. Once you've decided on it, share with an instructor to make sure it will work for all activities, then go to the next step</li>
-    <li>In your notebook, write out the small steps that your robot needs to take in order to complete the task</li>
+    <li>With your partner, brainstorm another task you'd like to have this robot complete. You should agree on using the same task. That way, you can check in with each other throughout the lab. Once you've decided on a task, share with an instructor to make sure it will work for all activities, then go to the next step</li>
+    <li>In your notebook, write out the small steps that your robot needs to take to complete the task</li>
     <li>In your Playground, declare and call the function. The code block should be empty, so nothing should really happen. This is a good step to take to make sure there are no errors</li>
     <li>To make 100% sure you are calling it correctly, write a print statement into the code block and make sure that appears in your console</li>
     <li>Now, write a print statement for each of the commands you wrote down in your notebook. Are they all printing out as expected?</li>
   </ul>
   <h3>Medium: Arguments</h3>
   <ul>
-    <li>Building off of your function already written - what information could you give this function to show different situations?</li>
+    <li>Building off of what you've already written in your function - what information could you give it to show different situations?</li>
     <li>Comment out your first function, and start over. This time, your function declaration should ask for an argument. It doesn't necessarily have to be an integer like the class example!</li>
     <li>Finish writing your function</li>
     <li>Call your function a few times, passing in different arguments each time</li>
@@ -226,7 +226,7 @@ Over the course of camp, we will write a lot of functions! They will have differ
     <li>With your partner, decide what information you want to return out of your function. What data type is most appropriate (string, integer, etc.)?</li>
     <li>In the declaration, tell your function you plan to return a value</li>
     <li>Use the return keyword to return the desired value</li>
-    <li>Check yourself: did you return a number like "4" or a string like "Good job!"? To make this function dynamic, we should probably be returning a <em>variable</em> that is storing something your calculated based on the argument passed in. Look back at the class example if you are stuck on this part!</li>
+    <li>Check yourself: did you return a number like "4" or a string like "Good job!"? To make this function dynamic, we should probably be returning a <em>variable</em> that's storing something calculated based on the argument passed in. Look back at the class example if you are stuck on this part!</li>
     <li>Call your function a few times, passing in different arguments each time. STOP!</li>
     <li>Before you run your code, talk with your partner. What is the expected output/return value?</li>
   </ul>
