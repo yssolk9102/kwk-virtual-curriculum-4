@@ -19,9 +19,9 @@ title: Conditionals
 
 ## Conditionals
 
-Every programming language has conditionals. If you've worked in Python or Java you've probably seen something similar to what we'll be working on today!
+Every programming language has conditionals. If you've worked in Python or Java, you've probably seen something similar to what we'll be working on today!
 
-Conditionals let us instruct our program to do something **if** a certain condition is met. In one web application, there are hundreds if not thousands of conditionals written into the code. Without conditions, web applications would not be able to do much customization for each user.
+Conditionals let us instruct our program to do something **if** a certain condition is met. In one web application, there can be hundreds if not thousands of conditionals written into the code. Without these conditions, web applications wouldn't be able to customize the experience for each user.
 
 ## Comparison Operators
 
@@ -78,7 +78,7 @@ Notice the `==`. This checks if two pieces of data are equal to each other. The 
 
 The `not equal` operator - `!=` - checks that two values are not equal. It is the opposite of our `==` operator - the first `=` is replaced with an `!`.
 
-The `modulo` operator - `%` - finds the remainder of the two numbers. It is a helpful tool to determine if numbers are even or odd. Learn more <a target="blank" href="https://www.codevscolor.com/swift-odd-even-check/">here</a>!
+The `modulo` operator - `%` - finds the remainder of two numbers. It is a helpful tool to determine if numbers are even or odd. Learn more <a target="blank" href="https://www.codevscolor.com/swift-odd-even-check/">here</a>!
 
 ### Comparing Variables
 
@@ -128,7 +128,7 @@ year < nextYear
 
 Just like in real life, programming is full of decisions. We usually make decisions based on our current state or mood.
 
-**A real life example:**
+**A real-life example:**
 
 Am I hungry?
 
@@ -172,8 +172,8 @@ if queen == "Beyoncé" {          // program checks for this condition
 ```
 We call this entire piece of code an `if statement`.
 
-After the keyword `if`, we have to give Swift an expression that can be evaluated to `true` or `false`. That expression is called a **condition**.
-- If the condition evaluates to `true`, the code in the block below it will execute, or run. It will then ignore the rest of the options.
+After the keyword `if`, we have to give Swift an expression that can evaluate to `true` or `false`. That expression is called a **condition**.
+- If the condition evaluates to `true`, the code in the block below it will execute or run. It will then ignore the rest of the options.
 - If it evaluates to `false`, it will check the condition in the next block.
 
 <div class="try-it">
