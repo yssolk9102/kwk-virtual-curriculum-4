@@ -257,5 +257,5 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
     <li>Print the value of the first element of the array</li>
     <li>Print one account to the console, at random.</li>
   </ul>
-  <p><strong>Spicy Challenge:</strong> Write a function that takes in one argument, a string. If the string is "happy", output a randomly generated sentence about being happy. If the string is "ok", output a randomly generated sentence about being ok. If the string is "sad", output a randomly generated sentence to cheer someone up. _You will need to use a function, conditional, multiple arrays, and have to generate a random number._</p>
+  <p><strong>Spicy Challenge:</strong> Write a function that takes in one argument, a string. If the string is "happy", output a randomly generated sentence about being happy. If the string is "ok", output a randomly generated sentence about being ok. If the string is "sad", output a randomly generated sentence to cheer someone up. <em>You will need to use a function, conditional, multiple arrays, and have to generate a random number.</em></p>
 </div>
