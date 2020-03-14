@@ -20,13 +20,13 @@ In a Playground, declare a variable for every scholar in the room. The variable 
 
 ## Collections
 
-**Collections** are data types that hold _multiple things_ - think about your grandma’s cat statue collection - there is probably more than one, right?
+**Collections** are data types that hold _multiple things_ - think about your grandma’s cat statue collection - there's probably more than one cat, right?
 
 In Swift, there are two types of collections: arrays and dictionaries. In this lesson and during our time at camp, we will mainly focus on arrays.
 
 ## Arrays
 
-An **array** is an ordered collection that stores multiple values. They are useful whenever you need to keep track of an ordered list of things. This is similar to how we keep track of lists in the real world. Think back to the Warm Up - if there are 15 or 20 scholars in the room, writing out a variable for each and every one can be time consuming. An array will allow us to store all scholar names in **one** variable!
+An **array** is an ordered collection that stores multiple values. They are useful whenever you need to keep track of an ordered list of things. This is similar to how we use lists to keep track of tasks in the real world. Think back to the Warm Up - if there are 15 or 20 scholars in the room, writing out a variable for each one can be time-consuming. An array will allow us to store all scholar names in **one** variable!
 
 An array can store any kind of element - from numbers to strings to ... other arrays. Usually, a single array holds a lot of items that are all of the _same type_.
 
@@ -43,7 +43,7 @@ We can't see all the code that built every application, but there are some place
 
 - [Instagram](https://www.instagram.com/alfie_the_alpaca_in_adelaide/) uses arrays to hold all the posts for a given user. Alfie the Alpaca has over 700 posts, so the array is over 700 elements long!
 - [Twitch](https://www.twitch.tv/) has an array of recommended channels. They advertise these channels in the top left corner of their landing page.
-- [TikTok](https://www.tiktok.com/discover?lang=en) has an array of trending creators stored in their program. TikTok shows the information of first four creators on the "Discover" page. When a user clicks the arrow to see more, TikTok shows the information of the second four trending creators, etc.
+- [TikTok](https://www.tiktok.com/discover?lang=en) has an array of trending creators stored in their program. TikTok shows the information of the first four creators on the "Discover" page. When a user clicks the arrow to see more, TikTok shows the information of the second four trending creators, etc.
 
 <img src="./assets/tiktok-array.png" alt="Screenshot of TikTok's discover page showing 4 trending user cards">
 
@@ -64,9 +64,9 @@ var trending = [String]()
 var followers = [Int]()
 ```
 
-The examples above create empty arrays which can in the future hold strings and integers respectively.
+The examples above create empty arrays that can, in the future, hold strings and integers, respectively.
 
-If you've worked in other languages, you may have noticed that it's possible to hold different data types in an array. Swift has very strict rules, and doesn't allow this. The thinking behind this is - if we have a list of things that go together, they should be the same data type. Maybe this is a list of names (strings) or grades that one student got (integers).
+If you've worked in other languages, you may have noticed that it's possible to hold different data types in an array. Swift has much more strict rules and doesn't allow this. The thinking behind this is - if we have a list of things that go together, they should be the same data type. Maybe this is a list of names (strings) or grades that one student got (integers).
 
 ### Creating an Array with Data
 
@@ -147,7 +147,7 @@ trending.count
 
 ### Updating Information
 
-We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change, and then reassign a new value for that index with a `=`.
+We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change and then reassign a new value for that index with a `=`.
 
 ```swift
 var trending = ["@thecardguy", "@spencerx", "@avani", "@lorengray"]
@@ -170,7 +170,7 @@ print(trending)
 //-> ["@thecardguy", "@cosette", "@avani", "@lorengray", "@jamescharles"]
 ```
 
-In the code snippet above, `.append()` is called on the `trending` array. We give `.append()` an argument of the new element we want to be added on the array. In this case, it was the string of `@jamescharles`.
+In the code snippet above, `.append()` is called on the `trending` array. We give `.append()` an argument of the new element we want to be added to the array. In this case, it was the string of `@jamescharles`.
 
 ### Removing Information
 
@@ -195,7 +195,7 @@ trending.remove(at: 0)
 
 ### Random Elements
 
-Sometimes, we want to pull an element out of an array at random - have any of your teachers ever used popsicle sticks to decide who to call on? That's a real life example. We can do the same thing with programming!
+Sometimes, we want to pull an element out of an array at random - have any of your teachers ever used popsicle sticks to decide who to call on? That's a real-life example. We can do the same thing with programming!
 
 Swift gives us a tool called `Int.random()` which will help us do that!
 
@@ -211,7 +211,7 @@ var anotherRandomInt = Int.random(in: 1..<20)
 //=> 19 (this number will vary)
 ```
 
-In the code snippet above, `Int.random()` was given two pieces of information: `1..<20`. This defines the range within we want a random number selected. When `1..<20` is used, a number starting at 1 and less than 20 will be selected and stored in the variable.
+In the code snippet above, `Int.random()` was given two pieces of information: `1..<20`. This defines the range that we want a random number to be selected from. When `1..<20` is used, a number starting at 1 and less than 20 will be selected and stored in the variable.
 
 Going back to `why would this be useful`? A teacher might have a program with an array of names, like this:
 
@@ -233,7 +233,7 @@ print(randomStudent)
 //=> one random element from the array will print out
 ```
 
-Instead of calling `students[0]` or `students[7]`, we called `students[random]`. Since we know that `random` is a variable that stores an Integer, the Integer it stores is substituted in for the variable name `random`, then the array looks for the element in that index.
+Instead of calling `students[0]` or `students[7]`, we called `students[random]`. Since we know that `random` is a variable that stores an Integer, the Integer it stores is substituted in for the variable name `random`, and then the array looks for the element in that index.
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
