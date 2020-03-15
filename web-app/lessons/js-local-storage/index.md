@@ -17,6 +17,13 @@ title: Local Storage
 - Local Storage
 - Persist
 
+## Warm Up
+
+Discuss the following with your partner:
+- What is your favorite or most go-to app?
+- Does it store any of your information? If so, what are some examples of things it saves?
+- Would the app be your favorite if it didn't have the ability to store any information?
+
 ## Storing User Data
 
 Up until this point, the data in our projects disappear whenever we refresh our page, which is not ideal. It would be nice if we could keep our to-dos on the page without having to recreate them every time we leave the window. There are two places we could store our data to make that happen.
@@ -29,7 +36,7 @@ Since we are front-end developers, we will learn how to use Local Storage, a for
 
 <div class="try-it">
   <h2>Turn & Talk: Favorite App</h2>
-  <p>What is your favorite or most go-to app? Why? Answer the following questions about the app:</p>
+  <p>What is your favorite or most go-to app? Answer the following questions about the app:</p>
   <ul>
     <li>Does it store any of your information? If so, what are some examples of things it saves?</li>
     <li>Do you think that information is stored client-side or server-side?</li>
