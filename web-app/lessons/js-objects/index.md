@@ -14,6 +14,17 @@ title: Objects
 - Key/value pair
 - Object
 
+## Warm Up
+
+Pretend you are going to create an app that has a feature that reminds you of friends birthdays. Somewhere in the program, you need to store names and birthdays.
+
+With your partner, write at least one way that you could store a list of _both_ names and birthdays.
+
+Be ready to share out:
+-  What you came up with
+- The benefits of this solution
+- The drawbacks of this solution
+
 ## Objects
 
 An **Object** is another complex data type available in JavaScript. Objects, like Arrays, can be classified as _collections_. There is, however, one big difference between them and arrays: Objects are not ordered by index (0, 1, 2, etc.). Instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
