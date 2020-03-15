@@ -13,6 +13,12 @@ title: Intermediate DOM Manipulation
 - Event
 - Object
 
+## Warm Up
+
+- List out all the ways you know how to manipulate the DOM so far.
+- For each thing you listed out, write it on an individual sticky note.
+- Place each sticky note on the board.
+
 ## DOM Manipulation
 
 You've already come so far with implementing JavaScript to manipulate the DOM! In this lesson, we will take it to the next level. We are going to build a site that can take user input multiple times and keep adding each input to a list. This "To-Do List" is a very common app that developers use as they are learning a new language. Here's an example of something like what we will build by the end of this lesson:
@@ -185,7 +191,7 @@ _Keep in mind: for this to all work, our JavaScript file would still have all th
   <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/XwWgXe">this CodePen</a>. Then, fork it to your account and start working on the steps below:</p>
   <ol>
     <li>First, between lines 11 and 12, add a button inside the div. Style it however you'd like!</li>
-    <li>Now, write an event listener for the card container. Put a <code class="try-it-code">console.log()</code> statement inside the event handler to make sure you are getting into that function.</li>
+    <li>Now, write an event listener for a click on the card container. Put a <code class="try-it-code">console.log()</code> statement inside the event handler to make sure you are getting into that function.</li>
     <li>Write the conditional to check that a delete button was clicked on.</li>
     <li>Write the code to delete the card inside of the conditional.</li>
   </ol>

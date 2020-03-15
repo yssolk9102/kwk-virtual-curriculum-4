@@ -21,9 +21,13 @@ title: Intro to DOM Manipulation
 
 ## Warm Up
 
-- Watch a video then do some sort of scavenger hunt??
-- Console.logging to the Dev Tools console
-- clearing the console
+In order to work all the way through this lesson, we will need to learn how to use the Chrome Developer Tools (aka Dev Tools). We've used the console in CodePen quite a bit up until now; the Chrome Dev Tools are a bigger version of that!
+
+Like a true developer, you are going to take some time to do some research to teach yourself how to use this tool. Below are three resources, but feel free to find your own great resources as well!
+
+- [Here is a tutorial on how to open the Dev Tools](https://support.airtable.com/hc/en-us/articles/232313848-How-to-open-the-developer-console#chrome)
+- [Here is a video on how to use a console.log](https://www.youtube.com/watch?v=z5g78hPmQM4)
+- [Here is a blog post on how to use console.log](https://medium.com/@marycriv/using-console-log-and-debugger-in-chrome-devtools-b1d5aca41fa8) (You can stop reading when you get to the `debugger` section)
 
 ## What is the DOM?
 
