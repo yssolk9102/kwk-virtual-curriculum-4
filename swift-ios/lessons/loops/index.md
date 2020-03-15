@@ -19,9 +19,9 @@ title: For-In Loops
 
 ## Warm Up
 
-Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we’ll walk through using scenarios we are familiar with to demonstrate the concept.
+Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we’ll walk through using examples we are familiar with to demonstrate the concept.
 
-These are examples that would be programmatically challenging because they would require several steps, but are things that we do everyday.
+These are examples that would be programmatically challenging because they would require several steps, but are things that we do every day.
 
 <table>
   <thead>
@@ -63,7 +63,7 @@ These are examples that would be programmatically challenging because they would
   </tbody>
 </table>
 
-We can also iterate in programming. By “in programming”, we mean things that could be done, with relative ease, by a computer. Like crunching numbers.
+We can also iterate in programming. By “in programming," we mean things that could be done, with relative ease, by a computer like crunching numbers.
 
 <table>
   <thead>
@@ -152,9 +152,9 @@ We can also iterate in programming. By “in programming”, we mean things that
 
 ## What is a `for-in` loop?
 
-A `for-in` loop is a block that will run code a specific number of times. It can iterate through a collection (array or dictionary) and do something with each element. Loops are very common and necessary parts of a programming language; every programming language has its version of getting this done.
+A `for-in` loop is a block that will run code a specific number of times. It can iterate through a collection (array or dictionary) and do something with each element. Loops are very common and necessary parts of a programming language; every programming language has its own version of getting this done.
 
-The benefit of loops is they save us time. When we want do to the same thing for lots of items, we only have to write that command once. For example, if we wanted to do something with each string in the `trending` array, our code would look like this:
+The benefit of loops is they save us time. When we want to do to the same thing for a lot of items, we only have to write that command once. For example, if we wanted to do something with each string in the `trending` array, our code would look like this:
 
 ```swift
 var trending = ["@cosette", "@avani", "@lorengray", "@jamescharles"]
@@ -169,7 +169,7 @@ Right now, this doesn’t seem so bad. What if we had 100 creators on our list? 
 
 ## Syntax (Arrays)
 
-We can use `for-in` loops to do something with each individual element from an array. If we use our array of trending TikTok creators, we could write a `for-in` loop to do the same thing with each of the strings in our array.
+We can use `for-in` loops to do something with each individual element from an array. If we use our array of trending TikTok creators, we could write a `for-in` loop to do the same thing with each of the string elements.
 
 ```swift
 var trendingCreators = ["@cosette", "@avani", "@lorengray", "@jamescharles"]
@@ -207,7 +207,7 @@ for creator in trendingCreators {
 
 The word `creator` right after the keyword `for` refers to each element of our array, and the `trendingCreators` after the `in` keyword is the name of the array we are telling the computer to iterate over. We've told our loop to run the same number of times as there are elements in the array. So, since we currently have 4 elements in the array, it will run 4 times. If we added another creator to our array, the loop would run 5 times.
 
-By using the word `creator` after the `for` keyword, we're telling our code that we can use `creator` like a variable (inside of the code block, or the curly braces, only), and its value for each iteration of the loop will be whatever element of the array it's currently iterating over.
+By using the word `creator` after the `for` keyword, we're telling our code that we can use `creator` like a variable (only inside of the code block, or the curly braces), and its value for each iteration of the loop will be whatever element of the array it's currently iterating over.
 
 <div class="try-it">
   <h2>Try It: Looping over Arrays</h2>
@@ -244,7 +244,7 @@ for pair in capitals {
 Takeaways:
 - The syntax for looping over a dictionary is the same as an array
 - When looping over a dictionary, we can control how much information we want - both key and value, just the key, or just the value
-- The loop will a certain number of times - the number of key/value pairs that are in the dictionary it is looping over
+- The loop will run a certain number of times - the number of key/value pairs that are in the dictionary it is looping over
 
 ### Another Way to Iterate Over Dictionaries
 
@@ -271,13 +271,13 @@ In the code snippet above, we still get both the key and value, but this time th
 
 Sometimes, when iterating over an array, our end goal won't be to do the exact same thing to each element. Sometimes we'll want to combine elements. Sometimes we'll want to filter through them and only use some of them.
 
-Here's a real-life example: [Tumblr](https://www.tumblr.com/search/kode+with+klossy) has an array of posts related to each term. When we first search a term, we'll see all posts. If we select "Link" from the filter drop-down, we'll only see the two posts that are links.
+Here's a real-life example: [Tumblr](https://www.tumblr.com/search/kode+with+klossy) has an array of posts related to each term. When we first search a term, we'll see all the posts. If we select "Link" from the filter drop-down, we'll only see the two posts that are links.
 
 How did Tumblr do that? They iterated over the array of **all** posts, checked each one for a piece of criteria, and put those that did meet the criteria in a placeholder. After it finished iterating, it returned the placeholder and displayed them in the browser.
 
 <img src="./assets/tumblr-filter.png" alt="Screen shot of filter drop down and results">
 
-Let's solve a slightly less involved challenge, but one that gets at the same idea. Our goal will be to take an array of numbers, and return an array of only the numbers from the original array that are greater than 10.
+Let's solve a slightly less involved challenge, but one that gets at the same idea. Our goal will be to take an array of numbers and return an array of only the numbers from the original array that are greater than 10.
 
 ```swift
 // start with an array of numbers
@@ -343,7 +343,7 @@ print(largeNumbers)
 
 ## `for-in` Loops _without_ Collections
 
-We can also use `for-in` loops without a collection, like an array or dictionary. In this case, we would do this because we want to perform a certain action, a certain number of times. There are a couple differences in the syntax you might see when we aren't iterating over an array. See the code below:
+We can also use `for-in` loops without a collection, like an array or dictionary. In this case, we would do this because we want to perform a specific action, a certain number of times. There are a couple of differences in the syntax you might see when we aren't iterating over an array. See the code below:
 
 ```swift
 for _ in 1...4 {
@@ -359,7 +359,7 @@ for number in 1...4 {
 }
 ```
 
-In the example above, we did declare a variable, `number` - it will behave as if we were iterating over [1, 2, 3, 4]. (This doesn't mean `1...4` really is an array, though.) If you're interesting in learning more about this, read up on [the Range documentation](https://developer.apple.com/documentation/swift/closedrange).
+In the example above, we did declare a variable, `number` - it will behave as if we were iterating over [1, 2, 3, 4]. (This doesn't mean `1...4` really is an array, though.) If you're interested in learning more about this, read up on [the Range documentation](https://developer.apple.com/documentation/swift/closedrange).
 
 <div class="try-it">
   <h2>Try It: Looping without Collections</h2>
@@ -371,7 +371,7 @@ In the example above, we did declare a variable, `number` - it will behave as if
 
 ## Loops
 
-We are really getting into some complicated work. Work through the practice below to make you have this down.
+We're really getting into some complicated code! Work through the practice below to make sure you have this down.
 
 <div class="practice">
   <h2>Practice: Loops</h2>
