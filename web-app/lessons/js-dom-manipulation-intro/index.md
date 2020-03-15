@@ -82,6 +82,12 @@ var header = $('h1');                         // jQuery
 
 In jQuery, we can use the `$` in place of the `document.querySelector` which saves us time typing!
 
+<div class="practice">
+<h2>Pro Tip</h2>
+<p>When you access an element with jQuery, it's a little larger than when you do it with vanilla JavaScript. For this reason, when you <code class="try-it-code">console.log</code> a variable that stores an element, the CodePen console will not be able to print it out.</p>
+<p>This is where your <em>Chrome Dev Tools</em> skills that you learned in the Warm Up will come in! Remember, you can <code class="try-it-code">console.log</code> more than one thing at a time, so something like <code class="try-it-code">console.log("This is my button:", button);</code> may be helpful in order to keep track of what is what in the console.</p>
+</div>
+
 ### Load jQuery into a CodePen
 
 jQuery doesn't just magically "work" in a JavaScript file; we have to import the library. To do this, click the gear icon to open the settings next to "JS." Under "Add External Scripts/Pens," start typing in "jQuery," then select the first option. Click "Save & Close."
