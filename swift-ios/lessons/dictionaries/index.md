@@ -4,7 +4,7 @@ title: Dictionaries
 
 ## Learning Goals
 
-* Create a dictionary and access data from them
+* Create a dictionary and access data from it
 * Understand why we sometimes choose to use dictionaries over arrays (and vice versa)
 
 ## Technical Vocabulary
@@ -16,7 +16,7 @@ title: Dictionaries
 
 ## Dictionaries
 
-**Dictionaries** are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Dictionaries are not ordered by index (0, 1, 2, etc.), instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
+**Dictionaries** are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Dictionaries are not ordered by index (0, 1, 2, etc.); instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
 
 ## When to use Dictionaries
 
@@ -25,7 +25,7 @@ We just got the hang of arrays and are feeling pretty great about them - when/wh
 - When we don’t care about the order of items (array)
 - When we need an _associative_ relationship (title for some info)
 
-If I wanted to make a list of the handles of all my favorite creators on TikTok, I should use an array. They are all strings, they are all holding the same type of information. I don’t care about the number of followers they have, if they are verified, or anything else.
+If I wanted to make a list of the handles of all my favorite creators on TikTok, I should use an array. They are all strings and holding the same type of information. I don’t care about the number of followers they have, if they are verified, or anything else.
 
 If I wanted to make a list of the handles of all my favorite creators on TikTok **and** their number of followers, I should use a dictionary. There is an _associative_ relationship between each creator and their follower count.
 
@@ -45,9 +45,9 @@ If I wanted to make a list of the handles of all my favorite creators on TikTok 
 
 ## Syntax
 
-Momofuku is creating a digital version of all of their recipes, including The Perfect 10, a delicious & healthy Kookie that Karlie herself created! Each recipe has a set of ingredients with the amount needed, and a list of instructions. For now, let’s focus on organizing the ingredients and amounts.
+Momofuku is creating a digital version of all of their recipes, including The Perfect 10, a delicious & healthy Kookie that Karlie herself created! Each recipe has a set of ingredients with their required amounts and a list of instructions. For now, let’s focus on organizing the ingredients and quantities.
 
-We will store the list of ingredients in a dictionary, because we want to make sure that each ingredient is associated with the amount of it that we need. The key will be the ingredient name, and the value will be the amount. We can create a variable called `perfectTen`, which is currently an empty dictionary which will later hold a String in the key and a String in the value, indicated by `[String : String]`.
+We will store the list of ingredients in a dictionary because we want to make sure that each ingredient is associated with the amount of it that we need. The key will be the ingredient name, and the value will be the amount. We can create a variable called `perfectTen`, which is currently an empty dictionary which will later hold a String in the key and a String in the value, indicated by `[String : String]`.
 
 ```swift
 var perfectTen : [String : String] = [:]
@@ -70,11 +70,11 @@ Syntax Takeaways:
 - All keys should be written in double quotes
 - To indicate that the key name has ended and the value will be provided next, we use a colon `:`
 - A value can be a string, number, boolean, array, or another dictionary. For the most part, we will use strings and numbers. Values in a dictionary should usually be the same data type
-- Each key/value pair is separated by a comma
+- A comma separates each key/value pair
 
 ### Access a Value
 
-To access a value in a specific dictionary, we have to first tell the program which dictionary to look at. Then we use the square brackets `[]`, then call the `key`, or label, associated with the value we want to access.
+To access a value in a specific dictionary, we have to first tell the program which dictionary to look at. Then we use the square brackets `[]`, and call the `key`, or label, associated with the value we want to access.
 
 ```swift
 print(perfectTen["almond flour"])
@@ -104,7 +104,7 @@ print(perfectTen["mini chocolate chips"]!)
 
 ### Updating, Adding & Removing Data
 
-We won't go into detail on how to do this here as it likely won't be used during camp. If you are curious to learn more or find yourself needing a resource while working on your personal project, here are a couple resources:
+We won't go into detail on how to do this here, as it likely won't be used during camp. If you are curious to learn more or find yourself needing a resource while working on your personal project, here are a couple of resources:
 - [Add Item to Dictionary](https://iswift.org/cookbook/add-item-to-dictionary)
 - [Remove Item by Key](https://iswift.org/cookbook/remove-item-from-dictionary-with-key)
 
@@ -112,7 +112,7 @@ We won't go into detail on how to do this here as it likely won't be used during
 
 Similar to arrays, it's very likely that every application you've used utilized dictionaries in the code that built it.
 
-In the array lesson, we talked about how TikTok used an array to store info about popular creators. They probably didn't just have an array of names, since they should several pieces of information about each creator. The array probably looks more like this in the code:
+In the array lesson, we talked about how TikTok used an array to store info about popular creators. They probably didn't just have an array of names since they should hold several pieces of information about each creator. The array probably looks more like this in the code:
 
 ```js
 var trending = [
@@ -147,11 +147,11 @@ Or, for a more visual representation:
 
 <img src="./assets/tiktok-array-of-dictionaries.png" alt="Dictionaries written inside of array alongside images of cards from TikTok website">
 
-There are still 4 elements in this array, but each element is now a dictionary so there are many more lines of code! We may or may not need an array that has so many moving pieces; this piece of the lesson was just intended to help you make a real-life connection.
+There are still 4 elements in this array, but each element is now a dictionary, so there are many more lines of code! We may or may not need an array that has so many moving pieces; this piece of the lesson was just intended to help you make a real-life connection.
 
 ## Putting It All Together
 
-Dictionaries have a little more going on than strings or numbers, but you now have the information you need about them!
+Dictionaries have a little more going on than strings or numbers, but you now have all the information you need to use them!
 
 <div class="practice">
   <h2>Practice: Dictionaries</h2>
