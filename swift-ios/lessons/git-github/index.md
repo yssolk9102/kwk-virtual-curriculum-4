@@ -2,112 +2,114 @@
 title: Git & GitHub
 ---
 
-## Learning Goals
+## Purpose
 
-* Use terminal to navigate to a project & use version control
-* Create a GitHub repository and push local code to it
+As many scholars are interesting in pursuing STEAM after High School, we want you to have the opportunity to showcase the work you've done here at Kode With Klossy. This tutorial will walk you through how to save your code on a site called GitHub. GitHub is one of the most popular sites for developers to host their projects.
 
-## Technical Vocabulary
+Before you start this tutorial, you will need to have an Xcode Project opened. You can use a project you want to save to GitHub anyway, or make you can make a new one just to practice.
 
-- Git
-- version control
-- terminal
-- GitHub
-- local repository
-- remote repository
+## Step 1: Create a GitHub Account
 
-## Version Control
+_You will only have to complete Step 1 one time._
 
-Have you ever used GoogleDocs? Have you noticed the feature where you can save as you go, then look back and see when changes were made and who made them? That's what version control does for our code.
+Go to [GitHub](https://github.com/) and create an account if you don't already have one. As you create a username, keep in mind that you may want to use this for a resume, so keep it professional!
 
-**Version control** is a tool that keeps track of the differences in code bases at different points in time. One common software for this is called **git**. We interact with git from the **terminal**. These are tools that all professional developers use.
+Make sure to remember what password you create; you will need it in the next step.
 
-## Navigating the Terminal
+## Step 2: Connect GitHub to Xcode
 
-The terminal is like the "programming version" of your finder. In it, you can access and open any file, or directory, on your computer, and do much more. We won't go too far in depth, but you do need to know a few commands in order to navigate to a project:
+_You will only have to complete Step 2 one time if you work on the same computer for all of camp._
 
-To go into files, use `cd`. The following command will take me into my Desktop directory:
+In Xcode, select "Xcode", then from the drop-down that appears, "Preferences".
 
-```bash
-$ cd Desktop
-```
+<img class="medium" src="./assets/xcode-prefs.png" alt="Screenshot illustrating directions above">
 
-To see what we have inside of a directory, use `ls`. For this command, the _only_ thing we type is `ls`; it is short for "list". It will list everything inside of the directory you are currently in.
+Next, click the small "+" button in the bottom-left corner of the Preferences box. A drop-down will prompt you to select the type of account you would like to add. Select "GitHub" then click "Continue".
 
-```bash
-$ ls
-=> class-objects      object-interaction     aviatrix        
-```
+<img class="medium" src="./assets/add-github.png" alt="Screenshot illustrating directions above">
 
-If I wanted to see what was inside the aviatrix directory, I could run:
+Now, enter YOUR GitHub username and password in the box that appears, then click "Sign In".
 
-```bash
-$ cd aviatrix
-$ ls
-=> AviatrixApp		AviatrixApp.xcodeproj
-```
+<img class="medium" src="./assets/sign-in.png" alt="Screenshot illustrating directions above">
 
-If we now want to leave aviatrix and go back to the Desktop, we can `cd` out, or up:
+Confirm that you are signed in by clicking "GitHub" inside the Preferences box. You should see your username in the middle of that box.
 
-```bash
-$ cd ..
-$ ls
-=> class-objects      object-interaction     aviatrix  
-```
+<img class="medium" src="./assets/signed-in.png" alt="Screenshot illustrating directions above">
 
-(make sure you include that space between `cd` and `..`)
+## Step 3: Create a Git Repository
 
-## Git/Local Repository
+_You only need to do this one time for every project you want to save on GitHub._
 
-The git commands work similar in the terminal. When we work with a project on our machine, we are working on the **local** repository. Local refers to being physically here, on this machine. Here are the main commands we will use at camp:
+A Git Repository is a project that is being managed by Git. Git is a version control system. If you've ever used Google Docs and noticed that you can see what changes have been made, and when they were made - that's similar to what this is, but for code!
 
-- `git init` - creates a git project; this is only used once per project
-- `git add .` - this stages your work to be committed
-- `git commit -m "Message about your work"` - this commits your work to the project's history
-- `git status` - this gives you information about your project, tells you if you have any changes to add or commit
+While you are in an Xcode Project, select the "Source Control" dropdown, then select "Create Git Repositories".
 
-<div class="try-it">
-  <h2>Try It: Local Repository</h2>
-  <p>In Xcode, create a new project. Title it "practice-git". Add something to the StoryBoard.</p>
-  <p>In your terminal, <code class="try-it-code">cd</code> into your "practice-git" directory and run <code class="try-it-code">git init</code>.</p>
-  <p>Now, run <code class="try-it-code">git status</code> and read the output.</p>
-  <p>Run <code class="try-it-code">git add .</code>, then re-run <code class="try-it-code">git status</code> and read the output.</p>
-  <p>Run <code class="try-it-code">git commit -m "Initial commit"</code>, then re-run <code class="try-it-code">git status</code> and read the output.</p>
-</div>
+<img class="medium" src="./assets/create-git-repo.png" alt="Screenshot illustrating directions above">
 
-## GitHub/Remote Repository
+Now, make sure the project is selected and click "Create".
 
-GitHub is the cloud version of Git. Even though you committed your work, only your computer knows about it. When code is shared on GitHub, you can share it with other developers, or access it from your computer at home. It's also nice to have in case something were ever to happen to your computer, you still have your work. If you've ever used Microsoft Word - Word is like Git, and GoogleDogs is like GitHub. When our work is on GitHub, it's called a **remote** repository.
+<img class="medium" src="./assets/create-git-repo2.png" alt="Screenshot illustrating directions above">
 
-Go to <a target="blank" href="https://github.com/">GitHub</a> and create an account. Make sure that you select a username you would be proud to put on a resume in your future.
+## Step 4: Connect this Project to GitHub
 
-When you are logged in to your account, click the plus sign at the top right corner of the page, and select "New repository". In the repository name field, type in "practice-git". Click "Create repository".
+_You only need to do this one time for every project you want to save on GitHub._
 
-What we've done is create a repository on GitHub named the same thing as our local repository. We now need to get them to know about each other so they can both have all your code.
+The Git Repository alone isn't enough to keep your code safe - it's only on the machine you are currently working on. That's where GitHub comes in - it's a web application that can keep track of all your Git Repositories. If you want to work on a project from a different computer, GitHub makes this possible!
 
-You now see a page with three options. Look to the section that looks like this:
+In the same Xcode project, select the Source Control Navigator in the Navigation Pane. Click the small arrow the the left of your project name to expand the folder. You should see four folders with yellow icons to the left of each one.
 
-<img class="medium" src="{{ site.url }}/web-app/lessons/git-github/assets/create-repo.png" alt="Directions to create from existing repo from command line">
+<img class="medium" src="./assets/add-remote.png" alt="Screenshot illustrating directions above">
 
-Copy that first line, then paste it into your terminal (you should still be in the responsive-design directory while doing this). Now, copy and paste in the second line.
+Two-finger click on the folder labeled "Remote". You will see a drop-down appear. From the drop-down, select "Create 'your-project-name' Remote...". Another box will appear. You shouldn't need to change anything; click "Create".
 
-Go back to GitHub and refresh the browser. The page should change quite a bit, you should see something more like this:
+<img class="medium" src="./assets/add-remote2.png" alt="Screenshot illustrating directions above">
 
-<img class="small" src="{{ site.url }}/web-app/lessons/git-github/assets/repo.png" alt="Screen shot of a repository page on GitHub">
+## Step 5: Build your Project!
 
-## Updating GitHub
+Before you can go on with Git and GitHub, you'll have to build a StoryBoard or write some code. If you are working through these steps to practice, the smallest change will work!
 
-We use version throughout a project, not just at the very end. So, when we are done with a chunk of your work, you'll want to commit and push up to GitHub. You'll follow the same steps:
+## Step 5: Commit Changes
 
-- `git status`
-- `git add .`
-- `git status`
-- `git commit -m "Message about your work"`
-- `git status`
+_You only have to do this once, but can do as many times as you want for each project._
 
-<div class="try-it">
-  <h2>Try It: Updating GitHub</h2>
-  <p>In Xcode, establish an outlet or action for an object.</p>
-  <p>In your terminal, run the commands necessary to commit and push to GitHub.</p>
-  <p>Go back to the GitHub repository and refresh the page. You should see your most recent commit, and if you click into the `ViewController.swift` file, you should see the outlet or action you just created!</p>
-</div>
+Committing your changes is like sealing an envelope up before you put it in the mailbox. You may want to send your code to GitHub chunk by chunk - maybe at the end of each iteration of a project. Or, you might just want to send it all at once, when you are finished.
+
+To commit your changes, select "Source Control" then "Commit".
+
+<img class="medium" src="./assets/commit.png" alt="Screenshot illustrating directions above">
+
+A big window will slide down over almost all of your Xcode screen. You may see some very unfamiliar code - that's ok! That's probably code that was generated from you drag-and-dropping onto the StoryBoard.
+
+Make sure that all files available are check in the top left corner. Then, write a short message explaining what your changes were in the bottom text area. Finally, click "Commit X file".
+
+<img class="medium" src="./assets/commit2.png" alt="Screenshot illustrating directions above">
+
+After committing your changes, you can continue working, then commit again later. Or, you can move to Step 6 and send your code to GitHub.
+
+## Step 6: Push Repository to GitHub
+
+The final step in the process is to "push", or send, your code up to GitHub. This ensures it's in a safe place - if you lost your computer, for example, the code would not be lost!
+
+Select "Source Control", then "Push".
+
+<img class="medium" src="./assets/push.png" alt="Screenshot illustrating directions above">
+
+When the "Push local changes to:" box appears, click "Push".
+
+<img class="medium" src="./assets/push2.png" alt="Screenshot illustrating directions above">
+
+## Check your code on GitHub
+
+Go back to your GitHub account, and select "Repositories"
+
+<img class="medium" src="./assets/repos.png" alt="Screenshot illustrating directions above">
+
+The first item that should show up is the project you were just working with in Xcode. The example used in this tutorial was called `setting-up-git-github` so it appears here:
+
+<img class="medium" src="./assets/repo-page.png" alt="Screenshot illustrating directions above">
+
+Click the title of your project. You will be taken to a page that looks like this:
+
+<img class="medium" src="./assets/final-repo.png" alt="Screenshot illustrating directions above">
+
+It looks really different from Xcode, but rest assured, the code is still there. If you want to link any of your projects to your resume, use the url for this page!
