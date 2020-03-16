@@ -389,6 +389,6 @@ Let's take a few minutes to practice these fundamentals - we will use this knowl
   <p>Karina earns $10.25 per hour at her job at Express. If she worked 20 hours last week, how much should she get paid? Print a complete sentence out with the total.</p>
 
   <h3>Spicy: String Compression</h3>
-  <p>There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string <code>Klossy</code> it'd output <code>K4y</code> or <code>scholar</code> would be <code>s5r</code>.</p>
+  <p>There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string <code class="practice-code">Klossy</code> it'd output <code class="practice-code">K4y</code> or <code class="practice-code">scholar</code> would be <code class="practice-code">s5r</code>.</p>
   <p>Can you write code to implement that? <em>Hint: You'll probably need to use your research skills to find something that will help!</em></p>
 </div>

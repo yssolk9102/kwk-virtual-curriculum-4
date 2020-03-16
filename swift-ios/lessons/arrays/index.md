@@ -254,7 +254,7 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
 
 <div class="practice">
   <h2>Practice: Arrays</h2>
-  <p>Declare a variable called <code class="try-it-code">hobbies</code> that stores an array of your top five favorite accounts to follow on social media, in strings.</p>
+  <p>Declare a variable called <code class="practice-code">hobbies</code> that stores an array of your top five favorite accounts to follow on social media, in strings.</p>
   <ul>
     <li>Change the value of at least one of the elements in the array</li>
     <li>Add a new account to the array</li>
@@ -273,41 +273,3 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
     <li>modify an element</li>
   </ul>
 </div>
-
-<!--
-## Iterating Over Elements in an Array
-
-When you need to perform an operation on all of an array's elements, you can **iterate** over the array.  The most common way to do this is to use a `for-in` loop. Looking back at our shopping list from earlier, we can use a `for-in` loop to print every value in the array.
-
-Here is an example of the syntax:
-
-```swift
-var friendsOfKarlie = ["Michelle Obama", "Serena Williams", "T Swift", "Jimmy Fallon"]
-
-for friend in friendsOfKarlie {
-  print("👋 Hello \(friend)!")
-}
-
-//-> "👋 Hello Michelle Obama!"
-//-> "👋 Hello Serena Williams!"
-//-> "👋 Hello T Swift!"
-//-> "👋 Hello Jimmy Fallon!"
-
-```
-
-The benefit of this is it saves us time. When we want do to the same thing for lots of items, we only have to write that command _once_. If we didn't use an array and use this `for-in` loop, our code would look like this:
-
-```swift
-print("👋 Hello \(friendsOfKarlie[0])")
-print("👋 Hello \(friendsOfKarlie[1])")
-print("👋 Hello \(friendsOfKarlie[2])")
-print("👋 Hello \(friendsOfKarlie[3])")
-```
-
-Right now, this doesn't seem so bad. What if we had 100 friends? 1000? That's a lot of lines of code to write and a lot of places we would need to update it every time we added or removed someone.
-
-<div class="try-it">
-  <h2>Ink - Pair - Share: Arrays IRL</h2>
-  <p>Think about Instagram or Facebook - where might those applications use arrays?</p>
-  <p>Write a list, then compare notes with your partner.</p>
-</div> -->

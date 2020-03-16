@@ -158,7 +158,7 @@ To recap:
 <div class="practice">
   <h2>Practice: Object Interaction</h2>
   <h3>Scholars and Camps</h3>
-  <p>Your job is to build a Scholar class and a Camp class. You can choose what properties each class has on it. The Camp class should have an <code class="try-it-code">addCamper</code> action on it, which creates a Scholar object and stores that in a list of all the campers.</p>
+  <p>Your job is to build a Scholar class and a Camp class. You can choose what properties each class has on it. The Camp class should have an <code class="practice-code">addCamper</code> action on it, which creates a Scholar object and stores that in a list of all the campers.</p>
   <h3>Extension: Camps and KWK</h3>
   <p>Build a KWK class that creates and stores camps. The KWK class should have a year property. Make sure your camp has a location and title (WebDev or Mobile).</p>
 </div>
