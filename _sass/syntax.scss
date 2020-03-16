@@ -1,20 +1,36 @@
 $green: rgba(96, 188, 87, 1);
+$dark-gray: #3c4040;
 
 code {
   font-family: monospace;
   font-size: 1.2em;
-  padding: 3px;
+  padding: 3px 5px;
   background-color: #f4f4f4;
+  border-radius: 1px;
+  color: $dark-gray;
 }
 
 .try-it-code {
-  background-color: #fff;
+  background-color: #EBF7EA;
   color: $green;
+  border: 1px solid $green;
+  border-radius: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.practice-code {
+  background-color: #E6E6E6;
+  color: $dark-gray;
+  border: 1px solid $dark-gray;
+  border-radius: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 pre {
   // border: 1px solid #d6d6d6;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  // box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
   padding: 0.5rem 0.8rem;
   margin-bottom: 1.5rem;
   font-family: monospace;

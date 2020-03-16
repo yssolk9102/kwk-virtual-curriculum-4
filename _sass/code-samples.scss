@@ -5,8 +5,7 @@ pre {
 }
 
 .try-it {
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
-  border-top: 8px solid $green;
+  background-color: #D7EED5;
   margin-bottom: 40px;
   padding: 0.25em 1.5em;
 
@@ -19,8 +18,7 @@ pre {
 }
 
 .practice {
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
-  border-top: 8px solid $dark-gray;
+  background-color: #DEDEDE;
   padding: 0.25em 1.5em;
 
   pre {
