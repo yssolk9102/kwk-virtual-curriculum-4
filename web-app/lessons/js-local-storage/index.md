@@ -48,7 +48,7 @@ Since we are front-end developers, we will learn how to use Local Storage, a for
 
 Local Storage is like a local database. Each user that uses an application can have information saved to the app on that computer. Let's say you make a to-do list app that uses Local Storage:
 - You could add a to-do, refresh, and still have that to-do. You could add ten more, refresh, and now have all 11 to-dos.
-- If your partner opens your to-do app, they won't see any of your to-dos. They can add to-dos, refresh, and the todo-s will still be there. You'll never see any of your partner's to-dos.
+- If your partner opens your to-do app, they won't see any of your to-dos. They can add to-dos, refresh, and the to-dos will still be there. You'll never see any of your partner's to-dos.
 
 Local Storage has this behavior because it is a **client-side** database. It's stored in the browser on your computer, specific to that site.
 
@@ -58,7 +58,7 @@ Local Storage has this behavior because it is a **client-side** database. It's s
 
 <div class="try-it">
   <h2>Turn & Talk: Local Storage</h2>
-  <p>With any site opened in the browser, open the Dev Tools and in the console, type <code class="try-it-code">localStorage</code> then press enter/return.</p>
+  <p>With your favorite site opened in the browser, open the Dev Tools and in the console, type <code class="try-it-code">localStorage</code> then press enter/return.</p>
   <ul>
     <li>What is the output?</li>
     <li>Is the output a number, string, array or object? How do you know?</li>
@@ -93,7 +93,7 @@ The first key/value pair is `bounceLolomo: "false"`. This means little to nothin
 
 <div class="try-it">
   <h2>Try It: Get, Set, Remove and Clear</h2>
-  <p>While you are still in your Dev Tools in the browser, try running the following methods, and pay close attention to the outputs and changes in what is in your <code class="try-it-code">localStorage</code> object.</p>
+  <p>While you are still in your Dev Tools on your favorite site, try running the following methods, and pay close attention to the outputs and changes in what is in your <code class="try-it-code">localStorage</code> object.</p>
   <ol>
     <li><code class="try-it-code">localStorage.clear();</code></li>
     <li><code class="try-it-code">localStorage.setItem('Karlie Kloss', 'Supermodel, Entrepreneur, Philanthropist');</code></li>
