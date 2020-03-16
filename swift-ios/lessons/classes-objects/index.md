@@ -4,7 +4,7 @@ title: Classes and Objects
 
 ## Learning Goals
 
-* Write a class, and objects from that class
+* Write a class and create objects from that class
 * Explain the difference between a class and an object
 * Create dynamic objects using the `init` function and properties
 
@@ -18,11 +18,11 @@ title: Classes and Objects
 
 ## Classes & Objects
 
-When we work with classes, we think about our code in terms of objects. A **class** is like a blueprint, or a cookie cutter for our code. It is a chunk of code, usually in it's own file, that can hold data and functions. It kind of serves as a factory - think about a car factory - they have a blueprint, then make thousands of cars from that blueprint. The cars from this blueprint will have a lot in common, but each may have it's own differences - colors, fabric for seats, etc.
+When we work with classes, we think about our code in terms of objects. A **class** is like a blueprint or a cookie cutter for our code. It is a chunk of code, usually, in its own file, that can hold data and functions. It kind of serves as a factory - think about a car factory - they have a blueprint, then make thousands of cars from that blueprint. The cars from this blueprint will have a lot in common, but each may have their own differences - colors, fabric for seats, etc.
 
-An **object** is created from a class, or cookie cutter. Thinking back to that car factory: the class is the blueprint, the object is the actual car that gets built. Our objects won't be _physical_ objects, but they will be created from our class blueprint, so have some things in common, but can have their own flavor, like an actual car can have a different color.
+An **object** is created from a class. Thinking back to that car factory: the class is the blueprint, and the object is the actual car that gets built. Our objects won't be _physical_ objects, but they will be created from our class blueprint, so have some things in common, but can have their own flavor, like an actual car can have a different color.
 
-Together, we are going to make a scholar class. It will be a blueprint for a scholar, then we will make individual scholar object using that blueprint.
+Together, we are going to make a scholar class. It will be a blueprint for a scholar, and then we will make an individual scholar object using that blueprint.
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
@@ -31,9 +31,9 @@ Together, we are going to make a scholar class. It will be a blueprint for a sch
 
 ### Scholar Class
 
-We are about to write a Scholar class, but first, here are a few things you may want to know about classes:
+We are about to write a Scholar class, but first, here are a few things you may want to know about classes in general:
 * start with keyword `class`, lowercased
-* class name is next, 1st letter capitalized
+* after that, the class name is next, 1st letter capitalized
 * open code block with curly brackets
 
 ```swift
@@ -78,7 +78,7 @@ print(newScholar.name)
 
 It's safe to say all scholars in _this camp_ are studying Swift, but it's unlikely that every scholar is in grade 10, and extremely unlikely that everyone has the same name.
 
-Luckily, Swift gives us a way to personalize each object when it's created. It will look similar to the way we pass arguments to functions. We will do with with an **initializer**.
+Luckily, Swift gives us a way to personalize each object when it's created. It will look similar to the way we pass arguments to functions. We will do this with an **initializer**.
 
 ## Initializer
 
@@ -121,7 +121,7 @@ print(newScholar.name)
 
 ## Actions
 
-Classes can have properties AND actions! **Actions** are functions that are associated with a class. Like `init`, they are written inside the `{}` curly braces of the declared class. This means that every object created from a class, will have **access** to this function. Let's write one so we can see it in action.
+Classes can have properties AND actions! **Actions** are functions that are associated with a class. Like `init`, they are written inside the `{}` curly braces of the declared class. This means that every object created from a class will have **access** to this function. Let's write one, so we can see it in action.
 
 Here's an example, building on our Scholar class:
 
@@ -144,7 +144,7 @@ class Scholar {
 }
 ```
 
-Now we can check that is it working by calling the method on the object. This looks a lot like the syntax when we call on properties, but we need to **call** the function using the `()`.
+Now we can check that it's working by calling the method on the object. This looks a lot like the syntax when we call on properties, but we need to **call** the function using the `()`.
 
 ```swift
 var newScholar = Scholar(scholarName: "Amy", scholarGrade : 11)
@@ -153,14 +153,14 @@ newScholar.writeCode()
 //-> "Amy is busy writing code!"
 ```
 
-`writeCode()` is a function, but more specifically an **action** for this class, and this class only. You can even try calling it in the file without the newScholarpreceding it, and see an error!
+`writeCode()` is a function, but more specifically an **action** for this class, and this class only. You can even try calling it in the file without the newScholarpreceding it, and you'll see an error!
 
 <div class="try-it">
   <h2>Try It: Actions</h2>
   <p>Update your code so that you have the <code class="try-it-code">writeCode</code> action. Then, add another method of your choice to the scholar class! Call the action on an object to make sure it's working as expected.</p>
 </div>
 
-Just to be clear, actions written inside a class can **only** be called on objects created from that class. If you try to call it like a normal function, you'll run into problems.
+Just to be clear, actions written inside a class can **only** be called on objects created from that class. If you try to call an action like a normal function, you'll run into problems.
 
 ```swift
 var newScholar = Scholar(scholarName: "Amy", scholarGrade : 11)
@@ -174,9 +174,9 @@ writeCode()
 
 ## Classes vs. Objects
 
-Classes are the blueprints or cookie cutters. Objects are created from the class - in many cases we will pass an argument in to create a class that changes its properties. There can be MANY objects that are created from just one class!
+Classes are the blueprints or cookie cutters. Objects are created from the class - in many cases, we will pass an argument in to create a class that changes its properties. There can be MANY objects that are created from just one class!
 
-Typically, because classes get big and we usually have many of them, we will see classes written in their own files. This makes our code easier to navigate and maintain. Let's re-organize the work we did with the `Scholar` class in this way.
+Typically, because classes get big and we usually have many of them, we'll see them written in their own files. This makes our code easier to navigate and maintain. Let's re-organize the work we did with the `Scholar` class to reflect this.
 
 <div class="try-it">
   <h2>Try It: Organize Your Files</h2>
