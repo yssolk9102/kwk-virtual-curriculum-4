@@ -199,5 +199,5 @@ JSON.parse(stringifiedNames);
 <br>
 <div class="practice">
   <h2>Practice: Local Storage</h2>
-  <p>Fork <a target="blank" href="https://codepen.io/turing-kwk/pen/RwNjrjx">this CodePen</a> and implement <code class="try-it-code">localStorage</code>, so that when a user adds some to-dos and refreshes the page, to to-dos are still there!</p>
+  <p>Fork <a target="blank" href="https://codepen.io/turing-kwk/pen/RwNjrjx">this CodePen</a> and implement <code class="practice-code">localStorage</code>, so that when a user adds some to-dos and refreshes the page, to to-dos are still there!</p>
 </div>

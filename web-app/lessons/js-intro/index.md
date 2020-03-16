@@ -297,9 +297,9 @@ You've now seen and used the foundations of JavaScript and all programming langu
 <div class="practice">
   <h2>Practice</h2>
   <p>Open a new CodePen.</p>
-  <p>Declare three variables: <code class="try-it-code">username</code>, <code class="try-it-code">caption</code>, <code class="try-it-code">numberOfLikes</code>, and <code class="try-it-code">numberOfComments</code>. Assign each variable to an appropriate value.</p>
+  <p>Declare three variables: <code class="practice-code">username</code>, <code class="practice-code">caption</code>, <code class="practice-code">numberOfLikes</code>, and <code class="practice-code">numberOfComments</code>. Assign each variable to an appropriate value.</p>
   <p>Print out a sentence to the console using at least two of the variables.</p>
   <p>Now, re-assign the number of likes to a number greater than what it was initially assigned to.</p>
-  <p>Print out a sentence to the console that includes the <code class="try-it-code">caption</code> and <code class="try-it-code">numberOfLikes</code>.</p>
-  <p><strong>Medium Challenge:</strong> Declare at least 5 variables that store information about you! Some possibilities are <code class="try-it-code">favoriteColor</code>, <code class="try-it-code">gradeLevel</code>, or <code class="try-it-code">favoriteFood</code>. Assign them to appropriate values. Use interpolation to print out a sentence about yourself using all 5+ variables!</p>
+  <p>Print out a sentence to the console that includes the <code class="practice-code">caption</code> and <code class="practice-code">numberOfLikes</code>.</p>
+  <p><strong>Medium Challenge:</strong> Declare at least 5 variables that store information about you! Some possibilities are <code class="practice-code">favoriteColor</code>, <code class="practice-code">gradeLevel</code>, or <code class="practice-code">favoriteFood</code>. Assign them to appropriate values. Use interpolation to print out a sentence about yourself using all 5+ variables!</p>
 </div>

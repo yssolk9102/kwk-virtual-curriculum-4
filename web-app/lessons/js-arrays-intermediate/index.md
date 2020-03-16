@@ -269,7 +269,7 @@ console.log(largeNumbers); // [23, 14, 11, 92]
 <div class="try-it">
   <h2>Try It: Placeholders</h2>
   <p>In a CodePen, write an array that contains at least five strings and store it in a variable. You choose what the words are!</p>
-  <p>Use <code class="try-it-code">forEach</code> to create a new array of the words from your original array than have less than 6 characters. Use <code class="try-it-code">console.log()</code> to verify your new array holds what you think it does.</p>
+  <p>Use <code class="try-it-code">forEach</code> to create a new array of the words from your original array than have less than 6 characters. Use <code class="practice-code">console.log()</code> to verify your new array holds what you think it does.</p>
   <p><strong>Spicy Challenge:</strong> Declare a function called <code class="try-it-code">findLongestWord</code>. It should iterate over an array of strings. Your function should return one string, the string from the original array that had the greatest number of characters. If there is a tie for the greatest number of characters, return the last one that is in the array.</p>
 </div>
 

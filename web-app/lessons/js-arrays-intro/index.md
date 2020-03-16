@@ -246,7 +246,7 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
 
 <div class="practice">
   <h2>Practice: Arrays</h2>
-  <p>Declare a variable called <code class="try-it-code">following</code> that stores an array of your top five favorite accounts to follow on social media, in strings.</p>
+  <p>Declare a variable called <code class="practice-code">following</code> that stores an array of your top five favorite accounts to follow on social media, in strings.</p>
   <ul>
     <li>Change the value of at least one of the elements in the array</li>
     <li>Add a new account to the array</li>

@@ -207,5 +207,5 @@ Over the course of this camp, we will write a lot of functions! They will have d
   <h2>Practice: Functions, Arguments, Return Values</h2>
   <p>As a class, let's brainstorm another task that we can give our robot.</p>
   <p>With your partner, decide which task you'd like to write code for. Make a list of steps that would be required to complete the task. Make a list of possible arguments you could pass the function to make it dynamic. Get your lists approved, then declare and call your function.</p>
-  <p>Now, re-write your function so it not only <code>console.log</code>s data, but returns a value. Store the return value in a variable.</p>
+  <p>Now, re-write your function so it not only <code class="practice-code">console.log</code>s data, but returns a value. Store the return value in a variable.</p>
 </div>

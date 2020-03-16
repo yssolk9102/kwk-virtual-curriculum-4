@@ -237,8 +237,8 @@ This entire line of code accesses the `div` element and updates that elements st
   <h2>Practice: DOM Manipulation</h2>
   <p>Ever wonder how sites or apps create a "dark mode"? You're about to do just that!</p>
   <p>Create a new CodePen and load jQuery into it.</p>
-  <p>Create two <code class="try-it-code">button</code> elements in your HTML, both nested inside of a <code class="try-it-code">div</code>. One button should be labeled "light mode" and the other "dark mode". They will both need their own class name.</p>
-  <p>Now, write the JavaScript so that when the dark mode button is clicked, the background color of the <code class="try-it-code">div</code> changes to a dark color. When the light mode button is clicked, the background color should change to a light color.</p>
+  <p>Create two <code class="practice-code">button</code> elements in your HTML, both nested inside of a <code class="practice-code">div</code>. One button should be labeled "light mode" and the other "dark mode". They will both need their own class name.</p>
+  <p>Now, write the JavaScript so that when the dark mode button is clicked, the background color of the <code class="practice-code">div</code> changes to a dark color. When the light mode button is clicked, the background color should change to a light color.</p>
   <p><strong>Medium Challenge:</strong> When an application uses dark mode, not only the background color changes; so do fonts, colors, etc. Add a few more elements to your HTML. When each button is clicked, those elements should change colors appropriately.</p>
-  <p><strong>Spicy Challenge:</strong> In addition to light and dark mode, add a "party mode" button. When clicked, the user should see a screen that looks like a party! Use a <code class="try-it-code">background image</code> instead of a background color. Have some fun with it!</p>
+  <p><strong>Spicy Challenge:</strong> In addition to light and dark mode, add a "party mode" button. When clicked, the user should see a screen that looks like a party! Use a <code class="practice-code">background image</code> instead of a background color. Have some fun with it!</p>
 </div>
