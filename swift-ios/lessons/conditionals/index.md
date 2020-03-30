@@ -85,7 +85,7 @@ The `modulo` operator - `%` - finds the remainder of two numbers. It is a helpfu
 We can use our comparison operators on variables as well! Let's look at this example:
 
 ```js
-var language = "Swift";
+var language = "Swift"
 
 language == "swift"
 //=> false
@@ -96,8 +96,8 @@ language == "Swift"
 "swift" == language
 //=> false
 
-var year = 2020;
-var nextYear = 2021;
+var year = 2020
+var nextYear = 2021
 
 year > 2000
 //=> true
