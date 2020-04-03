@@ -63,7 +63,7 @@ Here is an example of a slightly more complex HTML document:
 
 <div class="try-it">
   <h2>Try It: Building a Basic Page</h2>
-  <p>Visit <a target="blank" href="https://glitch.com/edit/#!/try-it-building-a-basic-page?path=index.html:9:4">this Glitch Project</a>. Click "View Source" to see the code, then click "Remix to Edit" in the top right corner. Select <code class="try-it-code">index.html</code> in the file tree.</p>
+  <p>Visit <a target="blank" href="https://glitch.com/edit/#!/try-it-building-a-basic-page">this Glitch Project</a>. Click "Remix to Edit" in the top right corner. Select <code class="try-it-code">index.html</code> in the file tree.</p>
   <p>Use what you know about headings and paragraph tags to create at least three headings of any size (h1 - h6) and three paragraph elements, starting on line 9. The topic is your choice!</p>
   <p>Need some filler text? Check out <a href="https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/">this Lorem Ipsum Generator.</a></p>
 </div>
