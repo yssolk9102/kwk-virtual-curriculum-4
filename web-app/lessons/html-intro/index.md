@@ -63,8 +63,8 @@ Here is an example of a slightly more complex HTML document:
 
 <div class="try-it">
   <h2>Try It: Building a Basic Page</h2>
-  <p>Open up your CodePen account, and create a new Pen.</p>
-  <p>Use what you know about headings and paragraph tags to create at least three headings of any size (h1 - h6) and three paragraph elements in your new CodePen. The topic is your choice!</p>
+  <p>Visit <a target="blank" href="https://glitch.com/edit/#!/try-it-building-a-basic-page?path=index.html:9:4">this Glitch Project</a>. Click "View Source" to see the code, then click "Remix to Edit" in the top right corner. Select <code class="try-it-code">index.html</code> in the file tree.</p>
+  <p>Use what you know about headings and paragraph tags to create at least three headings of any size (h1 - h6) and three paragraph elements, starting on line 9. The topic is your choice!</p>
   <p>Need some filler text? Check out <a href="https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/">this Lorem Ipsum Generator.</a></p>
 </div>
 
@@ -82,7 +82,7 @@ For example:
 
 <div class="try-it">
   <h2>Try It: Adding Links</h2>
-  <p>In the same CodePen you started before, add a few links to your HTML.</p>
+  <p>In the same Glitch project you re-mixed then worked in before, add a few links to your HTML.</p>
   <p><strong>Medium Challenge:</strong> Make an HTML list and add your links as list items. <em>You may need to Google search to learn how to create an HTML list.</em></p>
 </div>
 
@@ -109,14 +109,14 @@ Two new things are happening here:
 
 <div class="try-it">
   <h2>Try It: Adding Images</h2>
-  <p>First, copy and paste the code above into your CodePen. Does the image of Karlie appear on your site? (It should!)</p>
+  <p>First, copy and paste the image tag code above into your Glitch project. Does the image of Karlie appear on your site? (It should!)</p>
   <p>Now, follow the directions below 2-3 times to add in images of your own!</p>
   <ul>
     <li>Go to <a href="https://unsplash.com/">Unsplash</a>, <a href="https://www.pexels.com/">Pexels</a>, or Google and find an image you'd like to use</li>
     <li>Right-click it, then select "Copy Image Address"</li>
     <li>In your HTML, write an image tag, then use <code class="try-it-code">cmd + v</code> to paste the image address into the quotes for your <code class="try-it-code">src</code> attribute!</li>
   </ul>
-  <p>Are some images showing up way larger than you'd like? We will learn how to control that with CSS soon. For now, you can add this line of code to the CSS file in your CodePen: <code class="try-it-code">img { height: 300px; } </code></p>
+  <p>Are some images showing up way larger than you'd like? We will learn how to control that with CSS soon. For now, you can add this line of code to the <code class="try-it-code">style.css</code> file in your Glitch project: <code class="try-it-code">img { height: 300px; } </code></p>
 </div>
 
 ## Commonly Used Elements
@@ -135,7 +135,7 @@ Let's put everything we've learned so far together by completing one last round 
 
 <div class="practice">
   <h2>Practice: HTML</h2>
-  <p>Save the CodePen you were working on throughout class. Create a new pen for this challenge.</p>
+  <p>Create a new Glitch project for this challenge.</p>
   <p>Using any text and image you'd like, write a short bio like the one below. Try to use all the HTML elements you've learned about today.</p>
   <br>
   <img src="./assets/shantell-martin.png">
