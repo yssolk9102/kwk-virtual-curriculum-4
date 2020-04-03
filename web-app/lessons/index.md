@@ -1,5 +1,5 @@
 ---
-title: WebDev Lessons
+title: Virtual WebDev Lessons
 ---
 
 Find all lessons below. Note that the lessons are organized by topic below.
@@ -15,13 +15,11 @@ Find all lessons below. Note that the lessons are organized by topic below.
 - [Intro to DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intro)
 - [Forms]({{ site.url }}/web-app/lessons/js-forms)
 - [Intermediate DOM Manipulation]({{ site.url }}/web-app/lessons/js-dom-manipulation-intermediate)
-- [Local Storage]({{ site.url }}/web-app/lessons/js-local-storage)
 
 ## HTML
 
 - [Intro to HTML]({{ site.url }}/web-app/lessons/html-intro)
 - [Intermediate HTML]({{ site.url }}/web-app/lessons/html-intermediate)
-- [HTML & Atom]({{ site.url }}/web-app/lessons/html-atom)
 
 ## CSS
 
@@ -31,13 +29,11 @@ Find all lessons below. Note that the lessons are organized by topic below.
 
 ## Setup
 
-- [Intro to CodePen]({{ site.url }}/web-app/lessons/intro-codepen)
+- [Intro to Glitch]({{ site.url }}/web-app/lessons/intro-glitch)
 
 ## Culture of Tech
 
-- [The Gender Gap](https://docs.google.com/document/u/1/d/1RM2ewEKXNX6LjQ_wSa4im-z4VOy8iSArNE56UebjPsI/edit#)
-- [Biases](https://docs.google.com/document/u/1/d/1fIML-3pNmVhdi7wrYzRwGf-emHCT6M67qm8Bv6DEpHI/edit#)
-- [Big Ideas](https://docs.google.com/document/d/1JpjHZn_DDllq1dU-3p4OD-SPfzHh5OV-arMnYrWRUOw/edit)
+
 
 ## Other
 
@@ -52,5 +48,3 @@ Find all lessons below. Note that the lessons are organized by topic below.
 - [JS: Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
 - [CSS: Responsive Design]({{ site.url }}/web-app/lessons/css-extension-responsive-design)
 - [CSS: Animations]({{ site.url }}/web-app/lessons/css-extension-animations)
-- [Workflow: Set Up a Project in Atom]({{ site.url }}/web-app/lessons/setup-project-atom)
-- [Workflow: Git and GitHub]({{ site.url }}/web-app/lessons/git-github)

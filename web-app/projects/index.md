@@ -1,10 +1,9 @@
 ---
-title: WebDev Projects
+title: Virtual WebDev Projects
 ---
 
 - [Photo Gallery]({{ site.url }}/web-app/projects/photo-gallery)
 - [ToDo Box]({{ site.url }}/web-app/projects/to-do-box)
-<!-- - [Whateverly]({{ site.url }}/web-app/projects/whateverly) -->
 - [Personal Project]({{ site.url }}/web-app/projects/personal-project)
 
 ## Mini Projects:
