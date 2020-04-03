@@ -35,7 +35,7 @@ One common example is when you see one word within a paragraph that is a link. T
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>Read through the two code snippets below, then talk with your partner about both, including answers to these questions:</p>
-  <p>In the first code snippet, which element is nested inside of the <code class="try-it-code">nav</code>? Why do you think the author of this code decided to use nesting?</p>
+  <p>In the first code snippet, which element is nested inside of the <code class="try-it-code">p</code>? Why do you think the author of this code decided to use nesting?</p>
   <p>In the second code snippet, which element is wrapped around other elements? What do you think the author decided to indent all of the nested elements they way they did? What do you imagine <code class="try-it-code">nav</code> stands for/does?</p>
 </div>
 
@@ -60,19 +60,17 @@ It's also important to point out the use of indentation in the example above. Si
 
 <div class="try-it">
   <h2>Try It: Nesting Elements</h2>
-  <p>Let's open a new pen in CodePen and follow these steps!</p>
+  <p>Let's <a target="blank" href="https://glitch.com/edit/#!/try-it-nesting-elements">remix this Glitch project</a> and follow these steps!</p>
   <ul>
     <li>First, write an empty <code class="try-it-code">div</code> tag.</li>
     <li>Inside of the div tag, write 2-3 paragraphs.</li>
     <li>Outside of the div tag, write one more paragraph.</li>
     <li>In CSS, add a border to the div element. (If you forgot the syntax, <a href="https://css-tricks.com/almanac/properties/b/border/">check this out</a>.)</li>
-    <li>Check your indentation - the div and last paragraph should not be indented at all, but the paragraphs nested inside the div should be indented once.</li>
+    <li>Check your indentation - the div and last paragraph should be indented once, and the paragraphs nested inside the div should be indented twice.</li>
   </ul>
 
   <p><em>Why did we use CSS in an HTML lesson? Sometimes CSS, especially the border property, can help us see how HTML code, particularly a container element, is working.</em></p>
 </div>
-
-<p class="to-do">great spot for sponsor integration, reference something on their site?</p>
 
 In the Try It above, you used a `div` element for the first time. You'll be seeing this more and more! `div` is an element that is used to contain other elements.
 
@@ -127,7 +125,7 @@ When looking at the markup, you also notice that it’s common for inline elemen
 
 <div class="try-it">
   <h2>See It To Believe It: Inline vs. Block</h2>
-  <p>Let's take a couple minutes to see this in action, to make sure we have an understanding. Open <a href="https://codepen.io/turing-kwk/pen/LYEjaZY">this CodePen</a>, then click the "Fork" button in the top nav bar. This will create a copy of the CodePen to your account!</p>
+  <p>Let's take a couple minutes to see this in action to make sure we have an understanding. Open and remix <a href="https://glitch.com/edit/#!/try-it-block-vs-inline">this Glitch project</a>.</p>
   <ul>
     <li>In the CSS file, add a border of any color to the <code class="try-it-code">h1</code>.</li>
     <li>Element by element, add a border (use a different color for each one).</li>
@@ -201,7 +199,7 @@ Notice the syntax - when we were just targeting a `p` element, we would type `p`
 
 <div class="try-it">
   <h2>Try It: Targeting with Classes</h2>
-  <p>Create a new pen on your CodePen account.</p>
+  <p>Open and remix <a target="blank" href="https://glitch.com/edit/#!/try-it-classes">this Glitch project</a>.</p>
   <ul>
     <li>In the HTML file, write a <code class="try-it-code">section</code> element with at 4 <code class="try-it-code">paragraphs</code> nested inside of it.</li>
     <li>Give 3 of the 4 nested paragraphs the same class name. Give the other paragraph a different class name.</li>
@@ -211,7 +209,7 @@ Notice the syntax - when we were just targeting a `p` element, we would type `p`
 
 <div class="try-it">
   <h2>Practice</h2>
-  <p>Create a new pen on your CodePen account. Work to re-create the screenshot pictured below. You'll need to use containers and classes to achieve this. Feel free to use content and colors of your choice.</p>
+  <p>Create a Glitch project. Work to re-create the screenshot pictured below. You'll need to use containers and classes to achieve this. Feel free to use content and colors of your choice.</p>
   <img src="./assets/hidden-figures.png">
   <br>
   <br>
