@@ -44,92 +44,90 @@ I clicked the button, and in response, JavaScript made that message appear. In t
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>Visit your favorite site. Write a list of at least 3 places you think the developers used DOM manipulation.</p>
-  <p class="to-do">opportunity for sponsor integration</p>
 </div>
+
+## jQuery
+
+There is a popular **library**, or chunk of code someone else wrote, called **jQuery**. There are a lot of things it can do, all of which are still JavaScript, but it's less for us to write!
+
+During camp, we will use jQuery anytime we want to write code that interacts with elements on the DOM. Keep in mind that when we use features of jQuery, we are still writing JavaScript. It's just a little "extra" on top!
 
 ## Access Elements from the DOM
 
 Accessing elements is the first step in building out the functionality to respond to user input. By the end of this lesson, you'll be able to let a user click a button, and see something happen on the screen in response to the click. We have a lot to learn in the meantime, but we'll take it step by step.
 
-JavaScript has some `built-in` functions that allow us to access elements from the DOM. Here's an example of accessing an `h1` element.
+jQuery has some `built-in` functions that allow us to access elements from the DOM. Here's an example of accessing an `h1` element.
 
+```html
+<h1>Hello, World!</h1>
+```
 ```js
-var header = document.querySelector('h1');
+var header = $('h1');
 console.log(header);
-//=> "<h1>hello</h1>"
+//=> "k.fn.init(0)"
 ```
 
 Let's break this down:
-- `document` - this tells the computer: please go over to the HTML document
-- `.querySelector` - now that the computer is looking at the HTML document, this instruction says: I'd like you to look for something specific
-- `('h1')` - this is the argument passed to the `.querySelector` function. It says: go look in the HTML document for the _first_ `h1` that you find.
+- `$` - This dollar sign is packed with functionality! It gives the instructions: go to the HTML document, and find a specific element.
+- `('h1')` - this is the argument passed to the `$` function. It says: go look in the HTML document for all the `h1` elements that you find.
 - Since we stored the value of this in the `header` variable, we can `console.log()` this and see the HTML element.
+
+The output of `k.fn.init(0)` may look strange and not helpful. If you click the small arrow to the left of it, you should see something like this:
+
+<img src="./assets/jquery-obj.png" alt="Screen shot of jQuery Object expanded in dev tools">
+
+This still may feel strange, but let's dig into it. Notice that one the second line, we now see `0: h1`. This is saying that the first (and only) element that was found and stored to this variable was an `h1` element.
+
+If you hover over that line that says `0: h1`, you will see the element in the browser become highlighted.
+
+<img src="./assets/jquery-obj-highlight.png" alt="Screen shot of jQuery Object expanded in dev tools">
+
+To make this feel a little more helpful, we can ask for the text inside of the `h1` element, with this syntax:
+
+```html
+<h1>Hello, World!</h1>
+```
+```js
+var header = $('h1');
+console.log(header.text());
+//=> Hello, World!
+```
+
+### Accessing Elements with Class Names
 
 We can also access elements by classes. Instead of `('h1')` we would need to write something like `('.class-name')`, using the same selectors we would when writing CSS rules for classes.
 
 <div class="try-it">
   <h2>Try It: Accessing Elements</h2>
-  <p>Create a new CodePen.</p>
-  <p>In your HTML file, write at least 3 HTML elements. Give at least one of the elements a class.</p>
-  <p>In your JavaScript pane, write code to print each element to the console. Practice accessing elements by element type or class. In the console panel, you should see your <code class="try-it-code">console.log</code> statements.</p>
-  <p><strong>Medium Challenge:</strong> Create a duplicate of one of your elements in HTML and run the code again. Was anything different printed in the console? Use your google skills to research the difference between <code class="try-it-code">.querySelector</code> and <code class="try-it-code">.querySelectorAll</code>.</p>
-</div>
-
-## jQuery
-
-There is a popular **library**, or chunk of code someone else wrote, called **jQuery**. There are a lot of things it can do, all of which are still JavaScript, but it's less for us to write! Here's one example:
-
-```javascript
-var header = document.querySelector('h1');    // JavaScript
-
-var header = $('h1');                         // jQuery
-```
-
-In jQuery, we can use the `$` in place of the `document.querySelector` which saves us time typing!
-
-<div class="practice">
-<h2>Pro Tip</h2>
-<p>When you access an element with jQuery, it's a little larger than when you do it with vanilla JavaScript. For this reason, when you <code class="practice-code">console.log</code> a variable that stores an element, the CodePen console will not be able to print it out.</p>
-<p>This is where your <em>Chrome Dev Tools</em> skills that you learned in the Warm Up will come in! Remember, you can <code class="practice-code">console.log</code> more than one thing at a time, so something like <code class="practice-code">console.log("This is my button:", button);</code> may be helpful in order to keep track of what is what in the console.</p>
-</div>
-
-### Load jQuery into a CodePen
-
-jQuery doesn't just magically "work" in a JavaScript file; we have to import the library. To do this, click the gear icon to open the settings next to "JS." Under "Add External Scripts/Pens," start typing in "jQuery," then select the first option. Click "Save & Close."
-
-<img src="./assets/jquery.gif">
-
-Keep in mind that when we use features of jQuery, we are still writing JavaScript. It's just a little "extra" on top! From here on out, we will use the jQuery `$` to access DOM elements.
-
-<div class="try-it">
-  <h2>Try It: Access Elements with jQuery</h2>
-  <p>Create a new CodePen. Follow the steps above to load jQuery into this pen.</p>
-  <p>In the HTML file, create an <code class="try-it-code">h1</code> and two <code class="try-it-code">p</code> elements.</p>
-  <p>In the JavaScript file, use the jQuery <code class="try-it-code">$</code> syntax to access all three elements and store them in variables. Then, <code class="try-it-code">console.log()</code> all three variables to make sure you stored the elements correctly.</p>
-  <p><em>Keep in mind that from here on out you'll have to do this for each CodePen that you are going to use the jQuery <code class="try-it-code">$</code> in!</em></p>
+  <p>Use <a target="blank" href="https://glitch.com/~intro-to-dom-try-it">this Glitch project</a> as a starter. We will use this project throughout today's lesson.</p>
+  <p>First, familiarize yourself with the existing HTML elements. For this activity, you should not need to change the HTML.</p>
+  <p>In your JavaScript file, write code to access each element and store in a variable, then print to the console. Practice accessing elements by element type or class. In the console, you should see your <code class="try-it-code">console.log</code> statements.</p>
+  <p><strong>Medium Challenge:</strong> Create a duplicate of the <code class="try-it-code">h1</code> element in the HTML and check the console. Was anything different printed this time? Why? What does this tell you about the importance of using classes?</p>
 </div>
 
 ## Change Content on the DOM
 
-Now that we can access elements and store them in a variable, the possibilities are endless! Let's start by programmatically changing the content of an element. We can use a tool called `.text` to change the text inside of an element.
+Now that we can access elements and store them in a variable, the possibilities are endless! Let's start by programmatically changing the content of an element. We can use `.text()` to **change** the text inside of an element.
 
+```html
+<h1>hello</h1>
+```
 ```js
 var header = $('h1');
 header.text("HIIII");
 //=> In the browser, the hi now says HIIII
 ```
 
-What's happening? The `h1` element has an attribute called `text`. When we originally wrote the `h1`, we gave it a `text` value of "hello" by typing "hello" between the tags. jQuery  provides us with a method to change that original text. Whatever string is passed into, or typed into the parenthesis after `.text`, will replace the text inside of the `h1`.
-
+What's happening? The `h1` element has a method called `text`. When we originally wrote the `h1`, we gave it a `text` value of "hello" by typing "hello" between the tags. jQuery  provides us with a method to change that original text. Whatever string is passed into, or typed into the parenthesis after `.text`, will replace the text inside of the `h1`.
 
 <div class="try-it">
   <h2>Try It: Change Text</h2>
-  <p>Continue working in the CodePen from the last Try It.</p>
-  <p>By only adding code to the JavaScript file, change the text inside of all three elements.</p>
-  <p><strong>Medium Challenge:</strong> If you changed the text of the <code class="try-it-code">h1</code> on one line of code, then on the line below changed it to something else, which one would show in the browser? Why? </p>
+  <p>Continue working in the Glitch project from the last Try It.</p>
+  <p>By only adding code to the JavaScript file, change the text inside of at least two elements.</p>
+  <p><strong>Medium Challenge:</strong> If you changed the text of the <code class="try-it-code">h1</code> on one line of code, then on the line below changed it to something else, which one would show in the browser? Why?</p>
 </div>
 
-This was interesting, but we could have just written different text inside the HTML tags to accomplish what we just did here. As was mentioned earlier, we are taking today's concept step by step. Move on to Event Listeners,and you'll start seeing some ✨magic✨ happen!
+This was interesting, but we could have just written different text inside the HTML tags to accomplish what we just did here. As was mentioned earlier, we are taking today's concept step by step. Move on to the next section and you'll start seeing some ✨magic✨ happen!
 
 ## Events
 
@@ -137,28 +135,31 @@ Events are really at the core of DOM Manipulation. When we talked about user int
 
 ### Event Listener
 
+Imagine that you’ve just ordered food fror delivery and are waiting for it to arrive. When the doorbell rings, you’ll stand up from the couch, walk over to the door, open it, and take your food. Guess what? You programmed yourself with an event listener.
+
 In order for our site to respond to events, we need to write some code so that our site becomes "smart" enough to look out for a specific event on a specific element. This "look out" is called an **event listener**. Their job is to sit around and wait for an event to take place in the browser, and call a function for us when it does.
 
-This CodePen has an example of the syntax. Click "Edit on CodePen" to open it in the browser. Click the button. Click the button a second time. What happens each time you click the button?
+The Glitch project below has an example of the syntax. Click View Source to look at the JavaScript. Back in View App: Click the button. Click the button a second time. What happens _each time_ you click the button?
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="js,result" data-user="turing-kwk" data-slug-hash="VNGRRv" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Event Listeners">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/VNGRRv/">
-  Check It Out: Event Listeners</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/example-event-listener?path=index.html&previewSize=100&attributionHidden=true"
+    title="example-event-listener on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 <br>
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>With your partner, read through each line of the JavaScript file in the CodePen above. Lines 1 and 5 should be somewhat familiar; but line 3 is brand-new. What is your prediction about what each part of the code is doing?</p>
-  <p><strong>Medium Challenge:</strong> The function <code class="try-it-code">doSomething</code> is never called with the syntax we've learned: <code class="try-it-code">doSomething</code>. Why not? What happens if we add <code class="try-it-code">()</code> after <code class="try-it-code">doSomething</code> on line 3?</p>
+  <p>With your partner, read through each line of the JavaScript file in the Glitch project above. Lines 4 and 9 should be somewhat familiar; but line 6 is brand-new. What is your prediction about what each part of the code is doing?</p>
+  <p><strong>Medium Challenge:</strong> The function <code class="try-it-code">doSomething</code> is never called with the syntax we've learned: <code class="try-it-code">doSomething()</code>. Why not? What happens if we add <code class="try-it-code">()</code> after <code class="try-it-code">doSomething</code> on line 3? Remix the project to find out!</p>
 </div>
 
 Takeaways:
-- `Line 1` declares a variable that stores the `button` element
-- `Line 3` creates an event listener. Our program will now be "on the lookout" for a click that takes place on the button. It won't listen for clicks anywhere else. It won't listen to any other events on that button. Just a click and only on that button. When that button is clicked, it will call the function `doSomething`.
-- `Line 5` declares the function `doSomething`. It's just a set of directions, waiting around to do its job. It will be called when the button is clicked.
+- `Line 4` declares a variable that stores the `button` element
+- `Line 6` creates an event listener. Our program will now be "on the lookout" for a click that takes place on the button. It won't listen for clicks anywhere else. It won't listen to any other events on that button. Just a click and only on that button. When that button is clicked, it will call the function `doSomething`.
+- `Line 8` declares the function `doSomething`. It's just a set of directions, waiting around to do its job. It will be called when the button is clicked.
 
 ### Event Handlers
 
@@ -166,8 +167,8 @@ The event listener is responsible for monitoring an element for an event and doi
 
 <div class="try-it">
   <h2>Try It: Event Listeners & Handlers</h2>
-  <p>Create a new CodePen and load jQuery into it.</p>
-  <p>Create an <code class="try-it-code">h1</code> and <code class="try-it-code">button</code> in the HTML.</p>
+  <p>Go back to the Glitch project about Baby Seals.</p>
+  <p>Add a <code class="try-it-code">button</code> element in the HTML.</p>
   <p>Now, update the JavaScript so that when the button is clicked, the text in the <code class="try-it-code">h1</code> changes to something that it wasn't originally.</p>
   <p>When you're done, answer these questions with your partner:</p>
   <ul>
@@ -179,25 +180,27 @@ The event listener is responsible for monitoring an element for an event and doi
 
 ## Access CSS
 
-One cool thing about JavaScript is that since it's accessing your HTML elements, you can also access the styles that have been applied to each element. It works kind of like `text`; there's a property on the element that we can change. We can add, remove, replace, or toggle CSS classes!
+One cool thing about JavaScript is that since it's accessing your HTML elements, you can also access the styles that have been applied to each element. It works kind of like `text()`; there's a property on the element that we can change. We can add, remove, replace, or toggle CSS classes!
 
 Check this out:
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="QPVLEb" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: ClassList Property">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/QPVLEb/">
-  Check It Out: ClassList Property</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/example-toggle-ss?path=script.js&previewSize=100&attributionHidden=true"
+    title="example-toggle-ss on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 <br>
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>Fork the CodePen above, then answer these questions with your partner:</p>
+  <p>Remix the Glitch project above, then answer these questions with your partner:</p>
   <ul>
     <li>Why does the button go back and forth between pink and purple?</li>
     <li>Try changing <code class="try-it-code">.toggleClass</code> to <code class="try-it-code">.addClass</code> - what happens?</li>
     <li>What happens when you change <code class="try-it-code">.toggleClass</code> to <code class="try-it-code">.removeClass</code>? Why?</li>
+    <li>Uncomment line 11 in the JavaScript file then click the button a few times. What happens? Why?</li>
   </ul>
 </div>
 
@@ -206,21 +209,22 @@ Takeaways:
 - `.removeClass` will remove a class from an HTML element
 - `.toggleClass` will check if an HTML has a specific class. If it does, it will remove the class. If it doesn't, it will add that class.
 
-Besides accessing CSS rules by classes, we can also add CSS property/values! Check out the code in the pen below:
-<!-- //this is messed up because it introduces .val() which they don't know about yet. -->
+Besides accessing CSS rules by classes, we can also add CSS property/values! Check out the code in the project below:
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="js,result" data-user="turing-kwk" data-slug-hash="YMbvdP" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: DOM Manipulation of CSS">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/YMbvdP/">
-  Check It Out: DOM Manipulation of CSS</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/example-add-css-rule?path=script.js&previewSize=0&attributionHidden=true"
+    title="example-add-css-rule on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+<br>
 
 Let's break this down.
-- On lines 1-2, we declare the `changeBackgroundBtn` and `container` variables which are storing the button and `div`, respectively
-- On line 4, we declare an event listener for the `changeBackgroundBtn` button
-- On line 6, we declare the `changeBackgroundColor` event handler
-- Line 7 is where the magic happens:
+- On lines 4-5, we declare the `changeBackgroundBtn` and `container` variables which are storing the button and `div`, respectively
+- On line 7, we declare an event listener for the `changeBackgroundBtn` button
+- On line 9, we declare the `changeBackgroundColor` event handler
+- Line 10 is where the magic happens:
 
 ```javascript
 container.css('backgroundColor', 'mediumaquamarine');
@@ -228,15 +232,15 @@ container.css('backgroundColor', 'mediumaquamarine');
 
   * `container` references the `container` variable
   * `.css` says: I'm about to give you directions on adding styles, or CSS rules. `.css` takes two arguments, a property, and a value.
-  * `backgroundColor` says: here is the property I'd like you to add to this element
+  * `'backgroundColor'` says: here is the property I'd like you to add to this element
   * `'mediumaquamarine'` says: here is the value I'd like you to update this property to. We can give any valid color name, hex code, or rgba value. It must be in a string.
 
 This entire line of code accesses the `div` element and updates that elements styles, so we see the background color change in the browser!
 
 <div class="practice">
   <h2>Practice: DOM Manipulation</h2>
-  <p>Ever wonder how sites or apps create a "dark mode"? You're about to do just that!</p>
-  <p>Create a new CodePen and load jQuery into it.</p>
+  <p>Ever wonder how sites or apps create the "dark mode" feature? You're about to do just that!</p>
+  <p>You can either work off of the Baby Seals Glitch project, or <a target="blank" href="https://glitch.com/~practice-dark-mode">start with this one!</a></p>
   <p>Create two <code class="practice-code">button</code> elements in your HTML, both nested inside of a <code class="practice-code">div</code>. One button should be labeled "light mode" and the other "dark mode". They will both need their own class name.</p>
   <p>Now, write the JavaScript so that when the dark mode button is clicked, the background color of the <code class="practice-code">div</code> changes to a dark color. When the light mode button is clicked, the background color should change to a light color.</p>
   <p><strong>Medium Challenge:</strong> When an application uses dark mode, not only the background color changes; so do fonts, colors, etc. Add a few more elements to your HTML. When each button is clicked, those elements should change colors appropriately.</p>
