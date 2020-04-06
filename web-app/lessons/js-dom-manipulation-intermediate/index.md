@@ -138,7 +138,14 @@ The code above would append a `div` that contains two `p`s to the `cardContainer
 <div class="try-it">
   <h2>Try It: Append</h2>
   <p>Fork <a href="https://codepen.io/turing-kwk/pen/rbEzOa">this CodePen</a> and write JavaScript so that the user can write a to-do list. A couple of commented out notes were provided to get you started!</p>
-  <p><strong>Medium Challenge:</strong> As a user, it's kind of frustrating when you want to type a second to-do, but first have to delete your previous input. Add in the functionality that clears the input field as soon as the user clicks the "Add to To-Do List" button.</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>As a user, it's kind of frustrating when you want to type a second to-do, but first have to delete your previous input. Add in the functionality that clears the input field as soon as the user clicks the "Add to To-Do List" button.</p>
+    </div>
+  </div>
+
 </div>
 
 ## Delete a To-Do
@@ -217,7 +224,14 @@ You've learned a **lot** and have already come so far. Put all your skills toget
 <div class="practice">
   <h2>Practice: Build a To-Do List</h2>
   <p>Brainstorm a small-app idea that would require the user to type in at least one input. The user should see their inputted information on the browser and should be able to enter more information and also see that listed. The user should also be able to delete items previously added to the list.</p>
-  <p><strong>Spicy Challenge:</strong> In addition to a delete button, add another button that will do something else to the card. If it's a to-do list, it's nice to have a way to indicate the level of importance one task has over another. The details depend on what you initially built. (The real-life connection here is in basically everything you see on the internet - any social media post has at least two ways a user can interact - favorite, comment, view profile, etc. You are essentially building that type of functionality!)</p>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>In addition to a delete button, add another button that will do something else to the card. If it's a to-do list, it's nice to have a way to indicate the level of importance one task has over another. The details depend on what you initially built. (The real-life connection here is in basically everything you see on the internet - any social media post has at least two ways a user can interact - favorite, comment, view profile, etc. You are essentially building that type of functionality!)</p>
+    </div>
+  </div>
+
 </div>
 <br>
 
