@@ -204,7 +204,26 @@ Take some time to put together everything we've learned today and complete the p
 <div class="practice">
   <h2>Practice: Forms</h2>
   <p>Create a new Glitch project. Don't forget to add the script tag for jQuery! You can copy and paste that line from a previous project.</p>
-  <p><strong>Mild Challenge:</strong> Build a small site that has two input fields and a button to submit. You can choose what type of information the user needs to provide! Just make sure that the user gets clear directions on what they should enter. When the user clicks the button, they should see a message that includes both pieces of information that they provided appear on the screen.</p>
-  <p><strong>Medium Challenge:</strong> Build a small site that has two input fields and a button to submit. The user should see directions instructing them to create a new password, then type that same password in the second input field. When they click the button, they should get one of two messages: "Oops! Those don't match." or "Great password! It's been reset." based on if the two inputs match each other.</p>
-  <p><strong>Spicy Challenge:</strong> You can add this on to either the Mild or Medium Challenge. If the user didn't complete one of the input fields, don't let them click the button. You'll need to look into the HTML attribute <code class="practice-code">disabled</code> and a conditional!</p>
+
+  <div class="challenge-container mild-heat">
+    <p class="spicy-click">Click here for a Mild Challenge 🌶</p>
+    <div class="spicy-toggle">
+      <p>Build a small site that has two input fields and a button to submit. You can choose what type of information the user needs to provide! Just make sure that the user gets clear directions on what they should enter. When the user clicks the button, they should see a message that includes both pieces of information that they provided appear on the screen.</p>
+    </div>
+  </div>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>Build a small site that has two input fields and a button to submit. The user should see directions instructing them to create a new password, then type that same password in the second input field. When they click the button, they should get one of two messages: "Oops! Those don't match." or "Great password! It's been reset." based on if the two inputs match each other.</p>
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>You can add this on to either the Mild or Medium Challenge. If the user didn't complete one of the input fields, don't let them click the button. You'll need to look into the HTML attribute <code class="spicy-code">disabled</code> and a conditional!</p>
+    </div>
+  </div>
+
 </div>
