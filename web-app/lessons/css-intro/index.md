@@ -191,10 +191,23 @@ Another declaration that we haven't talked about:
   </ol>
   <img src="./assets/button.png" alt="Bright button with rounded corners">
   <br>
-  <p><strong>Spicy Challenge:</strong> When the button is hovered over, it should look like the image below. Implement the CSS code necessary to re-create that hover state.</p>
-  <img src="./assets/button-hover.png" alt="Bright button with rounded corners">
-  <p><strong>Extra Spicy:</strong> There is a slight shadow behind the bottom and right side of the button - do some research online to explore how that might be achieved with CSS.</p>
-  <p><em>Does this button look familiar? It's from the <a href="">Codecademy</a> website!</em></p>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">        
+        <p>When the button is hovered over, it should look like the image below. Implement the CSS code necessary to re-create that hover state.</p>
+        <img src="./assets/button-hover.png" alt="Bright button with rounded corners">
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for an Extra Spicy Challenge 🔥🔥🔥</p>
+    <div class="spicy-toggle">        
+        <p>There is a slight shadow behind the bottom and right side of the button - do some research online to explore how that might be achieved with CSS.</p>
+        <p><em>Does this button look familiar? It's from the <a href="">Codecademy</a> website!</em></p>
+    </div>
+  </div>
+
 </div>
 
 ## Putting It All Together
@@ -210,22 +223,30 @@ Take a minute to write down your key takeaways from this lesson.
 
 For each practice prompt, start a new Glitch project. You'll notice that when you start a new Glitch project, a lot of code is already written in the HTML file. You can delete anything inside of the `<body>` tags, then write your own code! _Hint: One thing that may be helpful for any/all challenges is `text-align: center`!_
 
-**Mild:**
+<div class="challenge-container mild-heat">
+  <p class="spicy-click">Click here for Mild Practice 🌶</p>
+  <div class="spicy-toggle">        
+    <p>Recreate a button from <a target="blank" href="https://www.kodewithklossy.com/">the Kode With Klossy</a> site.</p>
+  </div>
+</div>
 
-Recreate a button from [the Kode With Klossy](https://www.kodewithklossy.com/) site.
+<div class="challenge-container medium-heat">
+  <p class="spicy-click">Click here for Medium Practice 🌶🌶</p>
+  <div class="spicy-toggle">        
+    <p>You are planning to open your ✨dream✨ business. Make a landing page to let your customers know the name of it, a little bit about it, and a button they can click to let you know they are interested in learning more!</p>
+    <p>Make sure you use a border and font-family. For colors, you might want to use <a target="blank" href="https://colorsupplyyy.com/app">Color Supply</a> or a similar site to help pick a palette. To achieve this medium challenge, use hex codes instead of color names (ex: use `#ffffff` instead of `white`).</p>
+  </div>
+</div>
 
-**Medium:**
-
-You are planning to open your ✨dream✨ business. Make a landing page to let your customers know the name of it, a little bit about it, and a button they can click to let you know they are interested in learning more!
-
-Make sure you use a border and font-family. For colors, you might want to use [Color Supply](https://colorsupplyyy.com/app) or a similar site to help pick a palette. To achieve this medium challenge, use hex codes instead of color names (ex: use `#ffffff` instead of `white`).
-
-**Spicy:**
-
-First, complete the medium challenge. This will build off of that.
-
-Do some research on classes and IDs. You'll need to utilize one or the other to complete this challenge:
-
-- Create three buttons on your business landing page
-- Use CSS selectors rules to style all three buttons _differently_
-- Each button should draw on inspiration from a button you've seen on a professional site
+<div class="challenge-container spicy-heat">
+  <p class="spicy-click">Click here for Spicy Practice 🌶🌶🌶</p>
+  <div class="spicy-toggle">        
+    <p>First, complete the medium challenge. This will build off of that.</p>
+    <p>Do some research on classes and IDs. You'll need to utilize one or the other to complete this challenge:</p>
+    <ul>
+      <li>Create three buttons on your business landing page</li>
+      <li>Use CSS selectors rules to style all three buttons <em>differently</em></li>
+      <li>Each button should draw on inspiration from a button you've seen on a professional site</li>
+    </ul>
+  </div>
+</div>

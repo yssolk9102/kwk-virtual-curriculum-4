@@ -28,6 +28,21 @@ code {
   padding-right: 5px;
 }
 
+.mild-code {
+  background-color: #FAFDEC;
+  border: 1px solid #F2FD8C;
+}
+
+.medium-code {
+  background-color: #FEF8ED;
+  border: 1px solid #FEDBA3;
+}
+
+.spicy-code {
+  background-color: #FFF2F1;
+  border: 1px solid #FEC2BB;
+}
+
 pre {
   padding: 0.5rem 0.8rem;
   margin-bottom: 1.5rem;

@@ -291,7 +291,14 @@ console.log(`Because ${tinsOfKookies} tins of kookies were purchased during Fash
   var d = 98;</pre>
   <p>Write code to find the average of the four numbers above.</p>
   <br>
-  <p><strong>Medium Challenge:</strong> Find the answer to this problem using JavaScript: On average, there are 23.5 scholars at each Kode With Klossy camp this year. If there are 36 camps taking place, about how many scholars are attending in total? Print out to the console your answer in a complete sentence.</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>Find the answer to this problem using JavaScript: On average, there are 23.5 scholars at each Kode With Klossy camp this year. If there are 36 camps taking place, about how many scholars are attending in total? Print out to the console your answer in a complete sentence.</p>
+    </div>
+  </div>
+
 </div>
 
 You've now seen and used the foundations of JavaScript and all programming languages. Complete the exercises below to get a little more practice.
@@ -303,5 +310,12 @@ You've now seen and used the foundations of JavaScript and all programming langu
   <p>Print out a sentence to the console using at least two of the variables.</p>
   <p>Now, re-assign the number of likes to a number greater than what it was initially assigned to.</p>
   <p>Print out a sentence to the console that includes the <code class="practice-code">caption</code> and <code class="practice-code">numberOfLikes</code>.</p>
-  <p><strong>Medium Challenge:</strong> Declare at least 5 variables that store information about you! Some possibilities are <code class="practice-code">favoriteColor</code>, <code class="practice-code">gradeLevel</code>, or <code class="practice-code">favoriteFood</code>. Assign them to appropriate values. Use interpolation to print out a sentence about yourself using all 5+ variables!</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>Declare at least 5 variables that store information about you! Some possibilities are <code class="medium-code">favoriteColor</code>, <code class="medium-code">gradeLevel</code>, or <code class="medium-code">favoriteFood</code>. Assign them to appropriate values. Use interpolation to print out a sentence about yourself using all 5+ variables!</p>
+    </div>
+  </div>
+
 </div>

@@ -228,8 +228,21 @@ In this final section, you'll use your new knowledge about the box model and ima
   <p>Create a new pen on Glitch project. Remember, a lot of code is provided in the initial HTML file, so you may want to first delete what you don't need. Then, work towards replicating the image below. Feel free to use any images and text you'd like!</p>
   <img class="medium" src="./assets/recreate-twitter-card.png" alt="Start of a Twitter profile card">
   <p><em>Hint: You can also use percentages as units for the width of an image.</em></p>
-  <p><strong>Medium Challenge:</strong> Add a blue checkmark next to the user's name. You can find a lot of icons at <a href="https://www.flaticon.com/">Flat Icon</a>. Make sure the icon is about the correct size, and right next to the name. You can reference Michelle Obama's profile at the top of this lesson for what this should look like. Follow the same workflow to include an icon just as you would an image (right click and copy image address).</p>
-  <p><strong>Spicy Challenge:</strong> Add another image to your Twitter profile. This image should be round, and part of it should lay over the background image. You can reference Michelle Obama's profile at the top of this lesson for what this should look like.</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Add a blue checkmark next to the user's name. You can find a lot of icons at <a href="https://www.flaticon.com/">Flat Icon</a>. Make sure the icon is about the correct size, and right next to the name. You can reference Michelle Obama's profile at the top of this lesson for what this should look like. Follow the same workflow to include an icon just as you would an image (right click and copy image address).</p>
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Add another image to your Twitter profile. This image should be round, and part of it should lay over the background image. You can reference Michelle Obama's profile at the top of this lesson for what this should look like.</p>
+    </div>
+  </div>
+
 </div>
 
 ## Extensions
