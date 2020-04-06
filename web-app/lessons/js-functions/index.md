@@ -80,7 +80,14 @@ The last line of the code snippet is what **calls** the function. If we have thi
   <h2>Try It: Declaring & Calling a Function</h2>
   <p>Declare and call a function named <code class="try-it-code">sayHello</code>. Write 2-4 <code class="try-it-code">console.log</code> statements in it, saying whatever you'd like. Verify that it is running successfully by checking the console for the sentences.</p>
   <p>Declare and call a function named <code class="try-it-code">sayGoodbye</code>. Write 2-4 <code class="try-it-code">console.log</code> statements in it, saying whatever you'd like. Verify that it is running successfully by checking the console for the sentences.</p>
-  <p><strong>Medium Challenge:</strong> Did your <code class="try-it-code">sayHello</code> sentences print before or after your <code class="try-it-code">sayGoodbye</code> sentences? Why?</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>Did your <code class="medium-code">sayHello</code> sentences print before or after your <code class="medium-code">sayGoodbye</code> sentences? Why?</p>
+    </div>
+  </div>
+
 </div>
 
 ## Arguments and Parameters
@@ -130,9 +137,28 @@ function timeToWalk(numberOfDogs) {
 
 <div class="try-it">
   <h2>Try It: Arguments & Parameters</h2>
-  <p><strong>Mild Challenge:</strong> Write a function that will take 1 argument when called, a number. The function should <code class="try-it-code">console.log</code> the sum of that number and 5. Make sure to name your function something related to its job.</p>
-  <p><strong>Medium Challenge:</strong> Write a function that will take 2 arguments when called, both being numbers, and that will <code class="try-it-code">console.log</code> the sum of those two numbers. Make sure to name your function something related to its job.</p>
-  <p><strong>Spicy Challenge:</strong> Write a function that will take 3 arguments when called, all being numbers. It should sum the first two numbers, then multiply that sum by the third number and <code class="try-it-code">console.log</code> the result. Make sure to name your function something related to its job.</p>
+
+  <div class="challenge-container mild-heat">
+    <p class="spicy-click">Click here for a Mild Challenge 🌶</p>
+    <div class="spicy-toggle">
+      <p>Write a function that will take 1 argument when called, a number. The function should <code class="mild-code">console.log</code> the sum of that number and 5. Make sure to name your function something related to its job.</p>
+    </div>
+  </div>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>Write a function that will take 2 arguments when called, both being numbers, and that will <code class="medium-code">console.log</code> the sum of those two numbers. Make sure to name your function something related to its job.</p>
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>Write a function that will take 3 arguments when called, all being numbers. It should sum the first two numbers, then multiply that sum by the third number and <code class="spicy-code">console.log</code> the result. Make sure to name your function something related to its job.</p>
+    </div>
+  </div>
+
 </div>
 
 ## Return Values
