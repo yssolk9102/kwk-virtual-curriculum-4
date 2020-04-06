@@ -124,6 +124,33 @@ textarea {
   text-align: center;
 }
 
+.challenge-container {
+  padding: 10px 20px;
+  margin: 10px 0px;
+  border-radius: 2px;
+}
+
+.mild-heat {
+  background-color: #FBFEDF;
+}
+
+.medium-heat {
+  background-color: #FEF2DF;
+}
+
+.spicy-heat {
+  background-color: #FEE2DF;
+}
+
+.spicy-click {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.spicy-toggle {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
 
   .content {

@@ -214,7 +214,20 @@ Notice the syntax - when we were just targeting a `p` element, we would type `p`
   <br>
   <br>
   <br>
-  <p><strong>Medium Challenge:</strong> We know that each container used for each mathematician is a block element. Do some research, and try to find a way that you can change these "rows" into "columns". Example below:</p>
-  <img src="./assets/hidden-figures-cols.png">
-  <p><strong>Spicy Challenge:</strong> Did you notice that the text is bumped right up against the border or each box? Do some research, and find a way to give that text inside of each box a little breathing room.</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>We know that each container used for each mathematician is a block element. Do some research, and try to find a way that you can change these "rows" into "columns". Example below:</p>
+      <img src="./assets/hidden-figures-cols.png">
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">
+        <p>Did you notice that the text is bumped right up against the border or each box? Do some research, and find a way to give that text inside of each box a little breathing room.</p>
+    </div>
+  </div>
+
 </div>

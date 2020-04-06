@@ -13,3 +13,18 @@ $('.curriculum-links').each(function(idx, link) {
     $('.navbar-navigation--links a').removeClass('active-link');
   }
 });
+
+var allSpicyTitles = document.querySelectorAll(".spicy-click");
+
+allSpicyTitles.forEach(function(title) {
+
+  title.addEventListener("click", function(e) {
+    var content = e.target.nextSibling.nextSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+
+});
