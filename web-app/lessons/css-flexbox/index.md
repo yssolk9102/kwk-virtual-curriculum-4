@@ -68,28 +68,27 @@ In the code above, we now have these `h2` elements nested inside of the `article
 
 Without Flexbox, 10 colorful `article`s might look like this:
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="bJKmLB" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox: Normal Block Elements">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/bJKmLB/">
-  Flexbox: Normal Block Elements</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<br>
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/turn-talk-flexbox-normal?path=style.css&previewSize=100&attributionHidden=true"
+    title="turn-talk-flexbox-normal on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 
 But with Flexbox, we can start, having some control over them:
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="Pgayxz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1.0em 0; padding: 1em;" data-pen-title="Flexbox: Applying Flexbox">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/Pgayxz/">
-  Flexbox: Applying Flexbox</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<br>
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%; margin-bottom: 24px;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/turn-talk-flexbox-applied?path=style.css&previewSize=100&attributionHidden=true"
+    title="turn-talk-flexbox-normal on Glitch" style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>Looking at the CSS in both examples above, what is the difference between the two files?</p>
-  <p>What element(s) is the declarationlo <code class="try-it-code">display: flex;</code> applied to? Is that a parent or child?</p>
+  <p>Looking at the CSS in both examples above, what is the difference between the two CSS files?</p>
+  <p>In the CSS file of the turn-talk-flexbox-applied Glitch project, what element(s) is the declaration <code class="try-it-code">display: flex;</code> applied to? Is that a parent or child?</p>
 </div>
 
 Takeaways:
@@ -101,38 +100,37 @@ Takeaways:
 
 Adding `display: flex` to the CSS rule on the parent makes the parent element a flex container and opens up a world of possibilities.
 
-We can apply a width to each item. If all items can fit in the container at that width, that's the width they will be. If the width wouldn't leave enough room for all the items, they will become as wide as they can and remain evenly spaced. In the CodePen below, change the width of the `article` to several different values and see what happens.
+We can apply a width to each item. If all items can fit in the container at that width, that's the width they will be. If the width wouldn't leave enough room for all the items, they will become as wide as they can and remain evenly spaced.
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="VNdVLv" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox: Items Too Wide">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/VNdVLv/">
-  Flexbox: Items Too Wide</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+>Remix Glitch project below. Change the width of the `article` with the `box` class to several different values and see what happens.
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/try-it-flex-even-things-ut?path=style.css&previewSize=100&attributionHidden=true"
+    title="try-it-flex-even-things-ut on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 <br>
 
 ## Justify Content
 
-In professional apps, we typically see white space (margin or padding) used, and the content is centered on the screen. We can use Flexbox to center content:
+In professional apps, we typically see white space (margin or padding) used, and the content is centered on the screen. We can use Flexbox to center content. By adding `justify-content: center;`, the items in the container are now centered instead of being crunched up on the left side of the container.
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="KYerVR" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox: Centering Items">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/KYerVR/">
-  Flexbox: Centering Items</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+>Remix the Glitch project below. On the container's CSS rule, change the code to: `justify-content: space-between;`. What happens? Then, change it to: `justify-content: space-around;`. What is the difference between space-around and space-between?
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/flexbox-justify-content?path=style.css&previewSize=100&attributionHidden=true"
+    title="flexbox-justify-content on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 <br>
 
-By adding `justify-content: center;`, the items in the container are now centered instead of being crunched up on the left side of the container.
-
-<div class="try-it">
-  <h2>Try It: Justify Content</h2>
-  <p>Fork the CodePen above. On the container's CSS rule, change the code to: <code class="try-it-code">justify-content: space-between;</code>. What happens?</p>
-  <p>Now try: <code class="try-it-code">justify-content: space-around;</code>. What is the difference between space-around and space-between?</p>
-  <p><strong>Finished early?</strong> Learn about even more values that we can provide to <code class="try-it-code">justify-content</code> with <a target="blank" href="https://css-tricks.com/almanac/properties/j/justify-content/">CSS Tricks</a>.</p>
-</div>
-
 The `justify-content` property allows us to control how our content sits _in relation to the main axis_ (for now, this means horizontally).
+
+Learn about even more values that we can provide to `justify-content` with <a target="blank" href="https://css-tricks.com/almanac/properties/j/justify-content/">CSS Tricks</a>.
 
 <div class="try-it">
   <h2>Try It: Flexbox Froggy</h2>
@@ -142,14 +140,17 @@ The `justify-content` property allows us to control how our content sits _in rel
 
 ## Align Items
 
-Just like we can control how our content sits _in relation to the main axis_ with `justify-content`, we have a tool to control how our content sits _in relation to the secondary axis_. Check out the CodePen below. Try changing the value for `align-items` to `flex-end`, then `flex-start`, and see what happens!
+Just like we can control how our content sits _in relation to the main axis_ with `justify-content`, we have a tool to control how our content sits _in relation to the secondary axis_.
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="mgKQOR" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox: Align Items">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/mgKQOR/">
-  Flexbox: Align Items</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+>Remix the Glitch project below. Try changing the value for `align-items` to `flex-end`, then `flex-start`, and see what happens!
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/flexbox-align-items?path=index.html&previewSize=100&attributionHidden=true"
+    title="flexbox-align-items on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 <br>
 
 <div class="try-it">
@@ -177,10 +178,10 @@ Here is a visual, created by the amazing [Samantha Ming](https://www.samanthamin
 
 <div class="try-it">
   <h2>Try It: Flex Direction</h2>
-  <p>Fork <a href="https://codepen.io/turing-kwk/pen/oNgGLKY">this CodePen</a>.</p>
-  <p>On line 3 of the CSS file there is a "____" as the value for the <code class="try-it-code">flex-direction</code> property. One by one, change that out for each of the four properties listed above. What happens to the 10 items?</p>
+  <p>Remix <a target="blank" href="https://glitch.com/~flexbox-direction">this Glitch project</a>.</p>
+  <p>On line 10 of the CSS file there is a "____" as the value for the <code class="try-it-code">flex-direction</code> property. One by one, change that out for each of the four properties listed in the visual above. What happens to the 10 items?</p>
   <br>
-  <p>Back in Flexbox Froggy, work through levels 8 - 13.</p>
+  <p>Back in <a target="blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>, work through levels 8 - 13.</p>
 </div>
 
 ## Wrap
@@ -191,12 +192,15 @@ Now, sometimes we don't want _all_ our items on the same row or column. We can u
 - `wrap`: multi-lines, the direction is defined by `flex-direction`
 - `wrap-reverse`: multi-lines, opposite to the direction defined by `flex-direction`
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="qwKQwa" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox: Wrap">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/qwKQwa/">
-  Flexbox: Wrap</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+>Remix the Glitch project below. Try changing the value for `flex-wrap` to `no-wrap`, then `wrap-reverse` to observe the affect that property has!
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/flexbox-wrap?path=style.css&previewSize=100&attributionHidden=true"
+    title="flexbox-wrap on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 <br>
 
 ## Flexbox
@@ -205,12 +209,12 @@ There is more to learn about Flexbox, but we can do a lot with what we know. It 
 
 <div class="practice">
   <h2>Practice: Flexbox</h2>
-  <p>Open <a target="blank" href="https://codepen.io/turing-kwk/pen/WWyYZy">this CodePen</a> and fork it. This will create a new copy to your account that you can edit.</p>
+  <p>Remix <a target="blank" href="https://glitch.com/~practice-flexbox">this Glitch project</a>.</p>
   <p>Your job will be to update the CSS (you'll probably need to add some classes on some HTML elements, too!) so the outcome looks like the screen shot below, but <strong>first</strong>, take some time to jot down some notes and talk with a partner about <em>how</em> you will approach this.</p>
-  <img src="./assets/direction.png" alt="">
+  <img src="./assets/direction.png" alt="Final product">
 </div>
 
 ## More Practice
 
-- Finish levels 14 - 24 of Flexbox Froggy
+- Finish levels 14 - 24 of [Flexbox Froggy](https://flexboxfroggy.com/)
 - Can't get enough of Flexbox Froggy? Try out [Flexbox Defense](http://www.flexboxdefense.com/)
