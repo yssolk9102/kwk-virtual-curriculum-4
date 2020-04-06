@@ -1,6 +1,6 @@
 title: "Kode With Klossy Curriculum"
-description: "Open source curriculum for the Kode With Klossy's 2020 WebDev and Mobile camps."
-url: "https://turingschool.github.io/kwk-curriculum-site"
+description: "Open source curriculum for the Kode With Klossy's 2020 Virtual camps."
+url: "https://turingschool.github.io/kwk-virtual-curriculum"
 
 baseurl: ''
 permalink: /:title
@@ -26,10 +26,10 @@ defaults:
       layout: "page"
 
 assets:
-  root_url: '/kwk-curriculum-site/assets'
+  root_url: '/kwk-virtual-curriculum/assets'
 
 images:
-  root_url: '/kwk-curriculum-site/assets/images'
+  root_url: '/kwk-virtual-curriculum/assets/images'
 
 plugins:
   - jemoji
