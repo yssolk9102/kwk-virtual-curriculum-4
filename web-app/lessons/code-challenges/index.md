@@ -59,13 +59,3 @@ title: JavaScript Code Challenges
   <h2>Trolls</h2>
   <p>Trolls are attacking your comment section! A common way to deal with this situation is to remove all of the vowels from the trolls’ comments, neutralizing the threat. Your task is to write a function that takes a string and return a new string with all vowels removed. For example, the string “This website is for losers LOL!” would become “Ths wbst s fr lsrs LL!“. <em>Note: for this exercise, y isn’t considered a vowel.</em></p>
 </div>
-
-<!-- Copy and Paste Me -->
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/testing-1111?path=index.html&previewSize=0&attributionHidden=true"
-    title="testing-1111 on Glitch"
-    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
