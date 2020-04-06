@@ -82,7 +82,7 @@ For example:
 
 <div class="try-it">
   <h2>Try It: Adding Links</h2>
-  <p>In the same Glitch project you re-mixed then worked in before, add a few links to your HTML.</p>
+  <p>In the same Glitch project you remixed then worked in before, add a few links to your HTML.</p>
   <p><strong>Medium Challenge:</strong> Make an HTML list and add your links as list items. <em>You may need to Google search to learn how to create an HTML list.</em></p>
 </div>
 

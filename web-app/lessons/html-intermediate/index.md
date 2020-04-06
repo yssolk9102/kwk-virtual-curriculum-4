@@ -207,9 +207,9 @@ Notice the syntax - when we were just targeting a `p` element, we would type `p`
   </ul>
 </div>
 
-<div class="try-it">
+<div class="practice">
   <h2>Practice</h2>
-  <p>Create a Glitch project. Work to re-create the screenshot pictured below. You'll need to use containers and classes to achieve this. Feel free to use content and colors of your choice.</p>
+  <p>Create a new Glitch project. Work to re-create the screenshot pictured below. You'll need to use containers and classes to achieve this. Feel free to use content and colors of your choice.</p>
   <img src="./assets/hidden-figures.png">
   <br>
   <br>
