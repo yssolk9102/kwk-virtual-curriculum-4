@@ -39,13 +39,14 @@ There is a lot more to forms that we’ll go into depth with later, but to start
 - `<input>` creates an input field. `<input>` is like `<img>` in that it does not require or support a closing tag. It can take an optional type attribute that helps validate user input in some browsers (<a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">visit MDN</a> to find out more).
 - `<button>` creates a button. `<button>`, unlike `<input>`, supports a closing tag.
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="html,result" data-user="turing-kwk" data-slug-hash="qwyyqe" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Inputs and Buttons">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/qwyyqe/">
-  Check It Out: Inputs and Buttons</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<br>
+```html
+<input>
+<button>Click Me</button>
+```
+
+The two lines of code above would produce this in the browser:
+
+<img src="./assets/basic-form.png" alt="Basic input field and button that says Click Me">
 
 ## Forms: Next Level
 
@@ -58,7 +59,7 @@ Basic input and button elements are a great starting point, but to build a truly
 
 As you look at the code for forms, you will notice quite a bit of nesting; this is necessary. It's important to indent properly to make your code more readable!
 
-Here's a **good** example of indentation:
+Here's a **good** example of indentation ✅:
 
 ```html
 <form>
@@ -72,7 +73,7 @@ Here's a **good** example of indentation:
 </form>
 ```
 
-Here's a **bad** example of indentation:
+Here's a **bad** example of indentation 🚫:
 
 ```html
 <form>
@@ -89,7 +90,7 @@ Here's a **bad** example of indentation:
 
 ## What can you do within a form?
 
-Most often, we ask users for text. If they are registering for an event like camp, we probably ask for their name, age, address, and food allergies. Sometimes we ask for an age/birthdate, and sometimes we ask them to "check all that apply." We can have special inputs based on the information we are asking our users for. Here are some common input types you've probably seen. Can you predict what they do?
+Most often, we ask users for text. If they are registering for an event like Kode With Klossy camp, we probably ask for their name, age, address, and coding background. Sometimes we ask for an age/birthdate, and sometimes we ask them to "check all that apply." We can have special inputs based on the information we are asking our users for. Here are some common input types you've probably seen. Can you predict what they do?
 
 - `<input type="password">`
 - `<input type="number">`
@@ -98,7 +99,8 @@ Most often, we ask users for text. If they are registering for an event like cam
 
 <div class="try-it">
   <h2>Try It: HTML Forms</h2>
-  <p>In a new CodePen, create an HTML with at least 4 inputs. Use at least 2 different types of inputs.</p>
+  <p>What kind of questions would you want to ask a user? Remix <a target="blank" href="https://glitch.com/~try-it-html-forms">this Glitch project</a>. Write at least 4 input elements in the HTML. Use at least 2 different types of inputs. Then, write a button so that the user can submit the form.</p>
+  <p>In the app, try providing a value as a user - what does each type of input do, or show the user?</p>
   <p>Finished early? Check out other types of input you have available with HTML <a target="blank" href="https://www.w3schools.com/html/html_form_input_types.asp">here</a>. Also, check out the <code class="try-it-code">textarea</code> element.</p>
 </div>
 
@@ -147,19 +149,19 @@ To make this happen, we will have to write code that:
 - Gets the information that the user typed in
 - Use that information in a message/response
 
-Check out the CodePen below to see what that looks like in JavaScript:
+Check out the Glitch project below to see what that looks like in JavaScript:
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="YMOMgE" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Forms with JS">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/YMOMgE/">
-  Check It Out: Forms with JS</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-<br>
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/example-forms-with-js?path=index.html&previewSize=100&attributionHidden=true"
+    title="example-forms-with-js on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div><br>
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>While referencing the CodePen above, do your best to answer each question with your parter.</p>
+  <p>While referencing the Glitch project above, do your best to answer each question with your parter.</p>
   <ul>
     <li>What is the name of the event handler?</li>
     <li>Based on the name of the event handler, what do you think its job is to do?</li>
@@ -169,7 +171,7 @@ Check out the CodePen below to see what that looks like in JavaScript:
 </div>
 
 Takeaways:
-- Inside our event handler, we can instruct our program to grab the current value of an input element. We do this with `.val()`.
+- Inside our event handler `getNameAndLogToConsole`, we can instruct our program to grab the current value of an input element. We do this with `.val()`.
 - We need to store the value of the input element in a variable.
 - We have to wait until we are inside the event handler to grab the input value. Otherwise, it would still be an empty string.
 
@@ -194,15 +196,15 @@ The `event` variable we are passing around represents the click event. This is a
 
 <div class="try-it">
   <h2>Try It: Refactor into a Form</h2>
-  <p>Fork <a target="blank" href="https://codepen.io/turing-kwk/pen/YbKWbw?editors=1111">this CodePen</a> and refactor it so that the inputs are wrapped in a form. Make sure it has the same functionality it did before your refactor.</p>
+  <p>Go back to the Glitch project where we asked your user for four different inputs. Refactor it so that the inputs are wrapped in a form. Make sure it has the same functionality it did before your refactor!</p>
 </div>
 
 Take some time to put together everything we've learned today and complete the practice below.
 
 <div class="practice">
   <h2>Practice: Forms</h2>
-  <p>Create a new CodePen. Don't forget to load jQuery into the pen!</p>
+  <p>Create a new Glitch project. Don't forget to add the script tag for jQuery! You can copy and paste that line from a previous project.</p>
   <p><strong>Mild Challenge:</strong> Build a small site that has two input fields and a button to submit. You can choose what type of information the user needs to provide! Just make sure that the user gets clear directions on what they should enter. When the user clicks the button, they should see a message that includes both pieces of information that they provided appear on the screen.</p>
   <p><strong>Medium Challenge:</strong> Build a small site that has two input fields and a button to submit. The user should see directions instructing them to create a new password, then type that same password in the second input field. When they click the button, they should get one of two messages: "Oops! Those don't match." or "Great password! It's been reset." based on if the two inputs match each other.</p>
-  <p><strong>Spicy Challenge:</strong> You can add this on to either the Mild or Medium Challenge. If the user didn't complete one of the input fields, don't let them click the button. You'll need to look into the HTML attribute <code class="practice-code">disabled</code> and a conditional! </p>
+  <p><strong>Spicy Challenge:</strong> You can add this on to either the Mild or Medium Challenge. If the user didn't complete one of the input fields, don't let them click the button. You'll need to look into the HTML attribute <code class="practice-code">disabled</code> and a conditional!</p>
 </div>
