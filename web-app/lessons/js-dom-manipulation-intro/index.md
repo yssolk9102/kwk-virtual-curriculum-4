@@ -102,7 +102,14 @@ We can also access elements by classes. Instead of `('h1')` we would need to wri
   <p>Use <a target="blank" href="https://glitch.com/~intro-to-dom-try-it">this Glitch project</a> as a starter. We will use this project throughout today's lesson.</p>
   <p>First, familiarize yourself with the existing HTML elements. For this activity, you should not need to change the HTML.</p>
   <p>In your JavaScript file, write code to access each element and store in a variable, then print to the console. Practice accessing elements by element type or class. In the console, you should see your <code class="try-it-code">console.log</code> statements.</p>
-  <p><strong>Medium Challenge:</strong> Create a duplicate of the <code class="try-it-code">h1</code> element in the HTML and check the console. Was anything different printed this time? Why? What does this tell you about the importance of using classes?</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>Create a duplicate of the <code class="medium-code">h1</code> element in the HTML and check the console. Was anything different printed this time? Why? What does this tell you about the importance of using classes?</p>
+    </div>
+  </div>
+  
 </div>
 
 ## Change Content on the DOM
@@ -124,7 +131,14 @@ What's happening? The `h1` element has a method called `text`. When we originall
   <h2>Try It: Change Text</h2>
   <p>Continue working in the Glitch project from the last Try It.</p>
   <p>By only adding code to the JavaScript file, change the text inside of at least two elements.</p>
-  <p><strong>Medium Challenge:</strong> If you changed the text of the <code class="try-it-code">h1</code> on one line of code, then on the line below changed it to something else, which one would show in the browser? Why?</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>If you changed the text of the <code class="medium-code">h1</code> on one line of code, then on the line below changed it to something else, which one would show in the browser? Why?</p>
+    </div>
+  </div>
+
 </div>
 
 This was interesting, but we could have just written different text inside the HTML tags to accomplish what we just did here. As was mentioned earlier, we are taking today's concept step by step. Move on to the next section and you'll start seeing some ✨magic✨ happen!
@@ -153,7 +167,14 @@ The Glitch project below has an example of the syntax. Click View Source to look
 <div class="try-it">
   <h2>Turn & Talk</h2>
   <p>With your partner, read through each line of the JavaScript file in the Glitch project above. Lines 4 and 9 should be somewhat familiar; but line 6 is brand-new. What is your prediction about what each part of the code is doing?</p>
-  <p><strong>Medium Challenge:</strong> The function <code class="try-it-code">doSomething</code> is never called with the syntax we've learned: <code class="try-it-code">doSomething()</code>. Why not? What happens if we add <code class="try-it-code">()</code> after <code class="try-it-code">doSomething</code> on line 3? Remix the project to find out!</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>The function <code class="medium-code">doSomething</code> is never called with the syntax we've learned: <code class="medium-code">doSomething()</code>. Why not? What happens if we add <code class="medium-code">()</code> after <code class="medium-code">doSomething</code> on line 3? Remix the project to find out!</p>
+    </div>
+  </div>
+
 </div>
 
 Takeaways:
@@ -243,6 +264,19 @@ This entire line of code accesses the `div` element and updates that elements st
   <p>You can either work off of the Baby Seals Glitch project, or <a target="blank" href="https://glitch.com/~practice-dark-mode">start with this one!</a></p>
   <p>Create two <code class="practice-code">button</code> elements in your HTML, both nested inside of a <code class="practice-code">div</code>. One button should be labeled "light mode" and the other "dark mode". They will both need their own class name.</p>
   <p>Now, write the JavaScript so that when the dark mode button is clicked, the background color of the <code class="practice-code">div</code> changes to a dark color. When the light mode button is clicked, the background color should change to a light color.</p>
-  <p><strong>Medium Challenge:</strong> When an application uses dark mode, not only the background color changes; so do fonts, colors, etc. Add a few more elements to your HTML. When each button is clicked, those elements should change colors appropriately.</p>
-  <p><strong>Spicy Challenge:</strong> In addition to light and dark mode, add a "party mode" button. When clicked, the user should see a screen that looks like a party! Use a <code class="practice-code">background image</code> instead of a background color. Have some fun with it!</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>When an application uses dark mode, not only the background color changes; so do fonts, colors, etc. Add a few more elements to your HTML. When each button is clicked, those elements should change colors appropriately.</p>
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>In addition to light and dark mode, add a "party mode" button. When clicked, the user should see a screen that looks like a party! Use a <code class="spicy-code">background image</code> instead of a background color. Have some fun with it!</p>
+    </div>
+  </div>
+
 </div>
