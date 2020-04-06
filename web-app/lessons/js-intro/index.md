@@ -175,8 +175,9 @@ Make sure to use the back-ticks when you are using string interpolation (image b
   <h2>Try It: Interpolation</h2>
   <p>Open a new CodePen. You should type your code in the JavaScript editor of the CodePen, and see the results in the console.</p>
   <p>If you have the strings "Karlie" and "Kloss" in the following variables:</p>
-  <code class="try-it-code">var first = "Karlie"</code><br>
-  <code class="try-it-code">var last = "Kloss"</code>
+  <pre>
+  var first = "Karlie"
+  var last = "Kloss"</pre>
   <p>Use string interpolation to complete the following:</p>
   <ul>
     <li>What code can you write to output the string "KarlieKloss"?</li>
@@ -228,9 +229,9 @@ Takeaways:
 
 <div class="practice">
   <h2>Pro Tip</h2>
-  <p>Have you noticed that sometimes lines of code in example are greyed out and start with two forward slashes <code class="try-it-code">//</code>?</p>
+  <p>Have you noticed that sometimes lines of code in example are greyed out and start with two forward slashes <code class="practice-code">//</code>?</p>
   <p><strong>Comments</strong> are a way we can take notes in plain english, or use snippets of code that aren't complete. They appear in a shade less obvious that most lines of code and will not be read by the interpreter!</p>
-  <p>To write a comment in your JavaScript code, start the line with two forward slashes <code class="try-it-code">//</code>. Or, you can use the keyboard shortcut <code class="try-it-code">cmd + /</code> on your Mac!</p>
+  <p>To write a comment in your JavaScript code, start the line with two forward slashes <code class="practice-code">//</code>. Or, you can use the keyboard shortcut <code class="practice-code">cmd + /</code> on your Mac!</p>
 </div>
 
 Again, as we did with strings, we can **interpolate** with variables that hold numbers.
@@ -283,10 +284,11 @@ console.log(`Because ${tinsOfKookies} tins of kookies were purchased during Fash
 <div class="try-it">
   <h2>Try It: Numbers & Operators</h2>
   <p>Start with these numbers:</p>
-  <code class="try-it-code">var a = 12;</code><br>
-  <code class="try-it-code">var b = 65;</code><br>
-  <code class="try-it-code">var c = 31;</code><br>
-  <code class="try-it-code">var d = 98;</code>
+  <pre>
+  var a = 12;
+  var b = 65;
+  var c = 31;
+  var d = 98;</pre>
   <p>Write code to find the average of the four numbers above.</p>
   <br>
   <p><strong>Medium Challenge:</strong> Find the answer to this problem using JavaScript: On average, there are 23.5 scholars at each Kode With Klossy camp this year. If there are 36 camps taking place, about how many scholars are attending in total? Print out to the console your answer in a complete sentence.</p>
