@@ -180,7 +180,7 @@ trending.forEach(function(creator) {
 <div class="try-it">
   <h2>Explore: <code class="try-it-code">forEach</code></h2>
   <p>With your partner, talk about what you think is happening on each line of the code above.</p>
-  <p>Once you've made your predictions, type the code out in a CodePen and see what happens. Were your predictions accurate?</p>
+  <p>Once you've made your predictions, type the code out in a repl and see what happens. Were your predictions accurate?</p>
 </div>
 <br>
 
@@ -192,7 +192,7 @@ Let's break this code down:
 
 <div class="try-it">
   <h2>Try It: forEach</h2>
-  <p>In a CodePen, write an array with at least four elements, strings, of things you want to learn.</p>
+  <p>In a repl, write an array with at least four elements, strings, of things you want to learn.</p>
   <p>Write a <code class="try-it-code">forEach</code> for this array and print out "I want to learn ____" for each element.</p>
 </div>
 
@@ -268,7 +268,7 @@ console.log(largeNumbers); // [23, 14, 11, 92]
 
 <div class="try-it">
   <h2>Try It: Placeholders</h2>
-  <p>In a CodePen, write an array that contains at least five strings and store it in a variable. You choose what the words are!</p>
+  <p>Write an array that contains at least five strings and store it in a variable. You choose what the words are!</p>
   <p>Use <code class="try-it-code">forEach</code> to create a new array of the words from your original array than have less than 6 characters. Use <code class="try-it-code">console.log()</code> to verify your new array holds what you think it does.</p>
 
   <div class="challenge-container spicy-heat">
