@@ -74,7 +74,7 @@ function walkDog() {
 walkDog();
 ```
 
-The last line of the code snippet is what **calls** the function. If we have this code in a CodePen and open up the console, we should see each step printed out.
+The last line of the code snippet is what **calls** the function. Once we run the code, we should see each step print out on the right-hand side of the repl.
 
 <div class="try-it">
   <h2>Try It: Declaring & Calling a Function</h2>
