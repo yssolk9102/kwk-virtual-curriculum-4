@@ -16,7 +16,7 @@ title: Intro to Arrays
 
 ## Warm Up
 
-In a CodePen, declare a variable for every scholar in the room. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names.
+In a repl, declare a variable for every scholar in the room. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names.
 
 ## Collections
 
@@ -101,8 +101,8 @@ trending.length;
 
 <div class="try-it">
   <h2>Try It: Creating Arrays</h2>
-  <p>In a new CodePen, create a variable that stores an array of at least 4 strings - you choose what the content is about. The variable name should describe the type of data those 4 strings hold.</p>
-  <p>Write a series of <code class="try-it-code">console.log()</code> or <code class="try-it-code">alert()</code> statements: print out the first element, the last element, and then the second element.</p>
+  <p>In the same repl from the Warm Up, create a variable that stores an array of at least 4 strings - you choose what the content is about. The variable name should describe the type of data those 4 strings hold.</p>
+  <p>Write a series of <code class="try-it-code">console.log()</code>  statements: print out the first element, the last element, and then the second element.</p>
 </div>
 
 ### Updating Elements
