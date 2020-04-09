@@ -91,18 +91,20 @@ This is great, but the append is happening right away, so it's not really helpin
 
 We can't just append directly in our JavaScript file, or as we saw, that HTML will be added immediately. We want to respond to our user with an event listener and handler. Here's a more realistic example, with a little more going on.
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="WWqjLp" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Check it Out: Append">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/WWqjLp/">
-  Check it Out: Append</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/example-append?path=script.js&previewSize=0&attributionHidden=true"
+    title="example-append on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+<br>
 
 Read through each line of the JavaScript; make sure to reference the HTML, so you know which DOM element we are accessing.
 
 <div class="try-it">
   <h2>Turn & Talk: Append</h2>
-  <p>While referencing the CodePen above, answer these questions with your partner:</p>
+  <p>While referencing the Glitch project above, answer these questions with your partner:</p>
   <ul>
     <li>What are the two steps that are taken inside the event listener?</li>
     <li>When a name is submitted, the card that it is displayed on has a white background. Where in the code was this style applied? How did the HTML element know about that style?</li>
@@ -137,7 +139,9 @@ The code above would append a `div` that contains two `p`s to the `cardContainer
 
 <div class="try-it">
   <h2>Try It: Append</h2>
-  <p>Fork <a href="https://codepen.io/turing-kwk/pen/rbEzOa">this CodePen</a> and write JavaScript so that the user can write a to-do list. A couple of commented out notes were provided to get you started!</p>
+  <p>Remix <a target="blank" href="https://glitch.com/~try-it-append">this Glitch project</a>.</p>
+  <p>First, change the blank spaces on lines 12, 13, and 16 to tailor the form to whatever kind of list you want your user to make.</p>
+  <p>Then, write JavaScript so that the user can write a list. A couple of commented out notes were provided to get you started!</p>
 
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
@@ -195,11 +199,11 @@ _Keep in mind: for this to all work, our JavaScript file would still have all th
 
 <div class="try-it">
   <h2>Try It: Delete a To-Do</h2>
-  <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/XwWgXe">this CodePen</a>. Then, fork it to your account and start working on the steps below:</p>
+  <p>You are going to implement delete functionality on your list application you built in the previous Try It.</p>
   <ol>
-    <li>First, between lines 11 and 12, add a button inside the div. Style it however you'd like!</li>
-    <li>Now, write an event listener for a click on the card container. Put a <code class="try-it-code">console.log()</code> statement inside the event handler to make sure you are getting into that function.</li>
-    <li>Write the conditional to check that a delete button was clicked on.</li>
+    <li>Add a button inside the div that you are appending to the card container. Give it a class. Style it however you'd like!</li>
+    <li>Write an event listener for a click on the card container. Put a <code class="try-it-code">console.log()</code> statement inside the event handler to make sure you are getting into that function.</li>
+    <li>Inside the event listener, write a conditional to check that a delete button was clicked on.</li>
     <li>Write the code to delete the card inside of the conditional.</li>
   </ol>
 </div>
@@ -223,7 +227,8 @@ You've learned a **lot** and have already come so far. Put all your skills toget
 
 <div class="practice">
   <h2>Practice: Build a To-Do List</h2>
-  <p>Brainstorm a small-app idea that would require the user to type in at least one input. The user should see their inputted information on the browser and should be able to enter more information and also see that listed. The user should also be able to delete items previously added to the list.</p>
+  <p>Brainstorm a small app idea that would require the user to type in at least one input. The user should see their inputted information in the browser and should be able to enter more information and also see that listed. The user should also be able to delete items previously added to the list.</p>
+  <p><em>If you are starting a Glitch project from scratch, don't forget the script tag for jQuery!</em></p>
 
   <div class="challenge-container spicy-heat">
     <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
