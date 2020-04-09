@@ -115,7 +115,7 @@ year < nextYear
 
 <div class="try-it">
   <h2>Try It: Comparison Operators</h2>
-  <p>For this Try It, type all your code in the JavaScript editor in CodePen. You will need to use <code class="try-it-code">console.log()</code> or <code class="try-it-code">alert()</code> to check the output of your statements.</p>
+  <p>For this Try It, write all your code in a repl. You will need to use <code class="try-it-code">console.log()</code> to check the output of your statements.</p>
   <p>Declare two variables - <code class="try-it-code">firstName</code> and <code class="try-it-code">age</code>, and assign them to appropriate values. Now, check for the following things:</p>
   <ul>
     <li>Is your name the same as "Karlie"?</li>
@@ -190,7 +190,7 @@ Inside the parenthesis after the keyword `if`, we have to give JavaScript an exp
 
 <div class="try-it">
   <h2>Try It: Conditionals</h2>
-  <p>For this Try It, type all your code in the JavaScript editor in CodePen. To see if it's working, look below at the console or use alerts.</p>
+  <p>For this Try It, write all your code in a repl. You will need to use <code class="try-it-code">console.log()</code> to check the output of your statements.</p>
   <ul>
     <li>Create a variable named <code class="try-it-code">luckyNumber</code> and assign it to a number of your choice.</li>
     <li>Write an if statement checking if <code class="try-it-code">luckyNumber</code> is less than 50, which if evaluated to true, prints out a sentence (you choose!). If it is evaluated to false, it should print out a different sentence.</li>
@@ -226,8 +226,6 @@ if (queen === "Beyoncé") {
 }
 ```
 
-Note that this time we are using `console.log()` instead of `alert()`, so make sure to have your console open in CodePen.
-
 Takeaways:
 - We can use any comparison operator in a condition
 - We can use strings or numbers in a condition
@@ -236,7 +234,7 @@ Takeaways:
 
 <div class="try-it">
   <h2>Try It: Conditionals</h2>
-  <p>For this Try It, type all your code in the JavaScript editor in CodePen. To see if it's working, look below at the console.</p>
+  <p>For this Try It, write all your code in a repl. You can choose to work in the same file, or create a new one!</p>
   <ul>
     <li>Create a variable named <code class="try-it-code">favoriteFood</code> and assign it to a string of your favorite food</li>
     <li>Write an if statement comparing your favorite to 'Chipotle', which if evaluated to true, prints out a sentence of your choice</li>
