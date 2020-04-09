@@ -7,6 +7,8 @@ title: Intro to JavaScript
 * Use variables to store strings and numbers
 * Use string interpolation to write sentences using variables
 
+Note: To engage fully in this lesson, you'll want to have an account with repl.it and have a basic understanding of how to use that interface! Find an intro [here]().
+
 ## Technical Vocabulary
 
 - Console
@@ -51,27 +53,13 @@ A string is a primitive JavaScript data type. You can think of a string as a ser
 
 ```js
 'hello, world!'
+
+"Hi, Kode With Klossy!"
+
+"✨ 🎩 💖"
 ```
 
 In JavaScript, strings can be either double-quoted (“like this”) or single-quoted (‘like this’).
-
-In order to experiment with strings, we’ll click on the console button in CodePen:
-
-<img src="./assets/console1.png" alt="">
-
-A console is a place where we can input commands and see the output. Using it is an important part of both learning to code and having a professional workflow.
-
-<div class="try-it">
-  <h2>Try It: Strings</h2>
-  <p>In your CodePen console, type <code class="try-it-code">"your first name"</code>. Instead of the words "your first name", type your actual name. You <strong>do</strong> need to include the quotes.</p>
-  <p>Type <code class="try-it-code">"your age"</code>.</p>
-  <p>Type <code class="try-it-code">"your full name"</code>.</p>
-  <p>Type anything you want - try to use some characters from your keyboard that are not numbers or letters. Make sure your text is enclosed in quotes.</p>
-</div>
-
-Takeaways:
-- Strings can hold any type of character, including spaces
-- The way we type a string will be the exact way a computer sees it (it won't assume we meant to capitalize that first letter, catch if we misspell something, etc.)
 
 ## `console.log()`
 
@@ -83,17 +71,20 @@ Keep the console open, but **in the JavaScript editor tab** on CodePen, type the
 console.log('hello, world!');
 ```
 
-You should see "hello, world!" appear in the console. This isn’t super exciting right now, but let’s build on it.
+You should see "hello, world!" appear in the console. This isn’t super exciting right now, but we will build on it.
 
-## `alert()`
+<div class="try-it">
+  <h2>Try It: Strings</h2>
+  <p>On the left-hand side of the repl.it interface, type <code class="try-it-code">console.log("your first name");</code>. Instead of the words "your first name", type your actual name! You <strong>do</strong> need to include the quotes.</p>
+  <p>Type <code class="try-it-code">console.log("your age");</code>.</p>
+  <p>Type <code class="try-it-code">console.log("your full name");</code>.</p>
+  <p>Type anything you want inside of the <code class="try-it-code">()</code> after <code class="try-it-code">console.log</code>- try to use some characters from your keyboard that are not numbers or letters. Make sure your text is enclosed in quotes.</p>
+  <p>Don't forget to run your code by clicking the green pay button (or using the keyboard shortcut <code class="try-it-code">cmd + enter</code>).</p>
+</div>
 
-Another tool is `alert()`. There will be times this will feel quicker than `console.log()` because you don't have to open your console. Sometimes though, it may not feel as helpful. We reference it in some lessons, so you should be familiar with it.
-
-```js
-alert('hello, world!');
-```
-
-You should see "hello, world!" appear in a box that pops up over your browser. You can't continue working into your browser until you click the "ok" on the alert box.
+Takeaways:
+- Strings can hold any type of character, including spaces
+- The way we type a string will be the exact way a computer sees it (it won't assume we meant to capitalize that first letter, catch if we misspell something, etc.)
 
 ## Variables
 
@@ -122,7 +113,7 @@ console.log(region);
 
 <div class="try-it">
   <h2>Try It: Strings and Variables</h2>
-  <p>Complete the following in a CodePen. You should type your code in the JavaScript editor of the CodePen, and see the results in the console.</p>
+  <p>Complete the following in a repl. You should type your code on the left-hand side of the page, run the code, and then see the results on the right-hand side of the page.</p>
   <p>Declare a variable for each prompt below. Then, print it out to the console.</p>
   <ul>
     <li>A variable called <code class="try-it-code">favoriteColor</code> that holds your favorite color</li>
@@ -173,7 +164,7 @@ Make sure to use the back-ticks when you are using string interpolation (image b
 
 <div class="try-it">
   <h2>Try It: Interpolation</h2>
-  <p>Open a new CodePen. You should type your code in the JavaScript editor of the CodePen, and see the results in the console.</p>
+  <p>Complete this challenge in a repl. You can continue working in the same file as before, or choose to create a new one.</p>
   <p>If you have the strings "Karlie" and "Kloss" in the following variables:</p>
   <pre>
   var first = "Karlie"
@@ -305,7 +296,7 @@ You've now seen and used the foundations of JavaScript and all programming langu
 
 <div class="practice">
   <h2>Practice</h2>
-  <p>Open a new CodePen.</p>
+  <p>Either working in the same repl file or a new one, complete the challenge below!</p>
   <p>Declare three variables: <code class="practice-code">username</code>, <code class="practice-code">caption</code>, <code class="practice-code">numberOfLikes</code>, and <code class="practice-code">numberOfComments</code>. Assign each variable to an appropriate value.</p>
   <p>Print out a sentence to the console using at least two of the variables.</p>
   <p>Now, re-assign the number of likes to a number greater than what it was initially assigned to.</p>
