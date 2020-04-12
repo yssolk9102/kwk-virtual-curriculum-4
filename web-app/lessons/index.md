@@ -25,11 +25,8 @@ Find all lessons below. Note that the lessons are organized by topic below.
 
 - [Intro to CSS]({{ site.url }}/web-app/lessons/css-intro)
 - [Intermediate CSS]({{ site.url }}/web-app/lessons/css-intermediate)
+- [Design]({{ site.url }}/web-app/lessons/design)
 - [Flex Box]({{ site.url }}/web-app/lessons/css-flexbox)
-
-## Setup
-
-- [Intro to Glitch]({{ site.url }}/web-app/lessons/intro-glitch)
 
 ## Culture of Tech
 
@@ -38,11 +35,13 @@ Find all lessons below. Note that the lessons are organized by topic below.
 ## Other
 
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
-- [Design]({{ site.url }}/web-app/lessons/design)
+- [Intro to Glitch]({{ site.url }}/web-app/lessons/intro-glitch)
+- [Intro to repl.it]({{ site.url }}/web-app/lessons/intro-repl)
 - [How to Demo]({{ site.url }}/web-app/lessons/how-to-demo)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
 
 ## Optional Extensions
+
 - [JS: Array Challenges]({{ site.url }}/web-app/lessons/js-array-exercises)
 - [JS: Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
 - [JS: Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
