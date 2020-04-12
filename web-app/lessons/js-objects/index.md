@@ -18,10 +18,10 @@ title: Objects
 
 Pretend you are going to create an app that has a feature that reminds you of friends birthdays. Somewhere in the program, you need to store names and birthdays.
 
-With your partner, write at least one way that you could store a list of _both_ names and birthdays.
+With your breakout group, brainstorm at least one way that you could store a list of _both_ names and birthdays.
 
 Be ready to share out:
--  What you came up with
+- What you came up with
 - The benefits of this solution
 - The drawbacks of this solution
 
