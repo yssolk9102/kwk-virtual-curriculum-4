@@ -135,7 +135,6 @@ Learn about even more values that we can provide to `justify-content` with <a ta
 <div class="try-it">
   <h2>Try It: Flexbox Froggy</h2>
   <p>Work your way through Levels 1 - 4 of <a target="blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>.</p>
-  <p>Make sure to check in with your partner every few levels to see if they need any help!</p>
 </div>
 
 ## Align Items
