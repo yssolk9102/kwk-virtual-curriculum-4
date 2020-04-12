@@ -18,26 +18,8 @@ title: Intermediate CSS
 - Padding
 
 ## Warm Up
-<!-- change this to a zoom poll!!! -->
-There are 4 posters around the room with HTML elements written on them. On the sticky notes at your table, write out how you would select that element in CSS.
 
-Here's an example:
-
-```html
-<section class="cards">
-```
-
-```css
-.cards {
-
-}
-
-/* OR */
-
-section {
-
-}
-```
+What is your favorite thing about CSS so far? Be ready to share out!
 
 ## Block vs. Inline
 

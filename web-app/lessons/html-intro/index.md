@@ -17,7 +17,7 @@ title: Intro to HTML
 
 ## Warm Up
 
-In your notebook, jot down your answers to the following questions. Then, we'll discuss them as a class.
+In your notebook, jot down your answers to the following questions. Be ready to share your answers!
 - What are your favorite websites/mobile apps?
 - What is it about them that you like? The look? The functionality/purpose?
 

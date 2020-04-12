@@ -21,9 +21,7 @@ title: Intro to CSS
 
 Over the next couple of days, we'll create a lot of small websites to practice what we're learning.
 
-Write a list of topics you are interested in or passionate about that you can refer back to when you need to make a small site.
-
-Share with your partner - this will also help you get to know each other!
+Write a list of topics you are interested in or passionate about that you can refer back to when you need to make a small site. Be ready to share your answers!
 
 ## What is CSS?
 
