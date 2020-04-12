@@ -179,7 +179,7 @@ trending.forEach(function(creator) {
 
 <div class="try-it">
   <h2>Explore: <code class="try-it-code">forEach</code></h2>
-  <p>With your partner, talk about what you think is happening on each line of the code above.</p>
+  <p>With your breakout group, talk about what you think is happening on each line of the code above.</p>
   <p>Once you've made your predictions, type the code out in a repl and see what happens. Were your predictions accurate?</p>
 </div>
 <br>
