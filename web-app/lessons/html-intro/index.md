@@ -68,31 +68,6 @@ Here is an example of a slightly more complex HTML document:
   <p>Need some filler text? Check out <a href="https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/">this Lorem Ipsum Generator.</a></p>
 </div>
 
-## Links
-
-To add a link, we use the `<a>` tag. It has an opening and closing tag, and it utilizes attributes!
-
-The `<a>` tag, like the `<img>` tag, also has an attribute. Instead of `src`, we use `href` or hyper reference. The value of this attribute should be the web address, including http://, where you want the link to go.
-
-For example:
-
-```html
-<a href="https://www.karliekloss.com/">Karlie Kloss</a>
-```
-
-<div class="try-it">
-  <h2>Try It: Adding Links</h2>
-  <p>In the same Glitch project you remixed then worked in before, add a few links to your HTML.</p>
-
-  <div class="challenge-container medium-heat">
-    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
-    <div class="spicy-toggle">
-      <p>Make an HTML list and add your links as list items. <em>You may need to Google search to learn how to create an HTML list.</em></p>
-    </div>
-  </div>
-
-</div>
-
 ## Images and Attributes
 
 We use HTML tags to “mark up” text to show its semantic meaning. The browser uses these tags to build up the document. Most tags have an opening and closing tag, but a few do not. For example, images (defined using the `<img>` tag) do not have a closing tag.
@@ -124,6 +99,31 @@ Two new things are happening here:
     <li>In your HTML, write an image tag, then use <code class="try-it-code">cmd + v</code> to paste the image address into the quotes for your <code class="try-it-code">src</code> attribute!</li>
   </ul>
   <p>Are some images showing up way larger than you'd like? We will learn how to control that with CSS soon. For now, you can add this line of code to the <code class="try-it-code">style.css</code> file in your Glitch project: <code class="try-it-code">img { height: 300px; } </code></p>
+</div>
+
+## Links
+
+To add a link, we use the `<a>` tag. It has an opening and closing tag, and it utilizes attributes!
+
+The `<a>` tag, like the `<img>` tag, also has an attribute. Instead of `src`, we use `href` or hyper reference. The value of this attribute should be the web address, including http://, where you want the link to go.
+
+For example:
+
+```html
+<a href="https://www.karliekloss.com/">Karlie Kloss</a>
+```
+
+<div class="try-it">
+  <h2>Try It: Adding Links</h2>
+  <p>In the same Glitch project you remixed then worked in before, add a few links to your HTML.</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">
+      <p>Make an HTML list and add your links as list items. <em>You may need to Google search to learn how to create an HTML list.</em></p>
+    </div>
+  </div>
+
 </div>
 
 ## Commonly Used Elements

@@ -88,11 +88,16 @@ Let's breakdown the code above, using our vocabulary:
     <li>Repeat these steps with an <code class="try-it-code">h2</code>, then a <code class="try-it-code">p</code>, then another <code class="try-it-code">p</code>. Also check out the <code class="try-it-code">background-color</code> property!</li>
   </ul>
 
-  <p>Finished Early? Here are two <strong>mild challenges</strong>:</p>
-  <ul>
-    <li>Do some google research on how to use hexadecimal codes instead of color names. For example, the hexadecimal code for white is <code class="try-it-code">#ffffff</code>. See if you can implement these in your code!</li>
-    <li>To add in some really fun fonts, check out <a href="https://codepen.io/team/sparkbox/full/OMdwoJ">this how-to guide</a>, then add some fun fonts to your project!</li>
-  </ul>
+  <div class="challenge-container mild-heat">
+    <p class="spicy-click">Click here for 2 Mild Challenges 🌶</p>
+    <div class="spicy-toggle">        
+      <ul>
+      <li>Do some google research on how to use hexadecimal codes instead of color names. For example, the hexadecimal code for white is <code class="mild-code">#ffffff</code>. See if you can implement these in your code!</li>
+      <li>To add in some really fun fonts, check out <a href="https://codepen.io/team/sparkbox/full/OMdwoJ">this how-to guide</a>, then add some fun fonts to your project!</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 ## Borders
