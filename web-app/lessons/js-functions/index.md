@@ -21,8 +21,9 @@ title: Functions
 With your partner, choose one application or website that you both like to use.
 
 You will have one minute to click through the application as you normally would while using it.
-- Partner A should be the "user" - clicking, scrolling, etc.
-- Partner B should be tallying the number of times the application DOES something (examples: load content, respond to a click/tap by showing a different screen or new content, etc.)
+- Partner A should share their screen. You will be the "user" - clicking, scrolling, etc.
+- Partner B should be tallying the number of times the application DOES something (examples: load content, respond to a click by showing a different screen or new content, etc.)
+<br>
 
 To build a web application, developers write LOTS of functions. Every time you click a button and see something happened, a function (or many functions) just performed its job. Every time you see new data load (your account page, someone else's profile page, detail of an image, etc.), a function just performed its job.
 
@@ -232,6 +233,6 @@ Over the course of this camp, we will write a lot of functions! They will have d
 <div class="practice">
   <h2>Practice: Functions, Arguments, Return Values</h2>
   <p>As a class, let's brainstorm another task that we can give our robot.</p>
-  <p>With your partner, decide which task you'd like to write code for. Make a list of steps that would be required to complete the task. Make a list of possible arguments you could pass the function to make it dynamic. Get your lists approved, then declare and call your function.</p>
+  <p>With your partner, decide which task you'd like to write code for. Make a list of steps that would be required to complete the task. Make a list of possible arguments you could pass the function to make it dynamic. Get your lists approved by your breakout session leader, then declare and call your function.</p>
   <p>Now, re-write your function so it not only <code class="practice-code">console.log</code>s data, but returns a value. Store the return value in a variable.</p>
 </div>
