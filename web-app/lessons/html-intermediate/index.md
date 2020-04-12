@@ -17,9 +17,6 @@ title: Intermediate HTML
 - Nest
 - Wrap
 
-## Warm Up
-
-
 ## Intro
 
 A lot of the content in this lesson will feel very intertwined with CSS. We will reference CSS several times and even get to use it a couple of times!
@@ -28,20 +25,15 @@ The reason for this is that as we begin to build more professional looking sites
 
 ## Nesting Elements
 
-In most HTML documents, we will see **nesting**. This means that one (or more) elements will live inside of another element.
+In most HTML documents, we will see **nesting**. This means that one (or more) elements will live inside of another element. There are two words you'll hear in regards to nesting: **nest** and **wrap**.
 
-One common example is when you see one word within a paragraph that is a link. To aid in formatting pages (which we will go into more in our next CSS lesson), we can use **container** elements. Their job is to hold a group of elements together. The Turn & Talk box below is made with a container element that has an `h2` and several `p` tags within it.
-
-<div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>Read through the two code snippets below, then talk with your partner about both, including answers to these questions:</p>
-  <p>In the first code snippet, which element is nested inside of the <code class="try-it-code">p</code>? Why do you think the author of this code decided to use nesting?</p>
-  <p>In the second code snippet, which element is wrapped around other elements? What do you think the author decided to indent all of the nested elements they way they did? What do you imagine <code class="try-it-code">nav</code> stands for/does?</p>
-</div>
+One common example is when you see one word within a paragraph that is a link. In the example below, we would say that the `<a>` element is nested inside of the `<p>`.
 
 ```html
 <p>“Don't let anyone rob you of your imagination, your creativity, or your curiosity. It's your place in the world; it's your life. Go on and do all you can with it, and make it the life you want to live.”  - <a href="https://www.space.com/17169-mae-jemison-biography.html">Mae Jemison<a>, first African American woman astronaut in space</p>
 ```
+
+To aid in formatting pages (which we will go into more in our next CSS lesson), we can use **container** elements. Their job is to hold a group of elements together. In the example below, the `nav` element _is wrapping_ the `h1`, `p`, `input`, and `button` elements. You could also say that the `h1`, `p`, `input`, and `button` elements _are nested in_ the `nav` element.
 
 ```html
 <nav>
@@ -51,10 +43,6 @@ One common example is when you see one word within a paragraph that is a link. T
   <button>Go!</button>
 </nav>
 ```
-
-There are two words you'll hear in regards to nesting: **nest** and **wrap**.
-
-In the second example, the `nav` element _is wrapping_ the `h1`, `p`, `input`, and `button` elements. You could also say that the `h1`, `p`, `input`, and `button` elements _are nested in_ the `nav` element.
 
 It's also important to point out the use of indentation in the example above. Since `nav` is the parent or wrapping element, it is not indented at all. Every element nested inside of it is indented one tab. The HTML will _work_ even if indentation isn't used, but it makes it much more readable for you and others.
 
@@ -84,9 +72,9 @@ Other container elements we can use:
 For all the container elements listed above, they behave the same as a `div`. They just hold other elements and keep them contained. We _should_ use them only when appropriate - but there isn't a right or wrong as to how to use them. Two sites could look exactly the same, but the code that created them could look quite different!
 
 <div class="try-it">
-  <h2>Turn & Talk: Container Elements</h2>
+  <h2>Explore: Container Elements</h2>
   <p>What type of content, do you predict, would be appropriate to be contained in each of the elements listed above?</p>
-  <p>With your partner, visit the landing page for <a href="https://www.spotify.com/us/">Spotify</a>, and answer these questions:</p>
+  <p>Visit the landing page for <a href="https://www.spotify.com/us/">Spotify</a>, and answer these questions:</p>
   <ul>
     <li>What information is in the header/nav?</li>
     <li>Is there a footer? What type of information is in it?</li>
