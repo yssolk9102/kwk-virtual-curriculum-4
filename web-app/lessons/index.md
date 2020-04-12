@@ -43,7 +43,7 @@ Find all lessons below. Note that the lessons are organized by topic below.
 - [Videos]({{ site.url }}/web-app/lessons/videos)
 
 ## Optional Extensions
-- [JS: Code Challenges]({{ site.url }}/web-app/lessons/code-challenges)
+- [JS: Array Challenges]({{ site.url }}/web-app/lessons/js-array-exercises)
 - [JS: Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
 - [JS: Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
 - [CSS: Responsive Design]({{ site.url }}/web-app/lessons/css-extension-responsive-design)
