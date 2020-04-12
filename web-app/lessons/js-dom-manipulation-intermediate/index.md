@@ -15,9 +15,7 @@ title: Intermediate DOM Manipulation
 
 ## Warm Up
 
-- List out all the ways you know how to manipulate the DOM so far.
-- For each thing you listed out, write it on an individual sticky note.
-- Place each sticky note on the board.
+List out all the ways you know how to manipulate the DOM so far. Be ready to share out!
 
 ## DOM Manipulation
 
@@ -86,7 +84,7 @@ This is great, but the append is happening right away, so it's not really helpin
 
 <div class="try-it">
   <h2>Turn & Talk: When to Append</h2>
-  <p>With your partner, write out a list (pseudo-code) of things we want to the computer to do to make a working to-do list, in order. Include in the order: when the user would interact.</p>
+  <p>With your brekaout group, write out a list (pseudo-code) of things we want to the computer to do to make a working to-do list, in order. Include in the order: when the user would interact.</p>
 </div>
 
 We can't just append directly in our JavaScript file, or as we saw, that HTML will be added immediately. We want to respond to our user with an event listener and handler. Here's a more realistic example, with a little more going on.
@@ -104,7 +102,7 @@ Read through each line of the JavaScript; make sure to reference the HTML, so yo
 
 <div class="try-it">
   <h2>Turn & Talk: Append</h2>
-  <p>While referencing the Glitch project above, answer these questions with your partner:</p>
+  <p>While referencing the Glitch project above, answer these questions with your breakout group:</p>
   <ul>
     <li>What are the two steps that are taken inside the event listener?</li>
     <li>When a name is submitted, the card that it is displayed on has a white background. Where in the code was this style applied? How did the HTML element know about that style?</li>

@@ -22,7 +22,7 @@ Visit [the DisneyPlus login page](https://www.disneyplus.com/login). As a user, 
 Visit [the Discord login page](https://discordapp.com/login). As a user, if you were to enter your email and password, then click "Login," what would you expect to happen next?
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>Brainstorm</h2>
   <p>We just looked at two login forms. What are some other examples you enter information and expect something to happen? Feel free to look through some of your favorite sites for examples.</p>
 </div>
 
@@ -160,8 +160,8 @@ Check out the Glitch project below to see what that looks like in JavaScript:
 </div><br>
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>While referencing the Glitch project above, do your best to answer each question with your parter.</p>
+  <h2>Explore</h2>
+  <p>While referencing the Glitch project above, do your best to answer each question.</p>
   <ul>
     <li>What is the name of the event handler?</li>
     <li>Based on the name of the event handler, what do you think its job is to do?</li>
