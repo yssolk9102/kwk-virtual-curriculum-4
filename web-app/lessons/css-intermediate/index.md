@@ -225,7 +225,7 @@ In this final section, you'll use your new knowledge about the box model and ima
   <h2>Practice</h2>
   <p>Card is a word that is commonly used in front-end development. When we refer to a card, we usually mean a <code class="practice-code">div</code> or another similar element that is used to contain information. The profile information on Twitter could be called a card.</p>
   <p>We are going to begin recreating a Twitter profile card. There are many ways this can be achieved - you may see that you and your partner's outcome looks the same, but code looks very different! That's ok! As you get more practice, you will find which methods you prefer.</p>
-  <p>Create a new pen on Glitch project. Remember, a lot of code is provided in the initial HTML file, so you may want to first delete what you don't need. Then, work towards replicating the image below. Feel free to use any images and text you'd like!</p>
+  <p>Create a new Glitch project. Remember, a lot of code is provided in the initial HTML file, so you may want to first delete what you don't need. Then, work towards replicating the image below. Feel free to use any images and text you'd like!</p>
   <img class="medium" src="./assets/recreate-twitter-card.png" alt="Start of a Twitter profile card">
   <p><em>Hint: You can also use percentages as units for the width of an image.</em></p>
 
