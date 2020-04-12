@@ -21,7 +21,7 @@ Note: To engage fully in this lesson, you'll want to have an account with repl.i
 
 ## Warm Up
 
-Play [Flag Fest](https://flag-fest.herokuapp.com/flag-fest) with your partner. Choose any region you'd like!
+In your breakout room, have the person with the longest hair share their screen. Play [Flag Fest](https://flag-fest.herokuapp.com/flag-fest) as a small group. Choose any region you'd like!
 
 ## What is JavaScript?
 
@@ -31,7 +31,7 @@ If we compare a web app to a human body, we can think of HTML as a skeleton, CSS
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>Think back to Flag Fest that you played in the Warm Up, and feel free to reference it while answering these questions.</p>
+  <p>Think back to Flag Fest that you played in the Warm Up, and feel free to reference it while answering these questions with the same small group.</p>
   <ul>
     <li>What are some of the HTML elements that were probably used?</li>
     <li>What are some of the things the site <strong>does</strong>?</li>
@@ -210,7 +210,7 @@ console.log(points);
 <div class="try-it">
   <h2>Turn & Talk: Incrementing Numbers</h2>
   <p>Incrementing numbers like what we just looked at above is something developers do very frequently.</p>
-  <p>With your partner, brainstorm some examples of numbers incrementing in real apps that you use.</p>
+  <p>Brainstorm some examples of numbers incrementing in real apps that you use. Be ready to share what you brainstormed!</p>
 </div>
 
 Takeaways:
