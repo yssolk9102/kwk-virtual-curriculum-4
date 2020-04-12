@@ -16,7 +16,7 @@ title: Intro to Arrays
 
 ## Warm Up
 
-In a repl, declare a variable for every scholar in the room. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names.
+In a repl, declare a variable for every scholar in the zoom. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names. Be ready to share your code!
 
 ## Collections
 
@@ -31,8 +31,9 @@ An **array** is a complex data type. It is an ordered collection that stores mul
 An array can store any kind of element - from numbers to strings to ... other arrays. Usually, a single array holds a lot of items that are all of the _same type_.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>Brainstorm</h2>
   <p>Think about Instagram or TikTok - where might those applications use arrays?</p>
+  <p>Be ready to share out both the name of the app you are thinking about, and how it might use arrays.</p>
 </div>
 
 ### Arrays IRL
@@ -70,10 +71,10 @@ Each element in an array is automatically assigned a number called an **index**.
 ```js
 var trending = ["@thecardguy", "@spencerx", "@avani", "@lorengray"];
 ```
-- "@thecardguy" has an index of 0
-- "@spencerx" has an index of 1
-- "@avani" has an index of 2
-- "@lorengray" has an index of 3
+- `@thecardguy` has an index of 0
+- `@spencerx` has an index of 1
+- `@avani` has an index of 2
+- `@lorengray` has an index of 3
 
 By using the square brackets, we can use the index to access a specific value in an array.
 
@@ -222,7 +223,7 @@ Instead of calling `students[0]` or `students[7]`, we called `students[rounded]`
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>Considering this section on selecting random elements from an array, answer the following questions with your partner:</p>
+  <p>Considering this section on selecting random elements from an array, answer the following questions with your breakout group:</p>
   <ul>
     <li>What does <code class="try-it-code">Math.random()</code> do?</li>
     <li>Why did we choose to multiply <code class="try-it-code">Math.random()</code> by 20 for this example?</li>
