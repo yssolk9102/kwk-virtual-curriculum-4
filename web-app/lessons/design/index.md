@@ -68,24 +68,17 @@ It's important to provide a contrast for your page to be pleasant, but it's esse
 
 ### Combinations
 
-There are many ways we can choose to select colors. One common color pairing is **Complementary Colors**, or opposite on the color wheel:
+There are many ways we can choose to select colors. One common color pairing is **Complementary Colors**. These are two colors that sit directly across from each other on the color wheel. They complement each other and often have the most contrast, but that doesn't always mean they make for the nicest pairings.
 
 <img class="small" src="./assets/complementary.jpg">
 
-These are two colors that sit directly across from each other on the color wheel. They complement each other and often have the most contrast, but that doesn't always mean they make for the nicest pairings.
-
-An alternative:
+**Split Complimentary Colors** start with one color and then instead of going straight across the color wheel to the complimentary color, go to either the left of right a couple of colors. This softens the contrast and often gives a nicer, more visually appealing pairing.
 
 <img class="small" src="./assets/split-complementary.jpg">
 
-
-**Split Complimentary Colors** start with one color and then instead of going straight across the color wheel to the complimentary color, go to either the left of right a couple of colors. This softens the contrast and often gives a nicer, more visually appealing pairing.
-
-Another common combination:
+**Analogous Colors** are group of colors that are close to each other on the color wheel. They have enough contrast to be clearly distinguishable from one another, but because they are very similar they form a harmonious group.
 
 <img class="small" src="./assets/analogous.jpg">
-
-**Analogous Colors** are group of colors that are close to each other on the color wheel. They have enough contrast to be clearly distinguishable from one another, but because they are very similar they form a harmonious group.
 
 <div class="try-it">
   <h2>Try It: Colors</h2>
@@ -114,13 +107,14 @@ Here are some examples of wireframes other people have drawn up before starting 
 <img class="small" src="./assets/wireframe-4.jpeg">
 
 Things to consider as you wireframe:
-- If the site is responsive, what will it look like on each device size?
-- If the user moves between pages, how will they navigate? What will that flow be like?
+- What HTML elements will be used for each piece of the page?
+- What class names will you use for those elements?
 - What Design Principals are being utilized so the page is clear and understandable?
-- Get user feedback. Ask someone who wasn't involved in the design process for their opinion.
+- Make a decision about the color palette you'll use, and write those colors (hex codes, rgba, other) down so you don't forget.
+- Get user feedback. Ask someone who wasn't involved in the design process for their opinion!
 
 <div class="practice">
   <h2>Practice: Design & UX</h2>
-  <p>You've been contracted to design an app for a dog-walking business. Select a color palette, and draw out a wireframe, keeping in mind the Design Principals  we've learned about!</p>
+  <p>You've been contracted to design an app for a dog-walking business. Select a color palette, and draw out a wireframe, keeping in mind the Design Principals we've learned about!</p>
   <p>Be ready to share your design and thinking behind it.</p>
 </div>
