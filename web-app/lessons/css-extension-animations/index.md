@@ -2,6 +2,8 @@
 title: CSS Animations
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Write transformations for HTML elements
@@ -98,7 +100,7 @@ In between the 0% and 50%, and 50% and 100% directions, CSS is smart enough to m
 
 For the rest of this lesson, we will work through building a little bouncing ghost with CSS animations! Eventually, he/she/they will look like this:
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-shadow.gif" alt="finished ghost">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-shadow.gif" alt="finished ghost">
 
 But we've got to start simple. First, let's create a container `div` that we can use to contain all of our ghost parts (body, eyeballs, flaps, etc.). We'll give this container a width of 100px in CSS.
 
@@ -116,25 +118,25 @@ But we've got to start simple. First, let's create a container `div` that we can
 
 Now that we have a container, we can add another `div` inside for the basic ghost body. We will style the height and background color of this inner ghost-body element to look like the picture below:
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-step-one.png" alt="shapeless ghost">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-step-one.png" alt="shapeless ghost">
 
 #### Basic Ghost Shape
 
 Let's use a `border-radius` to create the head of the ghost.
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-step-two.png" alt="basic ghost">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-step-two.png" alt="basic ghost">
 
 #### Ghost with Basic Flaps
 
 Next, we'll add three more `div`s to create flaps. Give these flaps the class of "flap". We'll use CSS to get these divs to line up next to each other. NOTE: This part may take some tinkering, [like this](https://giphy.com/gifs/13XW2MJE0XCoM0).
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-step-three.png" alt="basic flaps ghost">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-step-three.png" alt="basic flaps ghost">
 
 #### Ghost with Curved Flaps
 
 Finally, we'll use the `border-radius` to curve the flaps on the bottom.
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-step-four.png" alt="curved flaps ghost">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-step-four.png" alt="curved flaps ghost">
 
 ### Transformations
 
@@ -187,38 +189,39 @@ Can you use what you know about keyframes and the animation property to make you
 
 Hint: You'll need to use the `transform: translate()` property. Be sure to add two values for pixels inside of the parentheses.
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-simple-move.gif" alt="simple move ghost">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-simple-move.gif" alt="simple move ghost">
 
 ### Multi-directional Moving Ghost
 
 Now, let's get more complicated. Right now, we have one keyframe at 50%. Can you make **several keyframe points** so that the ghost looks like it is floating across the screen while also moving slightly up and down?
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-complex-move.gif" alt="multi-directional moving ghost">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-complex-move.gif" alt="multi-directional moving ghost">
 
 ### Ghost with Wiggling Flaps
 
 Define another keyframe called `wiggle` and make it so that the `border-radius` on the ghost flaps change in some way at 25% and 75%. Be sure to add `animation: wiggle 3s linear infinite` to your `.flap` rule in CSS.
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-wiggle-flaps.gif" alt="wiggle flaps ghost">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-wiggle-flaps.gif" alt="wiggle flaps ghost">
 
 ### Ghost with Eyes
 
 Add two `div`s within the ghost-body div and give them a class of `.eyeball`. Then style the eyeballs to have a height, width, border-radius, margin, and display inline-block. Then add `text-align: center` to your `.ghost-body` styles in order to center the eyeballs.
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-eyes.gif" alt="ghost with eyes">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-eyes.gif" alt="ghost with eyes">
 
 ### Blinking Ghost
 
 Create another keyframe, `blink`, that changes the height of the eyeballs.
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-blinking.gif" alt="ghost with eyes">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-blinking.gif" alt="ghost with eyes">
 
 ### Ghost Shadow
 
 Add a div below the ghost-body div and give it height, width, background-color, and a border-radius. It should automatically float if it's inside of the ghost-container div.
 
-<img class="small" src="{{ site.url }}/web-app/lessons/animations/assets/ghost-shadow.gif" alt="ghost with shadow">
+<img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-shadow.gif" alt="ghost with shadow">
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
 <!-- ### Finished Product
 
