@@ -57,7 +57,7 @@ As you can see above, we have an empty `section` element in the HTML document. I
 
 <div class="try-it">
   <h2>Check It Out: Basic Append</h2>
-  <p>Fork <a href="https://codepen.io/turing-kwk/pen/rNaYNJo">this CodePen</a>.</p>
+  <p>Remix <a href="https://glitch.com/~explore-basic-append">this Glitch project</a>.</p>
   <p>First, answer the following questions with your partner:</p>
   <ul>
     <li>If you compare the HTML to what you see in the browser, you'll notice that "Make coffee" and the other 2 to-dos are not in the HTML. What code got them to appear in the browser?</li>
