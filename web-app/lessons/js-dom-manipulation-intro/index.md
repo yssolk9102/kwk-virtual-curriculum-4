@@ -21,7 +21,7 @@ title: Intro to DOM Manipulation
 
 ## Warm Up
 
-In order to work all the way through this lesson, we will need to learn how to use the Chrome Developer Tools (aka Dev Tools). We've used the console in CodePen quite a bit up until now; the Chrome Dev Tools are a bigger version of that!
+In order to work all the way through this lesson, we will need to learn how to use the Chrome Developer Tools (aka Dev Tools). We've used the console in repl quite a bit up until now; the Chrome Dev Tools are a more sophisticated version of that!
 
 Like a true developer, you are going to take some time to do some research to teach yourself how to use this tool. Below are three resources, but feel free to find your own great resources as well!
 
@@ -42,8 +42,8 @@ Here's a real-life example of DOM Manipulation:
 I clicked the button, and in response, JavaScript made that message appear. In this lesson, we will learn how to change something on our site based on user interaction.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>Visit your favorite site. Write a list of at least 3 places you think the developers used DOM manipulation.</p>
+  <h2>Brainstorm</h2>
+  <p>Visit your favorite site. Write a list of at least 3 places you think the developers used DOM manipulation. Be ready to share!</p>
 </div>
 
 ## jQuery
@@ -109,7 +109,7 @@ We can also access elements by classes. Instead of `('h1')` we would need to wri
       <p>Create a duplicate of the <code class="medium-code">h1</code> element in the HTML and check the console. Was anything different printed this time? Why? What does this tell you about the importance of using classes?</p>
     </div>
   </div>
-  
+
 </div>
 
 ## Change Content on the DOM
@@ -166,7 +166,7 @@ The Glitch project below has an example of the syntax. Click View Source to look
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>With your partner, read through each line of the JavaScript file in the Glitch project above. Lines 4 and 9 should be somewhat familiar; but line 6 is brand-new. What is your prediction about what each part of the code is doing?</p>
+  <p>With your breakout group, read through each line of the JavaScript file in the Glitch project above. Lines 4 and 9 should be somewhat familiar; but line 6 is brand-new. What is your prediction about what each part of the code is doing?</p>
 
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
@@ -216,7 +216,7 @@ Check this out:
 
 <div class="try-it">
   <h2>Turn & Talk</h2>
-  <p>Remix the Glitch project above, then answer these questions with your partner:</p>
+  <p>Remix the Glitch project above, then answer these questions with your breakout group:</p>
   <ul>
     <li>Why does the button go back and forth between pink and purple?</li>
     <li>Try changing <code class="try-it-code">.toggleClass</code> to <code class="try-it-code">.addClass</code> - what happens?</li>
