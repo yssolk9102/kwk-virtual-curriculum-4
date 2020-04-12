@@ -2,6 +2,8 @@
 title: HTML & Atom
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Understand the structure of an HTML document
@@ -106,3 +108,5 @@ As you continue developing, you'll learn that computers don't make any assumptio
   <p>Write a CSS rules on one of your elements, then check that the changes are reflected in the browser. You may need to refresh (<code class="try-it-code">cmd + r</code>) to see the changes.</p>
   <p>Now, find a font on <a href="https://fonts.google.com/">Google Fonts</a>, add the link to your HTML, and apply that font with a CSS rule. Check that the changes are reflected in the browser!</p>
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

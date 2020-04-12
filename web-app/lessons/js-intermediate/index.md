@@ -2,6 +2,8 @@
 title: Intermediate JavaScript
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * User comparison operators to compare variables, strings, and numbers
@@ -277,3 +279,5 @@ JavaScript is pretty different from HTML and CSS. It feels like a really differe
   </div>
 
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

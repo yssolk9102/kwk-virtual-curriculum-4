@@ -2,6 +2,8 @@
 title: Intermediate DOM Manipulation
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Append multiple elements to the DOM to create a to-do list-like application
@@ -242,3 +244,5 @@ You've learned a **lot** and have already come so far. Put all your skills toget
 
 - Using an object when we get lots of information from our user is a common pattern. [Read more about it here](../js-extension-objects-dom)!
 - As developers write more and more code, it can get difficult to keep track of what is what. It's important to step back and clean up our code from time to time. **Refactoring** is a common and important practice for developers. [Learn about it here](../js-extension-refactoring).
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

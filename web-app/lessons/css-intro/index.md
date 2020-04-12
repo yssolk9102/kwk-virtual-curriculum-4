@@ -2,6 +2,8 @@
 title: Intro to CSS
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Understand the purpose and role of CSS in a webpage
@@ -253,3 +255,5 @@ For each practice prompt, start a new Glitch project. You'll notice that when yo
     </ul>
   </div>
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

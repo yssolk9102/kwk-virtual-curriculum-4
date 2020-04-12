@@ -2,6 +2,8 @@
 title: Flexbox
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Explain the difference between a parent and child, and a direct child
@@ -217,3 +219,5 @@ There is more to learn about Flexbox, but we can do a lot with what we know. It 
 
 - Finish levels 14 - 24 of [Flexbox Froggy](https://flexboxfroggy.com/)
 - Can't get enough of Flexbox Froggy? Try out [Flexbox Defense](http://www.flexboxdefense.com/)
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

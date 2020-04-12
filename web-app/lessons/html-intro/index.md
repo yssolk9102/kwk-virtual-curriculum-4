@@ -2,6 +2,8 @@
 title: Intro to HTML
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Understand what HTML stands for and it's purpose
@@ -148,3 +150,5 @@ Let's put everything we've learned so far together by completing one last round 
   <img src="./assets/shantell-martin.png">
   <p>Just for a frame of reference, a total of 10 elements were used to create the bio above, and 6 unique elements were used!</p>
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

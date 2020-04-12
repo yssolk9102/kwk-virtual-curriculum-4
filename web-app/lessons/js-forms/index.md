@@ -2,6 +2,8 @@
 title: Forms
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Understand the required structure of an HTML form
@@ -227,3 +229,5 @@ Take some time to put together everything we've learned today and complete the p
   </div>
 
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

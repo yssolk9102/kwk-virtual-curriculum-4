@@ -2,6 +2,8 @@
 title: Intro to JavaScript
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Use variables to store strings and numbers
@@ -310,3 +312,5 @@ You've now seen and used the foundations of JavaScript and all programming langu
   </div>
 
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

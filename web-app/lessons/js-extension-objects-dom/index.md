@@ -2,6 +2,8 @@
 title: JS Extension: Using Objects with DOM Manipulation
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Objects
 
 On most sites, we provide more than one piece of information, usually it's at least three. The more data we have to deal with, the more variables we have, it gets harder to read and messier to update... etc. If you are dealing with 3 or more pieces of information from a user, it's recommended to store them in an **object**. Here's an example:
@@ -38,3 +40,5 @@ What's different about this is, instead of interpolating the `firstName`, `study
 For this isolated project, it's hard to see the benefits of using an object. By using the object, we actually added some code!
 
 Move on to the self-guided resource on [Refactoring](../js-extension-refactoring) to see the benefits play out.
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

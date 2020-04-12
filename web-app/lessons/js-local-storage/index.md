@@ -2,6 +2,8 @@
 title: Local Storage
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 - Convert data to and from JSON
@@ -201,3 +203,5 @@ JSON.parse(stringifiedNames);
   <h2>Practice: Local Storage</h2>
   <p>Fork <a target="blank" href="https://codepen.io/turing-kwk/pen/RwNjrjx">this CodePen</a> and implement <code class="practice-code">localStorage</code>, so that when a user adds some to-dos and refreshes the page, to to-dos are still there!</p>
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

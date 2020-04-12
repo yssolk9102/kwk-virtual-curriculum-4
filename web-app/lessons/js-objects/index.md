@@ -2,6 +2,8 @@
 title: Objects
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Create an object and access data from them
@@ -170,3 +172,5 @@ Objects have a little more going on than strings or numbers, but you now have th
   </div>
 
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

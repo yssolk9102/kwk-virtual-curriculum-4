@@ -2,6 +2,8 @@
 title: Welcome to KWK
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 We are so excited to welcome you to the Kode With Klossy community. With over 1000 alumni and nearly 1000 scholars this summer, this is a powerful group of young women across the country.
 
 ## Your Instructors
@@ -25,3 +27,5 @@ Using HTML, CSS, and JavaScript, we will be able to build beautiful sites that c
 <a target="blank" href="https://turingschool.github.io/hedgehog-js/"><img class="medium" src="./assets/hedgehog-party.png"></a>
 
 During the last few days of camp, you'll be able to brainstorm and design a project that you are passionate about building, using all the skills you have at that point!
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

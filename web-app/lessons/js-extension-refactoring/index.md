@@ -2,6 +2,8 @@
 title: JS Extension: Refactoring
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Pre-requisites
 
 Before diving into this, make sure you are familiar with [using objects and DOM manipulation](../js-extension-objects-dom).
@@ -84,3 +86,5 @@ To make sure everyone is on the same page...
   <h2>Try It: Refactoring</h2>
   <p>Familiarize yourself with the code in <a href="https://codepen.io/turing-kwk/pen/GLbvdX">this CodePen</a>. Then, fork it to your account. Write down the steps you are going to take to refactor the <code class="try-it-code">appendNewUser</code> function. (Hint - there is more than on way to do this successfully!)</p>
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

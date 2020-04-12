@@ -2,6 +2,8 @@
 title: Intro to DOM Manipulation
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Use the console in the Chrome Developer Tools
@@ -280,3 +282,5 @@ This entire line of code accesses the `div` element and updates that elements st
   </div>
 
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

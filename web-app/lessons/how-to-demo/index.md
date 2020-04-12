@@ -2,6 +2,8 @@
 title: How to Demo Your App
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 As a software developer, you have to develop your skill in how to demo the products you build.  A demo, or demonstration, is a way for you to show your application, your ideas, and your proof of concept! Generally demos are short (5-10 min) and provide your audience a clear idea of what you are building and what technologies you used to create the application.
 
 ## Plan and Prepare
@@ -53,3 +55,5 @@ Your instructors will schedule 1-2 practice times with you/your group before the
 ## Resources
 - https://www.linkedin.com/pulse/20-best-practices-technical-demos-presentations-girish-jain/
 - https://apptimize.com/blog/2014/02/how-to-give-a-great-app-demo/
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

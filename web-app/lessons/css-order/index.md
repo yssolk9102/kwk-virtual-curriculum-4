@@ -2,6 +2,8 @@
 title: CSS: Does Order Matter?
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 You may have wondered if the order your CSS rules are written in, matters. Let's explore to start answering that question ourselves!
 
 <!-- send them to a CodePen I've made to make sure that something gets messed up... -->
@@ -15,3 +17,5 @@ You may have wondered if the order your CSS rules are written in, matters. Let's
 The answer is: yes and no.
 
 CSS stands for Cascading Style Sheets. It is read from top to bottom. In very rare cases, you will see that switching the order of rules or property/values within a rule will change the appearance of your site. For what we're doing here at camp, it's probably more important to be aware of the hierarchy of element ➡ class ➡ ID when targeting something to write a rule for.
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

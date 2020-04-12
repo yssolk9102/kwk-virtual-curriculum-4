@@ -2,6 +2,8 @@
 title: Functions
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Be familiar with the syntax to write and call a function
@@ -236,3 +238,5 @@ Over the course of this camp, we will write a lot of functions! They will have d
   <p>With your partner, decide which task you'd like to write code for. Make a list of steps that would be required to complete the task. Make a list of possible arguments you could pass the function to make it dynamic. Get your lists approved by your breakout session leader, then declare and call your function.</p>
   <p>Now, re-write your function so it not only <code class="practice-code">console.log</code>s data, but returns a value. Store the return value in a variable.</p>
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

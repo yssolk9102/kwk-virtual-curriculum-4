@@ -2,6 +2,8 @@
 title: Git & GitHub
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Use terminal to navigate to a project & use version control
@@ -79,3 +81,5 @@ If you click that link and get a 404 page, just give it some time. It sometimes 
     <li><code class="practice-code">git push</code></li>
   </ul>
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

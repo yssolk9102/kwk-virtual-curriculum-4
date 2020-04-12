@@ -2,6 +2,8 @@
 title: Intermediate CSS
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Understand the difference between inline and block elements
@@ -231,3 +233,5 @@ In this final section, you'll use your new knowledge about the box model and ima
 
 - [Classes & IDs](../html-css-ids)
 - [CSS: Does Order Matter?](../css-order)
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

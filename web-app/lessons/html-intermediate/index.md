@@ -2,6 +2,8 @@
 title: Intermediate HTML
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Understand and implement nesting with HTML elements
@@ -219,3 +221,5 @@ Notice the syntax - when we were just targeting a `p` element, we would type `p`
   </div>
 
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

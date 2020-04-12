@@ -2,6 +2,8 @@
 title: HTML & CSS: Classes & IDs
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 IDs are similar to classes, but add one more layer of complexity. On the surface, they look and behave a lot like our classes. IDs are really meant to only be used once. Classes can, and usually are, used multiple times. Here's an example of an ID in action:
 
 ```html
@@ -64,3 +66,5 @@ At the end of the day, it won't mess anything up if you use the "wrong" one. If 
 Occasionally, you'll see the use of a class _and_ an ID on the same element. Why?
 
 There may be several reasons for this. When it comes to styling, we may have two paragraphs that should have a lot in common. But one of them should also have a unique style. Both paragraphs can have the class with all the styles they share, then the second has an ID with its unique styles.
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

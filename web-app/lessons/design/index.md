@@ -2,6 +2,8 @@
 title: Design
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Identify design principals in applications
@@ -118,3 +120,5 @@ Things to consider as you wireframe:
   <p>You've been contracted to design an app for a dog-walking business. Select a color palette, and draw out a wireframe, keeping in mind the Design Principals we've learned about!</p>
   <p>Be ready to share your design and thinking behind it.</p>
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

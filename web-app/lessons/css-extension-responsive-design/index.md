@@ -2,6 +2,8 @@
 title: Responsive Design
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Understand and describe page layout
@@ -98,3 +100,5 @@ Just like we've been building every piece we know about HTML and CSS, this will 
   <img src="./assets/ipad-screen.png" alt="iPad screen view">
   <img src="./assets/phone-screen.png" alt="phone screen view">
 </div>
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)

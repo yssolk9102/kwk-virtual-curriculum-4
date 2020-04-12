@@ -2,6 +2,8 @@
 title: Intermediate Arrays
 ---
 
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
+
 ## Learning Goals
 
 * Explain the concept of iteration
@@ -283,3 +285,5 @@ console.log(largeNumbers); // [23, 14, 11, 92]
 ## More Practice
 
 At this point, you have the tools to do just about anything with an array! If you'd like more practice before moving on, check out the [Leveled Array Exercises](../js-array-exercises).
+
+[Back to Lesson Index]({{ site.url }}/web-app/lessons)
