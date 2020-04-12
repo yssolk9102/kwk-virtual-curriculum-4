@@ -19,7 +19,7 @@ title: Intermediate JavaScript
 
 ## Warm Up
 
-On each sticky note at your table, write one thing you've already learned about JavaScript. If it helps, you can think about this in two categories: data types and concepts.
+Write down one thing you've already learned about JavaScript. If it helps, you can think about this in two categories: data types and concepts. Be ready to share out!
 
 ## Conditionals
 
