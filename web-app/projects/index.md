@@ -2,24 +2,19 @@
 title: Virtual WebDev Projects
 ---
 
-- [Photo Gallery]({{ site.url }}/web-app/projects/photo-gallery)
-- [ToDo Box]({{ site.url }}/web-app/projects/to-do-box)
+## Project Specifications
+
+- [Mini Project 1]({{ site.url }}/web-app/projects/mini-1)
+- [Mini Project 2]({{ site.url }}/web-app/projects/mini-2)
+- [Mini Project 3]({{ site.url }}/web-app/projects/mini-3)
+- [Estée Lauder Project]({{ site.url }}/web-app/projects/el)
 - [Personal Project]({{ site.url }}/web-app/projects/personal-project)
 
-## Mini Projects:
+## Additional Project Ideas
 
-### Mild
-
-- [Random Message Generator]({{ site.url }}/web-app/projects/random-message-generator)
-
-### Medium
-
-- [Apple TV]({{ site.url }}/web-app/projects/apple-tv)
-- [Countdown Timer]({{ site.url }}/web-app/projects/countdown-timer)
-- [Mad Lib Generator]({{ site.url }}/web-app/projects/mad-lib-generator)
-
-### Spicy
-
-- [Star Ratings]({{ site.url }}/web-app/projects/star-ratings)
-- [Making Music]({{ site.url }}/web-app/projects/making-music)
-<!-- - [Alarm Clock/POM Timer]({{ site.url }}/web-app/projects/alarm-clock) -->
+- 🌶[Random Message Generator]({{ site.url }}/web-app/projects/random-message-generator)
+- 🌶🌶[Apple TV]({{ site.url }}/web-app/projects/apple-tv)
+- 🌶🌶[Countdown Timer]({{ site.url }}/web-app/projects/countdown-timer)
+- 🌶🌶[Mad Lib Generator]({{ site.url }}/web-app/projects/mad-lib-generator)
+- 🌶🌶🌶[Star Ratings]({{ site.url }}/web-app/projects/star-ratings)
+- 🌶🌶🌶[Making Music]({{ site.url }}/web-app/projects/making-music)
