@@ -2,6 +2,8 @@
 title: Flexbox Practice
 ---
 
+[Back to Practice Index]({{ site.url }}/web-app/practice)
+
 ## Comp Recreations
 
 The best way to practice anything with CSS is to re-create comps! Choose one of the two comps below, and work to re-create it.
@@ -19,3 +21,6 @@ So you can spend the bulk of you time implementing Flexbox, we've created a star
 ## Games to Practice
 
 Playing [Flexbox Froggy](https://flexboxfroggy.com/) or [Flexbox Defense](http://www.flexboxdefense.com/) again can never hurt!
+
+<br>
+[Back to Practice Index]({{ site.url }}/web-app/practice)

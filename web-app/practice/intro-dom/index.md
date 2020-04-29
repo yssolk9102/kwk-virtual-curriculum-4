@@ -2,6 +2,8 @@
 title: Intro to DOM Practice
 ---
 
+[Back to Practice Index]({{ site.url }}/web-app/practice)
+
 ## Practice in a Glitch Project
 
 Follow the directions in the Glitch project below to get some practice with accessing elements, changing text and CSS, and event listeners!
@@ -15,3 +17,6 @@ You can either type your code in the embedded Glitch project below by clicking "
     style="height: 100%; width: 100%; border: 0;">
   </iframe>
 </div>
+
+<br>
+[Back to Practice Index]({{ site.url }}/web-app/practice)
