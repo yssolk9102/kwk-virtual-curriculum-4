@@ -4,22 +4,22 @@ title: Intermediate DOM Manipulation
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Append multiple elements to the DOM to create a to-do list-like application
 * Use DOM traversal to listen for events on dynamically created elements
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Append
 - Event
 - Object
 
-## Warm Up
+## 🗂 Warm Up
 
 List out all the ways you know how to manipulate the DOM so far. Be ready to share out!
 
-## DOM Manipulation
+## 🌎 DOM Manipulation
 
 You've already come so far with implementing JavaScript to manipulate the DOM! In this lesson, we will take it to the next level. We are going to build a site that can take user input multiple times and keep adding each input to a list. This "To-Do List" is a very common app that developers use as they are learning a new language. Here's an example of something like what we will build by the end of this lesson:
 
@@ -58,7 +58,7 @@ As you can see above, we have an empty `section` element in the HTML document. I
 - ``(`<p>Hello!</p>`)`` - this is the argument that `.append()` takes, wrapped in back-ticks, an HTML element. Whatever lives inside the back-ticks will be added into the `innerHTML` of the container.
 
 <div class="try-it">
-  <h2>Check It Out: Basic Append</h2>
+  <h2>🐣 Check It Out: Basic Append</h2>
   <p>Remix <a href="https://glitch.com/~explore-basic-append">this Glitch project</a>.</p>
   <p>First, answer the following questions with your partner:</p>
   <ul>
@@ -75,7 +75,7 @@ As you can see above, we have an empty `section` element in the HTML document. I
   </ul>
 </div>
 
-Takeaways:
+🌎 Takeaways:
 - The three to-dos appeared in the To-Do section and not in the Notes section because `.append()` was called on the `list` variable, so the elements were added into that container.
 - If backticks aren't used to enclose the element you want to append, a) the element won't append, and b) all code written below that line will not be able to run.
 - We can append ANY type of HTML element!
@@ -85,8 +85,8 @@ Takeaways:
 This is great, but the append is happening right away, so it's not really helping us build a dynamic to-do list.
 
 <div class="try-it">
-  <h2>Turn & Talk: When to Append</h2>
-  <p>With your brekaout group, write out a list (pseudo-code) of things we want to the computer to do to make a working to-do list, in order. Include in the order: when the user would interact.</p>
+  <h2>Think About It: When to Append</h2>
+  <p>Write out a list (pseudo-code) of things we want to the computer to do to make a working to-do list, in order. Include in the order: when the user would interact?</p>
 </div>
 
 We can't just append directly in our JavaScript file, or as we saw, that HTML will be added immediately. We want to respond to our user with an event listener and handler. Here's a more realistic example, with a little more going on.
@@ -103,7 +103,7 @@ We can't just append directly in our JavaScript file, or as we saw, that HTML wi
 Read through each line of the JavaScript; make sure to reference the HTML, so you know which DOM element we are accessing.
 
 <div class="try-it">
-  <h2>Turn & Talk: Append</h2>
+  <h2>🐣 Discuss: Append</h2>
   <p>While referencing the Glitch project above, answer these questions with your breakout group:</p>
   <ul>
     <li>What are the two steps that are taken inside the event listener?</li>

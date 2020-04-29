@@ -4,12 +4,12 @@ title: CSS Animations
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Write transformations for HTML elements
 * Build CSS animations with keyframes
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Animation
 - Keyframes

@@ -4,19 +4,19 @@ title: Objects
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Create an object and access data from them
 * Understand why we sometimes choose to use objects over arrays (and vice versa)
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Collection
 - Dot Notation
 - Key/value pair
 - Object
 
-## Warm Up
+## 🐣 Warm Up
 
 Pretend you are going to create an app that has a feature that reminds you of friends birthdays. Somewhere in the program, you need to store names and birthdays.
 
@@ -27,7 +27,7 @@ Be ready to share out:
 - The benefits of this solution
 - The drawbacks of this solution
 
-## Objects
+## 🌎 Objects
 
 An **Object** is another complex data type available in JavaScript. Objects, like Arrays, can be classified as _collections_. There is, however, one big difference between them and arrays: Objects are not ordered by index (0, 1, 2, etc.). Instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
 
@@ -43,8 +43,8 @@ If I wanted to make a list of the handles of all my favorite creators on TikTok,
 If I wanted to make a list of the handles of all my favorite creators on TikTok **and** their number of followers, I should use an object. There is an _associative_ relationship between each creator and their follower count.
 
 <div class="try-it">
-  <h2>Try It: Array or Object?</h2>
-  <p>For each set of data, would an array or object be better to store it? Why?</p>
+  <h2>Think About It: Array or Object?</h2>
+  <p>For each set of data, would an array or object be better to store it? Why? Be ready to share out.</p>
   <ul>
     <li>List of all of the students in class</li>
     <li>List of states and their capitals</li>
@@ -91,7 +91,7 @@ console.log(perfectTen.miniChocolateChips);
 The syntax used above to access a value is called **dot notation**.
 
 <div class="try-it">
-  <h2>Try It: Creating and Accessing Objects</h2>
+  <h2>🐣 Try It: Creating and Accessing Objects</h2>
   <p>Declare a variable called <code class="try-it-code">myInfo</code> that stores an object. This object should have key/value pairs for your name, birthday, and two other facts about you!</p>
   <p><code class="try-it-code">console.log()</code> the object to verify your syntax is correct and that the object can print out. Then, use a <code class="try-it-code">console.log()</code> to practice accessing specific pieces of data. Try to print your birthday with dot notation.</p>
 </div>

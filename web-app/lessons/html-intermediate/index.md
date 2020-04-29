@@ -4,12 +4,12 @@ title: Intermediate HTML
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand and implement nesting with HTML elements
 * Identify and use container elements
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Attribute
 - Class
@@ -19,7 +19,7 @@ title: Intermediate HTML
 - Nest
 - Wrap
 
-## Intro
+## 🌎 Intro
 
 A lot of the content in this lesson will feel very intertwined with CSS. We will reference CSS several times and even get to use it a couple of times!
 
@@ -74,9 +74,9 @@ Other container elements we can use:
 For all the container elements listed above, they behave the same as a `div`. They just hold other elements and keep them contained. We _should_ use them only when appropriate - but there isn't a right or wrong as to how to use them. Two sites could look exactly the same, but the code that created them could look quite different!
 
 <div class="try-it">
-  <h2>Explore: Container Elements</h2>
+  <h2>🐣 Explore: Container Elements</h2>
   <p>What type of content, do you predict, would be appropriate to be contained in each of the elements listed above?</p>
-  <p>Visit the landing page for <a href="https://www.spotify.com/us/">Spotify</a>, and answer these questions:</p>
+  <p>Visit the landing page for <a href="https://www.spotify.com/us/">Spotify</a>, and answer these questions with your breakout group:</p>
   <ul>
     <li>What information is in the header/nav?</li>
     <li>Is there a footer? What type of information is in it?</li>

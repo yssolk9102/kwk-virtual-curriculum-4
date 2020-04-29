@@ -2,12 +2,12 @@
 title: Conditionals
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * User comparison operators to compare variables, strings, and numbers
 * Write and understand conditional logic
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Boolean
 - Condition

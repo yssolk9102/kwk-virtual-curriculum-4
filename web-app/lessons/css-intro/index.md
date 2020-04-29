@@ -4,13 +4,13 @@ title: Intro to CSS
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand the purpose and role of CSS in a webpage
 * Understand and use the syntax of a CSS rule
 * Experiment with some of the common properties for aesthetic
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 * CSS
 * Declaration
@@ -19,13 +19,13 @@ title: Intro to CSS
 * Rule
 * Value
 
-## Warm Up
+## 🗂 Warm Up
 
 Over the next couple of days, we'll create a lot of small websites to practice what we're learning.
 
 Write a list of topics you are interested in or passionate about that you can refer back to when you need to make a small site. Be ready to share your answers!
 
-## What is CSS?
+## 🌎 What is CSS?
 
 CSS stands for **Cascading Style Sheets**. It is a language that allows us to add styles to HTML documents on the web. It’s incredibly powerful!
 
@@ -127,14 +127,14 @@ Takeaways from this exploration:
 Before you get information about buttons in CSS, take a minute to explore and reflect on what you already know about them from a _user standpoint_!
 
 <div class="try-it">
-  <h2>Explore: Buttons</h2>
-  <p>Visit the <a href="https://www.kodewithklossy.com/">Kode With Klossy</a> website in another tab. Find the "Learn More and Apply" button.</p>
+  <h2>🐣 Explore: Buttons</h2>
+  <p>With your breakout group, visit the <a href="https://www.kodewithklossy.com/">Kode With Klossy</a> website in another tab. Find the "Learn More and Apply" button.</p>
   <ul>
     <li>How did you know it was a button?</li>
     <li>What do you observe when you hover your mouse over the button?</li>
   </ul>
   <br>
-  <p>Visit the <a href="https://github.com/">GitHub</a> landing page in another tab. Find the "Sign In" button.</p>
+  <p>Now, visit the <a href="https://github.com/">GitHub</a> landing page in another tab. Find the "Sign In" button.</p>
   <ul>
     <li>How did you know it was a button?</li>
     <li>What do you observe when you hover your mouse over the button?</li>
@@ -142,7 +142,7 @@ Before you get information about buttons in CSS, take a minute to explore and re
   </ul>
 </div>
 
-Let's translate this into some CSS tools that we can use in the future:
+🌎 Let's translate this into some CSS tools that we can use in the future:
 
 **Kode With Klossy**:
 1. The color was the same on the whole button

@@ -4,12 +4,12 @@ title: Flexbox
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Explain the difference between a parent and child, and a direct child
 * Apply Flexbox to containers to achieve a desired layout
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Child
 - Container
@@ -17,7 +17,7 @@ title: Flexbox
 - Item
 - Parent
 
-## What is Flexbox?
+## 🌎 What is Flexbox?
 
 Flexbox is a part of CSS that provides a more efficient way to layout, align, and distribute space among items in a container. It helps us when we have those silly block elements that can be hard to do just what we want them to do.
 
@@ -88,7 +88,7 @@ But with Flexbox, we can start, having some control over them:
 </div>
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>🐣 Discuss</h2>
   <p>Looking at the CSS in both examples above, what is the difference between the two CSS files?</p>
   <p>In the CSS file of the turn-talk-flexbox-applied Glitch project, what element(s) is the declaration <code class="try-it-code">display: flex;</code> applied to? Is that a parent or child?</p>
 </div>

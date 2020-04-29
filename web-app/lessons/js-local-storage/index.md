@@ -4,13 +4,13 @@ title: Local Storage
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 - Convert data to and from JSON
 - Set and get data from localStorage
 - Get data from localStorage on page load
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Client-side Storage
 - Database

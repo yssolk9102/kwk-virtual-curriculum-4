@@ -1,6 +1,6 @@
 # Iteration 1: Dynamic To-Dos
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Add functionality so user can add To-Dos to list, and see list updated
 * Build a To-Do detail page, where user will eventually be able to delete a To-Do

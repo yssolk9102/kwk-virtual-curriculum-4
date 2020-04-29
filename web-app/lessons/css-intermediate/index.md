@@ -4,13 +4,13 @@ title: Intermediate CSS
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand the difference between inline and block elements
 * Use margin and padding to achieve ideal breathing room around elements
 * Control the layout of a page using height, width, and an understanding of the box model
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Block
 - Box Model
@@ -19,11 +19,11 @@ title: Intermediate CSS
 - Margin
 - Padding
 
-## Warm Up
+## 🗂 Warm Up
 
 What is your favorite thing about CSS so far? Be ready to share out!
 
-## Block vs. Inline
+## 🌎 Block vs. Inline
 
 In the last HTML lesson, we talked about the difference between inline and block elements. With CSS, we have the power to override an elements default state of inline or block by using the `display` property.
 
@@ -40,8 +40,8 @@ p {
 ```
 
 <div class="try-it">
-  <h2>Check It Out: Block vs. Inline</h2>
-  <p>Remix <a target="blank" href="https://glitch.com/edit/#!/check-it-out-block-inline">this Glitch project</a>. One by one, copy and paste the two CSS rules above into your CSS file in Glitch. What happens when you paste in the rule for the buttons? For the paragraphs?</p>
+  <h2>🐣 Check It Out: Block vs. Inline</h2>
+  <p>In your breakout group, the person screen-sharing should remix <a target="blank" href="https://glitch.com/edit/#!/check-it-out-block-inline">this Glitch project</a>. One by one, copy and paste the two CSS rules above into your CSS file in Glitch. What happens when you paste in the rule for the buttons? For the paragraphs?</p>
 </div>
 
 In our next CSS lesson, we'll go a step further with layout design. Understanding the difference between block and inline elements, and being able to change them, allows us to control the layout of a page a little more.

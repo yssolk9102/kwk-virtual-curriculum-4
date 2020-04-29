@@ -2,13 +2,13 @@
 title: StoryBoard
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Add UI elements to the StoryBoard using the Object Library
 * Make UI look clean on all device sizes using constraints
 * Add a home screen icon into the project
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 * StoryBoard
 * UI

@@ -2,7 +2,7 @@
 title: ViewFinder
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 - Build a project using everything learned up until now - StoryBoards, Actions/Outlets, Camera, Segues, _and_ Core Data
 - Implement Delete functionality of a row and Core Data record

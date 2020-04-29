@@ -2,12 +2,12 @@
 title: Fetch Requests
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Make fetch requests to get data from JSON APIs
 * Append fetched data to the DOM
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - interface
 - JSON

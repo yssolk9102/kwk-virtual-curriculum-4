@@ -2,11 +2,11 @@
 title: Accessing the Camera & Displaying Photos
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Access a user's camera or photo library on an iOS device
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - inherit
 - source type

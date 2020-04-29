@@ -2,13 +2,13 @@
 title: For-In Loops
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Explain the concept of iteration
 * Write a for-in loop to accomplish repetitive code
 * Use for-in loops to iterate over arrays and dictionaries
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 * Array
 * Dictionary

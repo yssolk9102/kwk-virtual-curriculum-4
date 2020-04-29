@@ -1,6 +1,6 @@
 # Iteration 0: Static To-Dos
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Implement wireframes into a UI
 * Create navigation controllers and segues

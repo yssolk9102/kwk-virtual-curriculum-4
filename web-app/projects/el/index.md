@@ -2,21 +2,17 @@
 title: Estée Lauder Project
 ---
 
-Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a ____!
-
-You may have seen these before:
+Intro - Explain CSS Zen Garden
 
 
 ### Must-Haves
 
-### Tips
+TBD
 
-Here's an example:
+### Things To Consider
 
-<img alt="" src="{{ site.url }}/web-app/projects/mini-1/assets/example.gif">
+TBD
 
-## Iteration 1 - Wireframe & Vision
+### Set Up
 
-## Iteration 2 - Research and Pseudo-Code
-
-## Iteration 3 -
+provide starter code

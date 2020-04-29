@@ -4,12 +4,12 @@ title: Intermediate JavaScript
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * User comparison operators to compare variables, strings, and numbers
 * Write and understand conditional logic
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Boolean
 - Condition
@@ -19,11 +19,11 @@ title: Intermediate JavaScript
 - Operators
 - Statement
 
-## Warm Up
+## 🗂 Warm Up
 
 Write down one thing you've already learned about JavaScript. If it helps, you can think about this in two categories: data types and concepts. Be ready to share out!
 
-## Conditionals
+## 🌎 Conditionals
 
 Every programming language has conditionals. If you've worked in Python or Java, you've probably seen something similar to what we'll be working on today!
 

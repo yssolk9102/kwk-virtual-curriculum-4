@@ -2,13 +2,13 @@
 title: Segues
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand why segues are a building block for iOS development
 * Build segues between views
 * Practice reading a blog post to learn a new skill
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Segues
 - View Controllers

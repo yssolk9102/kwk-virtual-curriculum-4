@@ -4,26 +4,26 @@ title: Intro to HTML
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand what HTML stands for and it's purpose
 * Recognize and use some common HTML elements
 * Identify and use attributes on HTML elements
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Attribute
 - HTML
 - HTML Element
 - HTML Tag
 
-## Warm Up
+## 🗂 Warm Up
 
 In your notebook, jot down your answers to the following questions. Be ready to share your answers!
 - What are your favorite websites/mobile apps?
 - What is it about them that you like? The look? The functionality/purpose?
 
-## Overview
+## 🌎 Overview
 
 Of all of the major technologies used on the web, on either the front- or the back- end, HTML is the oldest. In the beginning, the web was just a bunch of HTML documents that you wrote by hand. They had these cool things called hyperlinks that would allow a user to click on a word on one page and be taken to another page.
 

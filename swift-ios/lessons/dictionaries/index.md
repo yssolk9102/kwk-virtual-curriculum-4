@@ -2,12 +2,12 @@
 title: Dictionaries
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Create a dictionary and access data from it
 * Understand why we sometimes choose to use dictionaries over arrays (and vice versa)
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Collection
 - Dictionary

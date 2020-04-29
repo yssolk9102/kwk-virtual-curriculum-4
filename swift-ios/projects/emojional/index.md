@@ -2,7 +2,7 @@
 title: Emojional
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 - Wireframe & build a UI that looks great on all device sizes
 - Implement alerts in an iOS application

@@ -2,12 +2,12 @@
 title: Functions
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Be familiar with the syntax to write and call a function
 * Explain the flow of arguments/variables through a function
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Argument
 - Call/Run

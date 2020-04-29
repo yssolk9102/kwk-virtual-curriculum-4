@@ -2,13 +2,13 @@
 title: Tables
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Connect StoryBoards with View Controllers
 * Build a table for an iOS application
 * Programmatically build a dynamic table  
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - View Controller
 - Interface Builder

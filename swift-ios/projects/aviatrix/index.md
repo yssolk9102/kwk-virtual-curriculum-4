@@ -4,7 +4,7 @@ title: Aviatrix
 
 This is a one-day Swift project for the first week of the Mobile camp.
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Use basic data types and control-flow instructions in Swift
 * Use Xcode to write and execute code

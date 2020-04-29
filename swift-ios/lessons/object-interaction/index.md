@@ -2,12 +2,12 @@
 title: Object Interaction
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Explain the difference between a class and an object
 * Write a program where 2 or more classes interact
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 * class
 * object

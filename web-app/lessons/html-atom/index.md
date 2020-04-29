@@ -4,14 +4,14 @@ title: HTML & Atom
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand the structure of an HTML document
 * Write a full HTML document and run in the browser
 * Navigate the Elements tab of the Chrome Developer Tools
 * Use the Atom text editor
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - HTML
 - HTML Element

@@ -2,13 +2,13 @@
 title: Design
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Identify design principals in applications
 * Identify color choice in applications and create palettes with appropriate contrast
 * Create wireframes taking design principals into consideration
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Proximity
 - Enclosure

@@ -4,19 +4,19 @@ title: Intro to Arrays
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand what an array is and why they are useful
 * Use JavaScript syntax to declare and modify an array
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Array
 - Collection
 - Element
 - Index
 
-## Warm Up
+## 🌎 Warm Up
 
 In a repl, declare a variable for every scholar in the zoom. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names. Be ready to share your code!
 
@@ -33,7 +33,7 @@ An **array** is a complex data type. It is an ordered collection that stores mul
 An array can store any kind of element - from numbers to strings to ... other arrays. Usually, a single array holds a lot of items that are all of the _same type_.
 
 <div class="try-it">
-  <h2>Brainstorm</h2>
+  <h2>🗂 Brainstorm</h2>
   <p>Think about Instagram or TikTok - where might those applications use arrays?</p>
   <p>Be ready to share out both the name of the app you are thinking about, and how it might use arrays.</p>
 </div>
@@ -224,7 +224,7 @@ console.log(randomStudent);
 Instead of calling `students[0]` or `students[7]`, we called `students[rounded]`. Since we know that `rounded` is a variable that stores a number, the number it stores is substituted in for the variable name `rounded`, then the array looks for the element in that index.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>🐣 Discuss</h2>
   <p>Considering this section on selecting random elements from an array, answer the following questions with your breakout group:</p>
   <ul>
     <li>What does <code class="try-it-code">Math.random()</code> do?</li>

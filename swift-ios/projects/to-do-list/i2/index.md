@@ -1,6 +1,6 @@
 # Iteration 2: Add & Delete with Core Data
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Students will implement Core Data so that a users to-dos can persist
 

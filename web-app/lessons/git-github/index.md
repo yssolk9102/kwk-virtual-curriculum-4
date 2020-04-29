@@ -4,13 +4,13 @@ title: Git & GitHub
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Use terminal to navigate to a project & use version control
 * Create a GitHub repository and push local code to it
 * Deploy a project to GitHub Pages
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Git
 - version control

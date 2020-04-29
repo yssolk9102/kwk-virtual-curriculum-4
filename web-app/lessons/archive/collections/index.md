@@ -2,14 +2,14 @@
 title: Collections
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand what an array is and why they are useful
 * Use `for` loops to iterate over arrays
 * Create an arrays & objects and access data from them
 * Understand why we sometimes choose to use objects over arrays (and vice versa)
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - collection
 - array

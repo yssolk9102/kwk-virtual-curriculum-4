@@ -4,13 +4,13 @@ title: Design
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
-* Identify design principals in applications
+* Identify design principles in applications
 * Identify color choice in applications and create palettes with appropriate contrast
-* Create wireframes taking design principals into consideration
+* Create wireframes taking design principles into consideration
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Proximity
 - Enclosure
@@ -21,11 +21,11 @@ title: Design
 - Analogous Colors
 - Wireframes
 
-## Design Principals
+## 🌎 Design Principles
 
 Gestalt Psychology is a concept used to describe how we perceive the world around us as complete units and patterns vs. a series of unrelated parts. "Gestalt" means "shape" or "form". Humans are hard-wired to see patterns and apply structures to quickly understand their surroundings.
 
-The Gestalt psychologists developed 7 laws, or principals, to explain the way smaller objects are organized and grouped to form larger, complete objects. These principals can be thought of as mental shortcuts for visual problem solving. Today, we will look at 3 of them.
+The Gestalt psychologists developed 7 laws, or principles, to explain the way smaller objects are organized and grouped to form larger, complete objects. These principles can be thought of as mental shortcuts for visual problem solving. Today, we will look at 3 of them.
 
 ### Law of Proximity
 
@@ -111,13 +111,13 @@ Here are some examples of wireframes other people have drawn up before starting 
 Things to consider as you wireframe:
 - What HTML elements will be used for each piece of the page?
 - What class names will you use for those elements?
-- What Design Principals are being utilized so the page is clear and understandable?
+- What Design Principles are being utilized so the page is clear and understandable?
 - Make a decision about the color palette you'll use, and write those colors (hex codes, rgba, other) down so you don't forget.
 - Get user feedback. Ask someone who wasn't involved in the design process for their opinion!
 
 <div class="practice">
   <h2>Practice: Design & UX</h2>
-  <p>You've been contracted to design an app for a dog-walking business. Select a color palette, and draw out a wireframe, keeping in mind the Design Principals we've learned about!</p>
+  <p>You've been contracted to design an app for a dog-walking business. Select a color palette, and draw out a wireframe, keeping in mind the Design Principles we've learned about!</p>
   <p>Be ready to share your design and thinking behind it.</p>
 </div>
 

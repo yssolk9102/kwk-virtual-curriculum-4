@@ -2,13 +2,13 @@
 title: Intro to Swift
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Differentiate strings, integers, and doubles
 * Create and modify variables
 * Use string interpolation to write a sentence using variables
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 * Constant
 * Double

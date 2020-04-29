@@ -2,12 +2,12 @@
 title: Actions & Outlets
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Explain the purpose of actions and outlets
 * Establish actions and outlets in Xcode
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - actions
 - outlets

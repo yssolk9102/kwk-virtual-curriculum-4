@@ -2,13 +2,13 @@
 title: Classes and Objects
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Write a class and create objects from that class
 * Explain the difference between a class and an object
 * Create dynamic objects using the `init` function and properties
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 * class
 * object

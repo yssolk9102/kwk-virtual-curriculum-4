@@ -2,11 +2,11 @@
 title: Xcode Projects
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Navigate the Xcode Project application
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 * StoryBoard
 * Navigation Pane

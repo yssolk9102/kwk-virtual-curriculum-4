@@ -4,12 +4,12 @@ title: Responsive Design
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand and describe page layout
 * Understand and apply media queries
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Breakpoint
 - Media Query

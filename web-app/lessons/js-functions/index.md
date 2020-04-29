@@ -4,12 +4,12 @@ title: Functions
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Be familiar with the syntax to write and call a function
 * Explain the flow of arguments/variables through a function
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Argument
 - Call/Run
@@ -18,7 +18,7 @@ title: Functions
 - Parameter
 - Return Value
 
-## Warm Up
+## 🐣 Warm Up
 
 With your partner, choose one application or website that you both like to use.
 
@@ -31,7 +31,7 @@ To build a web application, developers write LOTS of functions. Every time you c
 
 As we start learning about functions today, we won't be writing ones quite as involved as some that are powering your favorite apps - but we will get the foundations!
 
-## What is a Function?
+## 🌎 What is a Function?
 
 A function is an action in our code. It has a specific job, and it sits around waiting to be asked to do it. It can perform its job as many or as few times as we need. It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We write them, so we have control over what each function does!
 
@@ -194,7 +194,7 @@ A couple of things to know about `return`:
 - Once the program reads the `return` keyword and the rest of the code on that line, it will exit that function. So, no code written below the `return` keyword will ever be read.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>🐣 Discuss</h2>
   <p>With your partner, read through each line of the code above. With as much technical vocabulary as possible, explain what is happening at each line.</p>
 </div>
 

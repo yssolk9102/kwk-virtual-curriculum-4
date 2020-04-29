@@ -4,14 +4,14 @@ title: Intro to JavaScript
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Use variables to store strings and numbers
 * Use string interpolation to write sentences using variables
 
 Note: To engage fully in this lesson, you'll want to have an account with repl.it and have a basic understanding of how to use that interface! Find an intro [here]().
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Console
 - Interpolation
@@ -21,18 +21,18 @@ Note: To engage fully in this lesson, you'll want to have an account with repl.i
 - Assignment Operator
 - Data Type
 
-## Warm Up
+## 🐣 Warm Up
 
 In your breakout room, have the person with the longest hair share their screen. Play [Flag Fest](https://flag-fest.herokuapp.com/flag-fest) as a small group. Choose any region you'd like!
 
-## What is JavaScript?
+## 🌎 What is JavaScript?
 
 JavaScript is the language of the internet. It is commonly confused with <a target="blank" href="https://www.seguetech.com/java-vs-javascript-difference/">Java</a>, but they are two very different languages. As of now, we can build great looking websites, but they don't _do_ much. JavaScript is what allows our pages to be dynamic - show your name in the top corner to indicate you are signed in, change information on the screen based on what you type in a form, etc.
 
 If we compare a web app to a human body, we can think of HTML as a skeleton, CSS as clothes and accessories, and **JavaScript as the muscle**.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>🐣 Discuss</h2>
   <p>Think back to Flag Fest that you played in the Warm Up, and feel free to reference it while answering these questions with the same small group.</p>
   <ul>
     <li>What are some of the HTML elements that were probably used?</li>
@@ -67,7 +67,7 @@ In JavaScript, strings can be either double-quoted (“like this”) or single-q
 
 Right now, we can see the strings we type in when we hit enter. However, we won’t always be writing our code in the console, so let’s move to a more realistic way of writing our JavaScript.
 
-Keep the console open, but **in the JavaScript editor tab** on CodePen, type the following:
+**In the editor**, type the following:
 
 ```js
 console.log('hello, world!');
@@ -81,7 +81,7 @@ You should see "hello, world!" appear in the console. This isn’t super excitin
   <p>Type <code class="try-it-code">console.log("your age");</code>.</p>
   <p>Type <code class="try-it-code">console.log("your full name");</code>.</p>
   <p>Type anything you want inside of the <code class="try-it-code">()</code> after <code class="try-it-code">console.log</code>- try to use some characters from your keyboard that are not numbers or letters. Make sure your text is enclosed in quotes.</p>
-  <p>Don't forget to run your code by clicking the green pay button (or using the keyboard shortcut <code class="try-it-code">cmd + enter</code>).</p>
+  <p>Don't forget to run your code by clicking the green play button (or using the keyboard shortcut <code class="try-it-code">cmd + enter</code>).</p>
 </div>
 
 Takeaways:
@@ -210,7 +210,7 @@ console.log(points);
 ```
 
 <div class="try-it">
-  <h2>Turn & Talk: Incrementing Numbers</h2>
+  <h2>Think About It</h2>
   <p>Incrementing numbers like what we just looked at above is something developers do very frequently.</p>
   <p>Brainstorm some examples of numbers incrementing in real apps that you use. Be ready to share what you brainstormed!</p>
 </div>
@@ -219,9 +219,10 @@ Takeaways:
 - On a users birthday, an app should increment their age
 - Social media apps use incrementing to keep track of the number of likes, replies, followers, etc.
 - Apps that involve scheduling - calendar events, flights, live video classes, etc. usually have a countdown timer to keep the user informed on the amount of time until something will happen
+<br>
 
 <div class="practice">
-  <h2>Pro Tip</h2>
+  <h2>🦄 Pro Tip</h2>
   <p>Have you noticed that sometimes lines of code in example are greyed out and start with two forward slashes <code class="practice-code">//</code>?</p>
   <p><strong>Comments</strong> are a way we can take notes in plain english, or use snippets of code that aren't complete. They appear in a shade less obvious that most lines of code and will not be read by the interpreter!</p>
   <p>To write a comment in your JavaScript code, start the line with two forward slashes <code class="practice-code">//</code>. Or, you can use the keyboard shortcut <code class="practice-code">cmd + /</code> on your Mac!</p>

@@ -2,12 +2,12 @@
 title: Arrays
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand what an array is and why they are useful
 * Create arrays and access data from them
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 * Array
 * Element

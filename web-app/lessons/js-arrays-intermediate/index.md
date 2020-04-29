@@ -4,12 +4,12 @@ title: Intermediate Arrays
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Explain the concept of iteration
 * Use JavaScript syntax to iterate over an array
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Array
 - Collection
@@ -17,7 +17,7 @@ title: Intermediate Arrays
 - Index
 - Iterate
 
-## Warm Up
+## 🌎 Warm Up
 
 Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we’ll walk through using scenarios we are familiar with to demonstrate the concept.
 
@@ -180,25 +180,25 @@ trending.forEach(function(creator) {
 ```
 
 <div class="try-it">
-  <h2>Explore: <code class="try-it-code">forEach</code></h2>
+  <h2>🐣 Explore: <code class="try-it-code">forEach</code></h2>
   <p>With your breakout group, talk about what you think is happening on each line of the code above.</p>
   <p>Once you've made your predictions, type the code out in a repl and see what happens. Were your predictions accurate?</p>
 </div>
 <br>
 
-Let's break this code down:
+🐣 Let's break this code down:
 - `trending` is the array we are going to iterate over
 - `.forEach()` is a built-in function that runs through each element of the array it's called on, one-by-one. It takes one argument, a function. This is different from anything we've seen before. It's saying it will run this function _for each_ element in the array.
 - `function(creator) {` is the function that will run on each element in the array. If there are 10 elements in the array, it will run 10 times. 100 elements? 100 times. `creator` is the variable that represents the current element in the array being iterated over.
 -  `console.log(creator)` is the code that will run for each element. In this case, each creator's handle in the array will print to the console.
 
 <div class="try-it">
-  <h2>Try It: forEach</h2>
+  <h2>🐣 Try It: forEach</h2>
   <p>In a repl, write an array with at least four elements, strings, of things you want to learn.</p>
   <p>Write a <code class="try-it-code">forEach</code> for this array and print out "I want to learn ____" for each element.</p>
 </div>
 
-## Placeholders & Counters
+## 🌎 Placeholders & Counters
 
 Sometimes, when iterating over an array, our end goal won't be to do the exact same thing to each element. Sometimes we'll want to combine elements. Sometimes we'll want to filter through them and only use some of them.
 
@@ -282,7 +282,7 @@ console.log(largeNumbers); // [23, 14, 11, 92]
 
 </div>
 
-## More Practice
+## 🐣 More Practice
 
 At this point, you have the tools to do just about anything with an array! If you'd like more practice before moving on, check out the [Leveled Array Exercises](../js-array-exercises).
 

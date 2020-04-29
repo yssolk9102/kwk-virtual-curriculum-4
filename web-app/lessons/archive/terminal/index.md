@@ -2,13 +2,13 @@
 title: Terminal
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Use terminal to navigate to a project
 * Use terminal to create directories and files
 * Use terminal to open projects in the browser
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - terminal
 - command

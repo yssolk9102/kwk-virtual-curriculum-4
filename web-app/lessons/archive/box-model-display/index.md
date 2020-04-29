@@ -2,13 +2,13 @@
 title: Box Model & Display
 ---
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand the difference between inline and block elements
 * Use margin and padding to achieve ideal breathing room around elements
 * Begin to think about writing semantic code for accessibility
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Inline
 - Block

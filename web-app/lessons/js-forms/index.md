@@ -4,27 +4,27 @@ title: Forms
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)
 
-## Learning Goals
+## 🎯 Learning Goals
 
 * Understand the required structure of an HTML form
 * Grab the user input from a form
 * Give the user a customized response after a user completes a form
 
-## Technical Vocabulary
+## 📗 Technical Vocabulary
 
 - Form
 - Input
 - Label
 - Type
 
-## Warm Up
+## 🌎 Warm Up
 
 Visit [the DisneyPlus login page](https://www.disneyplus.com/login). As a user, if you were to enter your email, then click "Continue," what would you expect to happen next?
 
 Visit [the Discord login page](https://discordapp.com/login). As a user, if you were to enter your email and password, then click "Login," what would you expect to happen next?
 
 <div class="try-it">
-  <h2>Brainstorm</h2>
+  <h2>🗂 Brainstorm</h2>
   <p>We just looked at two login forms. What are some other examples you enter information and expect something to happen? Feel free to look through some of your favorite sites for examples.</p>
 </div>
 
@@ -162,8 +162,8 @@ Check out the Glitch project below to see what that looks like in JavaScript:
 </div><br>
 
 <div class="try-it">
-  <h2>Explore</h2>
-  <p>While referencing the Glitch project above, do your best to answer each question.</p>
+  <h2>🐣 Explore</h2>
+  <p>While referencing the Glitch project above, do your best to answer each question with your breakout group.</p>
   <ul>
     <li>What is the name of the event handler?</li>
     <li>Based on the name of the event handler, what do you think its job is to do?</li>
