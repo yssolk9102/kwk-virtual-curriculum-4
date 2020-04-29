@@ -2,6 +2,8 @@
 title: Virtual WebDev Projects
 ---
 
+[Back to main WebDev page]({{ site.url }}/web-app)
+
 ## Project Specifications
 
 - [Mini Project 1]({{ site.url }}/web-app/projects/mini-1)
@@ -18,3 +20,6 @@ title: Virtual WebDev Projects
 - 🌶🌶[Mad Lib Generator]({{ site.url }}/web-app/projects/mad-lib-generator)
 - 🌶🌶🌶[Star Ratings]({{ site.url }}/web-app/projects/star-ratings)
 - 🌶🌶🌶[Making Music]({{ site.url }}/web-app/projects/making-music)
+
+<br>
+[Back to main WebDev page]({{ site.url }}/web-app)

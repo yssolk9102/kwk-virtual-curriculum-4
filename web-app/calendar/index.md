@@ -2,6 +2,8 @@
 title: WebDev Calendar
 ---
 
+[Back to main WebDev page]({{ site.url }}/web-app)
+
 <section class="week-card">
     <h2>Week 1</h2>
     <section class="day-cards">
@@ -96,3 +98,6 @@ title: WebDev Calendar
       </article>
     </section>
   </section>
+
+  <br>
+  [Back to main WebDev page]({{ site.url }}/web-app)

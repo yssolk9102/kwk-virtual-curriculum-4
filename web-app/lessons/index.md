@@ -2,6 +2,8 @@
 title: Virtual WebDev Lessons
 ---
 
+[Back to main WebDev page]({{ site.url }}/web-app)
+
 Find all lessons below. Note that the lessons are organized by topic below.
 
 ## JavaScript
@@ -47,3 +49,6 @@ Find all lessons below. Note that the lessons are organized by topic below.
 - [JS: Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
 - [CSS: Responsive Design]({{ site.url }}/web-app/lessons/css-extension-responsive-design)
 - [CSS: Animations]({{ site.url }}/web-app/lessons/css-extension-animations)
+
+<br>
+[Back to main WebDev page]({{ site.url }}/web-app)
