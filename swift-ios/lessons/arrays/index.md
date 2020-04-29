@@ -14,9 +14,9 @@ title: Arrays
 * Index
 * Initialize
 
-## Warm Up
+## 🌎Warm Up
 
-In a Playground, declare a variable for every scholar in the room. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names.
+In a Playground, declare a variable for every scholar in the zoom. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names.
 
 ## Collections
 
@@ -31,7 +31,7 @@ An **array** is an ordered collection that stores multiple values. They are usef
 An array can store any kind of element - from numbers to strings to ... other arrays. Usually, a single array holds a lot of items that are all of the _same type_.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>🗂 Brainstorm</h2>
   <p>Think about Instagram or TikTok - where might those applications use arrays?</p>
 </div>
 
@@ -94,8 +94,8 @@ trending
 Side note: The lines starting with `//->` indicate the return value of the previous code; it's just a way to notate what happens after writing some code.
 
 <div class="try-it">
-  <h2>Turn and Talk</h2>
-  <p>With your partner, explain the following:</p>
+  <h2>🐣Check In & Discuss</h2>
+  <p>With your breakout group, discuss the following:</p>
   <ul>
     <li>What is an array?</li>
     <li>Why are they useful?</li>
@@ -236,8 +236,8 @@ print(randomStudent)
 Instead of calling `students[0]` or `students[7]`, we called `students[random]`. Since we know that `random` is a variable that stores an Integer, the Integer it stores is substituted in for the variable name `random`, and then the array looks for the element in that index.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>Considering this section on selecting random elements from an array, answer the following questions with your partner:</p>
+  <h2>🐣 Discuss</h2>
+  <p>Considering this section on selecting random elements from an array, answer the following questions with your breakout group:</p>
   <ul>
     <li>What does <code class="try-it-code">Int.random()</code> do?</li>
     <li>Why do we have to pass an argument, or put information inside the parenthesis for <code class="try-it-code">Int.random()</code>?</li>
@@ -265,11 +265,24 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
     <li>Print the value of the first element of the array</li>
     <li>Print one account to the console, at random.</li>
   </ul>
-  <p><strong>Spicy Challenge:</strong> Write a function that takes in one argument, a string. If the string is "happy", output a randomly generated sentence about being happy. If the string is "ok", output a randomly generated sentence about being ok. If the string is "sad", output a randomly generated sentence to cheer someone up. <em>You will need to use a function, conditional, multiple arrays, and have to generate a random number.</em></p>
-  <p><strong>Extension:</strong> There are several ways to add, remove, and modify values in an array. There is also a variety of other ways to iterate over arrays. Using Google and the Swift documentation, find a <em>different</em> way to do each of the following:</p>
-  <ul>
-    <li>add an element</li>
-    <li>remove an element</li>
-    <li>modify an element</li>
-  </ul>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Write a function that takes in one argument, a string. If the string is "happy", output a randomly generated sentence about being happy. If the string is "ok", output a randomly generated sentence about being ok. If the string is "sad", output a randomly generated sentence to cheer someone up. <em>You will need to use a function, conditional, multiple arrays, and have to generate a random number.</em></p>
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Extension 🕵🏾‍♀️</p>
+    <div class="spicy-toggle">        
+      <p>There are several ways to add, remove, and modify values in an array. There is also a variety of other ways to iterate over arrays. Using Google and the Swift documentation, find a <em>different</em> way to do each of the following:</p>
+      <ul>
+        <li>add an element</li>
+        <li>remove an element</li>
+        <li>modify an element</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
