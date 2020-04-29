@@ -16,9 +16,9 @@ title: Functions
 - Parameter
 - Return Value
 
-## Warm Up
+## 🐣Warm Up
 
-With your partner, choose one application that you both like to use.
+In your breakout groups, choose one application that you all like to use.
 
 You will have one minute to click/tap through the application as you normally would while using it.
 - Partner A should be the "user" - tapping, scrolling, etc.
@@ -28,7 +28,7 @@ To build a mobile application, developers write A LOT of functions. Every time y
 
 As we start learning about functions today, we won't be writing ones quite as involved as some that are powering your favorite apps - but we will begin to understand the foundations!
 
-## What is a Function?
+## 🌎 What is a Function?
 
 A function is an action in our code. It has a specific job, and it sits around waiting to be asked to perform it. It can do this job as many or as few times as we tell it to. A function can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers). We get to write them, so we have control over what each function does!
 
@@ -80,7 +80,14 @@ The last line of the code snippet is what **calls** the function. If we have thi
   <h2>Try It: Declaring & Calling a Function</h2>
   <p>Declare and call a function named <code class="try-it-code">sayHello</code>. Write 2-4 <code class="try-it-code">print</code> statements in it, saying whatever you'd like. Verify that it is running successfully by checking the console for the sentences.</p>
   <p>Declare and call a function named <code class="try-it-code">sayGoodbye</code>. Write 2-4 <code class="try-it-code">print</code> statements in it, saying whatever you'd like. Verify that it is running successfully by checking the console for the sentences.</p>
-  <p><strong>Medium Challenge:</strong> Did your <code class="try-it-code">sayHello</code> sentences print before or after your <code class="try-it-code">sayGoodbye</code> sentences? Why?</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Did your <code class="medium-code">sayHello</code> sentences print before or after your <code class="medium-code">sayGoodbye</code> sentences? Why?</p>
+    </div>
+  </div>
+
 </div>
 
 ## Arguments and Parameters
@@ -127,9 +134,27 @@ func timeToWalk(numberOfDogs : Int) {
 
 <div class="try-it">
   <h2>Try It: Arguments & Parameters</h2>
-  <p><strong>Mild Challenge:</strong> Write a function that will take 1 argument when called, a number. The function should <code class="try-it-code">print</code> the sum of that number and 5. Make sure to name your function something related to its job.</p>
-  <p><strong>Medium Challenge:</strong> Write a function that will take 2 arguments when called, both being numbers, and that will <code class="try-it-code">print</code> the sum of those two numbers. Make sure to name your function something related to its job.</p>
-  <p><strong>Spicy Challenge:</strong> Write a function that will take 3 arguments when called, all being numbers. It should sum the first two numbers, then multiply that sum by the third number and <code class="try-it-code">print</code> the result. Make sure to name your function something related to its job.</p>
+
+  <div class="challenge-container mild-heat">
+    <p class="spicy-click">Click here for a Mild Challenge 🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Write a function that will take 1 argument when called, a number. The function should <code class="mild-code">print</code> the sum of that number and 5. Make sure to name your function something related to its job.</p>
+    </div>
+  </div>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Write a function that will take 2 arguments when called, both being numbers, and that will <code class="medium-code">print</code> the sum of those two numbers. Make sure to name your function something related to its job.</p>
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Write a function that will take 3 arguments when called, all being numbers. It should sum the first two numbers, then multiply that sum by the third number and <code class="spicy-code">print</code> the result. Make sure to name your function something related to its job.</p>
+    </div>
+  </div>
 </div>
 
 ## Return Values
@@ -164,8 +189,8 @@ Important things to know about returning a value:
 - Once the program reads the `return` keyword and the rest of the code on that line, it will exit that function. So, any code written on a line after the `return` statement will never be executed.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>With your partner, read through each line of the code above. With as much technical vocabulary as possible, explain what is happening at each line.</p>
+  <h2>🐣 Explore & Discuss</h2>
+  <p>In your breakout group, read through each line of the code above. With as much technical vocabulary as possible, explain what is happening at each line.</p>
 </div>
 
 Takeaways:
@@ -205,34 +230,55 @@ func walkDog(numberOfDogs : Int) {
 Throughout camp, we will write a lot of functions! They will have different jobs, and some will look quite different from ours today, but you've got a great foundation. Get a little more practice by completing the task below.
 
 <div class="practice">
-  <h2>Practice: Function</h2>
-  <h3>Mild: Functions</h3>
-  <ul>
-    <li>With your partner, brainstorm another task you'd like to have this robot complete. You should agree on using the same task. That way, you can check in with each other throughout the lab. Once you've decided on a task, share with an instructor to make sure it will work for all activities, then go to the next step</li>
-    <li>In your notebook, write out the small steps that your robot needs to take to complete the task</li>
-    <li>In your Playground, declare and call the function. The code block should be empty, so nothing should really happen. This is a good step to take to make sure there are no errors</li>
-    <li>To make 100% sure you are calling it correctly, write a print statement into the code block and make sure that appears in your console</li>
-    <li>Now, write a print statement for each of the commands you wrote down in your notebook. Are they all printing out as expected?</li>
-  </ul>
-  <h3>Medium: Arguments</h3>
-  <ul>
-    <li>Building off of what you've already written in your function - what information could you give it to show different situations?</li>
-    <li>Comment out your first function, and start over. This time, your function declaration should ask for an argument. It doesn't necessarily have to be an integer like the class example!</li>
-    <li>Finish writing your function</li>
-    <li>Call your function a few times, passing in different arguments each time</li>
-  </ul>
-  <h3>Spicy: Return Values</h3>
-  <ul>
-    <li>With your partner, decide what information you want to return out of your function. What data type is most appropriate (string, integer, etc.)?</li>
-    <li>In the declaration, tell your function you plan to return a value</li>
-    <li>Use the return keyword to return the desired value</li>
-    <li>Check yourself: did you return a number like "4" or a string like "Good job!"? To make this function dynamic, we should probably be returning a <em>variable</em> that's storing something calculated based on the argument passed in. Look back at the class example if you are stuck on this part!</li>
-    <li>Call your function a few times, passing in different arguments each time. STOP!</li>
-    <li>Before you run your code, talk with your partner. What is the expected output/return value?</li>
-  </ul>
-  <h3>Extension: Multiple Arguments</h3>
-  <ul>
-    <li>What is another argument that could be passed in your function? Try it out! Not sure what the syntax looks like? You got this. Remember, strong developers are strong Googlers, so feel free to look for examples online.</li>
-    <li>Can you have more than 1 return value? How do you know?</li>
-  </ul>
+  <h2>🐣 Practice: Function</h2>
+
+  <div class="challenge-container mild-heat">
+    <p class="spicy-click">Click here for a Mild Challenge 🌶</p>
+    <div class="spicy-toggle">        
+      <ul>
+        <li>With your breakout group, brainstorm another task you'd like to have this robot complete. You should agree on using the same task. That way, you can check in with each other throughout the lab. Once you've decided on a task, share with an instructor to make sure it will work for all activities, then go to the next step</li>
+        <li>In your notebook, write out the small steps that your robot needs to take to complete the task</li>
+        <li>In your Playground, declare and call the function. The code block should be empty, so nothing should really happen. This is a good step to take to make sure there are no errors</li>
+        <li>To make 100% sure you are calling it correctly, write a print statement into the code block and make sure that appears in your console</li>
+        <li>Now, write a print statement for each of the commands you wrote down in your notebook. Are they all printing out as expected?</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">        
+      <ul>
+        <li>Building off of what you've already written in your function - what information could you give it to show different situations?</li>
+        <li>Comment out your first function, and start over. This time, your function declaration should ask for an argument. It doesn't necessarily have to be an integer like the class example!</li>
+        <li>Finish writing your function</li>
+        <li>Call your function a few times, passing in different arguments each time</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">        
+      <ul>
+        <li>With your breakout group, decide what information you want to return out of your function. What data type is most appropriate (string, integer, etc.)?</li>
+        <li>In the declaration, tell your function you plan to return a value</li>
+        <li>Use the return keyword to return the desired value</li>
+        <li>Check yourself: did you return a number like "4" or a string like "Good job!"? To make this function dynamic, we should probably be returning a <em>variable</em> that's storing something calculated based on the argument passed in. Look back at the class example if you are stuck on this part!</li>
+        <li>Call your function a few times, passing in different arguments each time. STOP!</li>
+        <li>Before you run your code, talk with your partner. What is the expected output/return value?</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Extension: Multiple Arguments & Return Values 🕵🏾‍♀️</p>
+    <div class="spicy-toggle">        
+      <ul>
+        <li>What is another argument that could be passed in your function? Try it out! Not sure what the syntax looks like? You got this. Remember, strong developers are strong Googlers, so feel free to look for examples online.</li>
+        <li>Can you have more than 1 return value? How do you know?</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
