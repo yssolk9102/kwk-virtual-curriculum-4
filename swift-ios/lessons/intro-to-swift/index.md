@@ -20,7 +20,7 @@ title: Intro to Swift
 
 **Note:** For all practice today, scholars will be working in Xcode Playgrounds.
 
-## Warm Up
+## 🌎 Warm Up
 
 Create a list of items you need to complete on the Reminders App on your iPad. This can be a list for today, the week, or the whole summer! Explore the `Today`, `Scheduled`, and `Flagged` features as well.
 
@@ -31,7 +31,7 @@ Create a list of items you need to complete on the Reminders App on your iPad. T
 Swift is a programming language developed by Apple, specifically for writing applications used on iOS devices. It is responsible for allowing an app to respond to user interaction.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>🐣 Discuss</h2>
   <p>Think back to Reminders App that you explored in the Warm Up, and feel free to reference it while answering these questions.</p>
   <ul>
     <li><strong>When</strong> do things change on the screen?</li>
@@ -152,8 +152,8 @@ let name = "Karlie"
 We can still access the string "Karlie" anytime, we just **can't re-assign it**.
 
 <div class="try-it">
-  <h2>Tun & Talk: Uses for Constants</h2>
-  <p>With your partner, come up with 3-4 real life uses for a constant, a piece of data that will never change.</p>
+  <h2>🗂 Brainstorm: Uses for Constants</h2>
+  <p>Come up with 3-4 real life uses for a constant, a piece of data that will never change. Be ready to share out!</p>
   <p>Are there any places where a constant would be appropriate for the Reminders App?</p>
 </div>
 
@@ -238,7 +238,7 @@ totalReminders += 1
 ```
 
 <div class="try-it">
-  <h2>Turn & Talk: Incrementing Numbers</h2>
+  <h2>🐣 Discuss: Incrementing Numbers</h2>
   <p>Incrementing numbers like what we just looked at above is something developers do very frequently.</p>
   <p>With your partner, brainstorm some examples of numbers incrementing or decrementing in real apps that you use.</p>
 </div>
@@ -302,10 +302,10 @@ print("Because \(tinsOfKookies) tins of kookies were purchased during Fashion's 
 <div class="try-it">
   <h2>Try It: Integers & Operators</h2>
   <p>Start with these numbers:</p>
-  <code class="try-it-code">var januaryAvg = 12</code><br>
-  <code class="try-it-code">var marchAvg = 65</code><br>
-  <code class="try-it-code">var novemberAvg = 31</code><br>
-  <code class="try-it-code">var julyAvg = 98</code>
+  <pre>var januaryAvg = 12
+var marchAvg = 65
+var novemberAvg = 31
+var julyAvg = 98</pre>
   <ol>
     <li>Write code to find the average of these four temperatures.</li>
     <li>Find the average yourself using paper or a calculator. Is your answer different than you found with Swift? Why might that be?</li>
@@ -359,36 +359,50 @@ Let's take a few minutes to practice these fundamentals - we will use this knowl
 
 <div class="practice">
   <h2>Practice: Data Types</h2>
-  <h3>Mild: Variables & Constants</h3>
+
   <p>For each item on the list below, determine if it should be stored as a variable or constant. Be ready to explain your thinking.</p>
   <ul>
-    <li>name</li>
-    <li>address</li>
-    <li>cityBornIn</li>
-    <li>gradeLevel</li>
-    <li>birthday</li>
-    <li>age</li>
-    <li>eyeColor</li>
-    <li>favoriteColor</li>
+    <li><code class="practice-code">name</code></li>
+    <li><code class="practice-code">address</code></li>
+    <li><code class="practice-code">cityBornIn</code></li>
+    <li><code class="practice-code">gradeLevel</code></li>
+    <li><code class="practice-code">birthday</code></li>
+    <li><code class="practice-code">age</code></li>
+    <li><code class="practice-code">eyeColor</code></li>
+    <li><code class="practice-code">favoriteColor</code></li>
   </ul>
   <p>Now, declare variables or constants for each of the items listed above, and assign an appropriate value.</p>
   <p>Lastly, use string interpolation to write at least 3 different sentences about yourself, using at least one variable in each sentence.</p>
 
-  <h3>Mild: Declaring with No Value</h3>
-  <p>For each item on the list below, determine what data type would be appropriate.</p>
-  <ul>
-    <li>collegeAttended</li>
-    <li>numberOfPlacesTraveled</li>
-    <li>bestFriend</li>
-    <li>numberOfCitiesLivedIn</li>
-  </ul>
-  <p>Now, declare variables or constants for each of the items listed above, but don't assign them a value yet.</p>
+  <div class="challenge-container mild-heat">
+    <p class="spicy-click">Click here for a Mild Challenge 🌶</p>
+    <div class="spicy-toggle">        
+      <p>For each item on the list below, determine what data type would be appropriate.</p>
+      <ul>
+        <li><code class="mild-code">collegeAttended</code></li>
+        <li><code class="mild-code">numberOfPlacesTraveled</code></li>
+        <li><code class="mild-code">bestFriend</code></li>
+        <li><code class="mild-code">numberOfCitiesLivedIn</code></li>
+      </ul>
+      <p>Now, declare variables or constants for each of the items listed above, but don't assign them a value yet.</p>
+    </div>
+  </div>
 
-  <h3>Medium: How Much Do I Get Paid?</h3>
-  <p>Find the answer to this problem <strong>using Swift</strong>:</p>
-  <p>Karina earns $10.25 per hour at her job at Express. If she worked 20 hours last week, how much should she get paid? Print a complete sentence out with the total.</p>
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Find the answer to this problem <strong>using Swift</strong>:</p>
+      <p>Karina earns $10.25 per hour at her job at Express. If she worked 20 hours last week, how much should she get paid? Print a complete sentence out with the total.</p>
+    </div>
+  </div>
 
-  <h3>Spicy: String Compression</h3>
-  <p>There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string <code class="practice-code">Klossy</code> it'd output <code class="practice-code">K4y</code> or <code class="practice-code">scholar</code> would be <code class="practice-code">s5r</code>.</p>
-  <p>Can you write code to implement that? <em>Hint: You'll probably need to use your research skills to find something that will help!</em></p>
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>There's a silly compression algorithm that outputs the first letter, the number of letters in the middle, and the last letter. So for the string <code class="spicy-code">Klossy</code> it'd output <code class="spicy-code">K4y</code> or <code class="spicy-code">scholar</code> would be <code class="spicy-code">s5r</code>.</p>
+      <p>Can you write code to implement that? <em>Hint: You'll probably need to use your research skills to find something that will help!</em></p>
+    </div>
+  </div>
+
+
 </div>
