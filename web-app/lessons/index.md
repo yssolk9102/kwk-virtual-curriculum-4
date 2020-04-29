@@ -42,7 +42,6 @@ title: Virtual WebDev Lessons
 
 ## Optional Extensions
 
-- [JS: Array Challenges]({{ site.url }}/web-app/lessons/js-array-exercises)
 - [JS: Advanced DOM Manipulation]({{ site.url }}/web-app/lessons/js-extension-objects-dom)
 - [JS: Refactoring]({{ site.url }}/web-app/lessons/js-extension-refactoring)
 - [CSS: Responsive Design]({{ site.url }}/web-app/lessons/css-extension-responsive-design)
