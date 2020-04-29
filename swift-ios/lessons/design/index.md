@@ -19,7 +19,7 @@ title: Design
 - Analogous Colors
 - Wireframes
 
-## Design Principals
+## 🌎 Design Principals
 
 Gestalt Psychology is a concept used to describe how we perceive the world around us as complete units and patterns vs. a series of unrelated parts. "Gestalt" means "shape" or "form". Humans are hard-wired to see patterns and apply structures to quickly understand their surroundings.
 
@@ -44,7 +44,7 @@ Elements that look similar will be perceived as part of the same form. Despite t
 <img src="./assets/similarity.png">
 
 <div class="try-it">
-  <h2>Try It: Laws of Design</h2>
+  <h2>Explore: Laws of Design</h2>
   <p>Go to a few of your favorite websites. Find an example of each of the three laws we just learned about. Be ready to share out!</p>
 </div>
 
@@ -78,7 +78,6 @@ An alternative:
 
 <img class="small" src="./assets/split-complementary.jpg">
 
-
 **Split Complimentary Colors** start with one color and then instead of going straight across the color wheel to the complimentary color, go to either the left of right a couple of colors. This softens the contrast and often gives a nicer, more visually appealing pairing.
 
 Another common combination:
@@ -88,8 +87,8 @@ Another common combination:
 **Analogous Colors** are group of colors that are close to each other on the color wheel. They have enough contrast to be clearly distinguishable from one another, but because they are very similar they form a harmonious group.
 
 <div class="try-it">
-  <h2>Try It: Colors</h2>
-  <p>Visit a few of the award-winning websites below. Try to identify what type of color combinations make these site clean and appealing.</p>
+  <h2>🐣 Try It: Colors</h2>
+  <p>In your breakout group, visit a few of the award-winning websites below. Try to identify what type of color combinations make these site clean and appealing. Be ready to share out what you find!</p>
   <ul>
     <li><a href="https://builtbybuffalo.com/">Built By Buffalo</a></li>
     <li><a href="https://www.miukimiu.com/">Miuki Miu</a></li>
