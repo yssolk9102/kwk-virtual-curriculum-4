@@ -4,6 +4,15 @@ title: WebDev Calendar
 
 [Back to main WebDev page]({{ site.url }}/web-app)
 
+Every day, camp will follow the schedule listed below. Times listed will be for the timezone for your camp.
+- 9:45 - 10:00 - Morning Community Time
+- 10:00 - 12:00 - Technical Work
+- 12:00 - 1:00 - Lunch
+- 1:00 - 3:00 - Technical Work
+- 3:00 - 3:15 - Closing Circle
+
+Click on a day below to see the details about what you'll be learning and building!
+
 <h2>Week 1</h2>
 
 <article class="day-card">
