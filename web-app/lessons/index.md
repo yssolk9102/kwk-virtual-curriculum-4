@@ -4,8 +4,6 @@ title: Virtual WebDev Lessons
 
 [Back to main WebDev page]({{ site.url }}/web-app)
 
-Find all lessons below. Note that the lessons are organized by topic below.
-
 ## JavaScript
 
 - [Intro to JavaScript]({{ site.url }}/web-app/lessons/js-intro)
