@@ -1,18 +1,27 @@
-.week-card {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 35px;
+//
+// h2 {
+//   text-transform: uppercase;
+//   margin-left: 5px;
+// }
+//
+.day-label {
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 12px 0;
+}
 
-  h2 {
-    text-transform: uppercase;
-    margin-left: 5px;
-  }
+.day-card {
+  background-color: #D7EED5;
+  padding: 0.25em 0.25em 0.25em 1.25em;
+  margin-bottom: .5em;
+}
 
-  h3 {
-    text-transform: uppercase;
-    text-align: center;
-  }
-
+.day-toggle {
+  display: none;
+  border-bottom: none;
+  margin-bottom: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "left middle right";
   ul {
     padding-left: 0;
   }
@@ -23,18 +32,15 @@
   }
 }
 
-.day-cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.day-left {
+  grid-area: left;
 }
 
-.day-card {
-  width: 180px;
-  background: white;
-  border-bottom: none;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
-  border-top: 8px solid $green;
-  margin-bottom: 40px;
-  padding: 0.25em 0.75em;
+.day-middle {
+  grid-area: middle;
+
+}
+
+.day-right {
+  grid-area: right;
 }

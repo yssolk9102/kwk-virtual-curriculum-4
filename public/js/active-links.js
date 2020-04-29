@@ -28,3 +28,19 @@ allSpicyTitles.forEach(function(title) {
   });
 
 });
+
+
+var allDayLabels = document.querySelectorAll(".day-click");
+
+allDayLabels.forEach(function(title) {
+
+  title.addEventListener("click", function(e) {
+    var content = e.target.nextSibling.nextSibling;
+    if (content.style.display === "grid") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "grid";
+    }
+  });
+
+});
