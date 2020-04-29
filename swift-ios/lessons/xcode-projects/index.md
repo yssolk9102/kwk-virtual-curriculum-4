@@ -13,7 +13,7 @@ title: Xcode Projects
 * Utilities Pane
 * Debug Area
 
-## Xcode Projects
+## 🌎 Xcode Projects
 
 Up until now, we've mainly worked in Xcode Playgrounds, which are a great place to run code, but not usable to build real iOS apps. Xcode _Projects_ is a place where we can! A lot more than writing code goes into building an iOS app, but we can do it all in Xcode. It is a big challenge that utilizes a lot of different tools; so we will take it one step at a time. [Here's]({{ site.url }}/swift-ios/lessons/storyboard/assets/xcode-map.png) a map of the main features in Xcode.
 
@@ -23,7 +23,7 @@ Before watching it, make sure you open up an Xcode Project so you can follow alo
 
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfUrOZkvH&v=5&ff=1" allowfullscreen="true"></iframe>
 
-## Scavenger Hunt
+## 🐣 Scavenger Hunt
 
 Follow the steps below to practice navigating Xcode Projects!
 
