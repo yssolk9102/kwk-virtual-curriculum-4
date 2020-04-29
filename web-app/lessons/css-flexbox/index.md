@@ -217,6 +217,7 @@ There is more to learn about Flexbox, but we can do a lot with what we know. It 
 
 ## More Practice
 
+- [Scrimba](https://scrimba.com/g/gflexbox) offers a free course that is under an hour long. This might be a great watch if you're struggling to understand Flexbox!
 - Finish levels 14 - 24 of [Flexbox Froggy](https://flexboxfroggy.com/)
 - Can't get enough of Flexbox Froggy? Try out [Flexbox Defense](http://www.flexboxdefense.com/)
 
