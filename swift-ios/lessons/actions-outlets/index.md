@@ -14,7 +14,7 @@ title: Actions & Outlets
 - Assistant Editor
 - unwrap
 
-## Actions & Outlets
+## 🌎 Actions & Outlets
 
 Actions and Outlets are the way that our program lets the design files communicate with the code files. The connection allows us to refer to the objects in the design file, but inside of our code file.
 * **Outlet** - when you want to change the appearance of something or keep track of information
@@ -35,8 +35,9 @@ When you are in the 'Assistant Editor', you should see two panes in the Interfac
 ## Outlets
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>Considering the goal of this small application, what information do we want to keep track of? What Objects will we want to change the appearance of?</p>
+  <h2>🗂 Brainstorm</h2>
+  <p>Considering the goal of this small application, what information do we want to keep track of?</p>
+  <p>What objects will we want to change the appearance of?</p>
 </div>
 
 Ultimately, we want to know what the user typed in, because anytime we type something into a form, that data has to go somewhere. Maybe that data logs us into an account, maybe it orders dinner, etc.
@@ -70,7 +71,7 @@ We are creating this second outlet to keep track of what the user types in. We w
 ## Actions
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>🗂 Brainstorm</h2>
   <p>What <strong>actions</strong> can our user take in this application?</p>
 </div>
 
@@ -109,8 +110,8 @@ If we make it into that code block (if textField.text is not nil), then the `app
 Get your code up-to-date with this, and run in simulator. It should be working! If it's not, ask a neighbor or instructor.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>In total, we had three actions/outlets. Discuss each one in detail - how did you establish it and what is its job? Would your app work without it? Why or why not?</p>
+  <h2>🐣 Discuss</h2>
+  <p>In total, we had three actions/outlets. With your breakout group, discuss each one in detail - how did you establish it and what is its job? Would your app work without it? Why or why not?</p>
 </div>
 
 ## iOS: Actions & Outlets
@@ -120,6 +121,12 @@ Whether you followed along in class or watched your instructor model, this is a 
 <div class="practice">
   <h2>Practice: Actions & Outlets</h2>
   <p>Build an app that takes at least 2 user inputs, has some sort of 'Submit' button, provides a custom alert to the user when the button is tapped.</p>
-  <h3>Extension: Date Object</h3>
-  <p>Use the Date Object from the Object Library so your user can select a time. Figure out how to format the string that is provided to write the time in a more readable format such as "8:30 am".</p>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Use the Date Object from the Object Library so your user can select a time. Figure out how to format the string that is provided to write the time in a more readable format such as "8:30 am".</p>
+    </div>
+  </div>
+
 </div>
