@@ -108,7 +108,7 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Homework</h4>
     <ul>
-      <li><a href="../practice/intermediate-js">Practice: Intermediate JavaSc</a>ript</a></li>
+      <li><a href="../practice/intermediate-js">Practice: Intermediate JavaScript</a></li>
     </ul>
     </div>
   </div>

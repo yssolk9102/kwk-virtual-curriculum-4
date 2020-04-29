@@ -17,7 +17,6 @@ $('.curriculum-links').each(function(idx, link) {
 var allSpicyTitles = document.querySelectorAll(".spicy-click");
 
 allSpicyTitles.forEach(function(title) {
-
   title.addEventListener("click", function(e) {
     var content = e.target.nextSibling.nextSibling;
     if (content.style.display === "block") {
@@ -26,14 +25,12 @@ allSpicyTitles.forEach(function(title) {
       content.style.display = "block";
     }
   });
-
 });
 
 
 var allDayLabels = document.querySelectorAll(".day-click");
 
 allDayLabels.forEach(function(title) {
-
   title.addEventListener("click", function(e) {
     var content = e.target.nextSibling.nextSibling;
     if (content.style.display === "grid") {
@@ -42,5 +39,17 @@ allDayLabels.forEach(function(title) {
       content.style.display = "grid";
     }
   });
+});
 
+var allSoloLabels = document.querySelectorAll(".solo-day-click");
+
+allSoloLabels.forEach(function(title) {
+  title.addEventListener("click", function(e) {
+    var content = e.target.nextSibling.nextSibling;
+    if (content.style.display === "grid") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "grid";
+    }
+  });
 });

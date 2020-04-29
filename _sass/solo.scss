@@ -1,4 +1,4 @@
-.day-label {
+.solo-day-label {
   text-transform: uppercase;
   cursor: pointer;
   margin: 0;
@@ -6,18 +6,16 @@
   padding: 1em 1.25em;
 }
 
-.day-card {
+.solo-day-card {
   background-color: #D7EED5;
 }
 
-.day-toggle {
+.solo-day-toggle {
   padding: 0.25em 0.25em 0.25em 1.25em;
   background-color: #EBF7EA;
   display: none;
   border-bottom: none;
   margin-bottom: 40px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "left middle right";
 
   h4 {
     margin: 14px auto 0;
@@ -32,17 +30,4 @@
     list-style-type: none;
     font-size: 93%;
   }
-}
-
-.day-left {
-  grid-area: left;
-}
-
-.day-middle {
-  grid-area: middle;
-
-}
-
-.day-right {
-  grid-area: right;
 }
