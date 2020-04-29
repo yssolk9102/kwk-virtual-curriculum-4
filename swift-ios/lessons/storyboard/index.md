@@ -15,7 +15,7 @@ title: StoryBoard
 * Constraints
 * Object Library
 
-## StoryBoard & Object Library
+## 🌎 StoryBoard & Object Library
 
 Before we write all the Swift code we've been learning to make our app DO something, we want to completely set up the **UI (user interface)**. We will drag and drop components of the UI from the Object Library onto the **StoryBoard**.
 
@@ -78,6 +78,12 @@ You are now building **real** iOS applications! To get some more practice, compl
     <li>Check the simulator again</li>
   </ul>
   <p>Now, add an icon image. Run in simulator to make sure it was loaded in correctly!</p>
-  <h3>Extension</h3>
-  <p>Start over! Drag a Navigation Bar onto the View Controller. Edit the title. Drag 1 or more Navigation Item onto the Navigation Bar - play around with the different icons that are built in that you can use! Finish the UI for the rest of your app now that you have a Navigation Bar! Add an icon image - this time, make sure this will appear on any iPad by also including a 76x76 image in the 1x box.</p>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Extension 🕵🏾‍♀️</p>
+    <div class="spicy-toggle">        
+      <p>Start over! Drag a Navigation Bar onto the View Controller. Edit the title. Drag 1 or more Navigation Item onto the Navigation Bar - play around with the different icons that are built in that you can use! Finish the UI for the rest of your app now that you have a Navigation Bar! Add an icon image - this time, make sure this will appear on any iPad by also including a 76x76 image in the 1x box.</p>
+    </div>
+  </div>
+
 </div>
