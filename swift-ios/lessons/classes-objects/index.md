@@ -16,7 +16,7 @@ title: Classes and Objects
 * property
 * actions
 
-## Classes & Objects
+## 🌎 Classes & Objects
 
 When we work with classes, we think about our code in terms of objects. A **class** is like a blueprint or a cookie cutter for our code. It is a chunk of code, usually, in its own file, that can hold data and functions. It kind of serves as a factory - think about a car factory - they have a blueprint, then make thousands of cars from that blueprint. The cars from this blueprint will have a lot in common, but each may have their own differences - colors, fabric for seats, etc.
 
@@ -25,8 +25,8 @@ An **object** is created from a class. Thinking back to that car factory: the cl
 Together, we are going to make a scholar class. It will be a blueprint for a scholar, and then we will make an individual scholar object using that blueprint.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>With your partner, make a list of things that all scholars have - they don't have all to be the same. The first thing on the list might be "name".</p>
+  <h2>🗂 Brainstorm</h2>
+  <p>Make a list of things that all scholars have - they don't have all to be the same. The first thing on the list might be "name". Be ready to share out!</p>
 </div>
 
 ### Scholar Class
@@ -213,12 +213,18 @@ Now that we can write classes and use them to create objects, _and_ organize our
     <li>In main.swift, create at least one object with this class and do some printing to make sure your class is behaving as expected</li>
     <li>Add in an `init` function so you can pass your class something specific to the object you are creating. (For a car, I would definitely want to make sure the color could change!)</li>
   </ul>
-  <h3>Extension: Super and Sub Classes</h3>
-  <ul>
-    <li>Read this
-      <a href="https://www.weheartswift.com/swift-classes-part-2/" target="blank">blog post</a>
-    </li>
-    <li>What is a scenario where you could use a superclass and subclass?</li>
-    <li>If you still have time, try to build the superclass and subclass you brainstormed. You can just create a new file in the project you've been working in.</li>
-  </ul>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Extension 🕵🏾‍♀️</p>
+    <div class="spicy-toggle">        
+      <ul>
+        <li>Read this
+          <a href="https://www.weheartswift.com/swift-classes-part-2/" target="blank">blog post</a>
+        </li>
+        <li>What is a scenario where you could use a superclass and subclass?</li>
+        <li>If you still have time, try to build the superclass and subclass you brainstormed. You can just create a new file in the project you've been working in.</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
