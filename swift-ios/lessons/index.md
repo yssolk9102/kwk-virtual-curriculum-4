@@ -22,11 +22,7 @@ Find all lessons below. Note that the lessons are organized by topic below.
 - [Accessing Camera & Displaying Photos]({{ site.url }}/swift-ios/lessons/access-camera-display-photos)
 - [Segues]({{ site.url }}/swift-ios/lessons/segues)
 - [Design & UX]({{ site.url }}/swift-ios/lessons/design)
-
-## iOS Features
-
 - [Tables]({{ site.url }}/swift-ios/lessons/tables)
-- [AR]({{ site.url }}/swift-ios/lessons/ar)
 
 ## Culture of Tech
 

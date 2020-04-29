@@ -14,7 +14,7 @@ title: Tables
 - Interface Builder
 - programmatically
 
-## Tables IRL
+## 🌎 Tables IRL
 
 Tables are tricky to use, but are features of applications that iOS users expect. The most well-known table is the Messages screen:
 
@@ -22,7 +22,8 @@ Tables are tricky to use, but are features of applications that iOS users expect
 
 <div class="try-it">
   <h2>Check It Out: Tables</h2>
-  <p>On your iPad or a phone, look through some of your favorite apps. Look through some of Apples apps (App Store -> Apps, Phone -> Contacts, Reminders, Clock -> Alarm, </p>
+  <p>On your iPad or a phone, look through some of your favorite apps. Look through some of Apples apps (App Store: Apps Page, Phone: Contacts View, Reminders: Clock & Alarm Views).</p>
+  <p>Where do you see tables being used? Be ready to share out!</p>
 </div>
 
 It may be something we haven't even noticed or appreciated in the past, but the foundation of so many apps is built on tables. Since we are iOS developers, we need to know how to include them in our apps, too!
@@ -143,7 +144,7 @@ cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
 
 This is change the text of the label in each cell to say "Section 1 Row 3" (if the cell were in section 1, row 3).
 
-Now, we need to override the `tableView` that takes an argument of `tableTitleHeader`. We can do this by starting to type `tableTitleHeader`, then Xcode will autocomplete the function for us. 
+Now, we need to override the `tableView` that takes an argument of `tableTitleHeader`. We can do this by starting to type `tableTitleHeader`, then Xcode will autocomplete the function for us.
 
 Inside that function, add `return "Section \(section)"`. This will label the section as Section 0, Section 1, Section 2, so we can clearly see what's going on once this is running in the simulator.
 

@@ -23,7 +23,7 @@ Also, it's ideal that your talking points are on slides, and essential that you 
 <div class="try-it">
   <h2>Try It: Planning a Demo</h2>
   <p>With your group, discuss and write down your answers to the planning questions.</p>
-  <p>Then, select a Google Slides template you all like, and start making slides that highlight your talking points. Make sure to assign each slide to a group member, and make sure to give equal talking time to everyone!</p>
+  <p>Then, select a Google Slides template you all like and start making slides that highlight your talking points. Make sure to assign each slide to a group member, and make sure to give equal talking time to everyone!</p>
   <p>Consider how you will show the functionality of your app - will you have up your real app on a simulator? Can you connect an iOS device to the projector/TV? A giphy recording of it? Who will do the clicking, and who will do the talking? Consider every little detail.</p>
 </div>
 
