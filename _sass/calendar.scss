@@ -7,22 +7,32 @@
 .day-label {
   text-transform: uppercase;
   cursor: pointer;
-  margin: 12px 0;
+  // margin: 12px 0;
+  margin: 0;
+  margin-top: 12px;
+  padding: 1em 1.25em;
 }
 
 .day-card {
   background-color: #D7EED5;
-  padding: 0.25em 0.25em 0.25em 1.25em;
-  margin-bottom: .5em;
+  // margin-bottom: .5em;
 }
 
 .day-toggle {
+  padding: 0.25em 0.25em 0.25em 1.25em;
+  background-color: #EBF7EA;
   display: none;
   border-bottom: none;
   margin-bottom: 40px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "left middle right";
+
+  h4 {
+    margin: 14px auto 0;
+  }
+
   ul {
+    margin-top: 8px;
     padding-left: 0;
   }
 

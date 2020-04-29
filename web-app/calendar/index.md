@@ -17,6 +17,7 @@ title: WebDev Calendar
         <li>Icebreakers</li>
         <li>What app do you want to build?</li>
         <li>Lunch</li>
+        <li>Closing Circle</li>
       </ul>
     </div>
 
