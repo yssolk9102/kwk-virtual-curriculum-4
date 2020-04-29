@@ -2,6 +2,8 @@
 title: Photo Gallery Project
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Using what you’ve learned about HTML and CSS, you are going to build a photo gallery! Below are some big-picture things to know, then you will be provided with a structure to follow to help you complete successfully.
 
 ### Must-Haves
@@ -39,4 +41,6 @@ Using what you’ve learned about HTML and CSS, you are going to build a photo g
 
 - Write CSS to get your Photo Gallery to appear they way you desire
 - Consider: white space, color contrasts, and content being centered (or not, if it's clearly on purpose!)
+
 <br>
+[Back to Projects]({{ site.url }}/web-app/projects)

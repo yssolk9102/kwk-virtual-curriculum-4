@@ -2,6 +2,8 @@
 title: ToDo Box Project
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Your HTML and CSS skills will come in handy to make this look great, but the focus of this project is to give you an opportunity to use JavaScript. Specifically, you will use what you have learned about DOM Manipulation and Local Storage!
 
 ### Must-Haves
@@ -45,3 +47,6 @@ Your HTML and CSS skills will come in handy to make this look great, but the foc
 
 - Store each "ToDo" in local storage when the user creates it
 - Make sure that when the page loads, all "ToDo"s are rendered.
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

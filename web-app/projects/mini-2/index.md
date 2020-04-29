@@ -2,6 +2,8 @@
 title: Mini Project 2
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a _secret_ application!
 
 ### Must-Haves
@@ -47,3 +49,6 @@ Now that you have a plan, write the code to power this functionality
 
 1. We didn't cover how to change the `src` attribute of an image in class. Google to find information on how to do that, or use [this resource](https://www.tutorialrepublic.com/faq/how-to-change-the-image-source-using-jquery.php)!
 2. You already have functionality so that when the user clicks the button once, they see the secrets. Can you add functionality so that when the secrets are displayed, the user can click the button to hide the secrets and display the original facts?
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

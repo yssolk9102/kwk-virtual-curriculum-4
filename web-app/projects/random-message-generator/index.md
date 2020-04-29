@@ -2,6 +2,8 @@
 title: Random Message Generator
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Your HTML and CSS skills will come in handy to make this look great, but the focus of this project is to give you an opportunity to use JavaScript. Specifically, you will use what you have learned about DOM Manipulation and Arrays.
 
 ### Must-Haves
@@ -46,3 +48,6 @@ Your HTML and CSS skills will come in handy to make this look great, but the foc
 - Create an array of your "messages" that will be randomly picked from
 - Inside your event handler, write logic to randomly select a message from the array
 - Your event handler should also make sure that the selected message appears on the screen for your user
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

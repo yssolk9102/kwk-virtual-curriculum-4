@@ -2,6 +2,8 @@
 title: Making Music
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a virtual instrument!
 
 ### Must-Haves
@@ -43,3 +45,6 @@ Here's <a target="blank" href="https://turingschool-projects.github.io/countdown
 ## Iteration 4 - Sound!
 
 - Bring your instrument to life - get the audio working when each button is clicked on or hovered over!
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

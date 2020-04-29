@@ -2,6 +2,8 @@
 title: Countdown Timer
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a countdown timer!
 
 You may have seen these before:
@@ -51,3 +53,6 @@ Here's an example:
 - Write the code necessary to get your timer working!
 
 **Note**: Once your event/big day takes place, this site will no longer... have any helpful info. If you ever want to re-set the date, you'll update the date in the CodePen.
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

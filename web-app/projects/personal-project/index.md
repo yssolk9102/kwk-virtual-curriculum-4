@@ -2,6 +2,8 @@
 title: WebDev Personal Project
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 During the last three days of camp, you will have the opportunity to work on a personal project - topic of your choice - and present it at Demo Day!
 
 ## Project Pitches
@@ -39,3 +41,6 @@ As you work on a bigger project, it becomes more important to check in with your
 ## Demo Day
 
 On Friday afternoon, you will give a live demo of your app to the KWK community - your fellow scholars, instructors, mentors and families! We will have a couple sessions to help you prepare an practice a presentation; there is nothing to do now on this, we just wanted to give you a heads up.
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

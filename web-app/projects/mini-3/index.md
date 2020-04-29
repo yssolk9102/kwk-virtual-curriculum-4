@@ -2,6 +2,8 @@
 title: Mini Project 3
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a small application that gives a user a unique experience based on the information they provide in a form!
 
 You may have seen this type of functionality before. When a site asks you to sign up for a newsletter - you type your email, then see a small message of something like "Thanks for signing up! We'll send a message to _your email address_!"
@@ -36,3 +38,6 @@ Before you start writing out JavaScript, take some time to pseudo-code. In your 
 ## Iteration 4 - Implement JS
 
 Now that you have a plan, write the code to power this functionality
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

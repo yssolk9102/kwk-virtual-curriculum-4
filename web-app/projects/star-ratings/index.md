@@ -2,6 +2,8 @@
 title: Star Ratings
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a small app that allows a user to rate something with 1-5 stars! You've probably seen this feature on various sites before. While we're building a feature that alone doesn't mean much, the learning from this project could be really helpful in your personal project!
 
 ### Must-Haves
@@ -22,3 +24,6 @@ Here is the star rating feature on Amazon:
 ### Iterations
 
 You are not being provided with Iterations in order to push you to plan out how you will spend your time. You got this!
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

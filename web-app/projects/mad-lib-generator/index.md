@@ -2,6 +2,8 @@
 title: Mad Libs Generator
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build a Mad Libs Generator! If you aren't familiar with "Mad Libs", read up on it <a target="blank" href="https://en.wikipedia.org/wiki/Mad_Libs">here</a>.
 
 ### Must-Haves
@@ -31,3 +33,6 @@ Applying what you've learned about HTML, CSS, and JavaScript, then pushing yours
 
 - Write an event listener and handler for your button(s). Make sure they are working with a `console.log()`. Make sure you are grabbing the values from all 3 inputs.
 - Using all 3 inputs and your sentence stems, show the Mad Lib to your user once they click the button!
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

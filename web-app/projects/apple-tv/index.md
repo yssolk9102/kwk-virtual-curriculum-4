@@ -2,6 +2,8 @@
 title: Apple TV
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Applying what you've learned about HTML, CSS, and JavaScript, then pushing yourself to do some problem-solving and research, you are going to build the functionality of letting a computer AirPlay to an Apple TV.
 
 ### Must-Haves
@@ -49,3 +51,6 @@ Example: `var newNumber = parseInt("1723");` `newNumber` stores the number of `1
 Listen to the click of the button. In the event handler, compare the number that the user entered to the number displayed on above (the random number you generated).
 - If they match, clear out the 4-digit number and replace it with a message letting your user know they were successful. You might want to use [`.html()`](https://api.jquery.com/html/)!
 - If they don't match, insert a small error message to let the user know they weren't successful. Don't hide the 4-digit number though, they'll need to see that in order to try again. You might want to hide an error message using `visibility: hidden;` in CSS in a rule that you add and remove with jQuery.
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)

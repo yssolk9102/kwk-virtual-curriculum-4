@@ -2,6 +2,8 @@
 title: Mini Project 1
 ---
 
+[Back to Projects]({{ site.url }}/web-app/projects)
+
 Applying what you've learned about HTML and CSS, you are going to build a little "About Me" site! This gives you both a chance to practice your skills, as well as get to know your fellow scholars! Over the course of camp, we'll share these with each other!
 
 ### Must-Haves
@@ -30,3 +32,6 @@ Add some colors, borders, and anything else! As camp progresses, you'll learn mo
 
 - Want to add fun fonts? Check out [this how-to guide](https://codepen.io/team/sparkbox/full/OMdwoJ)
 - Want to add fun colors? Check out [this awesome resource](https://htmlcolorcodes.com/color-picker/)
+
+<br>
+[Back to Projects]({{ site.url }}/web-app/projects)
