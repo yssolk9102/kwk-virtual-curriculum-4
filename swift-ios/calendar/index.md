@@ -33,16 +33,16 @@ Click on a day below to see the details about what you'll be learning and buildi
     <div class="day-middle">
       <h4>Technical</h4>
       <ul>
-        <li><a href="../lessons/html-intro">Learn: Intro to HTML</a></li>
-        <li><a href="../lessons/css-intro">Learn: Intro to CSS</a></li>
+        <li><a href="../lessons/intro-to-swift">Learn: Intro to Swift</a></li>
+        <li><a href="../lessons/conditionals">Learn: Conditionals</a></li>
       </ul>
     </div>
 
     <div class="day-right">
       <h4>Homework</h4>
       <ul>
-        <li><a href="../solo/html-inter">Watch: Intermediate HTML</a></li>
-        <li><a href="../solo/mini-1">Build: Mini Project 1</a></li>
+        <li><a href="../solo/functions-intro">Watch: Intro to Functions</a></li>
+        <li><a href="../solo/swift-conditionals">Practice: Swift, Conditionals</a></li>
       </ul>
     </div>
 
@@ -65,18 +65,20 @@ Click on a day below to see the details about what you'll be learning and buildi
     <div class="day-middle">
       <h4>Technical</h4>
       <ul>
-        <li>Review: Intermediate HTML</li>
-        <li><a href="../lessons/css-intermediate">Learn: Intermediate CSS</a></li>
-        <li><a href="../lessons/design">Learn: Design</a></li>
-        <li><a href="../lessons/css-flexbox">Learn: Flexbox</a></li>
-        <li><a href="../projects/photo-gallery">Build: Photo Gallery/EL</a></li>
+        <li>Review: Intro to Functions</li>
+        <li><a href="../lessons/functions">Learn: Functions</a></li>
+        <li><a href="../practice/functions">Practice: Functions</a></li>
+        <li><a href="../lessons/arrays">Learn: Arrays</a></li>
+        <li><a href="../lessons/loops-arrays">Learn: Loops with Arrays</a></li>
+        <li><a href="../lessons/loops-arrays">Practice: Loops with Arrays</a></li>
       </ul>
     </div>
 
     <div class="day-right">
       <h4>Homework</h4>
       <ul>
-        <li><a href="../solo/photo-gallery">Build: Photo Gallery/EL</a></li>
+        <li><a href="../solo/dictionaries">Watch: Dictionaries</a></li>
+        <li><a href="../solo/dictionaries">Practice: Dictionaries</a></li>
       </ul>
     </div>
 
@@ -99,16 +101,18 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-middle">
     <h4>Technical</h4>
     <ul>
-      <li><a href="../projects/photo-gallery">Build: Photo Gallery/EL</a></li>
-      <li><a href="../lessons/js-intro">Learn: Intro to JavaScript</a></li>
-      <li><a href="../practice/intro-js">Practice: Intro to JavaScript</a></li>
-      <li><a href="../lessons/js-intermediate">Learn: Intermediate JavaScript</a></li>
+      <li>Review: Loops & Dictionaries</li>
+      <li><a href="../lessons/storyboard">Learn: StoryBoards</a></li>
+      <li><a href="../practice/storyboard">Practice: StoryBoards</a></li>
+      <li><a href="../lessons/actions-outlets">Learn: Actions & Outlets</a></li>
+      <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
     </ul>
   </div>
   <div class="day-right">
     <h4>Homework</h4>
     <ul>
-      <li><a href="../practice/intermediate-js">Practice: Intermediate JavaScript</a></li>
+      <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
+      <li><a href="../solo/brainstorm">App Design Journal: Brainstorm</a></li>
     </ul>
     </div>
   </div>
@@ -129,17 +133,18 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-middle">
     <h4>Technical</h4>
     <ul>
-      <li>Review: Intermediate JavaScript</li>
-      <li><a href="../lessons/js-functions">Learn: Functions</a></li>
-      <li><a href="../practice/functions">Practice: Functions</a></li>
-      <li><a href="../lessons/js-arrays-intro">Learn: Intro to Arrays</a></li>
-      <li><a href="../lessons/js-objects">Learn: Intro to Objects</a></li>
+      <li>Review: Contraints</li>
+      <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
+      <li><a href="../lessons/segues">Learn: Segues</a></li>
+      <li><a href="../lessons/design">Learn: Design</a></li>
+      <li><a href="../projects/mini-2">Build: Mini Project 2</a></li>
     </ul>
   </div>
   <div class="day-right">
     <h4>Homework</h4>
     <ul>
-      <li><a href="../practice/objects-arrays">Practice: Objects & Arrays</a></li>
+      <li><a href="../projects/mini-2">Build: Mini Project 2</a></li>
+      <li><a href="../solo">App Design Journal: Plan UI/UX</a></li>
     </ul>
     </div>
   </div>
@@ -161,18 +166,16 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-middle">
     <h4>Technical</h4>
     <ul>
-      <li>Review: Objects & Arrays</li>
-      <li><a href="../lessons/js-arrays-intermediate">Learn: Intermediate Arrays</a></li>
-      <li><a href="../practice/arrays-intermediate">Practice: Intermediate Arrays</a></li>
-      <li><a href="../lessons/js-dom-manipulation-intro">Learn: Intro to DOM</a></li>
-      <li><a href="../practice/intro-dom">Practice: Intro to DOM</a></li>
+      <li>Review & Share: Mini Project 2</li>
+      <li><a href="../lessons/classes-objects">Learn: Classes & Objects</a></li>
+      <li><a href="../practice/classes-objects">Practice: Classes & Objects</a></li>
+      <li><a href="../">App Design Journal: Plan Design</a></li>
     </ul>
   </div>
   <div class="day-right">
     <h4>Homework</h4>
     <ul>
-      <li><a href="../solo/form">Watch: Forms</a></li>
-      <li><a href="../solo/mini-2">Build: Mini Project 2</a></li>
+      <li><a href="../solo">App Design Journal: Prototype</a></li>
     </ul>
     </div>
   </div>
@@ -197,15 +200,16 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-middle">
     <h4>Technical</h4>
     <ul>
-      <li>Review: Intro to DOM</li>
-      <li>Review: Forms</li>
-      <li><a href="../lessons/js-dom-manipulation-intermediate">Learn: Intermediate DOM</a></li>
+      <li>Share Out: Prototypes</li>
+      <li><a href="../lessons/core-data-overview">Learn: Core Data Overview</a></li>
+      <li><a href="../projects/to-do-list">Built: ToDo List</a></li>
+      <li><a href="../projects/to-do-list">App Journal: Write Pitch</a></li>
     </ul>
   </div>
   <div class="day-right">
     <h4>Homework</h4>
     <ul>
-      <li><a href="../solo/mini-3">Build: Mini Project 3</a></li>
+      <li><a href="../solo">Build: ToDo List</a></li>
     </ul>
     </div>
   </div>
@@ -227,16 +231,16 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-middle">
     <h4>Technical</h4>
     <ul>
-      <li>Review: Intermediate DOM</li>
-      <li><a href="../projects/mini-3">Build: Mini Project 3</a></li>
-      <li><a href="../projects/personal-project">Pair: Wireframe</a></li>
+      <li>Review: ToDo List</li>
+      <li>Pitch Party</li>
+      <li><a href="../projects/personal-project">Learn: Access Camera</a></li>
+      <li><a href="../projects/personal-project">Pair: Wireframe, Storyboard</a></li>
     </ul>
   </div>
   <div class="day-right">
     <h4>Homework</h4>
     <ul>
-      <li><a href="../solo/personal">Pair: Write HTML</a></li>
-      <li><a href="../solo/personal">Pair: Start CSS <em>optional</em></a></li>
+      <li><a href="../solo">Pair: Objects & Constraints</a></li>
     </ul>
     </div>
   </div>
