@@ -19,7 +19,7 @@ title: For-In Loops
 * Iterate
 * Loop
 
-## Warm Up
+## 🌎 Warm Up
 
 Iteration (or looping for a specified number of times) is a process of repeating a task for each object in a collection. For each of the scenarios below, we’ll walk through using examples we are familiar with to demonstrate the concept.
 
@@ -182,7 +182,7 @@ for creator in trendingCreators {
 ```
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>Think About It</h2>
   <ul>
     <li>What do you think will happen when we run the code above?</li>
     <li>What if we add another creator to our array?</li>
@@ -212,14 +212,14 @@ The word `creator` right after the keyword `for` refers to each element of our a
 By using the word `creator` after the `for` keyword, we're telling our code that we can use `creator` like a variable (only inside of the code block, or the curly braces), and its value for each iteration of the loop will be whatever element of the array it's currently iterating over.
 
 <div class="try-it">
-  <h2>Try It: Looping over Arrays</h2>
+  <h2>🐣Try It: Looping over Arrays</h2>
   <ul>
     <li>Declare an array of the names of five of your friends</li>
     <li>Write a <code class="try-it-code">for-in</code> loop that uses each name and prints <code class="try-it-code">Hello, [friend's name]</code> to the console</li>
     <li>Declare an array of the names of four things you want to learn</li>
     <li>Write a <code class="try-it-code">for-in</code> loop that uses each thing you want to learn and prints <code class="try-it-code">I want to learn [thing I want to learn]</code> to the console</li>
   </ul>
-  <p>Talk with your partner: What did you name your arrays? What word did you use to describe the individual elements (what did you type between <em>for</em> and <em>in</em> in your loops)?</p>
+  <p>Share with your breakout groups: What did you name your arrays? What word did you use to describe the individual elements (what did you type between <em>for</em> and <em>in</em> in your loops)?</p>
 </div>
 
 ## Placeholders & Counters
@@ -293,7 +293,14 @@ print(largeNumbers)
   <h2>Try It: Placeholders</h2>
   <p>Declare an array that contains at least five strings and store it in a variable. You choose what the words are!</p>
   <p>Use a <code class="try-it-code">for in</code> loop to create a new array of the words from your original array than have less than 6 characters. Use <code class="try-it-code">console.log()</code> to verify your new array holds what you think it does.</p>
-  <p><strong>Spicy Challenge:</strong> Declare a function called <code class="try-it-code">findLongestWord</code>. It should iterate over an array of strings. Your function should return one string, the string from the original array that had the greatest number of characters. If there is a tie for the greatest number of characters, return the last one that is in the array.</p>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Declare a function called <code class="spicy-code">findLongestWord</code>. It should iterate over an array of strings. Your function should return one string, the string from the original array that had the greatest number of characters. If there is a tie for the greatest number of characters, return the last one that is in the array.</p>
+    </div>
+  </div>
+
 </div>
 
 ## `for-in` Loops _without_ Collections
@@ -320,8 +327,21 @@ In the example above, we did declare a variable, `number` - it will behave as if
   <h2>Try It: Looping without Collections</h2>
   <p>Write a <code class="try-it-code">for-in</code> loop that prints <code class="try-it-code">Are we there yet?</code> to the console 100 times.</p>
   <p>Write a <code class="try-it-code">for-in</code> loop that prints <code class="try-it-code">I've had ___ frappuccinos today ...</code> to the console 10 times, with the numbers 1 - 10 filled in for the blank.</p>
-  <p><strong>Medium Challenge:</strong> Write a <code class="try-it-code">for-in</code> loop that prints <code class="try-it-code">I've had ___ frappuccinos today ...</code> to the console 5 times, <em>starting at 7</em>.</p>
-  <p><strong>Spicy Challenge:</strong> Write a <code class="try-it-code">for-in</code> loop that prints <code class="try-it-code">I've had ___ frappuccinos today ...</code> to the console 10 times, with the numbers 0 - 9 filled in for the blank. <em>However</em>, the second statement printed out technically has incorrect grammar. That sentence should say <code class="try-it-code">I've had 1 frappuccino today ...</code>, with frappuccino being singular. How can you utilize other concepts you've learned this week to accomplish that?</p>
+
+  <div class="challenge-container medium-heat">
+    <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
+    <div class="spicy-toggle">  
+      <p>Write a <code class="medium-code">for-in</code> loop that prints <code class="medium-code">I've had ___ frappuccinos today ...</code> to the console 5 times, <em>starting at 7</em>.</p>      
+    </div>
+  </div>
+
+  <div class="challenge-container spicy-heat">
+    <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
+    <div class="spicy-toggle">        
+      <p>Write a <code class="spicy-code">for-in</code> loop that prints <code class="spicy-code">I've had ___ frappuccinos today ...</code> to the console 10 times, with the numbers 0 - 9 filled in for the blank. <em>However</em>, the second statement printed out technically has incorrect grammar. That sentence should say <code class="spicy-code">I've had 1 frappuccino today ...</code>, with frappuccino being singular. How can you utilize other concepts you've learned this week to accomplish that?</p>
+    </div>
+  </div>
+
 </div>
 
 ## Loops
@@ -339,7 +359,7 @@ We're really getting into some complicated code! Work through the practice below
     <li>Can you brainstorm some ways that one of your favorite apps might make use of a for-in loop?</li>
   </ul>
   <h3>More Practice</h3>
-  <p>At this point, you have the tools to do just about anything with loops! The most frequent use cases will be involving arrays. If you’d like more practice before moving on, check out the Leveled <a href="../array-exercises">Array Exercises</a>.</p>
+  <p>At this point, you have the tools to do just about anything with loops! If you’d like more practice before moving on, check out the Leveled <a href="../../practice/loops">Array Practice Exercises</a>.</p>
 </div>
 
 <br>
