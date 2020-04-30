@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var loginBtn = document.querySelector("#login-submit");
       loginBtn.addEventListener('click', logIn);
     } else if (relativeURL !== '/kwk-virtual-curriculum/login/' && check === 'true') {
-      showLinks();
+      showLinks(isStaff);
     } else if (relativeURL !== '/kwk-virtual-curriculum/login/' && check === 'false') {
       window.location.replace('/kwk-virtual-curriculum/login/');
     }
@@ -38,15 +38,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function showLinks(isStaff) {
     var links = document.querySelectorAll(".navbar-navigation--links .curriculum-links");
-    console.log("links:", links);
+
     if (isStaff) {
-      console.log("in isStaff");
+      console.log("in staff show links");
       for (var i = 0; i < links.length; i++) {
+        console.log("inside loop! current link:", links[i]);
         links[i].style.display = 'block';
       }
     } else {
-      console.log("else isStaff");
-      console.log("1", links[1], "2", links[1]);
+      console.log("in student show links");
+      console.log("1", links[1], "2", links[2]);
       links[0].style.display = 'none';
       links[1].style.display = 'block';
       links[2].style.display = 'block';
