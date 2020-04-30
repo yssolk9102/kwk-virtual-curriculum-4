@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
       console.log("else isStaff");
       console.log("1", links[1], "2", links[1]);
+      links[0].style.display = 'none';
       links[1].style.display = 'block';
       links[2].style.display = 'block';
     }
