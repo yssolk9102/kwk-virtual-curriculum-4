@@ -1,17 +1,17 @@
 ---
-title: Dictionaries Practice
+title: StoryBoard Practice
 ---
 
 [Back to Practice Index]({{ site.url }}/swift-ios/practice)
 
 ## Build a StoryBoard
 
-Follow the directions in the repl below to get some practice with working with StoryBoards!
+Choose one of the four screenshots from real iOS apps below to re-create. You may not have time to recreate every little detail; that's ok! Start with the biggest pieces first, then work your way in. Choose any icons/photos you'd like!
 
-You can either type your code and run it in the browser here, or click the "open in repl" button in the top right corner of the repl below to open it in another tab and see it full-page.
-
-
-
+<img class="xx-small" src="./assets/grubhub.PNG" alt="GrubHub">
+<img class="xx-small" src="./assets/pinterest.PNG" alt="Pinterest">
+<img class="xx-small" src="./assets/appletv.PNG" alt="AppleTV">
+<img class="xx-small" src="./assets/weather.PNG" alt="Weather App">
 
 <br>
 [Back to Practice Index]({{ site.url }}/swift-ios/practice)
