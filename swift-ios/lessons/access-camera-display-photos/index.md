@@ -16,7 +16,7 @@ title: Accessing the Camera & Displaying Photos
 - outlets
 - dictionary
 
-## Setup
+## 🌎 Setup
 
 If you plan to code-along for this lesson, you'll need a small project set up that looks similar to this:
 
@@ -125,7 +125,7 @@ Run the app. As a user, you should...
 What happens once you select a picture?
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>Discuss</h2>
   <p>What happens once you select a picture? Why?</p>
   <p>Look at the code - are we in any line of code, giving directions for the program to go back to our original page? Where do you think we might want to do this?</p>
 </div>
@@ -157,7 +157,7 @@ We do however, need to write code inside of that function where we will need to 
 Pro-Tip: If you start typing `imagePickerController`, Xcode should auto-complete the whole setup of this function for you.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
+  <h2>🐣 Discuss</h2>
   <p>What do we want to tell the app to do at this point? If you're following along with code, write pseudocode comments. Otherwise, jot your thoughts down in a notebook.</p>
 </div>
 
