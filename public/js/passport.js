@@ -8,17 +8,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const check = localStorage.getItem('loggedIn') || 'false';
     const isStaff = localStorage.getItem('isStaff') || false;
 
-    if (relativeURL === '/kwk-curriculum-site/login/' && check === 'true') {
+    if (relativeURL === '/kwk-virtual-curriculum/login/' && check === 'true') {
       showLinks(isStaff);
       displayLogout();
-    } else if (relativeURL === '/kwk-curriculum-site/login/' && check === 'false') {
+    } else if (relativeURL === '/kwk-virtual-curriculum/login/' && check === 'false') {
       displayLogin();
       var loginBtn = document.querySelector("#login-submit");
       loginBtn.addEventListener('click', logIn);
-    } else if (relativeURL !== '/kwk-curriculum-site/login/' && check === 'true') {
+    } else if (relativeURL !== '/kwk-virtual-curriculum/login/' && check === 'true') {
       showLinks();
-    } else if (relativeURL !== '/kwk-curriculum-site/login/' && check === 'false') {
-      window.location.replace('/kwk-curriculum-site/login/');
+    } else if (relativeURL !== '/kwk-virtual-curriculum/login/' && check === 'false') {
+      window.location.replace('/kwk-virtual-curriculum/login/');
     }
 
   }
@@ -59,13 +59,13 @@ document.addEventListener("DOMContentLoaded", function() {
     debugger;
     if (checkLogin(login) && checkPassword(password)) {
       localStorage.setItem('loggedIn', 'true');
-      window.location.replace("/kwk-curriculum-site/");
+      window.location.replace("/kwk-virtual-curriculum/");
       showLinks();
     } else if (checkStaffLogin(login) && checkStaffPassword(password)) {
       console.log("IN STAFF LOGIN");
       localStorage.setItem('loggedIn', 'true');
       localStorage.setItem('isStaff', 'true');
-      window.location.replace("/kwk-curriculum-site/");
+      window.location.replace("/kwk-virtual-curriculum/");
       showLinks();
     } else {
       alert("Sorry! Try again.");
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function logOut(event) {
     event.preventDefault();
     localStorage.setItem('loggedIn', 'false');
-    window.location.replace("/kwk-curriculum-site/login/");
+    window.location.replace("/kwk-virtual-curriculum/login/");
     hideLinks();
   }
 
