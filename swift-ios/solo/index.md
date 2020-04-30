@@ -2,6 +2,8 @@
 title: Not Homework Assignments
 ---
 
+[Back to main Mobile page]({{ site.url }}/swift-ios)
+
 <h2>Week 1</h2>
 
 <article class="solo-day-card">
@@ -128,3 +130,6 @@ title: Not Homework Assignments
 
   </div>
 </article>
+
+<br>
+[Back to main Mobile page]({{ site.url }}/swift-ios)

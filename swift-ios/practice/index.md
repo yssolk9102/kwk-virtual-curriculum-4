@@ -10,4 +10,5 @@ title: Practice Exercises
 - [Intermediate Arrays]({{ site.url }}/swift-ios/practice/)
 - [Intro to DOM]({{ site.url }}/swift-ios/practice/)
 
-[Back to main WebDev page]({{ site.url }}/swift-ios)
+<br>
+[Back to main Mobile page]({{ site.url }}/swift-ios)

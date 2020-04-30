@@ -2,12 +2,16 @@
 title: Virtual Resources
 ---
 
+[Back to main Mobile page]({{ site.url }}/swift-ios)
+
 ## How to Zoom Resources
+
 - Videos on how to use zoom
 
 ## Virtual Camp Norms
 
 ### Call Preparation
+
 - Use headphones
 - Make sure you have space for your notebook
 - Join call 5 minutes before
@@ -32,7 +36,11 @@ title: Virtual Resources
     * If you are struggling with your internet connection, you can say “DONE” when you are done with your thoughts so no one is confused
 
 ### Breaks & Interruptions
+
 - If you need a break, message your instructor, turn off your video and take a break!
 - Breaks will be built in to every session
 - We know things will happen in remote settings!  Use your mute setting whenever possible and if necessary, turn your video off while dealing with the situation.
 - You don’t need to apologize for dogs or background noise, just use the mute button!
+
+<br>
+[Back to main Mobile page]({{ site.url }}/swift-ios)
