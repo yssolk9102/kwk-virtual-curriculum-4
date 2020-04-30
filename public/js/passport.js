@@ -55,12 +55,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let login = document.getElementById("login").value.trim();
     let password = document.getElementById("password").value.trim();
-
+    console.log(login, password);
+    debugger;
     if (checkLogin(login) && checkPassword(password)) {
       localStorage.setItem('loggedIn', 'true');
       window.location.replace("/kwk-curriculum-site/");
       showLinks();
     } else if (checkStaffLogin(login) && checkStaffPassword(password)) {
+      console.log("IN STAFF LOGIN");
       localStorage.setItem('loggedIn', 'true');
       localStorage.setItem('isStaff', 'true');
       window.location.replace("/kwk-curriculum-site/");
