@@ -11,12 +11,12 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
     <div>
-      <h4>Watch: Intermediate HTML</h4>
+      <h4>Watch: Intro to Functions</h4>
       <p>Here is the detailed info you need.</p>
     </div>
 
     <div>
-      <h4>Build: Mini Project 1</h4>
+      <h4>Practice: Intro to Swift, Conditionals</h4>
       <p>Here is the detailed info you need.</p>
     </div>
 
@@ -27,10 +27,15 @@ title: Not Homework Assignments
   <h3 class="solo-day-label solo-day-click">Tuesday Not HW</h3>
   <div class="solo-day-toggle">
 
-    <div>
-      <h4>Build: Photo Gallery/EL</h4>
-      <p>Here is the detailed info you need.</p>
-    </div>
+  <div>
+    <h4>Watch: Dictionaries</h4>
+    <p>Here is the detailed info you need.</p>
+  </div>
+
+  <div>
+    <h4>Practice: Dictionaries</h4>
+    <p>Here is the detailed info you need.</p>
+  </div>
 
   </div>
 </article>
@@ -40,7 +45,12 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
     <div>
-      <h4>Practice: Intermediate JS</h4>
+      <h4>Build: Mini Project 1</h4>
+      <p>Here is the detailed info you need.</p>
+    </div>
+
+    <div>
+      <h4>App Design: Brainstorm</h4>
       <p>Here is the detailed info you need.</p>
     </div>
 
@@ -52,7 +62,7 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
   <div>
-    <h4>Practice: Objects & Arrays</h4>
+    <h4>Build: Mini Project 2</h4>
     <p>Here is the detailed info you need.</p>
   </div>
 
@@ -64,12 +74,7 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
   <div>
-    <h4>Watch: Forms</h4>
-    <p>Here is the detailed info you need.</p>
-  </div>
-
-  <div>
-    <h4>Build: Mini Project 2</h4>
+    <h4>App Design: Prototype</h4>
     <p>Here is the detailed info you need.</p>
   </div>
 
@@ -83,7 +88,7 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
   <div>
-    <h4>Build: Mini Project 3</h4>
+    <h4>Build: ToDo List</h4>
     <p>Here is the detailed info you need.</p>
   </div>
 
@@ -95,12 +100,7 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
     <div>
-      <h4>Write: HTML</h4>
-      <p>Here is the detailed info you need.</p>
-    </div>
-
-    <div>
-      <h4>Start: CSS</h4>
+      <h4>Pair: StoryBoard</h4>
       <p>Here is the detailed info you need.</p>
     </div>
 
