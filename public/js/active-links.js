@@ -9,7 +9,7 @@ $('.curriculum-links').each(function(idx, link) {
     $(link).toggleClass('active-link');
   }
 
-  if(currentPath === "/kwk-curriculum-site/") {
+  if(currentPath === "/kwk-virtual-curriculum/") {
     $('.navbar-navigation--links a').removeClass('active-link');
   }
 });
