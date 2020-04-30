@@ -2,6 +2,8 @@
 title: Welcome to KWK
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 We are so excited to welcome you to the Kode With Klossy community. With over 1000 alumni and nearly 1000 scholars this summer, this is a powerful group of young women across the country.
 
 ## Your Instructors
@@ -21,3 +23,6 @@ During the last few days of camp, you'll be able to brainstorm and design a proj
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cFjIePq6uN&v=5&ff=1" allowfullscreen="true"></iframe>
 
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cFjIfcq6UV&v=5&ff=1" allowfullscreen="true"></iframe>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

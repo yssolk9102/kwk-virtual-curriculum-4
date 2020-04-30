@@ -2,6 +2,8 @@
 title: Intro to Swift
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Differentiate strings, integers, and doubles
@@ -404,5 +406,7 @@ Let's take a few minutes to practice these fundamentals - we will use this knowl
     </div>
   </div>
 
-
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

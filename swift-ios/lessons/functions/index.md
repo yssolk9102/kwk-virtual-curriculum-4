@@ -2,6 +2,8 @@
 title: Functions
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Be familiar with the syntax to write and call a function
@@ -282,3 +284,6 @@ Throughout camp, we will write a lot of functions! They will have different jobs
   </div>
 
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

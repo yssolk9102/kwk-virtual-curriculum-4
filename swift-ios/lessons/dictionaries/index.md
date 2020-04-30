@@ -2,6 +2,8 @@
 title: Dictionaries
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Create a dictionary and access data from it
@@ -165,3 +167,6 @@ Dictionaries have a little more going on than strings or numbers, but you now ha
   <p><strong>Medium Challenge:</strong> If you have more than one family member or friend who could have the same key, you might be back in a similar situation that we were in the Warm Up for the array lesson - with variables like <code class="practice-code">sister1</code>, <code class="practice-code">sister2</code>, etc. Instead of only having strings of names as the values in your dictionary, write at least one array of strings for those family members or friends who share a title.</p>
   <p><strong>Spicy Challenge:</strong> Reference a site like Instagram or Twitter. Look for one card on the page and write a Swift dictionary that holds all the information on that card.</p>
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

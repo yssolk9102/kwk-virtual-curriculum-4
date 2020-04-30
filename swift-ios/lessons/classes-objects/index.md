@@ -2,6 +2,8 @@
 title: Classes and Objects
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Write a class and create objects from that class
@@ -228,3 +230,6 @@ Now that we can write classes and use them to create objects, _and_ organize our
   </div>
 
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

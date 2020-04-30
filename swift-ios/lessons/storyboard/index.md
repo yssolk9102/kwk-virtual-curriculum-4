@@ -2,6 +2,8 @@
 title: StoryBoard
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Add UI elements to the StoryBoard using the Object Library
@@ -87,3 +89,6 @@ You are now building **real** iOS applications! To get some more practice, compl
   </div>
 
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

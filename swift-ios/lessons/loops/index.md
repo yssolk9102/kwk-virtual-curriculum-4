@@ -2,6 +2,8 @@
 title: For-In Loops
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Explain the concept of iteration
@@ -386,3 +388,6 @@ We're really getting into some complicated code! Work through the practice below
   <h3>More Practice</h3>
   <p>At this point, you have the tools to do just about anything with loops! The most frequent use cases will be involving arrays. If you’d like more practice before moving on, check out the Leveled <a href="../array-exercises">Array Exercises</a>.</p>
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

@@ -2,6 +2,8 @@
 title: Actions & Outlets
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Explain the purpose of actions and outlets
@@ -130,3 +132,6 @@ Whether you followed along in class or watched your instructor model, this is a 
   </div>
 
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

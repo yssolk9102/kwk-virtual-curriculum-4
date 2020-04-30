@@ -2,6 +2,8 @@
 title: Conditionals
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * User comparison operators to compare variables, strings, and numbers
@@ -267,5 +269,8 @@ Takeaways:
       <p>Have you ever tried to create a password, but the application told you that <em>you need at least 1 number and between 8 and 14 characters total</em>? Time to solve another real-world challenge! Declare a new variable called <code class="spicy-code">fakePassword</code> and assign it to a string of your choice. Write a conditional that checks the value of <code class="spicy-code">fakePassword</code> and gives appropriate feedback on if it is a valid password (contains at least 1 number and between 8 and 14 characters total).</p>
     </div>
   </div>
-  
+
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

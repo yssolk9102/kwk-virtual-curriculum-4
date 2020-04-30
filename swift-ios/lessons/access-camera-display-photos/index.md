@@ -2,6 +2,8 @@
 title: Accessing the Camera & Displaying Photos
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Access a user's camera or photo library on an iOS device
@@ -205,3 +207,6 @@ Now, let's run this is in the simulator or on a device - it should work!
     <li>Will allow user to tap button, select an image, then see that image in place of placeholder</li>
   </ul>
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

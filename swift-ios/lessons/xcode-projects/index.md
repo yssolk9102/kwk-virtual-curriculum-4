@@ -2,6 +2,8 @@
 title: Xcode Projects
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Navigate the Xcode Project application
@@ -45,3 +47,6 @@ Follow the steps below to practice navigating Xcode Projects!
 - Navigate to the Main StoryBoard
 - Change the orientation of the iPhone 8 on the StoryBoard
 - View your StoryBoard on an iPhone 11 Pro
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

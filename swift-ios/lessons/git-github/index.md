@@ -2,6 +2,8 @@
 title: Git & GitHub
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## Purpose
 
 As many scholars are interested in pursuing STEAM after High School, we want you to have the opportunity to showcase the work you've done here at Kode With Klossy. This tutorial will walk you through how to save your code on a site called GitHub. GitHub is one of the most popular sites for developers to host their projects.
@@ -113,3 +115,6 @@ Click the title of your project. You will be taken to a page that looks like thi
 <img class="medium" src="./assets/final-repo.png" alt="Screenshot illustrating directions above">
 
 It looks really different from Xcode, but rest assured, the code is still there. If you want to link any of your projects to your resume, use the URL for this page!
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

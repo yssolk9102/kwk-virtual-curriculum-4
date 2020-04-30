@@ -2,6 +2,8 @@
 title: Segues
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Understand why segues are a building block for iOS development
@@ -54,3 +56,6 @@ Now that we know this blog gives us the info we want and is on our level, we can
   </ul>
   <p>This is what software developers do <strong>every day</strong>! And you just did it! Being pushed out of your comfort zone is essential in learning, so if it felt challenging at times, that is ok and actually good!</p>
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

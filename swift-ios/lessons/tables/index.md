@@ -2,6 +2,8 @@
 title: Tables
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Connect StoryBoards with View Controllers
@@ -261,3 +263,6 @@ cell.imageView?.image = UIImage(named: allCacti[indexPath.row].image)
 A little more is going on with this line. Because the file name was stored as a string but we need to access an image, we wrapped the file name in `UIImage()` to convert it to an image.
 
 Now, we can run this on our simulator and see all cells showing all data!
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

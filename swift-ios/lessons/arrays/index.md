@@ -2,6 +2,8 @@
 title: Arrays
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Understand what an array is and why they are useful
@@ -286,3 +288,6 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
   </div>
 
 </div>
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
