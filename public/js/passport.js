@@ -40,13 +40,13 @@ document.addEventListener("DOMContentLoaded", function() {
     var links = document.querySelectorAll(".navbar-navigation--links .curriculum-links");
 
     if (isStaff) {
+      console.log("in iS STAFF!!!");
       for (var i = 0; i < 2; i++) {
         links[i].style.display = 'block';
       }
     } else {
       links[1].style.display = 'block';
       links[2].style.display = 'block';
-      links[3].style.display = 'block';
     }
   }
 
@@ -55,13 +55,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let login = document.getElementById("login").value.trim();
     let password = document.getElementById("password").value.trim();
-    console.log(login, password);
+
     debugger;
     if (checkLogin(login) && checkPassword(password)) {
       localStorage.setItem('loggedIn', 'true');
       window.location.replace("/kwk-virtual-curriculum/");
       showLinks();
     } else if (checkStaffLogin(login) && checkStaffPassword(password)) {
+      debugger;
       console.log("IN STAFF LOGIN");
       localStorage.setItem('loggedIn', 'true');
       localStorage.setItem('isStaff', 'true');
