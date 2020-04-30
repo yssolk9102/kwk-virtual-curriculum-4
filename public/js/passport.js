@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function logOut(event) {
     event.preventDefault();
     localStorage.setItem('loggedIn', 'false');
+    localStorage.setItem('isStaff', 'false');
     window.location.replace("/kwk-virtual-curriculum/login/");
     hideLinks();
   }
