@@ -6,6 +6,8 @@ title: Mobile Projects
 
 ## Project Specifications
 
+- [Mini Project 1]({{ site.url}}/swift-ios/projects/mini-1)
+- [Mini Project 2]({{ site.url}}/swift-ios/projects/mini-2)
 - [Emojional]({{ site.url}}/swift-ios/projects/emojional)
 - [To-Do List]({{ site.url }}/swift-ios/projects/to-do-list)
 - [Personal Project]({{ site.url }}/swift-ios/projects/personal-project)
