@@ -275,7 +275,7 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
     </div>
   </div>
 
-  <div class="challenge-container spicy-heat">
+  <div class="challenge-container extension-heat">
     <p class="spicy-click">Extension 🕵🏾‍♀️</p>
     <div class="spicy-toggle">        
       <p>There are several ways to add, remove, and modify values in an array. There is also a variety of other ways to iterate over arrays. Using Google and the Swift documentation, find a <em>different</em> way to do each of the following:</p>

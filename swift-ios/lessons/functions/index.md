@@ -273,7 +273,7 @@ Throughout camp, we will write a lot of functions! They will have different jobs
     </div>
   </div>
 
-  <div class="challenge-container spicy-heat">
+  <div class="challenge-container extension-heat">
     <p class="spicy-click">Extension: Multiple Arguments & Return Values 🕵🏾‍♀️</p>
     <div class="spicy-toggle">        
       <ul>

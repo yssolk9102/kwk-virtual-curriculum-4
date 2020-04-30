@@ -216,7 +216,7 @@ Now that we can write classes and use them to create objects, _and_ organize our
     <li>Add in an `init` function so you can pass your class something specific to the object you are creating. (For a car, I would definitely want to make sure the color could change!)</li>
   </ul>
 
-  <div class="challenge-container spicy-heat">
+  <div class="challenge-container extension-heat">
     <p class="spicy-click">Extension 🕵🏾‍♀️</p>
     <div class="spicy-toggle">        
       <ul>
