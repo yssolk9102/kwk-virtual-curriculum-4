@@ -2,6 +2,8 @@
 title: Countdown Timer
 ---
 
+[Back to all Projects]({{ site.url }}/swift-ios/projects)
+
 Applying what you've learned about Swift and StoryBoards, then pushing yourself to do some problem-solving and research, you are going to build a countdown timer!
 
 You may have seen these before:
@@ -53,3 +55,6 @@ Here's an example:
 
 - Create a GitHub repository
 - Commit and push your work
+
+<br>
+[Back to all Projects]({{ site.url }}/swift-ios/projects)

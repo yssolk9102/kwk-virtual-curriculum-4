@@ -2,6 +2,8 @@
 title: Alarm Clock/POM Timer
 ---
 
+[Back to all Projects]({{ site.url }}/swift-ios/projects)
+
 Applying what you've learned about Swift and StoryBoards, then pushing yourself to do some problem-solving and research, you are going to build an alarm clock!
 
 You can decide if it's a countdown timer - set a timer for 30 minutes to study, or a timer that will go off at a certain time.
@@ -21,3 +23,6 @@ You can decide if it's a countdown timer - set a timer for 30 minutes to study, 
 Here's an example. It is currently counting down in seconds rather than minutes to more easily capture the functionality in this gif:
 
 <img alt="Screenshot of study timer, ticking each second" src="{{ site.url }}/swift-ios/projects/alarm-clock/assets/example.gif">
+
+<br>
+[Back to all Projects]({{ site.url }}/swift-ios/projects)

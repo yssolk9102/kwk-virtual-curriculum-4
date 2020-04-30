@@ -2,6 +2,8 @@
 title: ToDo List
 ---
 
+[Back to all Projects]({{ site.url }}/swift-ios/projects)
+
 ## 🎯 Learning Goals
 
 - Build a project using everything learned up until now - StoryBoards, Actions/Outlets, Camera, Segues, _and_ Core Data
@@ -25,3 +27,6 @@ Here's the simple version of what you're shooting for:
 - [Iteration 0: Static To-Dos]({{ site.url }}/swift-ios/projects/to-do-list/i0)
 - [Iteration 1: Dynamic To-Dos]({{ site.url }}/swift-ios/projects/to-do-list/i1)
 - [Iteration 2: Add & Delete with Core Data]({{ site.url }}/swift-ios/projects/to-do-list/i2)
+
+<br>
+[Back to all Projects]({{ site.url }}/swift-ios/projects)

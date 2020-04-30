@@ -2,6 +2,8 @@
 title: ViewFinder
 ---
 
+[Back to all Projects]({{ site.url }}/swift-ios/projects)
+
 ## 🎯 Learning Goals
 
 - Build a project using everything learned up until now - StoryBoards, Actions/Outlets, Camera, Segues, _and_ Core Data
@@ -28,3 +30,6 @@ Here's a simple version of what you're shooting for:
 - [Iteration 4: Delete Functionality]({{ site.url }}/swift-ios/projects/viewfinder/i4)
 
 - [Fix Image Orientation]({{ site.url }}/swift-ios/projects/viewfinder/image-orientation)
+
+<br>
+[Back to all Projects]({{ site.url }}/swift-ios/projects)

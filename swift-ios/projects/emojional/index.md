@@ -2,6 +2,8 @@
 title: Emojional
 ---
 
+[Back to all Projects]({{ site.url }}/swift-ios/projects)
+
 ## 🎯 Learning Goals
 
 - Wireframe & build a UI that looks great on all device sizes
@@ -29,3 +31,6 @@ Today we'll build the project in several parts:
 alert
 * [I2: Custom Alerts]({{ site.url }}/swift-ios/projects/emojional/i2)
 * [I3: Randomize Messages]({{ site.url }}/swift-ios/projects/emojional/i3)
+
+<br>
+[Back to all Projects]({{ site.url }}/swift-ios/projects)

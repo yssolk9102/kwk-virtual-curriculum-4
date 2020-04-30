@@ -11,7 +11,7 @@ title: Mobile Lessons
 - [Functions]({{ site.url }}/swift-ios/lessons/functions)
 - [Arrays]({{ site.url }}/swift-ios/lessons/arrays)
 - [Dictionaries]({{ site.url }}/swift-ios/lessons/dictionaries)
-- [Loops]({{ site.url }}/swift-ios/lessons/loops)
+- [For-In Loops]({{ site.url }}/swift-ios/lessons/loops)
 - [Classes and Objects]({{ site.url }}/swift-ios/lessons/classes-objects)
 - [Object Interaction]({{ site.url }}/swift-ios/lessons/object-interaction)
 
@@ -22,7 +22,7 @@ title: Mobile Lessons
 - [Actions & Outlets]({{ site.url }}/swift-ios/lessons/actions-outlets)
 - [Accessing Camera & Displaying Photos]({{ site.url }}/swift-ios/lessons/access-camera-display-photos)
 - [Segues]({{ site.url }}/swift-ios/lessons/segues)
-- [Design & UX]({{ site.url }}/swift-ios/lessons/design)
+- [Design]({{ site.url }}/swift-ios/lessons/design)
 - [Tables]({{ site.url }}/swift-ios/lessons/tables)
 
 ## Culture of Tech
