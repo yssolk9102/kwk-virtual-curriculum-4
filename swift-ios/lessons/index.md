@@ -15,7 +15,7 @@ title: Mobile Lessons
 - [Classes and Objects]({{ site.url }}/swift-ios/lessons/classes-objects)
 - [Object Interaction]({{ site.url }}/swift-ios/lessons/object-interaction)
 
-## StoryBoard
+## StoryBoard, iOS
 
 - [Xcode Projects]({{ site.url }}/swift-ios/lessons/xcode-projects)
 - [StoryBoard]({{ site.url }}/swift-ios/lessons/storyboard)
@@ -24,6 +24,7 @@ title: Mobile Lessons
 - [Segues]({{ site.url }}/swift-ios/lessons/segues)
 - [Design]({{ site.url }}/swift-ios/lessons/design)
 - [Tables]({{ site.url }}/swift-ios/lessons/tables)
+- [Core Data Intro]({{ site.url }}/swift-ios/lessons/core-data-intro)
 
 ## Culture of Tech
 
