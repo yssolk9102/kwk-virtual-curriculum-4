@@ -2,13 +2,11 @@
 title: Practice Exercises
 ---
 
-- [Flexbox]({{ site.url }}/swift-ios/practice/)
-- [Intro to JavaScript]({{ site.url }}/swift-ios/practice/)
-- [Intermediate JavaScript]({{ site.url }}/swift-ios/practice/)
-- [Functions]({{ site.url }}/swift-ios/practice/)
-- [Objects & Arrays]({{ site.url }}/swift-ios/practice/)
-- [Intermediate Arrays]({{ site.url }}/swift-ios/practice/)
-- [Intro to DOM]({{ site.url }}/swift-ios/practice/)
+- [Swift, Conditionals]({{ site.url }}/swift-ios/practice/swift-conditionals)
+- [Functions]({{ site.url }}/swift-ios/practice/functions)
+- [Loops]({{ site.url }}/swift-ios/practice/loops)
+- [Dictionaries]({{ site.url }}/swift-ios/practice/dictionaries)
+- [StoryBoards]({{ site.url }}/swift-ios/practice/storyboards)
 
 <br>
 [Back to main Mobile page]({{ site.url }}/swift-ios)

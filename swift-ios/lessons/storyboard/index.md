@@ -27,7 +27,7 @@ Either watch the video below, or watch you instructor walk through how to add ob
 
 <div class="try-it">
   <h2>Try It: StoryBoard & Object Library</h2>
-  <p>Open a new Xcode, iOS, Single View App project.</p>
+  <p>Open a new Xcode, iOS, Single View App, StoryBoard project.</p>
   <p>In your new project, drag and drop at least 3 UI Objects (View, Image View, Label) in from the Object Library. Run your project in the simulator.</p>
   <p>Add a button. Change the text on the button, the size of the text, the color and background color. Try to use at least one other option in the Attributes Inspector to learn something new!</p>
   <p>Now, look at your project on a different device. Does it look right? In the next section, we will learn how to lay out our objects so they look great on all devices.</p>
@@ -72,14 +72,14 @@ You are now building **real** iOS applications! To get some more practice, compl
 
 <div class="practice">
   <h2>Practice: StoryBoard</h2>
-  <p>Plan out an app (it could be one screen on your favorite app, the app you're dreaming about making, or just a few simple elements!) by drawing it out on a sketch paper. Label the different parts of your app with the names of the Objects from Object Library you will need to use. Keep in mind the Design Principles we talked about!</p>
+  <p>Plan out an app (it could be one screen on your favorite app, the app you're dreaming about making, or just a few simple elements!) by drawing it out on a sketch paper. Label the different parts of your app with the names of the Objects from Object Library you will need to use.</p>
   <p>In your new project, drag and drop at least 3 UI Objects (View, Image, Label) in from the Object Library. Each time you add one, do the following:</p>
   <ul>
     <li>Check the appearance on the simulator</li>
     <li>Set constraints on each UI Object</li>
     <li>Check the simulator again</li>
   </ul>
-  <p>Now, add an icon image. Run in simulator to make sure it was loaded in correctly!</p>
+  <p>Now, add an icon image. Run the project in simulator to make sure it was loaded in correctly!</p>
 
   <div class="challenge-container extension-heat">
     <p class="spicy-click">Extension 🕵🏾‍♀️</p>

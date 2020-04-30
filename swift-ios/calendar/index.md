@@ -69,8 +69,8 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../lessons/functions">Learn: Functions</a></li>
         <li><a href="../practice/functions">Practice: Functions</a></li>
         <li><a href="../lessons/arrays">Learn: Arrays</a></li>
-        <li><a href="../lessons/loops-arrays">Learn: Loops with Arrays</a></li>
-        <li><a href="../lessons/loops-arrays">Practice: Loops with Arrays</a></li>
+        <li><a href="../lessons/loops-arrays">Learn: For-In Loops</a></li>
+        <li><a href="../lessons/loops-arrays">Practice: For-In Loops</a></li>
       </ul>
     </div>
 
