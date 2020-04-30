@@ -22,7 +22,7 @@ If you plan to code-along for this lesson, you'll need a small project set up th
 
 <img class="extra-small" src="./assets/setup-example.png">
 
-It should have one `Image View` and two `button`s.
+It should have one `Image View` object and two `button` objects.
 
 ## Privacy
 
@@ -33,8 +33,9 @@ Have you ever had an app pause before you were able to use a certain feature and
 To access a user's data - whether it be from the microphone, camera, health info, etc., an app has to have the **permission** from a user. Apple designs the way these little boxes appear, provides us with the buttons, and handles them as necessary when tapped. But we have to go in and tell the app "Please get the users permission for XYZ" Today, we need to get the user's permission to access their camera and photo library.
 
 <div class="try-it">
-  <h2>Turn & Talk</h2>
-  <p>What apps have you used that have asked for your permission to access your data?</p>
+  <h2>🗂 Brainstorm</h2>
+  <p>What apps have you used that have asked for your permission to access your data? Why type of data did it want access to?</p>
+  <p>Be ready to share out!</p>
 </div>
 
 ### `Info.plist`
