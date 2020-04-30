@@ -16,7 +16,7 @@ title: Arrays
 * Index
 * Initialize
 
-## 🌎Warm Up
+## 🌎 Warm Up
 
 In a Playground, declare a variable for every scholar in the zoom. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names.
 
