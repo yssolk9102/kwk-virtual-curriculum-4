@@ -2,7 +2,7 @@
 title: Mobile Lessons
 ---
 
-Find all lessons below. Note that the lessons are organized by topic below.
+[Back to main Mobile page]({{ site.url }}/swift-ios)
 
 ## Swift
 
@@ -16,6 +16,7 @@ Find all lessons below. Note that the lessons are organized by topic below.
 - [Object Interaction]({{ site.url }}/swift-ios/lessons/object-interaction)
 
 ## StoryBoard
+
 - [Xcode Projects]({{ site.url }}/swift-ios/lessons/xcode-projects)
 - [StoryBoard]({{ site.url }}/swift-ios/lessons/storyboard)
 - [Actions & Outlets]({{ site.url }}/swift-ios/lessons/actions-outlets)
@@ -26,9 +27,6 @@ Find all lessons below. Note that the lessons are organized by topic below.
 
 ## Culture of Tech
 
-- [The Gender Gap](https://docs.google.com/document/u/1/d/1RM2ewEKXNX6LjQ_wSa4im-z4VOy8iSArNE56UebjPsI/edit#)
-- [Biases](https://docs.google.com/document/u/1/d/1fIML-3pNmVhdi7wrYzRwGf-emHCT6M67qm8Bv6DEpHI/edit#)
-- [Big Ideas](https://docs.google.com/document/d/1JpjHZn_DDllq1dU-3p4OD-SPfzHh5OV-arMnYrWRUOw/edit)
 
 ## Other
 
@@ -37,3 +35,6 @@ Find all lessons below. Note that the lessons are organized by topic below.
 - [How to Demo]({{ site.url }}/swift-ios/lessons/how-to-demo)
 - [Code Challenges]({{ site.url }}/swift-ios/lessons/code-challenges)
 - [Videos]({{ site.url }}/swift-ios/lessons/videos)
+
+<br>
+[Back to main Mobile page]({{ site.url }}/swift-ios)
