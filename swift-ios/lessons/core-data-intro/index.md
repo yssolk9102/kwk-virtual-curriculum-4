@@ -2,6 +2,8 @@
 title: Core Data Overview
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## 🎯 Learning Goals
 
 * Explain, at a high level, what the purpose of Core Data is
@@ -111,3 +113,6 @@ Notice that we reference `AppDelegate`. Does that look familiar? We have an `App
 ### Implementing Core Data
 
 It's hard to implement Core Data without having an existing app to work with. The best way to practice is to just build a project! Iteration 2 of the ToDo List project will walk you through how to implement Core Data.
+
+<br>
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)

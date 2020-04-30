@@ -222,53 +222,6 @@ By using the word `creator` after the `for` keyword, we're telling our code that
   <p>Talk with your partner: What did you name your arrays? What word did you use to describe the individual elements (what did you type between <em>for</em> and <em>in</em> in your loops)?</p>
 </div>
 
-## `for-in` Loops and Dictionaries
-
-For the most part, the syntax for iterating over a dictionary looks very similar. Check it out:
-
-```swift
-var capitals = ["France": "Paris", "Cuba": "Havana", "Japan": "Tokyo"]
-
-for pair in capitals {
-  print(pair)
-}
-```
-<div class="try-it">
-  <h2>Turn & Talk</h2>
-  <ul>
-    <li>What do you think will print when we run this code?</li>
-    <li>Why does the variable <code class="try-it-code">pair</code> represent on each iteration?</li>
-  </ul>
-  <p>With your partner, verify your predictions from the Turn & Talk by running this code in an Xcode playground.</p>
-  <p>Now, instead of printing <code class="try-it-code">pair</code> inside the loop, try printing <code class="try-it-code">pair.key</code> and <code class="try-it-code">pair.value</code> and see what happens.</p>
-</div>
-
-Takeaways:
-- The syntax for looping over a dictionary is the same as an array
-- When looping over a dictionary, we can control how much information we want - both key and value, just the key, or just the value
-- The loop will run a certain number of times - the number of key/value pairs that are in the dictionary it is looping over
-
-### Another Way to Iterate Over Dictionaries
-
-If you are looping over a dictionary and want both key and value to use at some point, it may be beneficial to modify your syntax so that both have a label:
-
-```swift
-var capitals = ["France": "Paris", "Cuba": "Havana", "Japan": "Tokyo"]
-
-for (country, capital) in capitals {
-  print("The capital of \(country) is \(capital).")
-}
-```
-
-In the code snippet above, we still get both the key and value, but this time they each have a label/variable name associated with it. So, it may be easier to work with if we want to interpolate with each of them.
-
-<div class="try-it">
-  <h2>Try It: Looping over Dictionaries</h2>
-  <p>Create a dictionary of 3+ key/value pairs, where the keys are names of cities, and the values hold the distance between that city and your location (you'll need to do some research! You choose the cities!)</p>
-  <p>Write a <code class="try-it-code">for-in</code> loop that uses each city and distance and prints <code class="try-it-code">You are currently ___ miles away from _____.</code>.</p>
-  <p><strong>Spicy Challenge:</strong> Building on your code from the bullet points above, print out custom sentences based on the distance. If you are within 100 miles, print <code class="try-it-code">You are currently only ___ miles away from _____.</code>. If you are more than 100 miles, print <code class="try-it-code">WOW! You are ___ miles away from _____.</code></p>
-</div>
-
 ## Placeholders & Counters
 
 Sometimes, when iterating over an array, our end goal won't be to do the exact same thing to each element. Sometimes we'll want to combine elements. Sometimes we'll want to filter through them and only use some of them.
