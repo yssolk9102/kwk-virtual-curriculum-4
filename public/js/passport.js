@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function hideLinks() {
     var links = document.querySelectorAll(".navbar-navigation--links .curriculum-links");
-    for (var i = 0; i < 2; i++) {
+    for (var i = 0; i < links.length; i++) {
       links[i].style.display = 'none';
     }
   }
