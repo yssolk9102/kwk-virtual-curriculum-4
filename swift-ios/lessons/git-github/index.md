@@ -26,6 +26,8 @@ In Xcode, select "Xcode," then from the drop-down that appears, select "Preferen
 
 <img class="medium" src="./assets/xcode-prefs.png" alt="Screenshot illustrating directions above">
 
+Within the Preferences box, select the "Accounts" tab.
+
 Next, click the small "+" button in the bottom-left corner of the Preferences box. A drop-down will prompt you to select the type of account you would like to add. Choose "GitHub," then click "Continue."
 
 <img class="medium" src="./assets/add-github.png" alt="Screenshot illustrating directions above">
