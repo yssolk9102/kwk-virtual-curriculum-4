@@ -72,7 +72,7 @@ Two-finger click on the folder labeled "Remote." You will see a drop-down appear
 
 Before you can go on with Git and GitHub, you'll have to build a StoryBoard or write some code. If you are working through these steps to practice, the smallest change will work!
 
-## Step 5: Commit Changes
+## Step 6: Commit Changes
 
 _You only have to do this once, but can do as many times as you want for each project._
 
@@ -90,7 +90,7 @@ Make sure that all files available are checked in the top left corner. Then, wri
 
 After committing your changes, you can continue working, then commit again later. Or, you can move to Step 6 and send your code to GitHub.
 
-## Step 6: Push Repository to GitHub
+## Step 7: Push Repository to GitHub
 
 The final step in the process is to "push" or send your code up to GitHub. This ensures it's in a safe place - if you lost your computer, for example, the code would still be on GitHub!
 
