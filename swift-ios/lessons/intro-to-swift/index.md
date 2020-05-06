@@ -20,7 +20,7 @@ title: Intro to Swift
 * String
 * Variable
 
-**Note:** For all practice today, scholars will be working in Xcode Playgrounds.
+**Note:** For all practice today, scholars will be working in repl.it.
 
 ## 🌎 Warm Up
 
@@ -58,13 +58,11 @@ You can think of strings as a series of characters (alpha, numeric, spaces, and 
 
 In Swift, we **must** use double quotes around any characters that we want to be included in the string.
 
-In order to experiment with things, we'll open a Swift Playground. A playground is a term that developers use for a place where we write code just to learn or experiment. The code we write today won't directly contribute to building an app, but it will help us develop an understanding of the foundations.
-
-<img src="./assets/playground.png" alt="Screenshot of Swift Playground being used">
+In order to experiment with things, we'll open a Swift file in repl.it. Repl.it is a place where we write code just to learn or experiment. The code we write today won't directly contribute to building an app, but it will help us develop an understanding of the foundations.
 
 <div class="try-it">
   <h2>Try It: Strings</h2>
-  <p>In your Playground, type <code class="try-it-code">"your first name"</code>. Instead of the words "your first name", type your actual name. You <strong>do</strong> need to include the quotes.</p>
+  <p>In your repl.it file, type <code class="try-it-code">"your first name"</code>. Instead of the words "your first name", type your actual name. You <strong>do</strong> need to include the quotes.</p>
   <p>Type <code class="try-it-code">"your age"</code>.</p>
   <p>Type <code class="try-it-code">"your full name"</code>.</p>
   <p>Type anything you want - try to use some characters from your keyboard that are not numbers or letters. Make sure your text is enclosed in double quotes.</p>
@@ -84,7 +82,7 @@ To print values to the console, Swift gives us a handy `print()` command. Here's
 print("Hello, World!")
 ```
 
-We would write that line of code in the text editor (top) portion of Xcode Playground, click the blue arrow on the left, then see the value printed in the console (bottom portion of the screen).
+We would write that line of code in the text editor on the left-hand side portion of the repl.it interface, click the green play button at the top, then see the value printed in the console on the right-hand side.
 
 <img src="./assets/print.gif">
 
@@ -114,7 +112,7 @@ print(listName)
 
 <div class="try-it">
   <h2>Try It: Strings and Variables</h2>
-  <p>Complete the following in the same Playground. You should type your code in the Swift editor of the Playground, and see the results in the console below.</p>
+  <p>Complete the following in the same repl.it file. You should type your code in the Swift editor on the left-hand side, and see the results in the console on the right-hand side.</p>
   <p>Declare a variable for each prompt below. Then, print it out to the console.</p>
   <ul>
     <li>A variable called <code class="try-it-code">favoriteColor</code> that holds your favorite color</li>
@@ -196,7 +194,7 @@ The computer reads anything inside of the `\( )` as Swift code. In the code snip
 
 <div class="try-it">
   <h2>Try It: Strings</h2>
-  <p>Declare the following variables in your Playground:</p>
+  <p>Declare the following variables in your repl.it file:</p>
   <code class="try-it-code">var first = "Karlie"</code><br>
   <code class="try-it-code">var last = "Kloss"</code><br>
   <p>Use string interpolation to complete the following:</p>

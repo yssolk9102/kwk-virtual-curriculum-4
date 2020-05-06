@@ -76,7 +76,7 @@ func walkDog() {
 walkDog()
 ```
 
-The last line of the code snippet is what **calls** the function. If we have this code in a Playground and open up the console, we should see each step printed out.
+The last line of the code snippet is what **calls** the function. If we run this code in a repl.it file, we should see each step printed out.
 
 <div class="try-it">
   <h2>Try It: Declaring & Calling a Function</h2>
@@ -170,7 +170,7 @@ func timeToWalk(numberOfDogs : Int) -> Int {
 }
 ```
 
-In this function, we are not calling `print`, so when we call it, we won't see an output in the console.  We should still see the return value on the right side of the Playground. We can store the output in another variable.
+In this function, we are not calling `print`, so when we call it, we won't see an output in the console.
 
 ```swift
 func timeToWalk(numberOfDogs : Int) -> Int {
@@ -240,7 +240,7 @@ Throughout camp, we will write a lot of functions! They will have different jobs
       <ul>
         <li>With your breakout group, brainstorm another task you'd like to have this robot complete. You should agree on using the same task. That way, you can check in with each other throughout the lab. Once you've decided on a task, share with an instructor to make sure it will work for all activities, then go to the next step</li>
         <li>In your notebook, write out the small steps that your robot needs to take to complete the task</li>
-        <li>In your Playground, declare and call the function. The code block should be empty, so nothing should really happen. This is a good step to take to make sure there are no errors</li>
+        <li>In your repl.it file, declare and call the function. The code block should be empty, so nothing should really happen. This is a good step to take to make sure there are no errors</li>
         <li>To make 100% sure you are calling it correctly, write a print statement into the code block and make sure that appears in your console</li>
         <li>Now, write a print statement for each of the commands you wrote down in your notebook. Are they all printing out as expected?</li>
       </ul>

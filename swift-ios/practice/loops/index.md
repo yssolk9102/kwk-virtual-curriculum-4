@@ -57,7 +57,7 @@ Complete each challenge that you select in a repl.
   <ul>
     <li>What do you think <code class="practice-code">index</code> stands for in the code?</li>
     <li>Can you figure out what is happening after the <code class="practice-code">in</code> keyword?</li>
-    <li>Take a few minutes to jot down your thoughts and guesses! Then try it out in an Xcode Playground or repl.</li>
+    <li>Take a few minutes to jot down your thoughts and guesses! Then try it out in a repl.it file.</li>
   </ul>
 </div>
 

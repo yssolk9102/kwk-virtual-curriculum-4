@@ -45,7 +45,7 @@ Here's an example:
   - How often will it "tick"?
   - How will you get ahold of today's date to compare it to the date in the future?
   - Hint: The tips above give you some starting points on what to research.
-- Play around in a Playground or with some `print()` statements to get familiar with the new tools/technologies you need to complete this project.
+- Play around in a repl.it file or with some `print()` statements to get familiar with the new tools/technologies you need to complete this project.
 
 ## Iteration 3 - Implement JavaScript
 

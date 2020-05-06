@@ -51,7 +51,7 @@ title: Array Exercises
   <ul>
     <li>What do you think <code class="try-it-code">index</code> stands for in the code?</li>
     <li>Can you figure out what is happening after the <code class="try-it-code">in</code> keyword?</li>
-    <li>Take a few minutes to jot down your thoughts and guesses! Then try it out in an Xcode Playground.</li>
+    <li>Take a few minutes to jot down your thoughts and guesses! Then try it out in a repl file.</li>
   </ul>
 </div>
 

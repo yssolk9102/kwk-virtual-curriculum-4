@@ -17,7 +17,7 @@ title: Xcode Projects
 
 ## 🌎 Xcode Projects
 
-Up until now, we've mainly worked in Xcode Playgrounds, which are a great place to run code, but not usable to build real iOS apps. Xcode _Projects_ is a place where we can! A lot more than writing code goes into building an iOS app, but we can do it all in Xcode. It is a big challenge that utilizes a lot of different tools; so we will take it one step at a time. [Here's]({{ site.url }}/swift-ios/lessons/storyboard/assets/xcode-map.png) a map of the main features in Xcode.
+Up until now, we've mainly worked in repl.it, which is a great place to run code, but not usable to build real iOS apps. _Xcode Projects_ is a place where we can! A lot more than writing code goes into building an iOS app, but we can do it all in Xcode. It is a big challenge that utilizes a lot of different tools; so we will take it one step at a time. [Here's]({{ site.url }}/swift-ios/lessons/storyboard/assets/xcode-map.png) a map of the main features in Xcode.
 
 Either watch the video below or watch your instructor walk through how to navigate an Xcode Project.
 
