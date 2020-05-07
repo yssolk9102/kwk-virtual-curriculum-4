@@ -10,17 +10,17 @@ You will likely collaborate with another scholar on your final project. This doc
 
 Each step listed below will pertain to one partner or the other. The emojis are used in the step titles to make it as clear as possible.
 
-## 💖 🔮 Step 0: Connect Xcode to GitHub
+### 💖 🔮 Step 0: Connect Xcode to GitHub
 
 Both partners must complete steps 1-2 of the [Git & GitHub walk-thru]() before continuing. It is likely that you've already done this!
 
-## 💖 Step 1: Create Project
+### 💖 Step 1: Create Project
 
 Partner A should follow steps 3-7 in the [Git & GitHub walk-thru](). For step 5, they don't need to build the entire project; just take the first step in building the project.
 
 Send the URL of the GitHub repository to Partner B in Slack.
 
-## 🔮 Step 2: Open the Project in Xcode
+### 🔮 Step 2: Open the Project in Xcode
 
 Partner B should open the GitHub link they got in Slack.
 
@@ -42,7 +42,7 @@ Xcode will automatically open, with a window that looks like this. Click "clone"
 
 Now, the Xcode project will open. Don't start working on the project until Partner A completes the next step!
 
-## 💖 Step 3: Invite Partner B to Collaborate
+### 💖 Step 3: Invite Partner B to Collaborate
 
 Partner A should go into to project on GitHub. Click "Settings" from the menu bar. Select "Manage Access" from the list of options on the far left. Click the green "Invite" button.
 
@@ -56,7 +56,7 @@ You'll know you've done this successfully if you now see your partners name and 
 
 <img class="small" src="./assets/pending.png" alt="screenshot of add box">
 
-## 🔮 Step 4: Accept Invitation Collaborate
+### 🔮 Step 4: Accept Invitation Collaborate
 
 Check your email. You should have an email from GitHub and the contents of it should look like the image below. Click "Accept Invitation".
 
@@ -66,7 +66,7 @@ You'll be taken to the GitHub project page in your browser. Click "Accept Invita
 
 <img class="small" src="./assets/accept-invite.png" alt="Accept page in GH">
 
-## 💖 Step 5: Confirm Partner B is a Collaborator
+### 💖 Step 5: Confirm Partner B is a Collaborator
 
 To confirm that Partner B is set up to collaborate, go back to Settings, Manage Access, and you should see that your partner is no longer pending, but a collaborator now!
 
@@ -78,7 +78,22 @@ Both Partners A and B can contribute to this project. Because both partners are 
 
 ## Workflow
 
+When you are collaborating on an Xcode project this summer, it's very important to follow the workflow listed below. This will ensure you don't lose any work and that both partners have code that is up-to-date.
 
+### One Xcode at a Time
+
+Only one partner should be working in the Xcode project at a time. Most times, you will be screensharing over zoom while working.
+
+### End of Work Session
+
+At the end of each work session, follow these steps, in order:
+1. The partner who was working in Xcode on their computer should commit and push to GitHub
+2. Go to your GitHub project page and confirm that a commit was just made (either partner can check this!)
+3. The partner who was not working in Xcode for this session should now open Xcode, select Source Control, "Pull...", then click "Pull". Run the project and you should see the updates that were made on your partners computer.
+
+### Before each Work Session
+
+To make 100% we are up-to-date, both partners should go into the Xcode project, select Source Control, "Pull...", then click "Pull". If you did the "End of Work Session" tasks in your previous session, you should see a box that tells you "This repository is up to date." - that's good! Now you are ready to being coding. Remember, only one partner should be working in the Xcode project at a time.
 
 <br>
 [Back to all Lessons]({{ site.url }}/swift-ios/lessons)
