@@ -10,7 +10,7 @@ title: Mobile Projects
 - [Mini Project 2]({{ site.url}}/swift-ios/projects/mini-2)
 - [Emojional]({{ site.url}}/swift-ios/projects/emojional)
 - [To-Do List]({{ site.url }}/swift-ios/projects/to-do-list)
-- [Personal Project]({{ site.url }}/swift-ios/projects/personal-project)
+- [Final Project]({{ site.url }}/swift-ios/projects/personal-project)
 
 ## Additional Project Ideas
 
