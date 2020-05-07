@@ -105,7 +105,7 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
   <div>
-    <h4>Work on Project</h4>
+    <h4>Build: Final Project</h4>
     <p>Work on the next pieces of your project, as outlined by your project plan and communication with your project manager. Send your project manager an update on your progress/status in the project channel when you are done for the evening.</p>
   </div>
 
@@ -117,7 +117,7 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
   <div>
-    <h4>Work on Project</h4>
+    <h4>Build: Final Project</h4>
     <p>Work on the next pieces of your project, as outlined by your project plan and communication with your project manager. Send your project manager an update on your progress/status in the project channel when you are done for the evening.</p>
   </div>
 
