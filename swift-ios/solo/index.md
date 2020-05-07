@@ -27,15 +27,15 @@ title: Not Homework Assignments
   <h3 class="solo-day-label solo-day-click">Tuesday Not HW</h3>
   <div class="solo-day-toggle">
 
-  <div>
-    <h4>Watch: Dictionaries</h4>
-    <p>Watch <a target="blank" href="">this __ minute this video to learn about Swift Dictionaries</a>. Share your answers to the questions at the end of the video in the Slack thread. We will review this content as a group tomorrow!</p>
-  </div>
+    <div>
+      <h4>Watch: Dictionaries</h4>
+      <p>Watch <a target="blank" href="">this __ minute this video to learn about Swift Dictionaries</a>. Share your answers to the questions at the end of the video in the Slack thread. We will review this content as a group tomorrow!</p>
+    </div>
 
-  <div>
-    <h4>Practice: Dictionaries</h4>
-    <p>Complete the challenges in the <a href="../practice/dictionaries" target="blank">Dictionaries Practice Exercise</a>. Share the "invite" link in the Slack thread. If you're not feeling confident about these yet - that's ok! We will review them as a group tomorrow.</p>
-  </div>
+    <div>
+      <h4>Practice: Dictionaries</h4>
+      <p>Complete the challenges in the <a href="../practice/dictionaries" target="blank">Dictionaries Practice Exercise</a>. Share the "invite" link in the Slack thread. If you're not feeling confident about these yet - that's ok! We will review them as a group tomorrow.</p>
+    </div>
 
   </div>
 </article>
@@ -78,10 +78,10 @@ title: Not Homework Assignments
   <h3 class="solo-day-label solo-day-click">Friday Not HW</h3>
   <div class="solo-day-toggle">
 
-  <div>
-    <h4>App Design Journal: Prototype</h4>
-    <p>Complete the Prototype section of your App Design Journal. Be ready to share out when we meet on Monday!</p>
-  </div>
+    <div>
+      <h4>App Design Journal: Prototype</h4>
+      <p>Complete the Prototype section of your App Design Journal. Be ready to share out when we meet on Monday!</p>
+    </div>
 
   </div>
 </article>
@@ -92,10 +92,10 @@ title: Not Homework Assignments
   <h3 class="solo-day-label solo-day-click">Monday Not HW</h3>
   <div class="solo-day-toggle">
 
-  <div>
-    <h4>Build: ToDo List</h4>
-    <p>Work to re-build the ToDo List project on your own or with a partner!</p>
-  </div>
+    <div>
+      <h4>Build: ToDo List</h4>
+      <p>Work to re-build the ToDo List project on your own or with a partner!</p>
+    </div>
 
   </div>
 </article>
@@ -116,10 +116,10 @@ title: Not Homework Assignments
   <h3 class="solo-day-label solo-day-click">Wednesday Not HW</h3>
   <div class="solo-day-toggle">
 
-  <div>
-    <h4>Build: Final Project</h4>
-    <p>Work on the next pieces of your project, as outlined by your project plan and communication with your project manager. Send your project manager an update on your progress/status in the project channel when you are done for the evening.</p>
-  </div>
+    <div>
+      <h4>Build: Final Project</h4>
+      <p>Work on the next pieces of your project, as outlined by your project plan and communication with your project manager. Send your project manager an update on your progress/status in the project channel when you are done for the evening.</p>
+    </div>
 
   </div>
 </article>
@@ -128,10 +128,10 @@ title: Not Homework Assignments
   <h3 class="solo-day-label solo-day-click">Thursday Not HW</h3>
   <div class="solo-day-toggle">
 
-  <div>
-    <h4>Build: Final Project</h4>
-    <p>Work on the next pieces of your project, as outlined by your project plan and communication with your project manager. Send your project manager an update on your progress/status in the project channel when you are done for the evening.</p>
-  </div>
+    <div>
+      <h4>Build: Final Project</h4>
+      <p>Work on the next pieces of your project, as outlined by your project plan and communication with your project manager. Send your project manager an update on your progress/status in the project channel when you are done for the evening.</p>
+    </div>
 
   </div>
 </article>
