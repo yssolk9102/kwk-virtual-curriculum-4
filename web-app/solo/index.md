@@ -10,12 +10,12 @@ title: Not Homework Assignments
 
     <div>
       <h4>Watch: Intermediate HTML</h4>
-      <p>Here is the detailed info you need.</p>
+      <p>Watch <a target="blank" href="">this __ minute this video to learn a little more HTML</a>. Share your answers to the questions at the end of the video in the Slack thread. We will review this content as a group tomorrow!</p>
     </div>
 
     <div>
       <h4>Build: Mini Project 1</h4>
-      <p>Here is the detailed info you need.</p>
+      <p>Spend about 30 minutes building Mini Project 1! Share the "invite others" link in the Slack thread.</p>
     </div>
 
   </div>
@@ -27,7 +27,7 @@ title: Not Homework Assignments
 
     <div>
       <h4>Build: Photo Gallery/EL</h4>
-      <p>Here is the detailed info you need.</p>
+      <p>Spend 45-60 minutes working on your Photo Gallery/EL Project! Share the "invite others" link in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
     </div>
 
   </div>
@@ -39,7 +39,7 @@ title: Not Homework Assignments
 
     <div>
       <h4>Practice: Intermediate JS</h4>
-      <p>Here is the detailed info you need.</p>
+      <p>Complete the challenges in the <a href="../practice/intermediate-js" target="blank">Intermediate JS Practice Exercise</a>. Share the "invite" link in the Slack thread.</p>
     </div>
 
   </div>
@@ -51,7 +51,7 @@ title: Not Homework Assignments
 
   <div>
     <h4>Practice: Objects & Arrays</h4>
-    <p>Here is the detailed info you need.</p>
+    <p>Complete the challenges in the <a href="../practice/objects-arrays" target="blank">Objects & Arrays Practice Exercise</a>. Share the "invite" link in the Slack thread.</p>
   </div>
 
   </div>
@@ -63,12 +63,12 @@ title: Not Homework Assignments
 
   <div>
     <h4>Watch: Forms</h4>
-    <p>Here is the detailed info you need.</p>
+    <p>Watch <a target="blank" href="">this __ minute this video to learn about forms</a>, from the structure of them in HTML to getting user input with JavaScript. Share your answers to the questions at the end of the video in the Slack thread. We will review this content as a group tomorrow!</p>
   </div>
 
   <div>
     <h4>Build: Mini Project 2</h4>
-    <p>Here is the detailed info you need.</p>
+    <p>Spend 30-45 minutes working on Mini Project 2! Share the "invite others" link in the Slack thread.</p>
   </div>
 
   </div>
@@ -82,7 +82,7 @@ title: Not Homework Assignments
 
   <div>
     <h4>Build: Mini Project 3</h4>
-    <p>Here is the detailed info you need.</p>
+    <p>Spend 45-60 minutes working on Mini Project 2! Share the "invite others" link in the Slack thread. Keep in mind, you'll have more work time on it tomorrow.</p>
   </div>
 
   </div>
@@ -93,13 +93,8 @@ title: Not Homework Assignments
   <div class="solo-day-toggle">
 
     <div>
-      <h4>Write: HTML</h4>
-      <p>Here is the detailed info you need.</p>
-    </div>
-
-    <div>
-      <h4>Start: CSS</h4>
-      <p>Here is the detailed info you need.</p>
+      <h4>Write: HTML, possibly CSS</h4>
+      <p>With your partner, write the HTML and consider starting on the CSS for your project. Share the "invite" link with your project manager in your project channel if you haven't already.</p>
     </div>
 
   </div>
@@ -111,7 +106,7 @@ title: Not Homework Assignments
 
   <div>
     <h4>Work on Project</h4>
-    <p>Here is the detailed info you need.</p>
+    <p>Work on the next pieces of your project, as outlined by your project plan and communication with your project manager. Send your project manager an update on your progress/status in the project channel when you are done for the evening.</p>
   </div>
 
   </div>
@@ -123,7 +118,7 @@ title: Not Homework Assignments
 
   <div>
     <h4>Work on Project</h4>
-    <p>Here is the detailed info you need.</p>
+    <p>Work on the next pieces of your project, as outlined by your project plan and communication with your project manager. Send your project manager an update on your progress/status in the project channel when you are done for the evening.</p>
   </div>
 
   </div>

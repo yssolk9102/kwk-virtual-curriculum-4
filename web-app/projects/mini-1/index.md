@@ -16,7 +16,7 @@ Applying what you've learned about HTML and CSS, you are going to build a little
 
 ### Tips
 
-Have fun! We ask that you spend about 30 minutes on this.
+Remix [https://glitch.com/edit/#!/mini-project-1-starter](this Glitch project) and use as a starter. Have fun! We ask that you spend about 30 minutes on this.
 
 ## Iteration 1 - Rough Draft
 
