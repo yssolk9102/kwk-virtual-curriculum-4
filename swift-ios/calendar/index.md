@@ -234,13 +234,13 @@ Click on a day below to see the details about what you'll be learning and buildi
       <li>Review: ToDo List</li>
       <li>Pitch Party</li>
       <li><a href="../projects/personal-project">Learn: Access Camera</a></li>
-      <li><a href="../projects/personal-project">Pair: Wireframe, Storyboard</a></li>
+      <li><a href="../lessons/git-github-pairs">Learn: Git & GitHub for Pairs</a></li>
     </ul>
   </div>
   <div class="day-right">
     <h4>Homework</h4>
     <ul>
-      <li><a href="../solo">Pair: Objects & Constraints</a></li>
+      <li>Pair: Set Up StoryBoard</li>
     </ul>
     </div>
   </div>
