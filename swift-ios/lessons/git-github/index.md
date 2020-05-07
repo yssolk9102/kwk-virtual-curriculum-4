@@ -47,6 +47,7 @@ _You only need to do this once for every project you want to save on GitHub._
 A Git Repository is a project that is being managed by Git. Git is a version control system. If you've ever used Google Docs and noticed that you could see what changes have been made, and when they were made - that's similar to what this is, but for code!
 
 While you are in an Xcode Project, select the "Source Control" drop-down, then select "Create Git Repositories."
+  - _If you get a message saying "All projects are already under source control" at this step, move to Step 4.
 
 <img class="medium" src="./assets/create-git-repo.png" alt="Screenshot illustrating directions above">
 
