@@ -91,7 +91,6 @@ Click on a day below to see the details about what you'll be learning and buildi
     <h4>Community</h4>
     <ul>
       <li>Icebreaker</li>
-      <li>Culture of Tech</li>
       <li>Lunch</li>
       <li>Closing Circle</li>
     </ul>
@@ -103,6 +102,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <li><a href="../lessons/js-intro">Learn: Intro to JavaScript</a></li>
       <li><a href="../practice/intro-js">Practice: Intro to JavaScript</a></li>
       <li><a href="../lessons/js-intermediate">Learn: Intermediate JavaScript</a></li>
+      <li>App Design Journal: KickOff, Brainstorm</li>
     </ul>
   </div>
   <div class="day-right">
@@ -140,6 +140,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     <h4>Night Hacks</h4>
     <ul>
       <li><a href="../practice/objects-arrays">Practice: Objects & Arrays</a></li>
+      <li>App Design Journal: Plan</li>
     </ul>
     </div>
   </div>
@@ -190,7 +191,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     <ul>
       <li>Icebreakers</li>
       <li>Lunch</li>
-      <li>Pitch Party TBD</li>
+      <li>Pitch Party</li>
       <li>Closing Circle</li>
     </ul>
   </div>
