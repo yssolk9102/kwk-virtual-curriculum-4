@@ -24,7 +24,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <ul>
         <li>Intros</li>
         <li>Icebreakers</li>
-        <li>What app do you want to build?</li>
+        <li>Culture of Tech</li>
         <li>Lunch</li>
         <li>Closing Circle</li>
       </ul>
@@ -39,7 +39,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     </div>
 
     <div class="day-right">
-      <h4>Homework</h4>
+      <h4>Night Hacks</h4>
       <ul>
         <li><a href="../solo/html-inter">Watch: Intermediate HTML</a></li>
         <li><a href="../solo/mini-1">Build: Mini Project 1</a></li>
@@ -69,14 +69,14 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../lessons/css-intermediate">Learn: Intermediate CSS</a></li>
         <li><a href="../lessons/design">Learn: Design</a></li>
         <li><a href="../lessons/css-flexbox">Learn: Flexbox</a></li>
-        <li><a href="../projects/photo-gallery">Build: Photo Gallery/EL</a></li>
+        <li><a href="../projects/photo-gallery">Build: Photo Gallery</a></li>
       </ul>
     </div>
 
     <div class="day-right">
-      <h4>Homework</h4>
+      <h4>Night Hacks</h4>
       <ul>
-        <li><a href="../solo/photo-gallery">Build: Photo Gallery/EL</a></li>
+        <li><a href="../solo/photo-gallery">Build: Photo Gallery</a></li>
       </ul>
     </div>
 
@@ -106,7 +106,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     </ul>
   </div>
   <div class="day-right">
-    <h4>Homework</h4>
+    <h4>Night Hacks</h4>
     <ul>
       <li><a href="../practice/intermediate-js">Practice: Intermediate JavaScript</a></li>
     </ul>
@@ -137,7 +137,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     </ul>
   </div>
   <div class="day-right">
-    <h4>Homework</h4>
+    <h4>Night Hacks</h4>
     <ul>
       <li><a href="../practice/objects-arrays">Practice: Objects & Arrays</a></li>
     </ul>
@@ -169,10 +169,10 @@ Click on a day below to see the details about what you'll be learning and buildi
     </ul>
   </div>
   <div class="day-right">
-    <h4>Homework</h4>
+    <h4>Night Hacks</h4>
     <ul>
       <li><a href="../solo/form">Watch: Forms</a></li>
-      <li><a href="../solo/mini-2">Build: Mini Project 2</a></li>
+      <li><a href="../solo/mini-2">Build: Estēe Lauder Challenge</a></li>
     </ul>
     </div>
   </div>
@@ -203,7 +203,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     </ul>
   </div>
   <div class="day-right">
-    <h4>Homework</h4>
+    <h4>Night Hacks</h4>
     <ul>
       <li><a href="../solo/mini-3">Build: Mini Project 3</a></li>
     </ul>
@@ -233,7 +233,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     </ul>
   </div>
   <div class="day-right">
-    <h4>Homework</h4>
+    <h4>Night Hacks</h4>
     <ul>
       <li><a href="../solo/personal">Pair: Write HTML</a></li>
       <li><a href="../solo/personal">Pair: Start CSS <em>optional</em></a></li>
@@ -263,7 +263,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     </ul>
   </div>
   <div class="day-right">
-    <h4>Homework</h4>
+    <h4>Night Hacks</h4>
     <ul>
       <li>Pair: Work on Project</li>
     </ul>
@@ -292,7 +292,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       </ul>
     </div>
     <div class="day-right">
-      <h4>Homework</h4>
+      <h4>Night Hacks</h4>
       <ul>
         <li>Pair: Work on Project</li>
       </ul>
@@ -323,7 +323,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     </div>
 
     <div class="day-right">
-      <h4>Homework</h4>
+      <h4>Night Hacks</h4>
       <ul>
         <li>Keep in touch!</li>
       </ul>
