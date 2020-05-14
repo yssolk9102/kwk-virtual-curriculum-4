@@ -32,6 +32,9 @@ Sunday:
 - [Project Management Tools](https://docs.google.com/document/d/1ToXNp1wFyhKNIej82GZRnIfJ24en2stwdGGKTJY1BG0/edit)
 - [Power of Communication]()
 
+Post-Training:
+- [Events, Prep, and Dates](https://docs.google.com/document/d/1lV4E6NYyEh7YNwwkagTME6PqxDYPRSIERT1SAXo3p_g/edit)
+
 ## Camp Planning
 
 Direct links to resources you'll be using post-training, in your planning;
