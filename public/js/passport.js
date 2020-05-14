@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function checkLocation() {
     const check = localStorage.getItem('loggedIn') || 'false';
-    const isStaff = localStorage.getItem('isStaff') || false;
+    const isStaff = localStorage.getItem('isStaff') || 'false';
 
     if (relativeURL === '/kwk-virtual-curriculum/login/' && check === 'true') {
       showLinks(isStaff);
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function showLinks(isStaff) {
     var links = document.querySelectorAll(".navbar-navigation--links .curriculum-links");
 
-    if (isStaff) {
+    if (isStaff === 'true') {
       for (var i = 0; i < links.length; i++) {
         links[i].style.display = 'block';
       }
@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (checkLogin(login) && checkPassword(password)) {
       localStorage.setItem('loggedIn', 'true');
+      localStorage.setItem('isStaff', 'false');
       window.location.replace("/kwk-virtual-curriculum/");
       showLinks(false);
     } else if (checkStaffLogin(login) && checkStaffPassword(password)) {
