@@ -8,7 +8,7 @@ All resources for training and post-training session can be found [in this folde
 
 ## Training Resources
 
-If you'd like direct links to resources for each day of training:
+If you'd like direct links to resources for each day of training, click the appropriate box:
 
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">Friday</h3>
@@ -43,7 +43,7 @@ If you'd like direct links to resources for each day of training:
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Friday</h3>
+  <h3 class="solo-day-label solo-day-click">Sunday</h3>
   <div class="solo-day-toggle">
 
     <ol>
@@ -57,7 +57,7 @@ If you'd like direct links to resources for each day of training:
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Friday</h3>
+  <h3 class="solo-day-label solo-day-click">Post-Training</h3>
   <div class="solo-day-toggle">
 
     <ol>
