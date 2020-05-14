@@ -27,10 +27,10 @@ Saturday:
 - [Camp Planning](https://docs.google.com/document/d/1fZHwotrlZqnkhx299WaTDQpPF_DfEOqyX2pz9wA7So8/edit)
 
 Sunday:
-- [Culture of Tech]()
+- [Culture of Tech 2](https://docs.google.com/document/d/13eCsTwQGI3fUJf1I8Ph5b8-5_LbTB5nTF-9ilB4bkgQ/edit)
+- [Culture of Tech 3](https://docs.google.com/document/d/1on9vYV_vwKaiq-NJDLTpqF3KsXJ9s43056PSaJifQeI/edit)
 - [App Design Journals]()
 - [Project Management Tools](https://docs.google.com/document/d/1ToXNp1wFyhKNIej82GZRnIfJ24en2stwdGGKTJY1BG0/edit)
-- [Power of Communication]()
 
 Post-Training:
 - [Events, Prep, and Dates](https://docs.google.com/document/d/1lV4E6NYyEh7YNwwkagTME6PqxDYPRSIERT1SAXo3p_g/edit)
