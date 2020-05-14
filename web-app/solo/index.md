@@ -1,5 +1,5 @@
 ---
-title: Not Homework Assignments
+title: Night Hacks
 ---
 
 <h2>Week 1</h2>

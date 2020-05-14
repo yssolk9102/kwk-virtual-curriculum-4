@@ -1,5 +1,5 @@
 ---
-title: Not Homework Assignments
+title: Night Hacks
 ---
 
 [Back to main Mobile page]({{ site.url }}/swift-ios)

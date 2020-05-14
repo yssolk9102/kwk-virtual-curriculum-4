@@ -62,7 +62,6 @@ If you'd like direct links to resources for each day of training:
 
     <ul>
       <li><a target="blank" href="https://docs.google.com/document/d/1lV4E6NYyEh7YNwwkagTME6PqxDYPRSIERT1SAXo3p_g/edit">Events, Prep, and Dates</a></li>
-
     </ul>
 
   </div>
