@@ -24,7 +24,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <ul>
         <li>Intros</li>
         <li>Icebreakers</li>
-        <li>What app do you want to build?</li>
+        <li>Culture of Tech</li>
         <li>Lunch</li>
         <li>Closing Circle</li>
       </ul>
@@ -93,7 +93,6 @@ Click on a day below to see the details about what you'll be learning and buildi
     <h4>Community</h4>
     <ul>
       <li>Icebreaker</li>
-      <li>Culture of Tech</li>
       <li>Lunch</li>
       <li>Closing Circle</li>
     </ul>
@@ -193,7 +192,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     <ul>
       <li>Icebreakers</li>
       <li>Lunch</li>
-      <li>Pitch Party TBD</li>
+      <li>Pitch Party</li>
       <li>Closing Circle</li>
     </ul>
   </div>
@@ -232,7 +231,6 @@ Click on a day below to see the details about what you'll be learning and buildi
     <h4>Technical</h4>
     <ul>
       <li>Review: ToDo List</li>
-      <li>Pitch Party</li>
       <li><a href="../projects/personal-project">Learn: Access Camera</a></li>
       <li><a href="../lessons/git-github-pairs">Learn: Git & GitHub for Pairs</a></li>
     </ul>
