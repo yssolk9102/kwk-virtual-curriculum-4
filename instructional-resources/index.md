@@ -4,7 +4,7 @@ title: Instructional Resources
 
 ## All Resources
 
-All resources for training and post-training session can be found [in this folder](https://drive.google.com/open?id=14FhQkS3onwn_rBpSuruypXJ8a5k2RFpB).
+All resources for training and post-training session can be found [in this folder](https://drive.google.com/open?id=14FhQkS3onwn_rBpSuruypXJ8a5k2RFpB). Individual resources can be found below, but all live in the same folder - you may want to bookmark this link!
 
 ## Training Resources
 
