@@ -17,8 +17,8 @@ Friday:
 
 Saturday:
 - [Virtual Camp Culture Ideas](https://docs.google.com/document/d/1GNV6BvEwhN8MPhTDXIL8frAkxnBwpEKIXt8Zfc9Du_w/edit)
-- [Mobile Camp Schedules](https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing)
-- [WebDev Camp Schedules](https://docs.google.com/document/d/1sIPdOY8SFbZNNng8A0AoJ1oXSZcRKNwNfq8qVy2scx4/edit)
+- _Mobile_ [Camp Schedule](https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing)
+- _WebDev_ [Camp Schedule](https://docs.google.com/document/d/1sIPdOY8SFbZNNng8A0AoJ1oXSZcRKNwNfq8qVy2scx4/edit)
 - [MicroFeedback](https://docs.google.com/document/d/12n0kFfYFpXxswNlsNmxgjG_gCju_YaVBtqSHsYjF1ag/edit)
 - [2019 MicroFeedback Responses](https://docs.google.com/spreadsheets/d/116b31JWxxxo2P6QtaAgcoRHVIyCfpvBQnsDcgbwYUAM/edit#gid=858406607)
 - [Night Hacks](https://docs.google.com/document/d/1EtwJahY-J9WcvWPjrZQeRTDS4-ifYr0Zg0_cjz18-XQ/edit)
