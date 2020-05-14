@@ -53,7 +53,7 @@ Direct links to resources you probably want to reference during camps:
 - [MicroFeedback](https://docs.google.com/document/d/12n0kFfYFpXxswNlsNmxgjG_gCju_YaVBtqSHsYjF1ag/edit)
 
 Mobile 📱:
-- [Detailed Calendar]((https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing)
+- [Detailed Calendar](https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing)
 - [Review + CFU Resources](https://drive.google.com/drive/folders/1zfsNlNjueWpMJGTZrv5RxcL0VT_perg1) - please contribute any resources you've found or created!
 
 WebDev 💻:
