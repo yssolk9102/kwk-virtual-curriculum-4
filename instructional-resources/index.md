@@ -66,6 +66,7 @@ If you'd like direct links to resources for each day of training, click the appr
 
   </div>
 </article>
+<br>
 
 ## Camp Planning
 
