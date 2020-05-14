@@ -14,11 +14,11 @@ If you'd like direct links to resources for each day of training:
   <h3 class="solo-day-label solo-day-click">Friday</h3>
   <div class="solo-day-toggle">
 
-    <ul>
+    <ol>
       <li><a target="blank" href="">Team Builders, Brain Breaks</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1yG-GAhq07VMrekMHHQ6nxDv8vICJhV1hcoNmFXs38EQ/edit">Virtual Session Norms</a></li>
       <li>Night Hack: <a target="blank" href="https://screencast-o-matic.com/watch/cYhnrPBBQT">Watch this Zoom Education Features screencast</a></li>
-    </ul>
+    </ol>
 
   </div>
 </article>
@@ -27,7 +27,7 @@ If you'd like direct links to resources for each day of training:
   <h3 class="solo-day-label solo-day-click">Saturday</h3>
   <div class="solo-day-toggle">
 
-    <ul>
+    <ol>
       <li><a target="blank" href="https://docs.google.com/document/d/1GNV6BvEwhN8MPhTDXIL8frAkxnBwpEKIXt8Zfc9Du_w/edit">Virtual Camp Culture Ideas</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing"><em>Mobile</em> Camp Schedule</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1sIPdOY8SFbZNNng8A0AoJ1oXSZcRKNwNfq8qVy2scx4/edit"><em>WebDev</em> Camp Schedule</a></li>
@@ -37,7 +37,7 @@ If you'd like direct links to resources for each day of training:
       <li><a target="blank" href="https://docs.google.com/document/d/1Cj0arudcd4X1pM6Ql-LGkfV-CMbLJQCAgoiiG-Y-ZJ8/edit">Meaningful Remote Co-Teaching</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1PoJlgQzy2Zz48L9bI8Z8LNV2vwFbxsFj6bEmBXW5y5E/edit">Camp Team DTR</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1fZHwotrlZqnkhx299WaTDQpPF_DfEOqyX2pz9wA7So8/edit">Camp Planning</a></li>
-    </ul>
+    </ol>
 
   </div>
 </article>
@@ -46,12 +46,12 @@ If you'd like direct links to resources for each day of training:
   <h3 class="solo-day-label solo-day-click">Friday</h3>
   <div class="solo-day-toggle">
 
-    <ul>
+    <ol>
       <li><a target="blank" href="https://docs.google.com/document/d/13eCsTwQGI3fUJf1I8Ph5b8-5_LbTB5nTF-9ilB4bkgQ/edit">Culture of Tech 2</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1on9vYV_vwKaiq-NJDLTpqF3KsXJ9s43056PSaJifQeI/edit">Culture of Tech 3</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1on9vYV_vwKaiq-NJDLTpqF3KsXJ9s43056PSaJifQeI/edit">App Design Journals</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1ToXNp1wFyhKNIej82GZRnIfJ24en2stwdGGKTJY1BG0/edit">Project Management Tools</a></li>
-    </ul>
+    </ol>
 
   </div>
 </article>
@@ -60,9 +60,9 @@ If you'd like direct links to resources for each day of training:
   <h3 class="solo-day-label solo-day-click">Friday</h3>
   <div class="solo-day-toggle">
 
-    <ul>
+    <ol>
       <li><a target="blank" href="https://docs.google.com/document/d/1lV4E6NYyEh7YNwwkagTME6PqxDYPRSIERT1SAXo3p_g/edit">Events, Prep, and Dates</a></li>
-    </ul>
+    </ol>
 
   </div>
 </article>
