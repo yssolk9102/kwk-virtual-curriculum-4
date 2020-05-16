@@ -6,8 +6,8 @@ title: WebDev Calendar
 
 Every day, camp will follow the schedule listed below. Times listed will be for the timezone for your camp.
 - 9:45 - 10:00 - Morning Community Time
-- 10:00 - 12:00 - Technical Work
-- 12:00 - 1:00 - Lunch
+- 10:00 - 12:15 - Technical Work
+- 12:15 - 1:00 - Lunch
 - 1:00 - 3:00 - Technical Work
 - 3:00 - 3:15 - Closing Circle
 
