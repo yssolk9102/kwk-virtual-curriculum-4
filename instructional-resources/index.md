@@ -40,6 +40,7 @@ If you'd like direct links to resources for each day of training, click the appr
       <li><a target="blank" href="https://docs.google.com/document/d/1Cj0arudcd4X1pM6Ql-LGkfV-CMbLJQCAgoiiG-Y-ZJ8/edit">Meaningful Remote Co-Teaching</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1PoJlgQzy2Zz48L9bI8Z8LNV2vwFbxsFj6bEmBXW5y5E/edit">Camp Team DTR</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1fZHwotrlZqnkhx299WaTDQpPF_DfEOqyX2pz9wA7So8/edit">Camp Planning</a></li>
+      <li><a target="blank" href="https://turingschool.zoom.us/rec/share/uuEvbIDZ9EhIBa_ks1z1QKI4MNjDeaa8gSQbqaZYyk9XXjSYcv7jcnjpacmavLsU?startTime=1589648521000">Recording of Zoom Session</a></li>
     </ol>
 
   </div>
