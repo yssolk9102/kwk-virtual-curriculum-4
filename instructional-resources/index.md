@@ -15,9 +15,11 @@ If you'd like direct links to resources for each day of training, click the appr
   <div class="solo-day-toggle">
 
     <ol>
-      <li><a target="blank" href="">Team Builders, Brain Breaks</a></li>
+      <li><a target="blank" href="https://docs.google.com/presentation/d/1sdRxzjed96n0szuY3zwTbJVAuYiGT5UtXD4lNfDo7rw/edit">Slide Deck</a></li>
+      <li><a target="blank" href="">Team Builders, Brain Breaks (Coming Soon!)</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1yG-GAhq07VMrekMHHQ6nxDv8vICJhV1hcoNmFXs38EQ/edit">Virtual Session Norms</a></li>
       <li>Night Hack: <a target="blank" href="https://screencast-o-matic.com/watch/cYhnrPBBQT">Watch this Zoom Education Features screencast</a></li>
+      <li><a target="blank" href="https://turingschool.zoom.us/rec/play/tJR7f-2tqmk3TobEsASDUPQsW43sKaqshiIa-6INnUbnAiQKMVCjYbIbYrSQIrARRWdPjJAr_8LAqOM?startTime=1589562185000">Recording of Zoom Session</a></li>
     </ol>
 
   </div>
@@ -28,6 +30,7 @@ If you'd like direct links to resources for each day of training, click the appr
   <div class="solo-day-toggle">
 
     <ol>
+      <li><a target="blank" href="https://docs.google.com/presentation/d/1qZY3wPfy9uiRMirDzh1ZQbsPXAndt76ml0Pl2A_kqA8/edit#slide=id.g8528c29485_0_2">Slide Deck</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1GNV6BvEwhN8MPhTDXIL8frAkxnBwpEKIXt8Zfc9Du_w/edit">Virtual Camp Culture Ideas</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing"><em>Mobile</em> Camp Schedule</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1sIPdOY8SFbZNNng8A0AoJ1oXSZcRKNwNfq8qVy2scx4/edit"><em>WebDev</em> Camp Schedule</a></li>
@@ -47,6 +50,7 @@ If you'd like direct links to resources for each day of training, click the appr
   <div class="solo-day-toggle">
 
     <ol>
+      <li><a target="blank" href="https://docs.google.com/presentation/d/1n3wnNkYCjZ5fkcQLe7M6ItV7kB_7MJIBYOjDIrO0Kxs/edit">Slide Deck</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/13eCsTwQGI3fUJf1I8Ph5b8-5_LbTB5nTF-9ilB4bkgQ/edit">Culture of Tech 2</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1on9vYV_vwKaiq-NJDLTpqF3KsXJ9s43056PSaJifQeI/edit">Culture of Tech 3</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1on9vYV_vwKaiq-NJDLTpqF3KsXJ9s43056PSaJifQeI/edit">App Design Journals</a></li>
