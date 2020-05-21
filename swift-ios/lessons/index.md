@@ -34,6 +34,7 @@ title: Mobile Lessons
 - [Welcome to KWK]({{ site.url }}/swift-ios/lessons/welcome-to-kwk)
 - [Intro to Repl]({{ site.url }}/swift-ios/lessons/repl)
 - [Git & GitHub]({{ site.url }}/swift-ios/lessons/git-github)
+- [Git & GitHub - Pairs]({{ site.url }}/swift-ios/lessons/git-github-pairs)
 - [How to Demo]({{ site.url }}/swift-ios/lessons/how-to-demo)
 - [Code Challenges]({{ site.url }}/swift-ios/lessons/code-challenges)
 - [Videos]({{ site.url }}/swift-ios/lessons/videos)
