@@ -17,7 +17,7 @@ Estée Lauder is looking to YOU to design and build a Karlie Kloss feature piece
   - Question 2
   - Question 3
 
-Not only will this give you great practice as you continue to develop your skills with HTML & CSS, your work may be featured on Estée Lauders site! Details on submissions are below.
+Not only will this give you great practice as you continue to develop your skills with HTML & CSS, your work may be featured on Estée Lauders blog! Details on submissions are below.
 
 ### Set Up
 
@@ -26,10 +26,8 @@ Remix the [Zen Garden Starter Kit](https://glitch.com/edit/#!/el-zen-garden-star
 ### Submission
 
 Here's how it will work:
-- Submit your Glitch project links and responses to a few questions about your inspiration and process on THIS GOOGLE FORM.
-- Submission deadline for all camps: DATE
-- On DATE, the SOMETHING Estée Lauder team will select the project that they feel best...blahblahblah.
-- The scholar whose project is selected: Your work is featured, you get some freebies??
+- Submit your Glitch project links and responses to a few questions about your inspiration and process using [this Google Form](https://forms.gle/6gmfFEKSnG3UhWDy7).
+- Submission deadline for all camps: Wednesday evening your second week of camp at 8pm local time
 
 Karlie and the Estée Lauder team can't wait to see what you submit!
 
