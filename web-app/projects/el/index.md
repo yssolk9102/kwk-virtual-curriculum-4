@@ -1,10 +1,10 @@
 ---
-title: Estée Lauder Zen Garden Hack
+title: Estée Lauder Zen Garden Lab
 ---
 
 [Back to Projects]({{ site.url }}/web-app/projects)
 
-Estée Lauder is looking to YOU to design and build a Karlie Kloss feature piece for their site. Here are the parameters:
+Estée Lauder is looking to YOU to design and build a piece featuring Karlie Kloss. Here are the parameters:
 - Start with the CSS Zen Garden starter kit. _What is a CSS Zen Garden?_ It's a demonstration of what can be accomplished with CSS. You will be given HTML to use, and cannot change it at all. The exceptions to that rule are, you can add classes or IDs to elements and you can change the `src` attribute for `video` and `img` tags! Then, you'll write CSS to make the page your own. [Find the CSS Zen Garden project that inspired the challenge in this hack here](http://www.csszengarden.com/)! The magical thing about Zen Gardens is that everyone will start with the exact same CSS, but end with a totally different outcome!
 - Decide on a color palette. Here are a few great resources:
   - [Color Hunt](https://colorhunt.co/)
