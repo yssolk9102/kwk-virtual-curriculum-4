@@ -9,7 +9,7 @@ title: Virtual WebDev Projects
 - [Mini Project 1]({{ site.url }}/web-app/projects/mini-1)
 - [Mini Project 2]({{ site.url }}/web-app/projects/mini-2)
 - [Mini Project 3]({{ site.url }}/web-app/projects/mini-3)
-- [Estée Lauder Hack]({{ site.url }}/web-app/projects/el)
+- [Estée Lauder]({{ site.url }}/web-app/projects/el)
 - [Final Project]({{ site.url }}/web-app/projects/personal-project)
 
 ## Additional Project Ideas
