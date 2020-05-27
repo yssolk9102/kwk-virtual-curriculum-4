@@ -83,6 +83,10 @@ Spicy Challenge Boxes:
 
 In addition to `spicy-heat`, `medium-heat` and `mild-heat` can also be used for color-coding challenge call-outs. The same convention follows for `spicy-code`, `medium-code` and `mild-code`.
 
+### JavaScript
+
+All JavaScript should live under `root/public/js`. Any new files created will need to be pulled in with script tags in (probably) the `_layouts/main.html` and `_layouts/page.html`. jQuery is a dependency, so is available for use in JavaScript files.
+
 ## Style Guide
 
 - Only use HTML if you need classes for styles or JavaScript
