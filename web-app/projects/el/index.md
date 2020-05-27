@@ -11,7 +11,7 @@ Estée Lauder is looking to YOU to design and build a Karlie Kloss feature piece
   - [Coolers](https://coolors.co/)
   - [Color Picker](https://htmlcolorcodes.com/color-picker/)
 
-- Decide on which photo assets you will use from the options provided in your starter kit.
+- Decide on which photo assets you will use from the options provided [here](https://bit.ly/kwk-el-assets ). [This video](https://www.youtube.com/watch?v=4JfVwxF260k) will walk you through how to use the assets folder in your Glitch project.
 - Think carefully about the design decisions you make. You'll be asked to share your rationale for those decision by reflecting on these questions list questions that will be on submission.
   - Question 1
   - Question 2
