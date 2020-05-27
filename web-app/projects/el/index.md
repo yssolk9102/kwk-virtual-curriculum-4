@@ -5,7 +5,7 @@ title: Estée Lauder Zen Garden CONTEST
 [Back to Projects]({{ site.url }}/web-app/projects)
 
 Estēe Lauder is looking to YOU to design and build a Karlie Kloss feature piece for their site. Here are the parameters:
-- Choose one of the two CSS Zen Gardens starter kits to work with. What is a CSS Zen Garden? It's a demonstration of what can be accomplished with CSS. You will be given HTML to use, and cannot change it at all. The ONLY exception to that rule is, you can add classes or IDs to elements. Then, you'll write CSS to make the page your own. [Find the CSS Zen Garden project that inspired the challenge in this contest here](http://www.csszengarden.com/)!
+- Start with the CSS Zen Gardens kit. What is a CSS Zen Garden? It's a demonstration of what can be accomplished with CSS. You will be given HTML to use, and cannot change it at all. The exceptions to that rule are, you can add classes or IDs to elements, and you can change the `src` attribute for `video` and `img` tags! Then, you'll write CSS to make the page your own. [Find the CSS Zen Garden project that inspired the challenge in this contest here](http://www.csszengarden.com/)! The magical thing about Zen Gardens is that everyone will start with the exact same CSS, but end with a totally different outcome!
 - Decide on a color palette. Here are a few great resources:
   - [Color Hunt](https://colorhunt.co/)
   - [Coolers](https://coolors.co/)
@@ -21,9 +21,7 @@ Not only will this give you great practice as you continue to develop your skill
 
 ### Set Up
 
-Choose one of the two CSS Zen Gardens starter kits:
-- [option 1]()
-- [option 2]()
+Remix the [Zen Garden Starter Kit](https://glitch.com/edit/#!/el-zen-garden-starter-kit).
 
 ### Submission
 
