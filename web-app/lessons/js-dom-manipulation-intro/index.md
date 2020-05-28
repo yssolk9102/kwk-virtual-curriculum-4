@@ -50,7 +50,11 @@ I clicked the button, and in response, JavaScript made that message appear. In t
 
 ## jQuery
 
-There is a popular **library**, or chunk of code someone else wrote, called **jQuery**. There are a lot of things it can do, all of which are still JavaScript, but it's less for us to write!
+There is a popular **library**, or chunk of code someone else wrote, called **jQuery**. There are a lot of things it can do, all of which are still JavaScript, but it's less for us to write! When using it, it's essential that the HTML script tag below is included inside of the `head` element in HTML. Any starter kit will already include this!
+
+```html
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+```
 
 During camp, we will use jQuery anytime we want to write code that interacts with elements on the DOM. Keep in mind that when we use features of jQuery, we are still writing JavaScript. It's just a little "extra" on top!
 
