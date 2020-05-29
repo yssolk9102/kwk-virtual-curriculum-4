@@ -7,13 +7,19 @@ This site is built with Jekyll using Ruby version 2.4.1p111. Find the Jekyll doc
 ### Setup
 
 - Clone the repo `git clone git@github.com:turingschool/try-turing.git`
-- run `bundle install`
-- You can now begin to edit the website in your text editor of choice
-- To start the server run `jekyll serve --incremental`
-- Navigate to `localhost:4000` in the browser to see the site
+- Open the project in your text editor of choice
+- Edit the project
 - You can push changes to production by pushing the `gh-pages` branch to GitHub
 
 The changes may take a minute or two to be recognized on production. Please make sure you review your changes on production.
+
+#### Running Locally - _Not Required_
+
+While running locally is not required or really even recommended, in the event that you need to because you are adding scripts files that you need to verify work as expected, follow these steps while navigated to the project root in your terminal:
+- Run `bundle install`
+- To start the server run `jekyll serve --incremental`
+- Navigate to `localhost:4000` in the browser to see the site
+- Make changes and commits as usual
 
 ### Structure of Site
 
