@@ -89,6 +89,22 @@ Spicy Challenge Boxes:
 
 In addition to `spicy-heat`, `medium-heat` and `mild-heat` can also be used for color-coding challenge call-outs. The same convention follows for `spicy-code`, `medium-code` and `mild-code`.
 
+#### Embedded Glitch Projects
+
+To embed a Glitch project, copy and paste the HTML provided in the "embed app" modal on Glitch. Remove the `allow` attribute so that microphone, camera, and geolocation are _not_ allowed.
+
+```
+<!-- Copy and Paste Me -->
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/example-event-listener?path=README.md&previewSize=0&attributionHidden=true"
+    title="example-event-listener on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media" 💣 REMOVE THIS LINE
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+```
+
 ### JavaScript
 
 All JavaScript should live under `root/public/js`. Any new files created will need to be pulled in with script tags in (probably) the `_layouts/main.html` and `_layouts/page.html`. jQuery is a dependency, so is available for use in JavaScript files.
