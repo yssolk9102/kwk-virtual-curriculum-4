@@ -52,7 +52,7 @@ If you'd like direct links to resources for each day of training, click the appr
 
     <ol>
       <li><a target="blank" href="https://docs.google.com/presentation/d/1n3wnNkYCjZ5fkcQLe7M6ItV7kB_7MJIBYOjDIrO0Kxs/edit">Slide Deck</a></li>
-      <li><a target="blank href="https://docs.google.com/document/d/16rR4ajhOvauMlwiqG7A06w2r0YCHP7h_laC2VxjJ_NM/edit">Culture of Tech 1</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/16rR4ajhOvauMlwiqG7A06w2r0YCHP7h_laC2VxjJ_NM/edit">Culture of Tech 1</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/13eCsTwQGI3fUJf1I8Ph5b8-5_LbTB5nTF-9ilB4bkgQ/edit">Culture of Tech 2</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1on9vYV_vwKaiq-NJDLTpqF3KsXJ9s43056PSaJifQeI/edit">Culture of Tech 3</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1on9vYV_vwKaiq-NJDLTpqF3KsXJ9s43056PSaJifQeI/edit">App Design Journals</a></li>
