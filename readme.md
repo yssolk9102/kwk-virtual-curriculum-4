@@ -8,10 +8,13 @@ This site is built with Jekyll using Ruby version 2.4.1p111. Find the Jekyll doc
 
 - Clone the repo `git clone git@github.com:turingschool/try-turing.git`
 - Open the project in your text editor of choice
-- Edit the project
-- You can push changes to production by pushing the `gh-pages` branch to GitHub
+- Edit the project on the `gh-pages` branch
+- Use this git workflow to push to production: 
+  - `git add .`
+  - `git commit -m "Your message here"`
+  - `git push origin gh-pages`
 
-The changes may take a minute or two to be recognized on production. Please make sure you review your changes on production.
+The changes may take a minute or two to be recognized on production. Please make sure you review your changes on production. If you prefer to edit on a different branch, follow the branch workflow and make a PR on GitHub.
 
 #### Running Locally - _Not Required_
 
