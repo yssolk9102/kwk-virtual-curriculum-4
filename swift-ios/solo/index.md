@@ -7,12 +7,12 @@ title: Night Hacks
 <h2>Week 1</h2>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Monday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Monday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
       <h4>Watch: Intro to Functions</h4>
-      <p>Watch <a target="blank" href="">this __ minute this video to get an introduction to Swift functions</a>. Share your answers to the questions at the end of the video in the Slack thread. We will review this content as a group tomorrow!</p>
+      <p>Watch <a target="blank" href="https://drive.google.com/file/d/1ToiHz3z4lAReSU1dAyGHOltWJC2S2gDX/view"> this video to get an introduction to Swift functions</a>. Share your answers to the following questions in the Slack thread: <b> (1) In your own words, how would you define a function? (2) What is something new you learned in this video? (3) What is something you're still curious about when it comes to functions? </b> We will review this content as a group tomorrow!</p>
     </div>
 
     <div>
@@ -24,12 +24,13 @@ title: Night Hacks
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Tuesday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Tuesday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
       <h4>Watch: Dictionaries</h4>
-      <p>Watch <a target="blank" href="">this __ minute this video to learn about Swift Dictionaries</a>. Share your answers to the questions at the end of the video in the Slack thread. We will review this content as a group tomorrow!</p>
+      <p>Watch <a target="blank" href="https://drive.google.com/file/d/1PStAOAyIzqy_JicYALCFL3j27qVWQZs5/view?usp=sharing">this video to learn about Swift Dictionaries</a>. Share your answers to the following questions in the Slack thread:<b> (1) Give a real-life example of an array and a real-life example of a dictionary!  (2) What is something new that you learned in the video? (3) What is something that you’re still curious about? 
+</b> We will review this content as a group tomorrow!. We will review this content as a group tomorrow!</p>
     </div>
 
     <div>
@@ -41,7 +42,7 @@ title: Night Hacks
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Wednesday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Wednesday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
@@ -58,7 +59,7 @@ title: Night Hacks
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Thursday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Thursday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
@@ -75,7 +76,7 @@ title: Night Hacks
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Friday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Friday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
@@ -89,7 +90,7 @@ title: Night Hacks
 <h2>Week 2</h2>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Monday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Monday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
@@ -101,7 +102,7 @@ title: Night Hacks
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Tuesday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Tuesday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
@@ -113,7 +114,7 @@ title: Night Hacks
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Wednesday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Wednesday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
@@ -125,7 +126,7 @@ title: Night Hacks
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">Thursday Not HW</h3>
+  <h3 class="solo-day-label solo-day-click">Thursday Night Hack</h3>
   <div class="solo-day-toggle">
 
     <div>
