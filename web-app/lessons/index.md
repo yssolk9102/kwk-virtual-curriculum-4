@@ -29,7 +29,7 @@ title: Virtual WebDev Lessons
 - [Flex Box]({{ site.url }}/web-app/lessons/css-flexbox)
 
 ## Culture of Tech
-
+- [Culture of Tech 1](https://docs.google.com/document/d/16rR4ajhOvauMlwiqG7A06w2r0YCHP7h_laC2VxjJ_NM/edit)
 
 
 ## Other
