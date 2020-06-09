@@ -30,7 +30,8 @@ title: Virtual WebDev Lessons
 
 ## Culture of Tech
 - [Culture of Tech 1](https://docs.google.com/document/d/16rR4ajhOvauMlwiqG7A06w2r0YCHP7h_laC2VxjJ_NM/edit)
-
+- [Culture of Tech 2](https://docs.google.com/document/d/13eCsTwQGI3fUJf1I8Ph5b8-5_LbTB5nTF-9ilB4bkgQ/edit#)
+- [Culture of Tech 3](https://docs.google.com/document/d/1on9vYV_vwKaiq-NJDLTpqF3KsXJ9s43056PSaJifQeI/edit#heading=h.7xw8vftawg00)
 
 ## Other
 
