@@ -41,8 +41,8 @@ Click on a day below to see the details about what you'll be learning and buildi
     <div class="day-right">
       <h4>Homework</h4>
       <ul>
-        <li><a href="../solo/functions-intro">Watch: Intro to Functions</a></li>
-        <li><a href="../solo/swift-conditionals">Practice: Swift, Conditionals</a></li>
+        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/swift-ios/solo/">Watch: Intro to Functions</a></li>
+        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/swift-ios/solo/">Practice: Swift, Conditionals</a></li>
       </ul>
     </div>
 
