@@ -108,7 +108,7 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
-      <li>Start on the <a href=".../projects/el/"> Estee Lauder Project </a></li> 
+      <li>Start on the <a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/el/"> Estee Lauder Project </a></li> 
       <li><a href="../practice/intermediate-js">Practice: Intermediate JavaScript</a></li>
     </ul>
     </div>
