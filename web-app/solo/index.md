@@ -40,7 +40,7 @@ title: Night Hacks
 
     <div>
       <h4>Practice: Intermediate JS</h4>
-      <p>Complete the challenges in the <a href="../practice/intermediate-js" target="blank">Intermediate JS Practice Exercise</a>. Share the "invite" link in the Slack thread.</p>
+      <p>Complete the challenges in the <a href="../practice/intermediate-js" target="blank">Intermediate JS Practice Exercise</a>. Share the "invite" link in the Slack thread. Afterwards, start on the <a href=".../projects/el/" target="blank"> Estee Lauder Project </a></p>
     </div>
 
   </div>
