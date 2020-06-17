@@ -267,6 +267,7 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
+      <li>Submit Estee Lauder project by 8PM Local Time </li> 
       <li>Pair: Work on Project</li>
     </ul>
     </div>
