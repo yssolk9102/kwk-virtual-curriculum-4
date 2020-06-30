@@ -81,7 +81,7 @@ Let's breakdown the code above, using our vocabulary:
 
 <div class="try-it">
   <h2>Try It: Style Text</h2>
-  <p>We'll be working in Glitch projects again, but today we will use both the HTML <em>and</em> CSS files. Use <a href="https://glitch.com/edit/#!/try-it-style-text">this Glitch project as a starter.</a> Then, follow these steps:</p>
+  <p>We'll be working in repl.it projects again, but today we will use both the HTML <em>and</em> CSS files. Use <a href="https://repl.it/@kodewithklossy/try-it-style-text">this repl.it project as a starter.</a> Then, follow these steps:</p>
   <ul>
     <li>Start by writing some HTML so we have some elements to style. Write an <code class="try-it-code">h1</code> element and make sure to include some content between the tags!</li>
     <li>Now, write a CSS rule for the <code class="try-it-code">h1</code>. Inside the rule, write a declaration to change the size and color of your <code class="try-it-code">h1</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a>.</li>
@@ -106,7 +106,7 @@ One of the most helpful CSS properties to use while you are in the process of bu
 
 <div class="try-it">
   <h2>Explore: Borders</h2>
-  <p>For this activity, you'll be working in the same Glitch project that you started with text and colors.</p>
+  <p>For this activity, you'll be working in the same repl.it project that you started with text and colors.</p>
   <p>Add the declaration: <code class="try-it-code">border: 1px solid red;</code> to each rule in your CSS file. This value looks a little different from most of those we've seen; there are 3 pieces of information.</p>
   <ul>
     <li><strong>1px</strong> refers to the thickness of the line on the border</li>
@@ -189,7 +189,7 @@ Another declaration that we haven't talked about:
 
 <div class="try-it">
   <h2>Try It: Buttons</h2>
-  <p>Create a new Glitch project for this activity.</p>
+  <p>Create a new repl.it project for this activity.</p>
   <ol>
     <li>In the HTML file, write a button element with the content "Try Pro Free for 7 Days".</li>
     <li>In the CSS file, write the rules necessary to re-create the button pictured below! Use any color you want.</li>
@@ -226,7 +226,7 @@ Take a minute to write down your key takeaways from this lesson.
 
 ## More Practice/Extensions
 
-For each practice prompt, start a new Glitch project. You'll notice that when you start a new Glitch project, a lot of code is already written in the HTML file. You can delete anything inside of the `<body>` tags, then write your own code! _Hint: One thing that may be helpful for any/all challenges is `text-align: center`!_
+For each practice prompt, start a new repl.it project. You'll notice that when you start a new repl.it project, a lot of code is already written in the HTML file. You can delete anything inside of the `<body>` tags, then write your own code! _Hint: One thing that may be helpful for any/all challenges is `text-align: center`!_
 
 <div class="challenge-container mild-heat">
   <p class="spicy-click">Click here for Mild Practice 🌶</p>
