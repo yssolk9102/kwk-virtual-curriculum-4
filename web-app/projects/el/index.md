@@ -11,7 +11,7 @@ Estée Lauder is looking to YOU to design and build a piece featuring Karlie Klo
   - [Coolers](https://coolors.co/)
   - [Color Picker](https://htmlcolorcodes.com/color-picker/)
 
-- Decide on which photo assets you will use from the options provided [here](https://bit.ly/kwk-el-assets ). [This video](https://www.youtube.com/watch?v=4JfVwxF260k) will walk you through how to use the assets folder in your Glitch project.
+- Decide on which photo assets you will use from the options provided [here](https://bit.ly/kwk-el-assets ). 
 - Think carefully about the design decisions you make. You'll be asked to share your rationale for those decision by reflecting on some questions in the submission form.
 
 Not only will this give you great practice as you continue to develop your skills with HTML & CSS, your work may be featured on Estée Lauders blog! Details on submissions are below.
