@@ -18,12 +18,12 @@ Not only will this give you great practice as you continue to develop your skill
 
 ### Set Up
 
-Remix the [Zen Garden Starter Kit](https://glitch.com/edit/#!/el-zen-garden-starter-kit).
+Fork the [Zen Garden Starter Kit](https://repl.it/@kodewithklossy/el-zen-garden-starter-kit).
 
 ### Submission
 
 Here's how it will work:
-- Submit your Glitch project links and responses to a few questions about your inspiration and process using [this Google Form](https://forms.gle/6gmfFEKSnG3UhWDy7).
+- Submit your repl.it project links and responses to a few questions about your inspiration and process using [this Google Form](https://forms.gle/6gmfFEKSnG3UhWDy7). Make sure you submit the repl.co link! 
 - Submission deadline: Wednesday evening your second week of camp at 8pm local time
 
 Karlie and the Estée Lauder team can't wait to see what you submit!
