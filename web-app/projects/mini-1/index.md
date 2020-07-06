@@ -16,7 +16,7 @@ Applying what you've learned about HTML and CSS, you are going to build a little
 
 ### Tips
 
-Remix [this Glitch project](https://glitch.com/edit/#!/mini-project-1-starter?path=README.md%3A1%3A0) and use as a starter. Have fun! We ask that you spend about 30 minutes on this.
+Fork [this repl.it project](https://repl.it/@kodewithklossy/mini-project-1) and use as a starter. Have fun! We ask that you spend about 30 minutes on this.
 
 ## Iteration 1 - Rough Draft
 
