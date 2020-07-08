@@ -207,7 +207,7 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
-      <li><a href="../solo/mini-3">Build: Mini Project 3</a></li>
+      <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/mini-3/">Build: Mini Project 3</a></li>
     </ul>
     </div>
   </div>
