@@ -69,7 +69,7 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../lessons/css-intermediate">Learn: Intermediate CSS</a></li>
         <li><a href="../lessons/design">Learn: Design</a></li>
         <li><a href="../lessons/css-flexbox">Learn: Flexbox</a></li>
-        <li><a href="../projects/photo-gallery">Build: Photo Gallery</a></li>
+        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/photo-gallery/">Build: Photo Gallery</a></li>
       </ul>
     </div>
 
