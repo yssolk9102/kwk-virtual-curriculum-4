@@ -16,7 +16,7 @@ If you'd like direct links to resources for each day of training, click the appr
 
     <ol>
       <li><a target="blank" href="https://docs.google.com/presentation/d/1sdRxzjed96n0szuY3zwTbJVAuYiGT5UtXD4lNfDo7rw/edit">Slide Deck</a></li>
-      <li><a target="blank" href="">Team Builders, Brain Breaks (Coming Soon!)</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/1O3v5POIjI_bKQjscvIX6vS7IotFGE2ORbV0yNBXVsUA/edit#">Brain Break Encyclopedia</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1yG-GAhq07VMrekMHHQ6nxDv8vICJhV1hcoNmFXs38EQ/edit">Virtual Session Norms</a></li>
       <li>Night Hack: <a target="blank" href="https://screencast-o-matic.com/watch/cYhnrPBBQT">Watch this Zoom Education Features screencast</a></li>
       <li><a target="blank" href="https://turingschool.zoom.us/rec/play/tJR7f-2tqmk3TobEsASDUPQsW43sKaqshiIa-6INnUbnAiQKMVCjYbIbYrSQIrARRWdPjJAr_8LAqOM?startTime=1589562185000">Recording of Zoom Session</a></li>
