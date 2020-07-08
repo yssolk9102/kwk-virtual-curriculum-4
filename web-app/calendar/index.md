@@ -222,7 +222,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     <ul>
       <li>Icebreaker</li>
       <li>Lunch</li>
-      <li>Pair: DTR</li>
+      <li>Final Project Group: DTR </li>
       <li>Closing Circle</li>
     </ul>
   </div>
@@ -231,14 +231,14 @@ Click on a day below to see the details about what you'll be learning and buildi
     <ul>
       <li>Review: Intermediate DOM</li>
       <li><a href="../projects/mini-3">Build: Mini Project 3</a></li>
-      <li><a href="../projects/personal-project">Pair: Wireframe</a></li>
+      <li><a href="../projects/personal-project">Final Project Group: Wireframe</a></li>
     </ul>
   </div>
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
-      <li><a href="../solo/personal">Pair: Write HTML</a></li>
-      <li><a href="../solo/personal">Pair: Start CSS <em>optional</em></a></li>
+      <li>Final Project Group: Wireframe Write HTML</li>
+      <li>Final Project Group: Wireframe Start CSS </li>
     </ul>
     </div>
   </div>
@@ -260,15 +260,15 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-middle">
     <h4>Technical</h4>
     <ul>
-      <li>Pair: Work Time</li>
-      <li>Pair: Project Check In</li>
+      <li>Final Project Group: Work Time</li>
+      <li>Final Project Group: Project Check In</li>
     </ul>
   </div>
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
       <li>Submit Estee Lauder project by 8PM Local Time </li> 
-      <li>Pair: Work on Project</li>
+      <li>Final Project Group: Work on Project</li>
     </ul>
     </div>
   </div>
@@ -289,15 +289,15 @@ Click on a day below to see the details about what you'll be learning and buildi
     <div class="day-middle">
       <h4>Technical</h4>
       <ul>
-        <li>Pair: Work Time</li>
-        <li>Pair: Project Check In</li>
+        <li>Final Project Group: Work Time</li>
+        <li>Final Project Group: Project Check In</li>
         <li><a href="../lessons/how-to-demo">Prepare: Demo</a></li>
       </ul>
     </div>
     <div class="day-right">
       <h4>Night Hacks</h4>
       <ul>
-        <li>Pair: Work on Project</li>
+        <li>Final Project Group: Work on Project</li>
       </ul>
     </div>
   </div>
@@ -321,7 +321,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <h4>Technical</h4>
       <ul>
         <li><a href="../lessons/how-to-demo">Practice: Demo</a></li>
-        <li>Pair: Finish Project</li>
+        <li>Final Project Group: Finish Project</li>
       </ul>
     </div>
 
