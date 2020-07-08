@@ -28,7 +28,7 @@ title: Night Hacks
 
     <div>
       <h4>Build: Photo Gallery</h4>
-      <p>Spend 45-60 minutes working on your Photo Gallery Project! Share the "invite others" link in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
+      <p>Spend 45-60 minutes working on your <a href= "https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/photo-gallery/> Photo Gallery Project! </a> Share the "invite others" link in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
     </div>
 
   </div>
