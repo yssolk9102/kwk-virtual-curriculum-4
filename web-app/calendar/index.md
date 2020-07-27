@@ -42,7 +42,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <h4>Night Hacks</h4>
       <ul>
         <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/solo/">Watch: Intermediate HTML</a></li>
-        <li><a href="../solo/mini-1">Build: Mini Project 1</a></li>
+        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/mini-1/">Build: Mini Project 1</a></li>
       </ul>
     </div>
 
