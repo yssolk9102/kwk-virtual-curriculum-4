@@ -50,7 +50,7 @@ It's also important to point out the use of indentation in the example above. Si
 
 <div class="try-it">
   <h2>Try It: Nesting Elements</h2>
-  <p>Let's <a target="blank" href="https://glitch.com/edit/#!/try-it-nesting-elements">remix this Glitch project</a> and follow these steps!</p>
+  <p>Let's <a target="blank" href="https://repl.it/@kodewithklossy/try-it-nesting-elements#index.html">remix this repl.it project</a> and follow these steps!</p>
   <ul>
     <li>First, write an empty <code class="try-it-code">div</code> tag.</li>
     <li>Inside of the div tag, write 2-3 paragraphs.</li>
@@ -115,7 +115,7 @@ When looking at the markup, you also notice that it’s common for inline elemen
 
 <div class="try-it">
   <h2>See It To Believe It: Inline vs. Block</h2>
-  <p>Let's take a couple minutes to see this in action to make sure we have an understanding. Open and remix <a href="https://glitch.com/edit/#!/try-it-block-vs-inline">this Glitch project</a>.</p>
+  <p>Let's take a couple minutes to see this in action to make sure we have an understanding. Open and remix <a href="https://repl.it/@kodewithklossy/block-vs-inline#index.html">this repl.it project</a>.</p>
   <ul>
     <li>In the CSS file, add a border of any color to the <code class="try-it-code">h1</code>.</li>
     <li>Element by element, add a border (use a different color for each one).</li>
@@ -189,7 +189,7 @@ Notice the syntax - when we were just targeting a `p` element, we would type `p`
 
 <div class="try-it">
   <h2>Try It: Targeting with Classes</h2>
-  <p>Open and remix <a target="blank" href="https://glitch.com/edit/#!/try-it-classes">this Glitch project</a>.</p>
+  <p>Open and fork <a target="blank" href="https://repl.it/@kodewithklossy/try-it-classes#index.html">this repl.it project</a>.</p>
   <ul>
     <li>In the HTML file, write a <code class="try-it-code">section</code> element with at 4 <code class="try-it-code">paragraphs</code> nested inside of it.</li>
     <li>Give 3 of the 4 nested paragraphs the same class name. Give the other paragraph a different class name.</li>
@@ -199,7 +199,7 @@ Notice the syntax - when we were just targeting a `p` element, we would type `p`
 
 <div class="practice">
   <h2>Practice</h2>
-  <p>Create a new Glitch project. Work to re-create the screenshot pictured below. You'll need to use containers and classes to achieve this. Feel free to use content and colors of your choice.</p>
+  <p>Create a new repl.it project. Work to re-create the screenshot pictured below. You'll need to use containers and classes to achieve this. Feel free to use content and colors of your choice.</p>
   <img src="./assets/hidden-figures.png">
   <br>
   <br>
