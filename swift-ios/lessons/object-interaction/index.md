@@ -17,6 +17,8 @@ title: Object Interaction
 * property
 * action
 
+**Note:** For all practice today, scholars will be working in an Xcode Playground!
+
 ## Creating Objects with Classes
 
 Up until now, we've only written classes to the extent that we can print details about an object created from one of those classes. When we build more complex programs, we typically have many classes, and the objects from those classes interact in some way.
@@ -86,6 +88,8 @@ func addFood(food : String) {
 }
 ```
 
+_Remember, this action should live inside the curly brackets of the class._
+
 <div class="try-it">
   <h2>Try It: Add contents to Pantry</h2>
   <p>Write a Pantry class in Xcode, create an object from it, and write several print statements to see what data is stored in your properties. Then, call <code class="try-it-code">pantry.addFood("your favorite food")</code>, and then another print statement for <code class="try-it-code">pantry.contents</code>. Do you have <code class="try-it-code">your favorite food</code> in your pantry now?</p>
@@ -132,18 +136,14 @@ var contents = [Food]()
 <div class="try-it">
   <h2>Try It: Loop over Pantry contents</h2>
   <p><strong>First</strong>, update your Pantry and Food classes to reflect what we've talked about, then add the following to your <code class="try-it-code">main.swift</code> file:</p>
-  <code class="try-it-code">var pantry = Pantry(pantryWalkIn: true, pantryTemp: 62)</code>
-  <br><br>
-  <code class="try-it-code">print(pantry.foods)</code>
-  <br><br>
-  <code class="try-it-code">pantry.addFood(food: "almond flour", calories: 100)</code>
-  <br>
-  <code class="try-it-code">pantry.addFood(food: "gluten-free oats", calories: 230)</code>
-  <br>
-  <code class="try-it-code">pantry.addFood(food: "mini chocolate chips", calories: 90)</code>
-  <br><br>
-  <code class="try-it-code">print(pantry.foods)</code>
-  <br><br>
+  <pre>
+    var pantry = Pantry(pantryWalkIn: true, pantryTemp: 62)
+    print(pantry.foods)
+    pantry.addFood(food: "almond flour", calories: 100)
+    pantry.addFood(food: "gluten-free oats", calories: 230)
+    pantry.addFood(food: "mini chocolate chips", calories: 90)
+    print(pantry.foods)
+  </pre>
   <p>What you see printed out probably looks something like: <code class="try-it-code">[]</code> <code class="try-it-code">[object_interaction.Food, object_interaction.Food, object_interaction.Food]</code>. Notice there are three elements in this array, which seems to match the three times <code class="try-it-code">addFood</code> was called, but I want more info about each element.</p>
   <p><strong>Second</strong>, write a <code class="try-it-code">for-in</code> loop to print out the name and calories of each food in the pantry.</p>
 </div>

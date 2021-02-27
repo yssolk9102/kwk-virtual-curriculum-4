@@ -19,6 +19,8 @@ title: Conditionals
 - Operators
 - Statement
 
+**Note:** For all practice today, scholars will be working in repl.it.
+
 ## 🌎 Conditionals
 
 Every programming language has conditionals. If you've worked in Python or Java, you've probably seen something similar to what we'll be working on today!
@@ -98,8 +100,8 @@ language == "Swift"
 "swift" == language
 //=> false
 
-var year = 2020
-var nextYear = 2021
+var year = 2021
+var nextYear = 2022
 
 year > 2000
 //=> true
@@ -233,7 +235,7 @@ Takeaways:
   <ul>
     <li>Create a variable named <code class="try-it-code">favoriteFood</code> and assign it to a string of your favorite food</li>
     <li>Write an if statement comparing your favorite to "Chipotle", which if evaluated to true, prints out a sentence of your choice</li>
-    <li>Write an else if statement comparing your favorite to 'Starbucks', which if evaluated to true, prints out a sentence of your choice</li>
+    <li>Write an else if statement comparing your favorite to "Starbucks", which if evaluated to true, prints out a sentence of your choice</li>
     <li>Write another else if - you choose what you compare it to</li>
     <li>Write an else statement that prints out a sentence of your choice</li>
     <li>Try changing the value of your <code class="try-it-code">favoriteFood</code> variable to "Chipotle", then "Starbucks" (if it wasn't already). Do you get what you expected?</li>

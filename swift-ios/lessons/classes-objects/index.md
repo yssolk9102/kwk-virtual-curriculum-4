@@ -18,6 +18,8 @@ title: Classes and Objects
 * property
 * actions
 
+**Note:** For most practice today, scholars will be working in repl.it.
+
 ## 🌎 Classes & Objects
 
 When we work with classes, we think about our code in terms of objects. A **class** is like a blueprint or a cookie cutter for our code. It is a chunk of code, usually, in its own file, that can hold data and functions. It kind of serves as a factory - think about a car factory - they have a blueprint, then make thousands of cars from that blueprint. The cars from this blueprint will have a lot in common, but each may have their own differences - colors, fabric for seats, etc.
@@ -36,7 +38,7 @@ Together, we are going to make a scholar class. It will be a blueprint for a sch
 We are about to write a Scholar class, but first, here are a few things you may want to know about classes in general:
 * start with keyword `class`, lowercased
 * after that, the class name is next, 1st letter capitalized
-* open code block with curly brackets
+* open code block with curly brackets - `{}`
 
 ```swift
 class Scholar {
@@ -155,7 +157,7 @@ newScholar.writeCode()
 //-> "Amy is busy writing code!"
 ```
 
-`writeCode()` is a function, but more specifically an **action** for this class, and this class only. You can even try calling it in the file without the newScholarpreceding it, and you'll see an error!
+`writeCode()` is a function, but more specifically an **action** for this class, and this class only. You can even try calling it in the file without the `newScholar` preceding it, and you'll see an error!
 
 <div class="try-it">
   <h2>Try It: Actions</h2>
@@ -183,7 +185,7 @@ Typically, because classes get big and we usually have many of them, we'll see t
 <div class="try-it">
   <h2>Try It: Organize Your Files</h2>
   <p>Go back into your code and create at least 3 more scholar objects using the scholar class.</p>
-  <p>Now, to prepare ourselves for the Aviatrix project, we are going to use a different tool to run our code.</p>
+  <p>Now, to prepare ourselves for the upcoming project, we are going to use a different tool to run our code.</p>
   <p>Open up Xcode and follow these directions to start it:</p>
   <ul>
     <li>Create a new Xcode project</li>
@@ -213,7 +215,7 @@ Now that we can write classes and use them to create objects, _and_ organize our
     <li>Create variables for the properties your class needs</li>
     <li>Write the actions for your class</li>
     <li>In main.swift, create at least one object with this class and do some printing to make sure your class is behaving as expected</li>
-    <li>Add in an `init` function so you can pass your class something specific to the object you are creating. (For a car, I would definitely want to make sure the color could change!)</li>
+    <li>Add in an <code class="practice-code">init</code> function so you can pass your class something specific to the object you are creating. (For a car, I would definitely want to make sure the color could change!)</li>
   </ul>
 
   <div class="challenge-container extension-heat">

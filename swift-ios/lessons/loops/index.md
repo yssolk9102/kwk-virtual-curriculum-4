@@ -84,7 +84,7 @@ We can also iterate in programming. By “in programming," we mean things that c
       <td>year</td>
       <td>
         <ol>
-          <li>subtract birth year from 2020 to get age</li>
+          <li>subtract birth year from 2021 to get age</li>
           <li>subtract age from 220</li>
         </ol>
       </td>
@@ -154,7 +154,7 @@ We can also iterate in programming. By “in programming," we mean things that c
 
 ## What is a `for-in` loop?
 
-A `for-in` loop is a block that will run code a specific number of times. It can iterate through a collection (array or dictionary) and do something with each element. Loops are very common and necessary parts of a programming language; every programming language has its own version of getting this done.
+A `for-in` loop is a block that will run code a specific number of times. It can iterate through a collection (array or dictionary) and _do_ something with each element. Loops are very common and necessary parts of a programming language; every programming language has its own version of getting this done.
 
 The benefit of loops is they save us time. When we want to do to the same thing for a lot of items, we only have to write that command once. For example, if we wanted to do something with each string in the `trending` array, our code would look like this:
 
@@ -167,7 +167,7 @@ print("Have you seen that TikTok from /(trending[2]) yet?!");
 print("Have you seen that TikTok from /(trending[3]) yet?!");
 ```
 
-Right now, this doesn’t seem so bad. What if we had 100 creators on our list? 1000? That’s a lot of lines of code to write and potentially a lot of places we would need to update it every time we added or removed a creator.
+Right now, this doesn’t seem so bad. What if we had 100 creators on our list? 1000? That’s a LOT of lines of code to write and potentially a lot of places we would need to update it every time we added or removed a creator.
 
 ## Syntax (Arrays)
 
@@ -292,7 +292,7 @@ print(largeNumbers)
 <div class="try-it">
   <h2>Try It: Placeholders</h2>
   <p>Declare an array that contains at least five strings and store it in a variable. You choose what the words are!</p>
-  <p>Use a <code class="try-it-code">for in</code> loop to create a new array of the words from your original array than have less than 6 characters. Use <code class="try-it-code">console.log()</code> to verify your new array holds what you think it does.</p>
+  <p>Use a <code class="try-it-code">for in</code> loop to create a new array of the words from your original array than have less than 6 characters. Use <code class="try-it-code">print()</code> to verify your new array holds what you think it does.</p>
 
   <div class="challenge-container spicy-heat">
     <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>

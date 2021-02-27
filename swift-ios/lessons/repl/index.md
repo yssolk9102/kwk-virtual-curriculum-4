@@ -2,12 +2,11 @@
 title: Intro to Repl
 ---
 
+[Back to all Lessons]({{ site.url }}/swift-ios/lessons)
+
 ## What is Repl.it?
 
-
-## Repl.it Files
-
-Repl.it is an online platform where we can write and run our JavaScript code quickly. It's a great place to learn fundamentals and use as a playground! Watch [this video](https://screencast-o-matic.com/watch/cYfIo7aLBQ), or read each section below to learn a little about how we will use repl.it at camp this summer. _Note: since the video was made, Repl made a small change to the "share/invite" button._
+Repl.it in an online interface where we can write and run code. It is a great place to learn and explore the basics of a lanugage and use as a playground to solve isolated problems, but we can't build entire apps in it. We will start by using it, then transition to a more powerful tool later in camp. 
 
 ## Creating a New File
 

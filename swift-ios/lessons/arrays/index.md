@@ -16,6 +16,8 @@ title: Arrays
 * Index
 * Initialize
 
+**Note:** For all practice today, scholars will be working in repl.it.
+
 ## 🌎 Warm Up
 
 In a repl.it file, declare a variable for every scholar in the zoom. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names.
@@ -93,7 +95,7 @@ trending
 //-> ["@thecardguy", "@spencerx", "@avani", "@lorengray"]
 ```
 
-Side note: The lines starting with `//->` indicate the return value of the previous code; it's just a way to notate what happens after writing some code.
+Side note: The lines starting with `//->` indicate the return value of the previous code; it's a way to notate what happens after writing some code.
 
 <div class="try-it">
   <h2>🐣Check In & Discuss</h2>
@@ -162,7 +164,7 @@ print(trending)
 
 ### Adding Information
 
-A common way to add something to an already existing array is to use the `.append()` method - which will add an element to the end of the array.
+A common way to add something to an already existing array is to use the `.append()` method - which will add an element to the _end_ of the array.
 
 ```swift
 var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"]

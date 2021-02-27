@@ -6,8 +6,6 @@ title: Swift Code Challenges
 
 Before you hop into a repl.it file and start writing code to solve any of these challenges, make sure to take the proper steps to pseudo-code and plan!
 
-<p class="to-do">Link psuedo-coding materials here</p>
-
 ## Mild Challenges
 
 <div class="challenge-container mild-heat">

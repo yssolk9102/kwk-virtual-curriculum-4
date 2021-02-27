@@ -66,7 +66,7 @@ In order to experiment with things, we'll open a Swift file in repl.it. Repl.it 
   <p>Type <code class="try-it-code">"your age"</code>.</p>
   <p>Type <code class="try-it-code">"your full name"</code>.</p>
   <p>Type anything you want - try to use some characters from your keyboard that are not numbers or letters. Make sure your text is enclosed in double quotes.</p>
-  <p>Run the code. If there are any errors in the code you wrote, that line will be highlighted in a light red color, and an error message will appear. Read it and try to understand what the problem is. If you can't resolve it, as another scholar or instructor!</p>
+  <p>Run the code. If there are any errors in the code you wrote, that line will be highlighted in a light red color, and an error message will appear. Read it and try to understand what the problem is. If you can't resolve it, ask another scholar or instructor!</p>
 </div>
 
 Takeaways:
@@ -88,7 +88,7 @@ We would write that line of code in the text editor on the left-hand side portio
 
 ## Variables
 
-In most programming languages, including Swift, values can be saved to variables. Unlike in math class, where we would use x or y and a number, variables in programming are much more flexible. Below are three variables that were used for the Reminders App:
+In most programming languages, including Swift, values can be saved to **variables**. Unlike in math class, where we would use x or y and a number, variables in programming are much more flexible. Below are three variables that were used for the Reminders App:
 
 ```swift
 var listName = "Reminders"
@@ -118,12 +118,12 @@ print(listName)
     <li>A variable called <code class="try-it-code">favoriteColor</code> that holds your favorite color</li>
     <li>A variable called <code class="try-it-code">pet</code> that holds the name of a pet</li>
     <li>A variable called <code class="try-it-code">friend</code> that holds the name of a friend</li>
-    <li>A variable called <code class="try-it-code">goal</code> that holds one of your 2020 goals. <em>Remember, you <strong>can</strong> include spaces in a string!</em></li>
+    <li>A variable called <code class="try-it-code">goal</code> that holds one of your 2021 goals. <em>Remember, you <strong>can</strong> include spaces in a string!</em></li>
     <li>A variable called <code class="try-it-code">hobby</code> that holds one of your hobbies</li>
   </ul>
 </div>
 
-**Keywords** are special, reserved words in the language. Every programming language has them. Xcode is helpful because it shows all keywords in pink.
+**Keywords** are special, reserved words in the language. Every programming language has them. Programs like repl.it and Xcode (which we will use later) are helpful because it shows all keywords in a special color.
 
 ### Re-assigning Variables
 
@@ -153,7 +153,7 @@ We can still access the string "Karlie" anytime, we just **can't re-assign it**.
 
 <div class="try-it">
   <h2>🗂 Brainstorm: Uses for Constants</h2>
-  <p>Come up with 3-4 real life uses for a constant, a piece of data that will never change. Be ready to share out!</p>
+  <p>Come up with 3-4 real life uses for a constant, a piece of data that will <strong>never</strong> change. Be ready to share out!</p>
   <p>Are there any places where a constant would be appropriate for the Reminders App?</p>
 </div>
 
@@ -195,7 +195,7 @@ The computer reads anything inside of the `\( )` as Swift code. In the code snip
 <div class="try-it">
   <h2>Try It: Strings</h2>
   <p>Declare the following variables in your repl.it file:</p>
-  <code class="try-it-code">var first = "Karlie"</code><br>
+  <code class="try-it-code">var first = "Karlie"</code><br><br>
   <code class="try-it-code">var last = "Kloss"</code><br>
   <p>Use string interpolation to complete the following:</p>
   <ol>
@@ -203,7 +203,7 @@ The computer reads anything inside of the `\( )` as Swift code. In the code snip
     <li>Output the string <code class="try-it-code">"KlossKarlie"</code>.</li>
     <li>Output the string <code class="try-it-code">"Karlie Kloss"</code>.</li>
     <li>Output the string <code class="try-it-code">"Kloss Karlie Kloss Karlie"</code>.</li>
-    <li>Output the string <code class="try-it-code">"I love Karlie"</code>.</li>
+    <li>Output the string <code class="try-it-code">"I love Karlie!!!"</code>.</li>
   </ol>
 </div>
 
@@ -213,7 +213,7 @@ We will use two kinds of numbers - Integers and Doubles. The math operations we 
 
 ### Integers
 
-Like we saw with strings above, we can also store Integers in variables.
+Like we saw with strings above, we can also store **Integers** in variables.
 
 ```swift
 var totalReminders = 5
@@ -301,7 +301,7 @@ print("Because \(tinsOfKookies) tins of kookies were purchased during Fashion's 
 
 <div class="try-it">
   <h2>Try It: Integers & Operators</h2>
-  <p>Start with these numbers:</p>
+  <p>Start with these variables:</p>
   <pre>var januaryAvg = 12
 var marchAvg = 65
 var novemberAvg = 31
@@ -319,7 +319,7 @@ var julyAvg = 98</pre>
 
 In the Try It section above, Swift calculated the average of the four temperatures to be `51`, even though we can verify on a calculator that the more precise answer is `51.5`. This is because if we ask Swift to perform an operation on two Integers, it will result in an Integer. From our example above, we can see that it rounded down.
 
-What if we wanted a more precise answer? We would need to use a Double.
+What if we wanted a more precise answer? We would need to use a **Double**.
 
 Swift gives you two data types with which to store numbers that have a decimal - Floats and Doubles. They can be positive or negative. Examples would be `1.1`, `42.45`, `3.14`, `-123786234.64`. There are some technical differences between the two, but for our purposes this summer, if you ever need a decimal **use a Double** because you'll get more accuracy that way.
 

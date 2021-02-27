@@ -16,7 +16,7 @@ As a participant in the 2020 Mobile camp, you will learn the fundamentals of iOS
 
 Using the Swift language and Xcode as a tool to build User Interfaces, we will be able to build beautiful iOS app that can respond to user interaction!
 
-During the last few days of camp, you'll be able to brainstorm and design a project that you are passionate about building, using all the skills you have at that point! Here are a couple videos of apps that scholars made last year:
+During the last few days of camp, you'll be able to brainstorm and design a project that you are passionate about building, using all the skills you have at that point! Here are a couple videos of apps that scholars made in previous years:
 
 <iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cFjIfhq6U2&v=5&ff=1" allowfullscreen="true"></iframe>
 

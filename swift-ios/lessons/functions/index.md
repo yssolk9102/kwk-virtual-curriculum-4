@@ -18,6 +18,8 @@ title: Functions
 - Parameter
 - Return Value
 
+**Note:** For all practice today, scholars will be working in repl.it.
+
 ## 🐣Warm Up
 
 In your breakout groups, choose one application that you all like to use.
@@ -46,9 +48,9 @@ func walkDog() {
 }
 ```
 
-We start with the key word `func`, then name our function whatever we want. The name should describe the type of action our function is taking. Like variables, we use camelCase.
+We start with the key word `func`, then name our function whatever we want. The name should describe the type of action our function is taking. Like variables, we use `camelCase` for multi-word functions.
 
-Directly after the function name, we see open and close parentheses, then open and close curly brackets. The directions we want our function to take will live inside the curly braces. We can give a function as many directions as we'd like!
+Directly after the function name, we see open and close parentheses - `()`, then open and close curly brackets - `{}`. The directions we want our function to take will live _inside_ the curly braces. We can give a function as many directions as we'd like!
 
 Let's add some of the steps our robot needs to take to walk a dog. For now, we will use `print()` to print out the steps, so we know when our function is working.
 
@@ -64,7 +66,7 @@ Now, this code alone won't do anything. We have **declared** the function - told
 
 ## Call a Function
 
-We have a really nice function written, but we need to **call** it for it to run. The great thing about functions is you can decide when they do their job. Maybe we only want one certain function to run when a user interacts with our site in a specific way. This puts us in complete control.
+We have a really nice function written, but we need to **call** it for it to run. The great thing about functions is you, as the developer, can decide when they do their job. Maybe we only want one certain function to run when a user interacts with our site in a specific way. This puts us in complete control.
 
 ```swift
 func walkDog() {
@@ -86,7 +88,7 @@ The last line of the code snippet is what **calls** the function. If we run this
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
     <div class="spicy-toggle">        
-      <p>Did your <code class="medium-code">sayHello</code> sentences print before or after your <code class="medium-code">sayGoodbye</code> sentences? Why?</p>
+      <p>Did your <code class="medium-code">sayHello</code> sentences print before or after your <code class="medium-code">sayGoodbye</code> sentences? Why? Try changing something in your code so that the order is reversed!</p>
     </div>
   </div>
 
@@ -185,7 +187,7 @@ print("You should walk a total of \(minutes) minutes.")
 
 Important things to know about returning a value:
 - We must indicate that we want to return a value in two different places in the function declaration:
-  1. After the parenthesis where we declare any parameters, we must include `-> DATA TYPE TO BE RETURNED`
+  1. After the parenthesis where we declare any parameters, we must include `-> [DATA TYPE TO BE RETURNED]`
   2. The last line of the function must use the `return` keyword, and the data we want to return should follow it
 - Each function can only return **one** value
 - Once the program reads the `return` keyword and the rest of the code on that line, it will exit that function. So, any code written on a line after the `return` statement will never be executed.
@@ -200,7 +202,7 @@ Takeaways:
 - `(numberOfDogs : Int)` states that we plan to get one piece of data when this function is called. It must be an Integer returned when we call `numberOfDogs`
 - `-> Int` declares that we plan to return an Integer out of this function
 - `var totalMinutes = numberOfDogs * 15;` declares a new variable that stores the result of 15 multiplied by the number passed into the function
-- `return totalMinutes;` returns the value of the `totalMinutes` variable
+- `return totalMinutes;` returns the value of the `totalMinutes` variable (which is an Integer)
 - `var minutes = timeToWalk(numberOfDogs : 3);` calls the function `timeToWalk` and passes in 3 as the argument. The return value of that is stored in the new variable `minutes`
 
 ### Incorporating Conditionals
@@ -229,7 +231,7 @@ func walkDog(numberOfDogs : Int) {
 
 ## Functions
 
-Throughout camp, we will write a lot of functions! They will have different jobs, and some will look quite different from ours today, but you've got a great foundation. Get a little more practice by completing the task below.
+Throughout camp, we will write a lot of functions! They will have different jobs, and some will look quite different from ours today, but you've got a great foundation. Get a little more practice by completing one or more tasks below.
 
 <div class="practice">
   <h2>🐣 Practice: Function</h2>

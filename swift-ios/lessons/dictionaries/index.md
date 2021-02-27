@@ -16,6 +16,8 @@ title: Dictionaries
 - Key/value pair
 - Unwrap
 
+**Note:** For all practice today, scholars will be working in repl.it.
+
 ## 🌎 Dictionaries
 
 **Dictionaries** are another way to hold multiple pieces of data (collection). There is one big difference between them and arrays: Dictionaries are not ordered by index (0, 1, 2, etc.); instead, each piece of data has a ‘label’ instead of a number. We call the labels `keys` and the data `values`. `key/value pairs` is a term you will hear a lot.
@@ -86,7 +88,7 @@ print(perfectTen["mini chocolate chips"])
 //-> Optional("1 cup")
 ```
 
-Notice that `Optional("4 cups")` was printed - not just the string “4 cups”, like you probably expected. Swift is very specific and wants to make sure that there **is data** stored in the dictionary (in this case, `perfectTen["almond flour"]`) before doing anything with the data; if it were nil it could cause problems in bigger programs.
+Notice that `Optional("4 cups")` was printed - not just the string “4 cups”, like you probably expected. Swift is very specific and wants to make sure that there **is data** stored in the dictionary (in this case, `perfectTen["almond flour"]`) before doing anything with the data; if it were `nil` it could cause problems in bigger programs.
 
 To tell Swift we are sure there is data, we do something called **unwrapping** - by typing an exclamation point after the closing bracket.
 
