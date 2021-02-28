@@ -14,6 +14,7 @@ title: Xcode Projects
 * Navigation Pane
 * Utilities Pane
 * Debug Area
+* Simulator
 
 ## 🌎 Xcode Projects
 
@@ -29,15 +30,16 @@ Before watching it, make sure you open up an Xcode Project so you can follow alo
 
 Follow the steps below to practice navigating Xcode Projects!
 
-- Create a new Single View iOS App
+- Create a new iOS App
+  - Name it, and make sure to select "Storyboard" for the _Interface Dropdown_
 - Navigate to the Main StoryBoard
-- View your StoryBoard on an iPhone 8
-- Run the simulator on an iPhone 8
-- Collapse the Navigation Pane
+- View your StoryBoard on an iPhone 12 Mini
+- Run the simulator on an iPhone 12 Mini
+- Collapse/hide the Navigation Pane
 - Expand the Console/Debug area
 - Expand the Navigation Pane
 - Navigate to the `ViewController.swift` file
-- On line 15 of that file, remove "// Do any additional setup after loading the view." and replace it with: `print("This is a print statement - testing testing!")`
+- On line 14 of that file, remove "// Do any additional setup after loading the view." and replace it with: `print("\r ======== \r Testing, testing! \r ========= \r")`
 - Re-run the simulator
 - Look for the print statement in the Console/Debug area
 - Collapse the Utilities Pane
@@ -45,7 +47,7 @@ Follow the steps below to practice navigating Xcode Projects!
 - Expand the Utilities Pane
 - Expand the Navigation Pane
 - Navigate to the Main StoryBoard
-- Change the orientation of the iPhone 8 on the StoryBoard
+- Change the orientation of the iPhone 12 Mini on the StoryBoard
 - View your StoryBoard on an iPhone 11 Pro
 
 <br>

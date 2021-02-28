@@ -17,7 +17,7 @@ title: Object Interaction
 * property
 * action
 
-**Note:** For all practice today, scholars will be working in an Xcode Playground!
+**Note:** For all practice today, scholars will be working in repl.it
 
 ## Creating Objects with Classes
 
@@ -30,8 +30,6 @@ With your partner:
 - Predict what will print to the console for the three print statements at the bottom
 
 ```swift
-// Pantry.swift
-
 class Pantry {
 
   var walkIn = false
@@ -43,10 +41,6 @@ class Pantry {
   }
 
 }
-```
-
-```swift
-// main.swift
 
 var pantry = Pantry(pantryWalkIn: true, pantryTemp: 62)
 
@@ -132,6 +126,9 @@ Now that we are passing in a food object instead of a string, we need to update 
 ```swift
 var contents = [Food]()
 ```
+
+If you are running into an error the includes `error: use of unresolved identifier 'Food'`, that's because when you are trying to create a Food object, the Swift program doesn't yet know about the Food class. Copy and paste the food class so that it is declared _before_ the pantry class!
+<br>
 
 <div class="try-it">
   <h2>Try It: Loop over Pantry contents</h2>

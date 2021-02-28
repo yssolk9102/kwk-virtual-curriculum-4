@@ -18,7 +18,7 @@ title: Classes and Objects
 * property
 * actions
 
-**Note:** For most practice today, scholars will be working in repl.it.
+**Note:** For all practice today, scholars will be working in repl.it.
 
 ## 🌎 Classes & Objects
 
@@ -180,30 +180,6 @@ writeCode()
 
 Classes are the blueprints or cookie cutters. Objects are created from the class - in many cases, we will pass an argument in to create a class that changes its properties. There can be MANY objects that are created from just one class!
 
-Typically, because classes get big and we usually have many of them, we'll see them written in their own files. This makes our code easier to navigate and maintain. Let's re-organize the work we did with the `Scholar` class to reflect this.
-
-<div class="try-it">
-  <h2>Try It: Organize Your Files</h2>
-  <p>Go back into your code and create at least 3 more scholar objects using the scholar class.</p>
-  <p>Now, to prepare ourselves for the upcoming project, we are going to use a different tool to run our code.</p>
-  <p>Open up Xcode and follow these directions to start it:</p>
-  <ul>
-    <li>Create a new Xcode project</li>
-    <li>Under Choose a template for your new project, select macOS</li>
-    <li>Under Application, select Command Line Tool</li>
-    <li>Click the blue Next button in the bottom right corner</li>
-    <li>You will be prompted to save this file. For Product Name, type in "ClassesAndObjects", then click the blue Create button in the bottom right corner</li>
-    <li>You will see a <code class="try-it-code">main.swift</code> file in the file tree on the far left, inside of the ClassesAndObjects folder. Right click on the folder, select New File, make sure that Swift File is selected, then click Next</li>
-    <li>Name the file <code class="try-it-code">TheNameOfYourClass</code>, then click Create</li>
-    <li>Inside the <code class="try-it-code">TheNameOfYourClass.swift</code> file, copy and paste your class, nothing else.</li>
-    <li>Inside the <code class="try-it-code">main.swift</code> file, copy and paste everything else.</li>
-    <li>To run the code, click the play button in the top left corner of the screen.</li>
-  </ul>
-  <p>The exact same thing is happening, but we now have our code organized out into files with a single responsibility.</p>
-</div>
-
-Now that we can write classes and use them to create objects, _and_ organize our code like professional developers, let's put it all together with this partner activity.
-
 <div class="practice">
   <h2>Practice: Classes & Objects</h2>
   <h3>Choose Your Own Class</h3>
@@ -211,10 +187,10 @@ Now that we can write classes and use them to create objects, _and_ organize our
     <li>With your partner, brainstorm another class. Remember, we used Scholar because all scholars share some things, and also had some unique things about them. If you are struggling for an idea, Car and Dog are both commonly used to practice work with classes 🚗 🐶</li>
     <li>With your partner, write a list of properties your class should have. What is true about every ____? (If you are talking about a car, every car has wheels...)</li>
     <li>What function, or action, do you want your _____ to take? (If it's a dog, I would want it to bark, sit, fetch...) Come up with at least 2 actions!</li>
-    <li>Write your class in an Xcode MocOS, Terminal Project</li>
+    <li>Write your class</li>
     <li>Create variables for the properties your class needs</li>
     <li>Write the actions for your class</li>
-    <li>In main.swift, create at least one object with this class and do some printing to make sure your class is behaving as expected</li>
+    <li>Create at least one object with this class and do some printing to make sure your class is behaving as expected</li>
     <li>Add in an <code class="practice-code">init</code> function so you can pass your class something specific to the object you are creating. (For a car, I would definitely want to make sure the color could change!)</li>
   </ul>
 
