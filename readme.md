@@ -1,4 +1,4 @@
-# Kode With Klossy 2020 Virtual Camp Curriculum
+# Kode With Klossy 2021 Virtual Camp Curriculum
 
 ## Contributing
 
