@@ -20,7 +20,7 @@ title: Xcode Projects
 
 Up until now, we've mainly worked in repl.it, which is a great place to run code, but not usable to build real iOS apps. _Xcode Projects_ is a place where we can! A lot more than writing code goes into building an iOS app, but we can do it all in Xcode. It is a big challenge that utilizes a lot of different tools; so we will take it one step at a time. [Here's]({{ site.url }}/swift-ios/lessons/storyboard/assets/xcode-map.png) a map of the main features in Xcode.
 
-Your Instructors or IAs can now screenshare and show you the main features highlighted in the map above.
+One of your camp instructors or IAs can screenshare and show you some of the features in action at this time! 
 
 ## 🐣 Scavenger Hunt
 
