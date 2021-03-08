@@ -28,7 +28,7 @@ title: Night Hacks
 
     <div>
       <h4>Build: Photo Gallery</h4>
-      <p>Spend 45-60 minutes working on your <a href= "https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/photo-gallery/"> Photo Gallery Project! </a> Share the "invite others" link in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
+      <p>Spend 45-60 minutes working on your <a href= "https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/photo-gallery/"> Photo Gallery Project! </a> Share the "invite others" link in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
     </div>
 
   </div>
@@ -40,7 +40,7 @@ title: Night Hacks
 
     <div>
       <h4>Practice: Intermediate JS</h4>
-      <p>Complete the challenges in the <a href="../practice/intermediate-js" target="blank">Intermediate JS Practice Exercise</a>. Share the "invite" link in the Slack thread. Afterwards, start on the <a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/el/" target="blank"> Estee Lauder Project </a></p>
+      <p>Complete the challenges in the <a href="../practice/intermediate-js" target="blank">Intermediate JS Practice Exercise</a>. Share the "invite" link in the Slack thread. Afterwards, start on the <a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/el/" target="blank"> Estee Lauder Project </a></p>
     </div>
 
   </div>

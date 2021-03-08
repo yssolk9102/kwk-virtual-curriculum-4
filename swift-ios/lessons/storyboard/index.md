@@ -23,7 +23,7 @@ Before we write all the Swift code we've been learning to make our app DO someth
 
 Either watch the video below, or watch you instructor walk through how to add objects from the Object Library to the StoryBoard.
 
-<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cYeXbex03t&v=5&ff=1" allowfullscreen="true"></iframe>
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/afe71ea39a9140b8a2377dc3651027de" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div><br>
 
 <div class="try-it">
   <h2>Try It: StoryBoard & Object Library</h2>

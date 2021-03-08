@@ -41,8 +41,8 @@ Click on a day below to see the details about what you'll be learning and buildi
     <div class="day-right">
       <h4>Night Hacks</h4>
       <ul>
-        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/solo/">Watch: Intermediate HTML</a></li>
-        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/mini-1/">Build: Mini Project 1</a></li>
+        <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/solo/">Watch: Intermediate HTML</a></li>
+        <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/mini-1/">Build: Mini Project 1</a></li>
       </ul>
     </div>
 
@@ -69,7 +69,7 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../lessons/css-intermediate">Learn: Intermediate CSS</a></li>
         <li><a href="../lessons/design">Learn: Design</a></li>
         <li><a href="../lessons/css-flexbox">Learn: Flexbox</a></li>
-        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/photo-gallery/">Build: Photo Gallery</a></li>
+        <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/photo-gallery/">Build: Photo Gallery</a></li>
       </ul>
     </div>
 
@@ -108,7 +108,7 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
-      <li>Start on the <a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/el/"> Estee Lauder Project </a></li> 
+      <li>Start on the <a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/el/"> Estee Lauder Project </a></li> 
       <li><a href="../practice/intermediate-js">Practice: Intermediate JavaScript</a></li>
     </ul>
     </div>
@@ -173,8 +173,8 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
-      <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/solo/">Watch: Forms</a></li>
-      <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/el/">Continue to work on the Estēe Lauder Challenge</a></li>
+      <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/solo/">Watch: Forms</a></li>
+      <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/el/">Continue to work on the Estēe Lauder Challenge</a></li>
     </ul>
     </div>
   </div>
@@ -207,7 +207,7 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
-      <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/web-app/projects/mini-3/">Build: Mini Project 3</a></li>
+      <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/mini-3/">Build: Mini Project 3</a></li>
     </ul>
     </div>
   </div>

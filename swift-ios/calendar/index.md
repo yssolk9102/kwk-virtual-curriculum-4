@@ -41,8 +41,8 @@ Click on a day below to see the details about what you'll be learning and buildi
     <div class="day-right">
       <h4>Homework</h4>
       <ul>
-        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/swift-ios/solo/">Watch: Intro to Functions</a></li>
-        <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/swift-ios/solo/">Practice: Swift, Conditionals</a></li>
+        <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/swift-ios/solo/">Watch: Intro to Functions</a></li>
+        <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/swift-ios/solo/">Practice: Swift, Conditionals</a></li>
       </ul>
     </div>
 
@@ -200,7 +200,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     <h4>Technical</h4>
     <ul>
       <li>Share Out: Prototypes</li>
-      <li><a href="https://kodewithklossy2020.github.io/kwk-virtual-curriculum/swift-ios/lessons/core-data-intro/">Learn: Core Data Overview</a></li>
+      <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/swift-ios/lessons/core-data-intro/">Learn: Core Data Overview</a></li>
       <li><a href="../projects/to-do-list">Build: ToDo List</a></li>
       <li><a href="../projects/to-do-list">App Journal: Write Pitch</a></li>
     </ul>
