@@ -37,7 +37,7 @@ Either watch the video below, or watch you instructor walk through how to add ob
 
 Everything looks great on my iPhone 8 screen, but in the simulator... not so much. Also, on the iPad Pro, everything is on the far left. **Constraints** are settings on UI Objects that make them appear the way we expect on every device. The video below walks you through a couple of the ways that constraints can be used.
 
-<iframe width="100%" height="560" frameborder="0" scrolling="no" src="https://screencast-o-matic.com/embed?sc=cqfvIlZpvy&v=5&ff=1" allowfullscreen="true"></iframe>
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/33b051b245214787b9e9b35f419baed3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 Because there are many ways to apply constraints and combinations of them for working solutions, there are links to several other resources you may find helpful. Watch them, try to implement on your own, and you'll begin to develop your preferred approach!
 - [This video from CodeWithChris](https://www.youtube.com/watch?v=emojd8GFB0o) goes into a lot of detail and walks you through how to build a professional looking UI.
