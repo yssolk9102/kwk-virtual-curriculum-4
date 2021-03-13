@@ -7,6 +7,7 @@ title: Accessing the Camera & Displaying Photos
 ## 🎯 Learning Goals
 
 * Access a user's camera or photo library on an iOS device
+* Read and interpret technical documentation
 
 ## 📗 Technical Vocabulary
 
@@ -70,43 +71,43 @@ When we see this `view controller` - this tells us this a view controller, or th
 
 Now we get a little more info: we get these code snippets that tell us what code we will need to write to use (interface with) the code apple gives us. This also shows how to specifically access the `camera` vs. the `photoLibrary`!
 
-## Access the Camera - Setup
+## Access the Photo Library - Setup
 
 We need to do a little set up. Our class needs to **inherit**, or take in the information that two apple classes have - `UIImagePickerControllerDelegate` and `UINavigationControllerDelegate`.
 
-We already know about `UIImagePickerController`. The Delegate added on tells the program, whenever I get information from the camera, this delegate class is the place I will send that information back to (information being the photo selected/taken). The `UINavigationControllerDelegate` is what allows us to navigate from our screen to the camera screen. Behind the scenes, it's a `seque`, just written with code rather than the segue's we've seen with the arrows on the storyboard.
-> Step 1. Inherit from `UIImagePickerControllerDelegate` and `UINavigationControllerDelegate` (line 11/12)
+We already know about `UIImagePickerController`. The `Delegate` added on tells the program, whenever I get information from the camera, this delegate class is the place I will send that information back to (information being the photo selected/taken). The `UINavigationControllerDelegate` is what allows us to navigate from our screen to the camera screen. Behind the scenes, it's a `seque`, just written with code rather than the segue's we've seen with the arrows on the storyboard.
+> Step 1. Inherit from `UIImagePickerControllerDelegate` and `UINavigationControllerDelegate` (line 10)
 
 Then, we need to create a property (variable) in this class. The value of it will store an object created from `UIImagePickerController`
-> Step 2. Create an object from `UIImagePickerController` class, stored in variable (line 13)
+> Step 2. Create an object from `UIImagePickerController` class, stored in variable (line 12)
 
 Last, in the `viewDidLoad` function, which runs each time the view loads, we need to tell the `imagePicker`, or object from `UIImagePickerController` that it needs to send, or delegate, information back to this class (self).
-> Step 3. Tell that object to give it's information to this class (line 17)
+> Step 3. Tell that object to give it's information to this class (line 16)
 
 <br>
-<img class="medium" src="./assets/camera-setup.png">
+<img class="medium" src="./assets/class-setup.png">
 
-## Access the Camera - Button Tap
+## Access the Photo Library - Button Tap
 
-Now, we need to establish an action and write some code so that when the `Take Selfie` and `Choose From Library` buttons are tapped, they take us to the camera and library, respectively.
+Now, we need to establish an action and write some code so that when the `Take Selfie` and `Choose From Library` buttons are tapped, they take us to the camera and library, respectively. We'll start with the steps to make the `Choose From Library` button work.
 
 Establish an action in the code.
-> Step 1. Establish an action between the `Take Selfie` button and `ViewController.swift`
+> Step 1. Establish an action between the `Choose From Library` button and `ViewController.swift`
 
-When we tap this button, our plan is that the camera will open up for our user to take a photo.
-> Step 2. Tell the app to go into the camera (via sourceType)
+When we tap this button, our plan is that the photo library will open up for our user to choose a photo.
+> Step 2. Tell the app to go into the Photo Library (via sourceType)
 
 > Step 3. Present the imagePicker!
 
 The code will look like this:
 
-<img class="medium" src="./assets/camera-action.png">
+<img class="medium" src="./assets/action1.png">
 
-On Line 22 in the screenshot above, we are giving the following directions: "go into the object from that `UIImagePickerController`, and select the `sourceType` of camera."
+On Line 21 in the screenshot above, we are giving the following directions: "go into the object from that `UIImagePickerController`, and select the `sourceType` of `photoLibrary`."
 
-On line 24, we are giving the following directions: "stop showing whatever you are showing, and present (show) the view where the user can see their camera!" The `present` function is built in, and take three arguments:
+On line 23, we are giving the following directions: "stop showing whatever you are showing, and present (show) the view where the user can see their photo library!" The `present` function is built in, and takes three arguments:
 1. What do you want me to show? In this case, `imagePicker`.
-2. `animated`: Do you want a smooth animation? We will usually say yes here.
+2. `animated`: Do you want a smooth animation? We will usually say yes/`true` here.
 3. `completion`: Once this is complete, do you want me to do anything else? We will always say `nil` (meaning, no) here.
 
 ## Run on Device
@@ -116,28 +117,28 @@ Now is the moment of truth. Before you press play, make sure the device is plugg
 Run the app. As a user, you should...
 
 - See the permissions message
-- Click `Take Selfie` and be taken into the camera
-- Take a selfie
-- Click select, or re-take and be able to re-take
+- Click `Choose a Photo` and be taken into the photo library
+- Choose a photo
 
 **NOTE:** Occasionally, the permissions message doesn't appear (and it _only_ appears one time); if you don't see it, don't panic.
 
-What happens once you select a picture?
+What happens once you select a photo?
 
 <div class="try-it">
   <h2>Discuss</h2>
-  <p>What happens once you select a picture? Why?</p>
+  <p>What happens once you select a photo? Why?</p>
   <p>Look at the code - are we in any line of code, giving directions for the program to go back to our original page? Where do you think we might want to do this?</p>
 </div>
 
-We wrote code to access the camera when the `takeSelfieTapped` button was tapped, but we haven't provided the app with directions for what to do with the selected photo.
+We wrote code to access the photo library when the `choosePhotoTapped` button was tapped, but we haven't provided the app with directions for what to do with the selected photo.
 
-Before we move on to do that, make sure you can also access the Photo Library.
+Before we move on to do that, make sure you can also access the Camera.
 
 <div class="try-it">
-  <h2>Try It: Choose from Library</h2>
-  <p>Establish an action between the "Choose from Library" button and the <code class="try-it-code">ViewController.swift</code> file.</p>
-  <p>In that action/function, write code so that the user is taken to the Photo Library when they click the "Choose from Library" button. If you need a hint, scroll up to the <em>Overview</em> from the UIImagePickerController documentation that we annotated.</p>
+  <p><em>Note: for the task in this Try It to work, you will need to run the app on an actual device; it will not work on a simulator.</em></p>
+  <h2>Try It: Take a Photo</h2>
+  <p>Establish an action between the "Take a Selfie" button and the <code class="try-it-code">ViewController.swift</code> file.</p>
+  <p>In that action/function, write code so that the user is taken to the Camera when they click the "Take a Selfie" button. If you need a hint, scroll up to the <em>Overview</em> from the UIImagePickerController documentation that we annotated.</p>
 </div>
 
 ## Displaying Photos
@@ -146,13 +147,14 @@ Like we've seen, we're able to access the camera and photo library. It's now tim
 
 ### Create an Outlet
 
-First, since that `Image` is an object that we want to _keep track of_, we need to create an outlet for it.
+First, since that `Image View` is an object that we want to _keep track of_, we need to create an outlet for it. 
+>**Create that outlet at this time.** The examples moving forward will assume you named that outlet `imageDisplay`.
 
 Now, we will use another built-in Swift function called `imagePickerController`. The cool thing about this function is that it will automatically run when the user selects a photo from the camera or library; we never have to call it.
 
 We do however, need to write code inside of that function where we will need to provide the directions to display that photo that has been selected!
 
-<img src="./assets/empty-image-picker-controller.png">
+<img src="./assets/empty-image-picker-cont.png">
 
 Pro-Tip: If you start typing `imagePickerController`, Xcode should auto-complete the whole setup of this function for you.
 
@@ -161,7 +163,7 @@ Pro-Tip: If you start typing `imagePickerController`, Xcode should auto-complete
   <p>What do we want to tell the app to do at this point? If you're following along with code, write pseudocode comments. Otherwise, jot your thoughts down in a notebook.</p>
 </div>
 
-We want the user to be taken back to the screen where they can see their photo in that space from answer # 1.</p>
+We want the user to be taken back to the screen where they can see their photo in that space from answer # 1.
 
 The two things that need to happen when this functions runs are:
 1. Update our photo with the photo the user selected
@@ -169,17 +171,17 @@ The two things that need to happen when this functions runs are:
 
 #### Update our photo with the photo the user selected
 
-<img src="./assets/image-picker-controller.png">
+<img src="./assets/image-picker-cont.png">
 
-The blue annotations in the screen shot above point out how we will access the photo that was selected. The `imagePickerController` takes an argument, called `info`, which is a dictionary. That `info` dictionary holds the selected photo.
+The green annotations in the screenshot above point out how we will access the photo that was selected. The `imagePickerController` takes an argument, called `info`, which is a dictionary. That `info` dictionary holds the selected photo.
 
 Check out the code below:
 
-<img src="./assets/new-image-update.png">
+<img src="./assets/new-img-update.png">
 
-On line 26, we have an `if let` to unwrap the `UIImagePickerController.InfoKey.originalImage` value in the dictionary. That's really long, but what it's doing is accessing the photo the user selected.
+On line 27, we have an `if let` to unwrap the `UIImagePickerController.InfoKey.originalImage` value in the dictionary. That's really long, but what it's doing is accessing the photo the user selected.
 
-On line 27, we are reassigning the `image` property on the `newImage` variable to the photo the user selected!
+On line 28, we are reassigning the `image` property on the `imageDisplay` variable to the photo the user selected! _Remember, the `imageDisplay` variable is the outlet._
 
 #### Go to back our ViewController
 
