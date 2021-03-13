@@ -24,7 +24,7 @@ Here's a super plain version of what you're shooting for:
 
 ## Iterations
 
-Today we'll build the project in several parts:
+We'll build the project step-by-step:
 
 * [I0: Build UI]({{ site.url }}/swift-ios/projects/emojional/i0)
 * [I1: Configuration & Alerts]({{ site.url }}/swift-ios/projects/emojional/i1)
