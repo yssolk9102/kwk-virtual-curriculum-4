@@ -18,7 +18,7 @@ title: Actions & Outlets
 
 ## 🌎 Actions & Outlets
 
-Actions and Outlets are the way that our program lets the design files communicate with the code files. The connection allows us to refer to the objects in the design file, but inside of our code file.
+Actions and Outlets are the way that our program lets the design files communicate with the code files. The connection allows us to refer to the objects in the _design_ file from inside of our _code_ file.
 * **Outlet** - when you want to change the appearance of something or keep track of information
 * **Action** - when you want the code to know that a user took an action
 
@@ -26,13 +26,22 @@ Actions and Outlets are the way that our program lets the design files communica
 
 Before we get started, we need a `Label`, `Text Field`, and `Button` from the Object Library. The focus of this is not design, so don't worry about applying constraints. The goal of this app is that when the user types something in the text field and clicks the button, the text they typed becomes the title in the label!
 
-Before you can start creating connections, your work space needs to be set up correctly. Click on the small icon in the top right corner that has two intersecting circles - this will open the 'Assistant Editor'.
+Before you can start creating connections, your work space needs to be set up correctly. Click on the small icon in the top right corner of the Editor pane that include a plus sign to open the Assistant Editor, picutred below:
 
-<img class="medium" src="./assets/storyboard.png">
+<img class="medium" src="./assets/open-new-tab.png">
 
-When you are in the 'Assistant Editor', you should see two panes in the Interface Builder - the storyboard on the left, the code on the right. Sometimes it gets a little wonky and you have to change which is showing where.
+When you are in the Assistant Editor, you should see two panes in the Interface Builder - it _usually_ defaults to displaying the StoryBoard showing in both panes. Click the "file path" in one pane to open up a menu of all available files:
 
-<img class="medium" src="./assets/assistant-editor.png">
+<img class="medium" src="./assets/filepath.png">
+
+Then select the file you'd like to display (usually the ViewController.swift):
+
+<img class="medium" src="./assets/assist-editor.png">
+
+After you've selected the desired file for each pane, you should see a StoryBoard in one pane and the code file in the other. If you ever want to go back to only viewing one or the other, there is a small "X" icon in the top left corner of each pane that you can click to exit that pane (circled in blue):
+
+<img class="medium" src="./assets/both.png">
+<br>
 
 ## Outlets
 
@@ -50,15 +59,15 @@ The goal of this really cool app is to have the user type something in the box, 
 
 Press down the `control` button as you click the text field, then drag your mouse to the code, right in the first or second line of the class. A blue arrow should show what you are doing. When the little box pops up, you will need to type in a name - this will be a variable name that represents this data. You want to use something that describes the data.
 
-<img class="medium" src="./assets/outlet-giphy1.gif">
+<img class="medium" src="./assets/outlet1.gif">
 
 When we created the outlet, Xcode generated some swift code for us, which lives in the `ViewController.swift` file. Let's break it down:
 
 ```swift
-@IBOutlet weak var appTitle: UILabel!
+@IBOutlet weak var question: UILabel!
 ```
 
-`@IBOutlet` means an outlet on the Interface Builder has been created. `weak` - we'll ignore. `var appTitle` is a declaration of a new variable called appTitle, and `var appTitle: UILabel!` means the variable doesn't have a value assigned, but holds the data type of a `UILabel`.
+`@IBOutlet` means an outlet on the Interface Builder has been created. `weak` - we'll ignore. `var question` is a declaration of a new variable called question, and `var question: UILabel!` means the variable doesn't have a value assigned, but holds the data type of a `UILabel`.
 
 > This code was generated when we established the connection, and we should **not** make any changes to it. If you need to edit the spelling or change the variable name, watch <a target="blank" href="{{ site.url }}/swift-ios/lessons/videos/change-actions-outlets">this video</a>.
 
@@ -66,9 +75,10 @@ We created this first outlet so that we can control the text in this `AppTitle L
 
 ### Establishing Second Outlet
 
-We are creating this second outlet to keep track of what the user types in. We will only do something with it once the user clicks "Submit"; however we have to set up the outlet from the get-go. That's why we drag outlets to the top of the class.
+We are creating this second outlet to keep track of what the user types in. We will only do something with it once the user clicks "Submit Name"; however we have to set up the outlet from the get-go. That's why we drag outlets to the top of the class.
 
-<img class="medium" src="./assets/outlet-giphy2.gif">
+<img class="medium" src="./assets/outlet2.gif">
+<br>
 
 ## Actions
 
@@ -81,9 +91,9 @@ The main action a user will take is clicking submit. You may think that typing i
 
 ### Establishing an Action
 
-Press down the `control` button as you click the submit button, then drag your mouse to the code, below the already written functions. A blue arrow should show what you are doing. When the little box appears, make sure to select "ACTION" in the drop down, then give it a name - this is a function so should follow naming conventions for functions. Under "Type" change "Any" to "UIButton".
+Press down the `control` button as you click the submit button, then drag your mouse to the code, below the already written functions. A blue arrow should show what you are doing. When the little box appears, make sure to select "ACTION" in the Connection drop down if it doesn't defaul to that. Then give it a name - this is a function so should follow naming conventions for functions. Under "Type" change "Any" to "UIButton".
 
-<img class="medium" src="./assets/action-giphy.gif">
+<img class="medium" src="./assets/action1.gif">
 
 When we created the action, Xcode generated some swift code for us, which lives in the `ViewController.swift` file. Let's break it down:
 
