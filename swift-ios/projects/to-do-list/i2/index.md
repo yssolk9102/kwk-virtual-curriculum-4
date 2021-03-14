@@ -183,4 +183,4 @@ And now we have a fully functional ToDo List application! Great Job!!!
 
 ### Commit Your Work
 
-In your terminal, make sure you are still in the viewfinder directory. Add and commit your changes. Your commit message should be something like "Complete Iteration 2".
+From the top nav, select "Source Control", then "Commit". Follow the steps outlined in the GitHub lesson to commit your work! Your commit message should be something like “Complete Iteration 2”.

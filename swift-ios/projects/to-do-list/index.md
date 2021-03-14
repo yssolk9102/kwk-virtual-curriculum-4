@@ -20,7 +20,7 @@ We will build a simple, yet powerful, To-Do list that you can actually use on yo
 
 Here's the simple version of what you're shooting for:
 
-<img class="extra-small" src="./assets/to-do-list-example.gif">
+<img class="extra-small" src="./assets/to-do-list.gif">
 
 ## Iterations
 

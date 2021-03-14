@@ -29,9 +29,9 @@ Ideally, we probably would like our switch to be in the `off` position when we c
 
 > Now is probably a good time to run this in your simulator and make sure everything looks how you want it to.
 
-* Now let's add the code file that will be associated with this `View Controller` (File ➡ New ➡ File... ➡ Cocoa Touch Class ➡ Next) - this will be a subclass of `UIViewController` (I called mine AddToDoViewController)
-* In your storyboard, select this `View Controller` and then open the Identity Inspector and add the new class you just created to connect the code to the View Controller
-* Next, let's just make the necessary outlet and action connections we need:
+* Now let's add the code file that will be associated with this `View Controller` (File ➡ New ➡ File... ➡ Cocoa Touch Class ➡ Next) - this will be a subclass of `UIViewController` (in this tutorial, it was saved as `AddToDoViewController`)
+* In your storyboard, select the new `View Controller` and then open the Identity Inspector and add the new class you just created to connect the code to the View Controller
+* Next, let's make the necessary outlet and action connections we need:
 
 ```swift
 import UIKit
@@ -54,7 +54,7 @@ class AddToDoViewController: UIViewController {
 
 ## Adding ToDos
 
-Now we want to work on adding a new ToDo from the `AddToDoViewController`, then popping back to the `ToDoTableViewController` and being able to see that new ToDo in our Table View
+Now we want to work on building functionality that would allow a user to add a new ToDo from the `AddToDoViewController`, then send the user back to the `ToDoTableViewController` so they can view that new ToDo in the Table View.
 
 * First, we need to make a new ToDo item inside our `addTapped` function and grab the value of the input field as well as the importance status of the ToDo:
 
@@ -106,7 +106,7 @@ Now back in the `AddToDoViewController`, we can access the ToDo array that lives
 
 > If we run our application right now, we can add a new ToDo, click `< ToDo List`, and our new ToDo is there in our Table View!!!
 
-Only thing left to do now for this part is have it automatically pop back to the Table View when the user taps `Add`. We just need to call a single function after we update/reload the Table View.
+The final piece of functionality for this part is have it automatically send the user back to the Table View when the user taps `Add`. We need to call a single function after we update/reload the Table View.
 
 * Pop back to the previous view when the user taps the `Add` button
 
@@ -130,13 +130,13 @@ Only thing left to do now for this part is have it automatically pop back to the
 
 Now we want to focus on being able to select a ToDo from the Table View and being taken to another view where we can mark a ToDo complete and remove it from our list.
 
-* Add another `View Controller` to your Storyboard (I added mine below the `ToDoTableViewController` since it will segue from there)
+* Add another `View Controller` to your Storyboard (This tutorial added it below the `ToDoTableViewController` since it will segue from there)
 * Select the `ToDoTableViewController` and create a segue from ToDo List (top, left icon in Table VC) to the new View Controller (Manual Segue ➡ Show) - this automatically gives us a nav item that can take us back to the ToDo List
 * Add a **label** for our ToDo and a complete **button** to the Storyboard
-* Create a code version of this View Controller (File ➡ New ➡ File... ➡ Cocoa Touch Class ➡ Next) - make this a subclass of `UIViewController`
+* Create a code version of this View Controller (File ➡ New ➡ File... ➡ Cocoa Touch Class ➡ Next) - make this a subclass of `UIViewController`. This tutorial named the file `CompleteToDoViewController`
 * Go back to the Storyboard, select the view that you just created and connect it with the code file you just created
 
-<img class="medium" src="{{ site.url }}/swift-ios/projects/to-do-list/assets/connect-complete.png">
+<img class="medium" src="{{ site.url }}/swift-ios/projects/to-do-list/assets/todo7.png">
 
 * Create the necessary outlet and action in the code file:
 
@@ -161,7 +161,7 @@ When the user taps on a single ToDo, we want to initiate the `segue` from the `T
 
 * Highlight the segue between the `ToDoTableViewController` and the `CompleteToDoViewController` on the Storyboard and open the Attributes Inspector. Let's give this segue a name of `moveToComplete` in the `Identifier` field
 
-<img class="medium" src="{{ site.url }}/swift-ios/projects/to-do-list/assets/move-to-complete.png">
+<img class="medium" src="{{ site.url }}/swift-ios/projects/to-do-list/assets/todo8.png">
 
 Now we need to go back to the `ToDoTableViewController` and add a `tableView` function that has an argument of `didSelectRowAt`. Inside of here, we want to call performSegue (you should be able to press `Enter` to autocomplete this function with the correct arguments). Here is where we are going to give it that identifier of `moveToComplete` (this needs to be a string). We also need to grab the single row/ToDo to pass to the sender.
 
@@ -217,6 +217,6 @@ The only piece of functionality that we are missing is being able to remove a To
 
 ### Commit Your Work
 
-In your terminal, make sure you are still in the viewfinder directory. Add and commit your changes. Your commit message should be something like "Complete Iteration 1".
+From the top nav, select "Source Control", then "Commit". Follow the steps outlined in the GitHub lesson to commit your work! Your commit message should be something like “Complete Iteration 1”.
 
 Let's keep going! [Move on to Iteration 2]({{ site.url }}/swift-ios/projects/to-do-list/i2)
