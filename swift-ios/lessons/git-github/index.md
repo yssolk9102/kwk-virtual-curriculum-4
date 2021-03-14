@@ -24,21 +24,21 @@ _You will only have to complete Step 2 one time if you work on the same computer
 
 In Xcode, select "Xcode," then from the drop-down that appears, select "Preferences."
 
-<img class="medium" src="./assets/xcode-prefs.png" alt="Screenshot illustrating directions above">
+<img class="medium" src="./assets/gh1.png" alt="Screenshot illustrating directions above">
 
 Within the Preferences box, select the "Accounts" tab.
 
 Next, click the small "+" button in the bottom-left corner of the Preferences box. A drop-down will prompt you to select the type of account you would like to add. Choose "GitHub," then click "Continue."
 
-<img class="medium" src="./assets/add-github.png" alt="Screenshot illustrating directions above">
+<img class="small" src="./assets/gh2.png" alt="Screenshot illustrating directions above">
 
-Now, enter YOUR GitHub username and password in the box that appears, then click "Sign In."
+Now, enter YOUR GitHub username in the first text input box that appears. Click the blue link and follow the instructions to create an access token. Once you create the access token, copy and paste it into the second text input box.
 
-<img class="medium" src="./assets/sign-in.png" alt="Screenshot illustrating directions above">
+<img class="small" src="./assets/gh3.png" alt="Screenshot illustrating directions above">
 
 Confirm that you are signed in by clicking "GitHub" inside the Preferences box. You should see your username in the middle of that box.
 
-<img class="medium" src="./assets/signed-in.png" alt="Screenshot illustrating directions above">
+<img class="small" src="./assets/gh4.png" alt="Screenshot illustrating directions above">
 
 ## Step 3: Create a Git Repository
 
@@ -49,11 +49,11 @@ A Git Repository is a project that is being managed by Git. Git is a version con
 While you are in an Xcode Project, select the "Source Control" drop-down, then select "Create Git Repositories."
   - _If you get a message saying "All projects are already under source control" at this step, move to Step 4._
 
-<img class="medium" src="./assets/create-git-repo.png" alt="Screenshot illustrating directions above">
+<img class="medium" src="./assets/gh5.png" alt="Screenshot illustrating directions above">
 
-Now, make sure the project is selected and click "Create."
+Now, make sure the project is selected and click "Create." (In the screenshot below, the file path was really long so the checkbox is partly cut off from view, but make sure to select the tiny checkbox to the left of the project!)
 
-<img class="medium" src="./assets/create-git-repo2.png" alt="Screenshot illustrating directions above">
+<img class="medium" src="./assets/gh6.png" alt="Screenshot illustrating directions above">
 
 ## Step 4: Connect this Project to GitHub
 
@@ -63,11 +63,11 @@ The Git Repository alone isn't enough to keep your code safe - it's only saved o
 
 In the same Xcode project, select the Source Control Navigator in the Navigation Pane. Click the small arrow left of your project name to expand the folder. You should see four folders with yellow icons to the left of each one.
 
-<img class="medium" src="./assets/add-remote.png" alt="Screenshot illustrating directions above">
+<img class="small" src="./assets/gh7.png" alt="Screenshot illustrating directions above">
 
-Two-finger click on the folder labeled "Remote." You will see a drop-down appear. From this, select "Create 'your-project-name' Remote..." Another box will appear. You shouldn't need to change anything; click "Create."
+Two-finger click on the folder labeled "Remotes". You will see a drop-down appear. From this, select "New 'your-project-name' Remote..." Another box will appear. You shouldn't need to change anything; click "Create."
 
-<img class="medium" src="./assets/add-remote2.png" alt="Screenshot illustrating directions above">
+<img class="small" src="./assets/gh8.png" alt="Screenshot illustrating directions above">
 
 ## Step 5: Build your Project!
 
@@ -81,13 +81,13 @@ Committing your changes is like sealing an envelope up before you put it in the 
 
 To commit your changes, select "Source Control" then "Commit."
 
-<img class="medium" src="./assets/commit.png" alt="Screenshot illustrating directions above">
+<img class="small" src="./assets/gh9.png" alt="Screenshot illustrating directions above">
 
 A big window will slide down over almost all of your Xcode screen. You may see some very unfamiliar code - that's ok! That's probably code that was automatically generated from you drag-and-dropping onto the StoryBoard.
 
 Make sure that all files available are checked in the top left corner. Then, write a short message explaining what your changes were in the bottom text area. Finally, click "Commit X file."
 
-<img class="medium" src="./assets/commit2.png" alt="Screenshot illustrating directions above">
+<img class="medium" src="./assets/gh10.png" alt="Screenshot illustrating directions above">
 
 After committing your changes, you can continue working, then commit again later. Or, you can move to Step 6 and send your code to GitHub.
 
@@ -97,25 +97,21 @@ The final step in the process is to "push" or send your code up to GitHub. This 
 
 Select "Source Control," then "Push."
 
-<img class="medium" src="./assets/push.png" alt="Screenshot illustrating directions above">
+<img class="small" src="./assets/gh11.png" alt="Screenshot illustrating directions above">
 
 When the "Push local changes to:" box appears, click "Push."
 
-<img class="medium" src="./assets/push2.png" alt="Screenshot illustrating directions above">
+<img class="small" src="./assets/gh12.png" alt="Screenshot illustrating directions above">
 
 ## Check your code on GitHub
 
-Go back to your GitHub account and select "Repositories."
+Go back to your GitHub account and select "Repositories." The first item that should show up is the project you were just working on in Xcode. The example used in this tutorial was called `setting-up-git-github`, so it appears here:
 
-<img class="medium" src="./assets/repos.png" alt="Screenshot illustrating directions above">
-
-The first item that should show up is the project you were just working on in Xcode. The example used in this tutorial was called `setting-up-git-github`, so it appears here:
-
-<img class="medium" src="./assets/repo-page.png" alt="Screenshot illustrating directions above">
+<img class="medium" src="./assets/gh13.png" alt="Screenshot illustrating directions above">
 
 Click the title of your project. You will be taken to a page that looks like this:
 
-<img class="medium" src="./assets/final-repo.png" alt="Screenshot illustrating directions above">
+<img class="medium" src="./assets/gh14.png" alt="Screenshot illustrating directions above">
 
 It looks really different from Xcode, but rest assured, the code is still there. If you want to link any of your projects to your resume, use the URL for this page!
 
