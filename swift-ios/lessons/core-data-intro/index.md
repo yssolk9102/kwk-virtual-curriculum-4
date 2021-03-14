@@ -66,9 +66,9 @@ We aren't connecting our apps to back-ends at camp, so we don't have as many ste
 
 ### Data Model
 
-A **data model** refers to the structure, organization, or almost blueprint or our data. When you had to consider if an array or a dictionary would be a better data type for certain types of data, you were deciding on a data model!
+A **data model** refers to the structure, organization, or almost blueprint of our data. When you had to consider if an array or a dictionary would be a better data type for certain types of data, you were deciding on a data model!
 
-For Core Data, the data will be a little different. We won't store data in Swift data types. Instead, we will configure the data model in the GUI (graphical user interface) of Xcode. There are two things we need to know about the structure of Core Data data models.
+For Core Data, the data will be a little different. We won't store data in Swift data types. Instead, we will configure the data model in the GUI (graphical user interface) of Xcode. There are two things we need to know about the structure of Core Data data models:
 
 - **Entity:** Each entity should hold one type of data. Instagram has stories, posts, and direct messages. So they would likely have one entity for each. A ToDo List App that only has ToDos only needs one entity.
 - **Attributes:** Attributes are like properties of a class. An Instagram post entity would have attributes for photo, caption, timestamp, user, etc. When we declare the attributes an entity should have, we also declare the data type (string, boolean, etc).
@@ -81,17 +81,21 @@ _Note: this section will not walk you through how to fully implement Core Data; 
 
 ### Configure the Data Model
 
-To user Core Data in a project, make sure to check the Core Data box when you create the project:
+To user Core Data in a project, make sure to check the "Use Core Data" box when you create the project:
 
-<img class="small" alt="Screenshot of checking box for CD" src="{{ site.url }}/swift-ios/lessons/core-data-intro/assets/check.png">
+<img class="small" alt="Screenshot of checking box for CD" src="{{ site.url }}/swift-ios/lessons/core-data-intro/assets/cd1.png">
 
-In the `ProjectName.xcdatamodeld` file, you can add entities and attributes.
+If you haven't been checking the "Use Code Data" box in past projects, you'll notice a new file that appears in the Navigation Pane. In the `ProjectName.xcdatamodeld` file, you can add Entities:
 
-<img class="medium" alt="Screenshot of GUI for xcdatamodel file" src="{{ site.url }}/swift-ios/lessons/core-data-intro/assets/gui.png">
+<img class="medium" alt="Screenshot of GUI for xcdatamodel file" src="{{ site.url }}/swift-ios/lessons/core-data-intro/assets/cd2.png">
+
+Then, you can add as many attributes as you need to an individual Entity. Make sure to also select a `Type` (referring to data type) for each attribute.
+
+<img class="medium" alt="Screenshot of GUI for xcdatamodel file" src="{{ site.url }}/swift-ios/lessons/core-data-intro/assets/cd3.png">
 
 ### Accessing Core Data
 
-From your View Controllers, you'll need to access Core Data. You'll write some code similar to what's below.
+From your View Controllers, you'll need to access Core Data. Later, you'll write some code similar to what's below. For now, this is just a preview for exposure:
 
 ```swift
 guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
