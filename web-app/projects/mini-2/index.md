@@ -19,7 +19,8 @@ Here's an example:
 ### Tips
 
 - This is not a small project, and you may just be wrapping up your first week of coding! Take it step by step; follow the iterations listed below. If you get stuck at any point, resources are provided for each iteration. Also, don't hesitate to reach out to your camp community!
-- Use [this Glitch project as your starter code](https://glitch.com/edit/#!/mini-2-starter)
+- Use [this Repl project as your starter code](https://replit.com/@kodewithklossy/mini-2)
+- (To see the webpage, hit the green Run button at the top of the page!)
 
 ## Iteration 1 - Planning
 
@@ -29,7 +30,7 @@ Determine the "secret" facts that will be displayed when the user clicks the but
 
 ## Iteration 2 - _Update_ HTML and CSS
 
-We've provided the [base HTML and CSS](https://glitch.com/edit/#!/mini-2-starter); you can leave that as-is, or make any modification you like to, to make it your own!
+We've provided the [base HTML and CSS](https://replit.com/@kodewithklossy/mini-2); you can leave that as-is, or make any modification you like to, to make it your own!
 <br>
 <br>
 
@@ -41,7 +42,7 @@ Before you start writing out JavaScript, take some time to pseudo-code. In your 
 
 ## Iteration 4 - Implement JS
 
-Now that you have a plan, write the code to power this functionality
+Now that you have a plan, write the code to power this functionality in the `script.js` file!
 <br>
 <br>
 

@@ -14,7 +14,7 @@ You may have seen this type of functionality before. When a site asks you to sig
 - At least two inputs and one submit button
 - Functionality as follows: when a user enters information and clicks submit, the information they entered appears somewhere in the app
 
-[Here's an example](https://mini-3-example.glitch.me/) (note that you can pick any topic you want for this!):
+[Here's an example](https://mini-3-example.kodewithklossy.repl.co/) (note that you can pick any topic you want for this!):
 
 <img class="small" alt="App asked for name and sign, then included name and sign emoji in a birthday greeting" src="{{ site.url }}/web-app/projects/mini-3/assets/ex-3.png">
 
