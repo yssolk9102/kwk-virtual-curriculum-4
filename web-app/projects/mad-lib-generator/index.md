@@ -21,7 +21,7 @@ Applying what you've learned about HTML, CSS, and JavaScript, then pushing yours
 
 - Draw out a wireframe, or a rough draft, of what you what the site to look like!
 - Like we did with the Photo Gallery, label each section with the HTML element that will be used
-- Get your assets together: Are you going to use any photos? You'll need some sentence stems to interpolate the nouns, verbs, and adjectives with. Store links to images or any text you want to use in a GoogleDoc or as comments in a CodePen. Also, decide on your color palette. [Color Supply](https://colorsupplyyy.com/app) is a great resource for this!
+- Get your assets together: Are you going to use any photos? You'll need some sentence stems to interpolate the nouns, verbs, and adjectives with. Store links to images or any text you want to use in a GoogleDoc or as comments in a Repl. Also, decide on your color palette. [Color Supply](https://colorsupplyyy.com/app) is a great resource for this!
 - Make sure your wireframe and assets are approved by your instructor before moving on
 <br>
 

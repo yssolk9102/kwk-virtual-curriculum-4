@@ -26,10 +26,10 @@ Using what you’ve learned about HTML and CSS, you are going to build a photo g
 
 - Draw out your wireframe/vision for the way your Photo Gallery will look.
 - Like we did with the Twitter card, label each section with the HTML element that will be used
-- Find your inspiration! Decide on your theme, then find images that fit with it. Decide on colors, fonts, and any text your'd like on your page. Jot this information down in your notebook, a GoogleDoc or in comments in a CodePen. The collection of these fonts, color, images, etc. are commonly referred to as **assets**.
+- Find your inspiration! Decide on your theme, then find images that fit with it. Decide on colors, fonts, and any text your'd like on your page. Jot this information down in your notebook, a GoogleDoc or in comments in a Repl. The collection of these fonts, color, images, etc. are commonly referred to as **assets**.
 - Make sure your wireframe and assets are approved by your instructor before moving on
 
-**Notice:** you haven't written any code in CodePen yet. The planning process is extremely important and professional developers spend a lot of time in this phase!
+**Notice:** you haven't written any code in Repl yet. The planning process is extremely important and professional developers spend a lot of time in this phase!
 <br>
 
 ## Iteration 2 - HTML

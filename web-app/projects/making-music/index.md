@@ -25,9 +25,9 @@ Here's <a target="blank" href="https://turingschool-projects.github.io/countdown
 
 - Draw out your vision for the way your Instrument will look - on a desktop, iPad size, and phone size
 - Like we did with the Twitter card, label each section with the HTML element that will be used
-- Find your inspiration! Find any images, color, fonts, etc. that you want to use. Jot this information down in your notebook, a GoogleDoc or in comments in a CodePen
+- Find your inspiration! Find any images, color, fonts, etc. that you want to use. Jot this information down in your notebook, a GoogleDoc or in comments in a Repl
 
-**Notice:** you haven't written any code in CodePen yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
+**Notice:** you haven't written any code in Repl yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
 <br>
 
 ## Iteration 2 - HTML & CSS
@@ -36,7 +36,7 @@ Here's <a target="blank" href="https://turingschool-projects.github.io/countdown
 
 ## Iteration 3 - Research and Pseudo-Code
 
-- Research `<audio>` and play around with it, either in a file in Atom or a CodePen.
+- Research `<audio>` and play around with it, either in a file in Atom or a Repl.
 
 - Psuedocode or whiteboard the JavaScript that will need to be in place to make your timer work.
   - What DOM elements will you need to manipulate?

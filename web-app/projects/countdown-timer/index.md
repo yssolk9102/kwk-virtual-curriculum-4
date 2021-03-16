@@ -33,10 +33,10 @@ Here's an example:
 - Decide on the event or big day you will count down to
 - Draw out your wireframe/vision for the way your Countdown Timer will look
 - Like we did with the Twitter card, label each section with the HTML element that will be used
-- Find your inspiration! Store links to images or any text you want to use in a GoogleDoc or as comments in a CodePen. Also, decide on your color palette. [Color Supply](https://colorsupplyyy.com/app) is a great resource for this! <a target="blank" href="https://www.flaticon.com/">FlatIcon</a> is a great, free resource for icons. Make sure you give credit to the artists, if necessary
+- Find your inspiration! Store links to images or any text you want to use in a GoogleDoc or as comments in a Repl. Also, decide on your color palette. [Color Supply](https://colorsupplyyy.com/app) is a great resource for this! <a target="blank" href="https://www.flaticon.com/">FlatIcon</a> is a great, free resource for icons. Make sure you give credit to the artists, if necessary
 - Make sure your wireframe and assets are approved by your instructor before moving on
 
-**Notice** that you haven't written any code in CodePen yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
+**Notice** that you haven't written any code in Repl yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
 <br>
 
 ## Iteration 2 - Research and Pseudo-Code
@@ -46,13 +46,13 @@ Here's an example:
   - How often will it "tick"?
   - How will you get ahold of today's date to compare it to the date in the future?
   - Hint: The tips above give you some starting points on what to research.
-- Play around in a CodePen or with some `console.log()` statements to get familiar with the new tools/technologies you need to complete this project.
+- Play around in a Repl or with some `console.log()` statements to get familiar with the new tools/technologies you need to complete this project.
 
 ## Iteration 3 - Implement JavaScript
 
 - Write the code necessary to get your timer working!
 
-**Note**: Once your event/big day takes place, this site will no longer... have any helpful info. If you ever want to re-set the date, you'll update the date in the CodePen.
+**Note**: Once your event/big day takes place, this site will no longer... have any helpful info. If you ever want to re-set the date, you'll update the date in the Repl.
 
 <br>
 [Back to Projects]({{ site.url }}/web-app/projects)

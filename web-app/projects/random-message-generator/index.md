@@ -30,7 +30,7 @@ Your HTML and CSS skills will come in handy to make this look great, but the foc
 
 - Draw out a wireframe, or a rough draft, of what you what the site to look like!
 - Like we did with the Photo Gallery, label each section with the HTML element that will be used
-- Get your assets together: Are you going to use photos? Quotes? Store links to images or any text you want to use in a GoogleDoc or as comments in a CodePen. Also, decide on your color palette. [Color Supply](https://colorsupplyyy.com/app) is a great resource for this!
+- Get your assets together: Are you going to use photos? Quotes? Store links to images or any text you want to use in a GoogleDoc or as comments in a Repl. Also, decide on your color palette. [Color Supply](https://colorsupplyyy.com/app) is a great resource for this!
 - Make sure your wireframe and assets are approved by your instructor before moving on
 <br>
 

@@ -30,7 +30,7 @@ Get that content on the page in appropriate HTML tags!
 
 Add some colors, borders, and anything else! As camp progresses, you'll learn more and more about CSS and can always revisit this site and add on to it.
 
-- Want to add fun fonts? Check out [this how-to guide](https://codepen.io/team/sparkbox/full/OMdwoJ)
+- Want to add fun fonts? Check out [this how-to guide](https://flaviocopes.com/google-fonts/)
 - Want to add fun colors? Check out [this awesome resource](https://htmlcolorcodes.com/color-picker/)
 
 <br>
