@@ -25,7 +25,7 @@ In your notebook, jot down your answers to the following questions. Be ready to 
 
 ## 🌎 Overview
 
-Of all of the major technologies used on the web, on either the front- or the back- end, HTML is the oldest. In the beginning, the web was just a bunch of HTML documents that you wrote by hand. They had these cool things called hyperlinks that would allow a user to click on a word on one page and be taken to another page.
+Of all of the major technologies used on the web, on either the front- or the back- end, HTML is the oldest. In the beginning, the web was just a bunch of HTML documents that you wrote by hand. They had these cool things called [hyperlinks]({{ site.url }}/web-app/lessons/html-intro/hyperlink) that would allow a user to click on a word on one page and be taken to another page.
 
 **Every webpage you have visited was built with HTML!**
 
@@ -67,7 +67,7 @@ Here is an example of a slightly more complex HTML document:
   <h2>Try It: Building a Basic Page</h2>
   <p>Visit <a target="blank" href="https://repl.it/@kodewithklossy/try-it-building-a-basic-page">this repl.it Project</a>. Click "Fork" in the top right corner to make a copy of your own. Select <code class="try-it-code">index.html</code> in the file tree.</p>
   <p>Use what you know about headings and paragraph tags to create at least three headings of any size (h1 - h6) and three paragraph elements, starting on line 9. The topic is your choice!</p>
-  <p>Need some filler text? Check out <a href="https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/">this Lorem Ipsum Generator.</a></p>
+  <p>Need some filler text? Check out <a target="blank" href="https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/">this Lorem Ipsum Generator.</a></p>
 </div>
 
 ## Images and Attributes
@@ -96,7 +96,7 @@ Two new things are happening here:
   <p>First, copy and paste the image tag code above into your repl.it project. Does the image of Karlie appear on your site? (It should!)</p>
   <p>Now, follow the directions below 2-3 times to add in images of your own!</p>
   <ul>
-    <li>Go to <a href="https://unsplash.com/">Unsplash</a>, <a href="https://www.pexels.com/">Pexels</a>, or Google and find an image you'd like to use</li>
+    <li>Go to <a target="blank" href="https://unsplash.com/">Unsplash</a>, <a target="blank" href="https://www.pexels.com/">Pexels</a>, or Google and find an image you'd like to use</li>
     <li>Right-click it, then select "Copy Image Address"</li>
     <li>In your HTML, write an image tag, then use <code class="try-it-code">cmd + v</code> to paste the image address into the quotes for your <code class="try-it-code">src</code> attribute!</li>
   </ul>
