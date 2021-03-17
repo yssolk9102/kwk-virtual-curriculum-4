@@ -67,7 +67,7 @@ To add this in a CodePen, click the small gear icon the the left of the HTML pan
 
 <div class="try-it">
   <h2>Try It: Media Queries</h2>
-  <p>Create a new CodePen.</p>
+  <p>Create a new Repl.</p>
   <p>Add at least 2 pieces of text, and style them to have different colors and/or background colors.</p>
   <p>Now, write media queries for at least 2 breakpoints. When these breakpoints are hit, change the color and/or background color of your text.</p>
 </div>
@@ -76,7 +76,7 @@ To add this in a CodePen, click the small gear icon the the left of the HTML pan
 
 Now that we know the syntax to create media queries, we are going to dig into making some bigger changes than just color.
 
-Visit <a target="blank" href="http://www.liquidapsive.com/ ">Liquidapsive</a> and select the `static` option from the dropdown, then drag the window in - what happens? Now, select the `responsive` option and do the same thing.
+Visit <a target="blank" href="https://web.archive.org/web/20170430103536/http://www.liquidapsive.com/">Liquidapsive</a> and select the `static` option from the dropdown, then drag the window in - what happens? Now, select the `responsive` option and do the same thing.
 
 At about 1050px, the blue section on the right pops under the green section, and each card in the blue section is organized differently and now has an image. At about 790px, the yellow sections pops on top of the green section.
 
@@ -84,7 +84,9 @@ The tricky thing about layout and responsive design is, we can't just think abou
 
 <div class="try-it">
   <h2>Try It: Layout</h2>
-  <p>Fork this <a target="blank" href="https://codepen.io/turing-kwk/pen/bJKzvB?editors=1100">CodePen</a> to your account.</p>
+  <p>Fork this <a target="blank" href="https://replit.com/@kodewithklossy/CSS-Extension-Responsive#style.css">Repl</a> to your account.</p>
+  <p>To view the page in its own tab, click this button at the top right corner of the browser panel in Repl:</p>
+  <img src="./assets/newtab.png" alt="New tab button">
   <p>Now, write media queries for 1 breakpoint at 900px. At 900px, the site should change so all four containers are stacked on top of each other. Each should have a little breathing room around it as well.</p>
 </div>
 
@@ -94,7 +96,9 @@ Just like we've been building every piece we know about HTML and CSS, this will 
 
 <div class="practice">
   <h2>Practice: Layout</h2>
-  <p>Fork <a target="blank" href="https://codepen.io/turing-kwk/pen/ROJdaR">this CodePen</a>.</p>
+  <p>Fork <a target="blank" href="https://replit.com/@kodewithklossy/CSS-Extension-Responsive-Layout#style.css">this Repl</a>.</p>
+  <p>To view the page in its own tab, click this button at the top right corner of the browser panel in Repl:</p>
+  <img src="./assets/newtab.png" alt="New tab button">
   <p>Now, write media queries for 2 breakpoint at 900px. The three layouts you're working towards are pictured below:</p>
   <img src="./assets/full-screen.png" alt="Full screen view">
   <img src="./assets/ipad-screen.png" alt="iPad screen view">

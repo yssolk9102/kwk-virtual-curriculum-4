@@ -8,12 +8,21 @@ title: CSS Animations
 
 * Write transformations for HTML elements
 * Build CSS animations with keyframes
+* Try out CodePen
 
 ## 📗 Technical Vocabulary
 
 - Animation
 - Keyframes
 - Transformation
+
+<div class="try-it">
+  <h2>New Tech: CodePen</h2>
+  <p>Throughout this lesson, instead of Repl, you'll see a new browser-based code editor called <a href="https://codepen.io/">CodePen!</a></p>
+  <p>CodePen works a lot like Repl. It was designed specifically for front-end development. Unlike Repl, which can run lots of different languages, CodePen just does HTML, CSS, and JavaScript (along with the libraries that work with those languages).</p>
+  <p>Because you're familiar with Repl, learning to use CodePen will be fun! You don't have to create an account, but if you want to save your work, you'll need to log in.</p>
+  <p>Try opening up a new CodePen and playing around with it! See if you can duplicate one of your Repls in CodePen!</p>
+</div>
 
 ## Overview
 
