@@ -55,7 +55,7 @@ It's also important to point out the use of indentation in the example above. Si
     <li>First, write an empty <code class="try-it-code">div</code> tag.</li>
     <li>Inside of the div tag, write 2-3 paragraphs.</li>
     <li>Outside of the div tag, write one more paragraph.</li>
-    <li>In CSS, add a border to the div element. (If you forgot the syntax, <a href="https://css-tricks.com/almanac/properties/b/border/">check this out</a>.)</li>
+    <li>In CSS, add a border to the div element. (If you forgot the syntax, <a target="blank" href="https://css-tricks.com/almanac/properties/b/border/">check this out</a>.)</li>
     <li>Check your indentation - the div and last paragraph should be indented once, and the paragraphs nested inside the div should be indented twice.</li>
   </ul>
 
@@ -76,7 +76,7 @@ For all the container elements listed above, they behave the same as a `div`. Th
 <div class="try-it">
   <h2>🐣 Explore: Container Elements</h2>
   <p>What type of content, do you predict, would be appropriate to be contained in each of the elements listed above?</p>
-  <p>Visit the landing page for <a href="https://www.spotify.com/us/">Spotify</a>, and answer these questions with your breakout group:</p>
+  <p>Visit the landing page for <a target="blank" href="https://www.spotify.com/us/">Spotify</a>, and answer these questions with your breakout group:</p>
   <ul>
     <li>What information is in the header/nav?</li>
     <li>Is there a footer? What type of information is in it?</li>
@@ -115,7 +115,7 @@ When looking at the markup, you also notice that it’s common for inline elemen
 
 <div class="try-it">
   <h2>See It To Believe It: Inline vs. Block</h2>
-  <p>Let's take a couple minutes to see this in action to make sure we have an understanding. Open and remix <a href="https://repl.it/@kodewithklossy/block-vs-inline#index.html">this repl.it project</a>.</p>
+  <p>Let's take a couple minutes to see this in action to make sure we have an understanding. Open and remix <a target="blank" href="https://repl.it/@kodewithklossy/block-vs-inline#index.html">this repl.it project</a>.</p>
   <ul>
     <li>In the CSS file, add a border of any color to the <code class="try-it-code">h1</code>.</li>
     <li>Element by element, add a border (use a different color for each one).</li>
@@ -144,7 +144,7 @@ Earlier, we learned that an `img` tag has a `src` attribute. An **attribute** is
 A couple of things to note about **class** attributes:
 - They are written inside of the opening tag of an element
 - They can be used on ANY type of element
-- An element can have more than one class
+- An element can have more than one class (each class is separated by a space)
 - As the developers writing the code, we get to decide the class name that is inside the quotes
 - Class names should be in lower case. If the class name is more than one word, a dash `-` should be used instead of a space
 
