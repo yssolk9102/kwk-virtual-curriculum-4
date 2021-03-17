@@ -43,7 +43,7 @@ In CSS, we write a set of rules for how our document should look. The browser ev
 
 In the example above, the browser will set the color of any text element inside the `<body>` element. We can define multiple sets of properties and values in a given rule.
 
-In the previous section, we said that "there is so much that CSS can do." Each little thing it does comes from a **property**. One example of `color` - that property can help us change the color of some text. There are many, many properties that we could use. There are some that you will use frequently and quickly memorize. However, you do _not_ need to remember the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding!
+In the previous section, we said that "there is so much that CSS can do." Each little thing it does comes from a **property**. One example of a property is `color` - and that property can help us change the color of some text. There are many, many properties that we could use. There are some that you will use frequently and quickly memorize. However, you do _not_ need to remember the entire list; there are resources like <a target="blank" href="https://htmldog.com/references/css/properties/">this</a> which you can reference anytime you are coding!
 
 ## Text
 
@@ -54,7 +54,7 @@ While we may take it for granted, the decisions that a developer makes for a web
 - Weight
 - Color
 
-Using CSS, we can control all of that! If you visit [TikTok](https://www.tiktok.com/en/) on a laptop, you'll see a menu on the left-hand side (image below).
+Using CSS, we can control all of that! If you visit <a target="blank" href="https://www.tiktok.com/en/">TikTok</a> on a laptop, you'll see a menu on the left-hand side (image below).
 
 <img src="./assets/tiktok.png" alt="Screen shot of TikTok website with simple menu">
 
@@ -81,7 +81,7 @@ Let's breakdown the code above, using our vocabulary:
 
 <div class="try-it">
   <h2>Try It: Style Text</h2>
-  <p>We'll be working in repl.it projects again, but today we will use both the HTML <em>and</em> CSS files. Use <a href="https://repl.it/@kodewithklossy/try-it-style-text">this repl.it project as a starter.</a> Then, follow these steps:</p>
+  <p>We'll be working in repl.it projects again, but today we will use both the HTML <em>and</em> CSS files. Use <a target="blank" href="https://repl.it/@kodewithklossy/try-it-style-text">this repl.it project as a starter.</a> Then, follow these steps:</p>
   <ul>
     <li>Start by writing some HTML so we have some elements to style. Write an <code class="try-it-code">h1</code> element and make sure to include some content between the tags!</li>
     <li>Now, write a CSS rule for the <code class="try-it-code">h1</code>. Inside the rule, write a declaration to change the size and color of your <code class="try-it-code">h1</code>. Find a list of colors to use <a target="blank" href="http://colours.neilorangepeel.com/">here</a>.</li>
@@ -93,7 +93,7 @@ Let's breakdown the code above, using our vocabulary:
     <div class="spicy-toggle">        
       <ul>
       <li>Do some google research on how to use hexadecimal codes instead of color names. For example, the hexadecimal code for white is <code class="mild-code">#ffffff</code>. See if you can implement these in your code!</li>
-      <li>To add in some really fun fonts, check out <a href="https://codepen.io/team/sparkbox/full/OMdwoJ">this how-to guide</a>, then add some fun fonts to your project!</li>
+      <li>To add in some really fun fonts, check out <a target="blank" href="https://codepen.io/team/sparkbox/full/OMdwoJ">this how-to guide</a>, then add some fun fonts to your project!</li>
       </ul>
     </div>
   </div>
@@ -113,7 +113,7 @@ One of the most helpful CSS properties to use while you are in the process of bu
     <li><strong>solid</strong> refers to the border style, in this case a solid line</li>
     <li><strong>red</strong> is the color that you would like the border to be (it could be changed to any valid color name or hex code!)</li>
   </ul>
-  <p>What change did you see on your page when you added this border declaration? Tinker with the 3 pieces of information - change <strong>1px</strong> to <strong>5px</strong>, change the color, etc! Check out all the <a href="https://www.w3schools.com/css/css_border.asp">possible border styles</a> as well!</p>
+  <p>What change did you see on your page when you added this border declaration? Tinker with the 3 pieces of information - change <strong>1px</strong> to <strong>5px</strong>, change the color, etc! Check out all the <a target="blank" href="https://www.w3schools.com/css/css_border.asp">possible border styles</a> as well!</p>
 </div>
 
 Takeaways from this exploration:
@@ -128,13 +128,13 @@ Before you get information about buttons in CSS, take a minute to explore and re
 
 <div class="try-it">
   <h2>🐣 Explore: Buttons</h2>
-  <p>With your breakout group, visit the <a href="https://www.kodewithklossy.com/">Kode With Klossy</a> website in another tab. Find the "Learn More and Apply" button.</p>
+  <p>With your breakout group, visit the <a target="blank" href="https://www.kodewithklossy.com/">Kode With Klossy</a> website in another tab. Find the "Learn More and Apply" button.</p>
   <ul>
     <li>How did you know it was a button?</li>
     <li>What do you observe when you hover your mouse over the button?</li>
   </ul>
   <br>
-  <p>Now, visit the <a href="https://github.com/">GitHub</a> landing page in another tab. Find the "Sign In" button.</p>
+  <p>Now, visit the <a target="blank" href="https://github.com/">GitHub</a> landing page in another tab. Find the "Sign In" button.</p>
   <ul>
     <li>How did you know it was a button?</li>
     <li>What do you observe when you hover your mouse over the button?</li>
@@ -164,7 +164,7 @@ button:hover {
 
 The code snippet above includes two things we haven't talked about yet:
 - `button:hover`: This is called a `pseudo-selector` - when the button is hovered over, this rule will come into play. If the button is not being hovered over, it will be ignored.
-- `cursor: pointer;`: This declaration will change the image that is presented as the cursor. `pointer` provides a little hand that looks like it's pointing with its finger. If you're interested in learning about other cursors you could use, check out [this resource](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
+- `cursor: pointer;`: This declaration will change the image that is presented as the cursor. `pointer` provides a little hand that looks like it's pointing with its finger. If you're interested in learning about other cursors you could use, check out <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor">this resource</a>.
 
 **GitHub**:
 1. The button only has an outline; it's not filled in with the same color
@@ -209,7 +209,6 @@ Another declaration that we haven't talked about:
     <p class="spicy-click">Click here for an Extra Spicy Challenge 🔥🔥🔥</p>
     <div class="spicy-toggle">        
         <p>There is a slight shadow behind the bottom and right side of the button - do some research online to explore how that might be achieved with CSS.</p>
-        <p><em>Does this button look familiar? It's from the <a href="">Codecademy</a> website!</em></p>
     </div>
   </div>
 
