@@ -99,8 +99,8 @@ The syntax used above to access a value is called **dot notation**.
 ### Updating, Adding & Removing Data
 
 We won't go into detail on how to do this here, as it likely won't be used during camp. If you are curious to learn more or find yourself needing a resource while working on your personal project, here are a couple of resources you might want to check out:
-- [JavaScript Info](https://javascript.info/object)
-- [Free Code Camp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object/)
+- <a target="blank" href="https://javascript.info/object">JavaScript Info</a>
+- <a target="blank" href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object/">Free Code Camp</a>
 
 ## Objects IRL
 
@@ -150,7 +150,7 @@ Objects have a little more going on than strings or numbers, but you now have th
 
 <div class="practice">
   <h2>Practice: Objects</h2>
-  <p>Create an object with keys that are family or friend titles (i.e. "sister", "bestFriend") and values that are the name of that family member or friend. Pets are family, too!</p>
+  <p>Create an object with keys that are family or friend titles (i.e. "sibling", "bestFriend") and values that are the name of that family member or friend. Pets are family, too!</p>
   <ul>
     <li>Aim to have at least 6 family members of friends in your 'tree'</li>
     <li>Print to the console the entire object</li>
@@ -160,7 +160,7 @@ Objects have a little more going on than strings or numbers, but you now have th
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
     <div class="spicy-toggle">
-      <p>If you have more than one family member or friend who could have the same key, you might be back in a similar situation that we were in the Warm Up for the array lesson - with variables like <code class="medium-code">sister1</code>, <code class="medium-code">sister2</code>, etc. Instead of only having strings of names as the values in your object, write at least one array of strings for those family members or friends who share a title.</p>
+      <p>If you have more than one family member or friend who could have the same key, you might be back in a similar situation that we were in the Warm Up for the array lesson - with variables like <code class="medium-code">sibling1</code>, <code class="medium-code">sibling2</code>, etc. Instead of only having strings of names as the values in your object, write at least one array of strings for those family members or friends who share a title.</p>
     </div>
   </div>
 
