@@ -9,8 +9,6 @@ title: Intro to JavaScript
 * Use variables to store strings and numbers
 * Use string interpolation to write sentences using variables
 
-Note: To engage fully in this lesson, you'll want to have an account with repl.it and have a basic understanding of how to use that interface! Find an intro [here]().
-
 ## 📗 Technical Vocabulary
 
 - Console
@@ -23,7 +21,7 @@ Note: To engage fully in this lesson, you'll want to have an account with repl.i
 
 ## 🐣 Warm Up
 
-In your breakout room, have the person with the longest hair share their screen. Play [Flag Fest](https://flag-fest.herokuapp.com/flag-fest) as a small group. Choose any region you'd like!
+In your breakout room, have the person with the longest hair share their screen. Play <a target="blank" href="https://flag-fest.herokuapp.com/flag-fest">Flag Fest</a> as a small group. Choose any region you'd like!
 
 ## 🌎 What is JavaScript?
 
@@ -58,10 +56,10 @@ A string is a primitive JavaScript data type. You can think of a string as a ser
 
 "Hi, Kode With Klossy!"
 
-"✨ 🎩 💖"
+"✨ 🎩 🐇 💖"
 ```
 
-In JavaScript, strings can be either double-quoted (“like this”) or single-quoted (‘like this’).
+In JavaScript, strings can be double-quoted (“like this”), single-quoted (‘like this’), or back-ticked (\`like this\`). We'll talk more about the back-ticks later.
 
 ## `console.log()`
 
@@ -121,14 +119,14 @@ console.log(region);
     <li>A variable called <code class="try-it-code">favoriteColor</code> that holds your favorite color</li>
     <li>A variable called <code class="try-it-code">pet</code> that holds the name of a pet</li>
     <li>A variable called <code class="try-it-code">friend</code> that holds the name of a friend</li>
-    <li>A variable called <code class="try-it-code">goal</code> that holds one of your 2020 goals. <em>Remember, you <strong>can</strong> include spaces in a string!</em></li>
+    <li>A variable called <code class="try-it-code">goal</code> that holds one of your 2021 goals. <em>Remember, you <strong>can</strong> include spaces in a string!</em></li>
     <li>A variable called <code class="try-it-code">hobby</code> that holds one of your hobbies</li>
   </ul>
 </div>
 
 ### Re-assigning Variables
 
-Sometimes, things in life change! We might change our names, move cities, our ages will almost definitely change, etc. In Flag Fest, the user can change the region that the game displays during a round. When they do that, the program may need to re-assign the `region` variable to a different string.
+Sometimes in life, things change! We might change our names, move cities, our ages will almost definitely change, etc. In Flag Fest, the user can change the region that the game displays during a round. When they do that, the program may need to re-assign the `region` variable to a different string.
 
 JavaScript gives us the ability to re-assign a variable so that its value can change. Here is the syntax:
 
@@ -204,6 +202,7 @@ console.log(points);
 
 // The line below re-assigns points to its previous value (1) plus 1.
 // It is a shortcut that does the exact thing as the example above!
+// You will sometimes hear these shortcuts referred to as 'syntactic sugar' 🍭
 points += 1;
 console.log(points);
 //=> 2
@@ -224,8 +223,9 @@ Takeaways:
 <div class="practice">
   <h2>🦄 Pro Tip</h2>
   <p>Have you noticed that sometimes lines of code in example are greyed out and start with two forward slashes <code class="practice-code">//</code>?</p>
-  <p><strong>Comments</strong> are a way we can take notes in plain english, or use snippets of code that aren't complete. They appear in a shade less obvious that most lines of code and will not be read by the interpreter!</p>
-  <p>To write a comment in your JavaScript code, start the line with two forward slashes <code class="practice-code">//</code>. Or, you can use the keyboard shortcut <code class="practice-code">cmd + /</code> on your Mac!</p>
+  <p><strong>Comments</strong> are a way we can take notes in plain english, or use snippets of code that aren't complete. They appear in a shade less obvious than most lines of code and will not be read by the interpreter!</p>
+  <p>To write a comment in your JavaScript code, start the line with two forward slashes <code class="practice-code">//</code>.</p>
+  <p>Or, you can use a keyboard shortcut: <code class="practice-code">cmd + /</code> on your Mac, or <code class="practice-code">ctrl + /</code> on your PC!</p>
 </div>
 
 Again, as we did with strings, we can **interpolate** with variables that hold numbers.
