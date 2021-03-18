@@ -10,7 +10,7 @@ You may have wondered if the order your CSS rules are written in, matters. Let's
 
 <div class="try-it">
   <h2>Try It: Does Order Matter?</h2>
-  <p>Go into one of your CodePens and try switching around the order of rules. Do you see any changes?</p>
+  <p>Go into one of your Repl.it projects and try switching around the order of rules. Do you see any changes?</p>
   <p>Now, try switching around the order of property/values within a rule. Do you see any changes?</p>
 </div>
 
