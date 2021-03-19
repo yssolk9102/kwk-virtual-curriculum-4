@@ -82,7 +82,7 @@ Notice the `===`. This checks if two pieces of data are equal to each other. The
 //=> 0
 ```
 
-The `not equal` operator - `!==` - checks that two values are not equal. It is the opposite of our `===` operator. Notice how an `!` replaces the first `=`.
+The `not equal` operator - `!==` - checks that two values are not equal. It is the opposite of our `===` operator. Notice how a `!` replaces the first `=`. You might be used to calling `!` an exclamation point, but in programming, we often refer to it as the bang operator!
 
 The `modulo` operator - `%` - finds the remainder of the two numbers. It is a helpful tool to determine if numbers are even or odd. Learn more <a target="blank" href="https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/">here</a>!
 
@@ -102,8 +102,8 @@ language === "JavaScript"
 "javascript" === language
 //=> false
 
-var year = 2020;
-var nextYear = 2021;
+var year = 2021;
+var nextYear = 2022;
 
 year > 2000
 //=> true
@@ -274,7 +274,7 @@ JavaScript is pretty different from HTML and CSS. It feels like a really differe
   <div class="challenge-container spicy-heat">
     <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
     <div class="spicy-toggle">
-      <p>Have you ever tried to create a password, but the application told you that <em>you need at least 1 number and between 8 and 14 characters total</em>? Time to solve another real-world challenge! Declare a new variable called <code class="spicy-code">fakePassword</code> and assign it to a string of your choice. Write a conditional that checks the value of <code class="spicy-code">fakePassword</code> and gives appropriate feedback on if it is a valid password (contains at least 1 number and between 8 and 14 characters total).</p>
+      <p>Have you ever tried to create a password, but the application told you that <em>you need at least 1 number and between 8 and 14 characters total</em>? Time to solve another real-world challenge! Declare a new variable called <code class="spicy-code">fakePassword</code> and assign it to a string of your choice. Write a conditional that checks the value of <code class="spicy-code">fakePassword</code> and gives appropriate feedback on if it is a valid password (contains at least 1 number <strong>and</strong> between 8 and 14 characters total).</p>
     </div>
   </div>
 

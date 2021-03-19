@@ -29,7 +29,7 @@ The Gestalt psychologists developed 7 laws, or principles, to explain the way sm
 
 ### Law of Proximity
 
-Elements next to each other tend to be grouped together. Even though this is made up of unrelated elements, we see a column on the left, a square to the upper right, and a short row on the lower right
+Elements next to each other tend to be grouped together. Even though this is made up of unrelated elements, we see a column on the left, a square to the upper right, and a short row on the lower right.
 
 <img src="./assets/proximity.png">
 
@@ -41,7 +41,7 @@ Items that are enclosed in a border or with a background color tend to be groupe
 
 ### Law of Similarity
 
-Elements that look similar will be perceived as part of the same form. Despite the similar scale and distribution of shapes, we see columns of squares and circles
+Elements that look similar will be perceived as part of the same form. Despite the similar scale and distribution of shapes, we see columns of squares and circles.
 
 <img src="./assets/similarity.png">
 
@@ -66,7 +66,7 @@ There are three groupings that colors fall into: warm, cool, and neutral. The co
 
 Contrast is the difference between two colors. You usually want a high contrast might be alarming or unsettling. Black and white create the highest contrast possible. Usually, when you think you see black/white combinations on pages, it's a very light grey and/or very dark grey.
 
-It's important to provide a contrast for your page to be pleasant, but it's essential that you do so for users who may be colorblind or have limited vision. This is an <a href="https://colorable.jxnblk.com/b25e06/213338">awesome tool</a> that allows you to enter two color and get an analysis on if the contrast is acceptable.
+It's important to provide a contrast for your page to be pleasant, but it's essential that you do so for users who may be colorblind or have limited vision. This is an <a target="blank" href="https://colorable.jxnblk.com/b25e06/213338">awesome tool</a> that allows you to enter two color and get an analysis on if the contrast is acceptable.
 
 ### Combinations
 
@@ -86,15 +86,15 @@ There are many ways we can choose to select colors. One common color pairing is 
   <h2>Try It: Colors</h2>
   <p>Visit a few of the award-winning websites below. Try to identify what type of color combinations make these site clean and appealing.</p>
   <ul>
-    <li><a href="https://builtbybuffalo.com/">Built By Buffalo</a></li>
-    <li><a href="https://www.miukimiu.com/">Miuki Miu</a></li>
-    <li><a href="http://adayinbigdata.com/">A Day In Big Data</a></li>
-    <li><a href="https://www.teachersguild.org/">Teachers Guild</a></li>
+    <li><a target="blank" href="https://builtbybuffalo.com/">Built By Buffalo</a></li>
+    <li><a target="blank" href="https://www.miukimiu.com/">Miuki Miu</a></li>
+    <li><a target="blank" href="http://adayinbigdata.com/">A Day In Big Data</a></li>
+    <li><a target="blank" href="https://www.teachersguild.org/">Teachers Guild</a></li>
   </ul>
   <p></p>
 </div>
 
-It's important to note that front-end developers do not need to be design experts. If selecting colors "isn't your thing" - that's ok! There are some awesome tools out there like <a href="http://colormind.io/">Color Mind</a>, <a href="https://www.canva.com/colors/color-palette-generator/">Canva</a> and <a href="https://colorhunt.co/">Color Hunt</a> that can help you make a great choice.
+It's important to note that front-end developers do not need to be design experts. If selecting colors "isn't your thing" - that's ok! There are some awesome tools out there like <a target="blank" href="http://colormind.io/">Color Mind</a>, <a target="blank" href="https://www.canva.com/colors/color-palette-generator/">Canva</a> and <a target="blank" href="https://colorhunt.co/">Color Hunt</a> that can help you make a great choice.
 
 ## Wireframing
 

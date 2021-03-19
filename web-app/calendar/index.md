@@ -108,7 +108,7 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
-      <li>Start on the <a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/el/"> Estee Lauder Project </a></li> 
+      <li>Start on the <a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/el/"> Estee Lauder Project </a></li>
       <li><a href="../practice/intermediate-js">Practice: Intermediate JavaScript</a></li>
     </ul>
     </div>
@@ -165,7 +165,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     <ul>
       <li>Review: Objects & Arrays</li>
       <li><a href="../lessons/js-arrays-intermediate">Learn: Intermediate Arrays</a></li>
-      <li><a href="../practice/arrays-intermediate">Practice: Intermediate Arrays</a></li>
+      <li><a href="../practice/intermediate-arrays">Practice: Intermediate Arrays</a></li>
       <li><a href="../lessons/js-dom-manipulation-intro">Learn: Intro to DOM</a></li>
       <li><a href="../practice/intro-dom">Practice: Intro to DOM</a></li>
     </ul>
@@ -267,7 +267,7 @@ Click on a day below to see the details about what you'll be learning and buildi
   <div class="day-right">
     <h4>Night Hacks</h4>
     <ul>
-      <li>Submit Estee Lauder project by 8PM Local Time </li> 
+      <li>Submit Estee Lauder project by 8PM Local Time </li>
       <li>Final Project Group: Work on Project</li>
     </ul>
     </div>

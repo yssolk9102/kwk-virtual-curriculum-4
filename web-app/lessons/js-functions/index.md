@@ -39,6 +39,8 @@ In our class example today, we will write instructions for a robot to walk a dog
 
 ## Declare a Function
 
+In order for our function (an action that we want to perform) to be sitting around, waiting to be called into action, that function needs to exist!  We create functions by **declaring** them - giving them a name, and some instructions or directions to perform when called upon.
+
 Here's what a very basic function **declaration** looks like:
 
 ```js
@@ -109,13 +111,13 @@ function walkDog(numberOfDogs) {
 walkDog(2);
 
 //=>Put on 2 leashes
-//=>Put 2 treats in pocket
+//=>Put 4 treats in pocket
 //=>Put 2 poop bags in pocket
 
 walkDog(7);
 
 //=>Put on 7 leashes
-//=>Put 7 treats in pocket
+//=>Put 14 treats in pocket
 //=>Put 7 poop bags in pocket
 ```
 

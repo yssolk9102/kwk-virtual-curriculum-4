@@ -41,7 +41,7 @@ p {
 
 <div class="try-it">
   <h2>🐣 Check It Out: Block vs. Inline</h2>
-  <p>In your breakout group, the person screen-sharing should remix <a target="blank" href="https://glitch.com/edit/#!/check-it-out-block-inline">this Glitch project</a>. One by one, copy and paste the two CSS rules above into your CSS file in Glitch. What happens when you paste in the rule for the buttons? For the paragraphs?</p>
+  <p>In your breakout group, the person screen-sharing should fork <a target="blank" href="https://replit.com/@kodewithklossy/5-check-it-out-block-v-inline#index.html">this Repl.it project</a>. One by one, copy and paste the two CSS rules above into your CSS file. What happens when you paste in the rule for the buttons? For the paragraphs?</p>
 </div>
 
 In our next CSS lesson, we'll go a step further with layout design. Understanding the difference between block and inline elements, and being able to change them, allows us to control the layout of a page a little more.
@@ -112,7 +112,7 @@ In the code snippet above, the element would have 10px of padding on the bottom 
 
 <div class="try-it">
   <h2>Try It: Padding</h2>
-  <p>Remix <a target="blank" href="https://glitch.com/edit/#!/try-it-padding">this Glitch project</a>. Read through the HTML and CSS provided to make sure you understand what you're starting with.</p>
+  <p>Fork <a target="blank" href="https://replit.com/@kodewithklossy/5-intermediateCSS-try-it-padding#index.html">this Repl.it project</a>. Read through the HTML and CSS provided to make sure you understand what you're starting with.</p>
   <p>Work to re-create the image below using the HTML and CSS provided as a starter kit. The colors used were <code class="try-it-code">deeppink</code>, <code class="try-it-code">darkviolet</code>, and <code class="try-it-code">deepskyblue</code>.</p>
   <img src="./assets/padding-try-it.png"/>
 </div>
@@ -146,7 +146,7 @@ We can also write one declaration for all fours sides:
 
 <div class="try-it">
   <h2>Try It: Margin</h2>
-  <p>Remix <a target="blank" href="https://glitch.com/edit/#!/try-it-margin">this Glitch project</a>. Read through the HTML and CSS provided to make sure you understand what you're starting with.</p>
+  <p>Fork <a target="blank" href="https://replit.com/@kodewithklossy/5-try-it-margin#index.html">this Repl.it project</a>. Read through the HTML and CSS provided to make sure you understand what you're starting with.</p>
   <p>Work to re-create the image below using the HTML and CSS provided as a starter kit. You'll need both margin and padding!</p>
   <img src="./assets/margin-try-it.png"/>
 </div>
@@ -197,7 +197,7 @@ The `object-fit` property on the `.correct-ratio` class fixed the distorted rati
 
 <div class="try-it">
   <h2>Try It: Sizing Images</h2>
-  <p>Remix <a target="blank" href="https://glitch.com/edit/#!/try-it-sizing-images">this Glitch project</a>. Find 3 photos from <a target="blank" href="https://www.pexels.com/">Pexels</a> and create image tags for each of them in the new Glitch project. Get a mix of images that are vertical and horizontal.</p>
+  <p>Fork <a target="blank" href="https://replit.com/@kodewithklossy/5-intermediateCSS-try-it-sizing-images#index.html">this Repl.it project</a>. Find 3 photos from <a target="blank" href="https://www.pexels.com/">Pexels</a> and create image tags for each of them in the new Repl.it project. Get a mix of images that are vertical and horizontal.</p>
   <p>Style the photos so they appear to be the same size, and make sure they aren't squished!</p>
 </div>
 
@@ -209,14 +209,14 @@ In this final section, you'll use your new knowledge about the box model and ima
   <h2>Practice</h2>
   <p>Card is a word that is commonly used in front-end development. When we refer to a card, we usually mean a <code class="practice-code">div</code> or another similar element that is used to contain information. The profile information on Twitter could be called a card.</p>
   <p>We are going to begin recreating a Twitter profile card. There are many ways this can be achieved - you may see that you and your partner's outcome looks the same, but code looks very different! That's ok! As you get more practice, you will find which methods you prefer.</p>
-  <p>Create a new Glitch project. Remember, a lot of code is provided in the initial HTML file, so you may want to first delete what you don't need. Then, work towards replicating the image below. Feel free to use any images and text you'd like!</p>
+  <p>Create a new Repl.it project. Remember, a lot of code is provided in the initial HTML file, so you may want to first delete what you don't need. Then, work towards replicating the image below. Feel free to use any images and text you'd like!</p>
   <img class="medium" src="./assets/recreate-twitter-card.png" alt="Start of a Twitter profile card">
   <p><em>Hint: You can also use percentages as units for the width of an image.</em></p>
 
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
     <div class="spicy-toggle">        
-      <p>Add a blue checkmark next to the user's name. You can find a lot of icons at <a href="https://www.flaticon.com/">Flat Icon</a>. Make sure the icon is about the correct size, and right next to the name. You can reference Michelle Obama's profile at the top of this lesson for what this should look like. Follow the same workflow to include an icon just as you would an image (right click and copy image address).</p>
+      <p>Add a blue checkmark next to the user's name. You can find a lot of icons at <a target="blank" href="https://www.flaticon.com/">Flat Icon</a>. Make sure the icon is about the correct size, and right next to the name. You can reference Michelle Obama's profile at the top of this lesson for what this should look like. Follow the same workflow to include an icon just as you would an image (right click and copy image address).</p>
     </div>
   </div>
 

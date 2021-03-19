@@ -25,12 +25,12 @@ title: Intro to DOM Manipulation
 
 In order to work all the way through this lesson, we will need to learn how to use the Chrome Developer Tools (aka Dev Tools). We've used the console in repl quite a bit up until now; the Chrome Dev Tools are a more sophisticated version of that!
 
-Like a true developer, you are going to take some time to do some research to teach yourself how to use this tool. Below are three resources, but feel free to find your own great resources as well!
+Like a true developer, you are going to take some time to do some research to teach yourself how to use this tool. One big part of our job is finding resources that work for us. Below are three resources that may or may not resonate with you, so feel free to find your own great resources as well!
 
-- [This short screencast was made just for you!](https://screencast-o-matic.com/watch/cYeoYgxaxn)
-- [Here is a tutorial on how to open the Dev Tools](https://support.airtable.com/hc/en-us/articles/232313848-How-to-open-the-developer-console#chrome)
-- [Here is a video on how to use a console.log](https://www.youtube.com/watch?v=z5g78hPmQM4)
-- [Here is a blog post on how to use console.log](https://medium.com/@marycriv/using-console-log-and-debugger-in-chrome-devtools-b1d5aca41fa8) (You can stop reading when you get to the `debugger` section)
+- <a target="blank" href="https://screencast-o-matic.com/watch/cYeoYgxaxn">This short screencast was made just for you!</a>
+- <a target="blank" href="https://support.airtable.com/hc/en-us/articles/232313848-How-to-open-the-developer-console#chrome">Here is a tutorial on how to open the Dev Tools</a>
+- <a target="blank" href="https://www.youtube.com/watch?v=z5g78hPmQM4">Here is a video on how to use a console.log</a>
+- <a target="blank" href="https://medium.com/@marycriv/using-console-log-and-debugger-in-chrome-devtools-b1d5aca41fa8">Here is a blog post on how to use console.log</a> (You can stop reading when you get to the `debugger` section)
 
 ## What is the DOM?
 
@@ -105,7 +105,7 @@ We can also access elements by classes. Instead of `('h1')` we would need to wri
 
 <div class="try-it">
   <h2>Try It: Accessing Elements</h2>
-  <p>Use <a target="blank" href="https://glitch.com/~intro-to-dom-try-it">this Glitch project</a> as a starter. We will use this project throughout today's lesson.</p>
+  <p>Use <a target="blank" href="https://replit.com/@kodewithklossy/13-introDOM-try-it#index.html">this repl.it project</a> as a starter. We will use this project throughout today's lesson.</p>
   <p>First, familiarize yourself with the existing HTML elements. For this activity, you should not need to change the HTML.</p>
   <p>In your JavaScript file, write code to access each element and store in a variable, then print to the console. Practice accessing elements by element type or class. In the console, you should see your <code class="try-it-code">console.log</code> statements.</p>
 
@@ -128,14 +128,14 @@ Now that we can access elements and store them in a variable, the possibilities 
 ```js
 var header = $('h1');
 header.text("HIIII");
-//=> In the browser, the hi now says HIIII
+//=> In the browser, the hello now says HIIII
 ```
 
 What's happening? The `h1` element has a method called `text`. When we originally wrote the `h1`, we gave it a `text` value of "hello" by typing "hello" between the tags. jQuery  provides us with a method to change that original text. Whatever string is passed into, or typed into the parenthesis after `.text`, will replace the text inside of the `h1`.
 
 <div class="try-it">
   <h2>Try It: Change Text</h2>
-  <p>Continue working in the Glitch project from the last Try It.</p>
+  <p>Continue working in the repl.it project from the last Try It.</p>
   <p>By only adding code to the JavaScript file, change the text inside of at least two elements.</p>
 
   <div class="challenge-container medium-heat">
@@ -159,25 +159,23 @@ Imagine that you’ve just ordered food for delivery and are waiting for it to a
 
 In order for our site to respond to events, we need to write some code so that our site becomes "smart" enough to look out for a specific event on a specific element. This "look out" is called an **event listener**. Their job is to sit around and wait for an event to take place in the browser, and call a function for us when it does.
 
-The Glitch project below has an example of the syntax. Click View Source to look at the JavaScript. Back in View App: Click the button. Click the button a second time. What happens _each time_ you click the button?
+The Button from <a target="blank" href="https://replit.com/@kodewithklossy/event-listener#index.html">this repl.it project</a> below has an example of the syntax. Click View Source to look at the JavaScript. Back in View App: Click the button. Click the button a second time. What happens _each time_ you click the button?
 
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/example-event-listener?path=index.html&previewSize=100&attributionHidden=true"
-    title="example-event-listener on Glitch"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+<iframe
+  src="https://event-listener.kodewithklossy.repl.co"
+  title="example-event-listener on repl.it"
+  style="height: 100%; width: 100%; border: 0;">
+</iframe>
 <br>
 
 <div class="try-it">
   <h2>🐣 Discuss</h2>
-  <p>With your breakout group, read through each line of the JavaScript file in the Glitch project above. Lines 4 and 9 should be somewhat familiar; but line 6 is brand-new. What is your prediction about what each part of the code is doing?</p>
+  <p>With your breakout group, read through each line of the JavaScript file in the repl.it project above. Lines 4 and 9 should be somewhat familiar; but line 6 is brand-new. What is your prediction about what each part of the code is doing?</p>
 
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
     <div class="spicy-toggle">
-      <p>The function <code class="medium-code">doSomething</code> is never called with the syntax we've learned: <code class="medium-code">doSomething()</code>. Why not? What happens if we add <code class="medium-code">()</code> after <code class="medium-code">doSomething</code> on line 3? Remix the project to find out!</p>
+      <p>The function <code class="medium-code">doSomething</code> is never called with the syntax we've learned: <code class="medium-code">doSomething()</code>. Why not? What happens if we add <code class="medium-code">()</code> after <code class="medium-code">doSomething</code> on line 3? Fork the project to find out!</p>
     </div>
   </div>
 
@@ -194,7 +192,7 @@ The event listener is responsible for monitoring an element for an event and doi
 
 <div class="try-it">
   <h2>Try It: Event Listeners & Handlers</h2>
-  <p>Go back to the Glitch project about Baby Seals.</p>
+  <p>Go back to the repl.it project about Baby Seals.</p>
   <p>Add a <code class="try-it-code">button</code> element in the HTML.</p>
   <p>Now, update the JavaScript so that when the button is clicked, the text in the <code class="try-it-code">h1</code> changes to something that it wasn't originally.</p>
   <p>When you're done, answer these questions with your partner:</p>
@@ -209,25 +207,21 @@ The event listener is responsible for monitoring an element for an event and doi
 
 One cool thing about JavaScript is that since it's accessing your HTML elements, you can also access the styles that have been applied to each element. It works kind of like `text()`; there's a property on the element that we can change. We can add, remove, replace, or toggle CSS classes!
 
-Check this out:
+Check out the <a target="blank" href="https://replit.com/@kodewithklossy/toggleCSS#index.html">repl.it project exampled below</a>:
 
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/example-toggle-ss?path=script.js&previewSize=100&attributionHidden=true"
-    title="example-toggle-ss on Glitch"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+<iframe
+  src="https://toggleCSS.kodewithklossy.repl.co"
+  style="height: 100%; width: 100%; border: 0;">
+</iframe>
 <br>
 
 <div class="try-it">
   <h2>🐣 Discuss</h2>
-  <p>Remix the Glitch project above, then answer these questions with your breakout group:</p>
+  <p>Fork the repl.it project above, then answer these questions with your breakout group:</p>
   <ul>
     <li>Why does the button go back and forth between pink and purple?</li>
     <li>Try changing <code class="try-it-code">.toggleClass</code> to <code class="try-it-code">.addClass</code> - what happens?</li>
     <li>What happens when you change <code class="try-it-code">.toggleClass</code> to <code class="try-it-code">.removeClass</code>? Why?</li>
-    <li>Uncomment line 11 in the JavaScript file then click the button a few times. What happens? Why?</li>
   </ul>
 </div>
 
@@ -236,22 +230,25 @@ Takeaways:
 - `.removeClass` will remove a class from an HTML element
 - `.toggleClass` will check if an HTML has a specific class. If it does, it will remove the class. If it doesn't, it will add that class.
 
-Besides accessing CSS rules by classes, we can also add CSS property/values! Check out the code in the project below:
+Besides accessing CSS rules by classes, we can also add CSS property/values! Check out the code below, and in <a target="blank" href="https://replit.com/@kodewithklossy/example-add-css-rule#index.html">this repl.it project</a>
 
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/example-add-css-rule?path=script.js&previewSize=0&attributionHidden=true"
-    title="example-add-css-rule on Glitch"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+```javascript
+var changeBackgroundBtn = $(".change-background-btn");
+var container = $("div");
+
+changeBackgroundBtn.on("click", changeBackgroundColor);
+
+function changeBackgroundColor() {
+  container.css("backgroundColor", "mediumaquamarine");
+}
+```
 <br>
 
 Let's break this down.
-- On lines 4-5, we declare the `changeBackgroundBtn` and `container` variables which are storing the button and `div`, respectively
-- On line 7, we declare an event listener for the `changeBackgroundBtn` button
-- On line 9, we declare the `changeBackgroundColor` event handler
-- Line 10 is where the magic happens:
+- On lines 1-2, we declare the `changeBackgroundBtn` and `container` variables which are storing the button and `div`, respectively
+- On line 4, we declare an event listener for the `changeBackgroundBtn` button
+- On line 6, we declare the `changeBackgroundColor` event handler
+- Line 7 is where the magic happens:
 
 ```javascript
 container.css('backgroundColor', 'mediumaquamarine');
@@ -267,7 +264,7 @@ This entire line of code accesses the `div` element and updates that elements st
 <div class="practice">
   <h2>Practice: DOM Manipulation</h2>
   <p>Ever wonder how sites or apps create the "dark mode" feature? You're about to do just that!</p>
-  <p>You can either work off of the Baby Seals Glitch project, or <a target="blank" href="https://glitch.com/~practice-dark-mode">start with this one!</a></p>
+  <p>Work off of the Baby Seals repl.it project</p>
   <p>Create two <code class="practice-code">button</code> elements in your HTML, both nested inside of a <code class="practice-code">div</code>. One button should be labeled "light mode" and the other "dark mode". They will both need their own class name.</p>
   <p>Now, write the JavaScript so that when the dark mode button is clicked, the background color of the <code class="practice-code">div</code> changes to a dark color. When the light mode button is clicked, the background color should change to a light color.</p>
 

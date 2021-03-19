@@ -56,7 +56,7 @@ You may be noticing that classes and IDs do essentially the same thing. They do!
 Classes can be used by many elements. If you want several elements to share styles, they should all get the same class name. IDs should only be used by one single element.
 
 You can think of them in terms of a common school situation:
-- **Class:** The class all shares a teacher. That teachers name may be written in every single planner, or on the top of a paper that is submitted.
+- **Class:** The class all shares a teacher. That teachers name may be written in every single planner, or on the top of every paper that is submitted.
 - **ID:** Every scholar has their own lunch number, or phone number, etc. that is unique to that ONE scholar. It should only be used for them.
 
 At the end of the day, it won't mess anything up if you use the "wrong" one. If you aren't sure, it's good to default to using a class.

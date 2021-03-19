@@ -22,13 +22,13 @@ In a repl, declare a variable for every scholar in the zoom. The variable names 
 
 ## Collections
 
-**Collections** are data types that hold _multiple things_ - think about your grandma’s cat statue collection - there is probably more than one, right?
+**Collections** are data types that hold _multiple things_ - think about your grandma’s cat statue collection - there is probably more than one statue, right?
 
 In JavaScript, there are two types of collections: arrays and objects. In this lesson and during our time at camp, we will mainly focus on arrays.
 
 ## Arrays
 
-An **array** is a complex data type. It is an ordered collection that stores multiple values. They are useful whenever you need to keep track of an ordered list of things. This is similar to how we keep track of list items in the real world. Think back to the Warm Up - if there are 15 or 20 scholars in the room, writing out a variable for each one can be time-consuming. An array will allow us to store all scholar names in **one** variable!
+An **array** is a complex data type. It is an ordered collection that stores multiple values. They are useful whenever you need to keep track of an ordered list of things. This is similar to how we keep track of list items in the real world. Think back to the Warm Up - if there are 15 or 20 scholars in the room, writing out a variable for each one can be time-consuming. An array will allow us to store all scholar names assigned to **one** variable!
 
 An array can store any kind of element - from numbers to strings to ... other arrays. Usually, a single array holds a lot of items that are all of the _same type_.
 
@@ -52,7 +52,7 @@ We can't see all the code that built every application, but there are some place
 
 ### Syntax
 
-An array starts and ends with square brackets: `[]`. Each item inside of the array is called an **element**. A comma separates each element inside an array. In almost all cases, we will store the arrays we write in variables.
+An array starts and ends with square brackets: `[]`. Each item inside of the array is called an **element**. A comma separates each element inside an array. In almost all cases, we will assign the arrays we create to variables.
 
 ```js
 // An array of strings:
@@ -110,7 +110,7 @@ trending.length;
 
 ### Updating Elements
 
-We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change and then reassign a new value for that index with a `=`.
+We can also update elements with the square bracket syntax we looked at earlier. We access the index value that we would like to change and then reassign a new value for that index with a `=`(the assignment operator).
 
 ```js
 var trending = ["@thecardguy", "@spencerx", "@avani", "@lorengray"];
@@ -166,7 +166,7 @@ _A little different from `.push()`, `.pop()` does not take arguments - it knows 
 
 Sometimes, we want to pull an element out of an array at random - have any of your teachers ever used popsicle sticks to decide who to call on? That's a real-life example. We can do the same thing with programming!
 
-JavaScript gives us a tool called `Math` to do advanced math, like square roots, logarithms, etc. Included in that are some options on how to use it. We've got:
+JavaScript gives us a tool called `Math` to do advanced math, like square roots, logarithms, etc. `Math` also includes some options for generating random numbers. We've got:
 
 - `Math.random()` - returns a random decimal between 0 and 1
 - `Math.floor(number)` - returns the value of a number rounded down to the nearest integer
@@ -249,7 +249,7 @@ Arrays are a type of collection that developers use on a daily basis. It's impor
 
 <div class="practice">
   <h2>Practice: Arrays</h2>
-  <p>Declare a variable called <code class="practice-code">following</code> that stores an array of your top five favorite accounts to follow on social media, in strings.</p>
+  <p>Declare a variable called <code class="practice-code">following</code> that stores an array of your top five favorite accounts to follow on social media, as strings.</p>
   <ul>
     <li>Change the value of at least one of the elements in the array</li>
     <li>Add a new account to the array</li>
