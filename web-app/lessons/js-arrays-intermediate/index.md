@@ -82,7 +82,7 @@ We can also iterate in programming. By “in programming,” we mean things that
       <td>year</td>
       <td>
         <ol>
-          <li>subtract birth year from 2020 to get age</li>
+          <li>subtract birth year from 2021 to get age</li>
           <li>subtract age from 220</li>
         </ol>
       </td>
@@ -202,7 +202,7 @@ trending.forEach(function(creator) {
 
 Sometimes, when iterating over an array, our end goal won't be to do the exact same thing to each element. Sometimes we'll want to combine elements. Sometimes we'll want to filter through them and only use some of them.
 
-Here's a real-life example: [Tumblr](https://www.tumblr.com/search/kode+with+klossy) has an array of posts related to each term. When we first search a term, we'll see all the posts. If we select "Link" from the filter drop-down, we'll only see the two posts that are links.
+Here's a real-life example: <a target="blank" href="https://www.tumblr.com/search/kode+with+klossy">Tumblr</a> has an array of posts related to each term. When we first search a term, we'll see all the posts. If we select "Link" from the filter drop-down, we'll only see the <a target="blank" href="https://www.tumblr.com/search/kode+with+klossy/link">two posts that are links</a>.
 
 How did Tumblr do that? They iterated over the array of **all** posts, checked each one for a piece of criteria, and put those that met the criteria in a placeholder. After it finished iterating, it returned the placeholder and displayed them in the browser.
 
@@ -284,6 +284,6 @@ console.log(largeNumbers); // [23, 14, 11, 92]
 
 ## 🐣 More Practice
 
-At this point, you have the tools to do just about anything with an array! If you'd like more practice before moving on, check out the [Leveled Array Exercises](../js-array-exercises).
+At this point, you have the tools to do just about anything with an array! If you'd like more practice before moving on, check out the <a target="blank" href="../js-array-exercises">Leveled Array Exercises</a>.
 
 [Back to Lesson Index]({{ site.url }}/web-app/lessons)

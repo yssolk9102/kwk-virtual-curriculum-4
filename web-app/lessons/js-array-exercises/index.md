@@ -13,7 +13,7 @@ title: Array Exercises
 
 <div class="try-it">
   <h3>YELLING</h3>
-  <p>Iterate over an array of strings. For each string, print out the YELLING version of it. Look into <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase">how to convert a string to uppercase</a>!</p>
+  <p>Iterate over an array of strings. For each string, print out the YELLING version of it. Look into <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase">how to convert a string to uppercase</a>!</p>
 </div>
 
 ## Medium Practice
