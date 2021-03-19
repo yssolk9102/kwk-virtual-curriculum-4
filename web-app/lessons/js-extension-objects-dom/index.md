@@ -28,7 +28,7 @@ function appendScholar() {
 }
 ```
 
-The full project that the snippet above works with can be found in [this Repl](https://repl.it/@kodewithklossy/JS-Extension-Objects-and-DOM).
+The full project that the snippet above works with can be found in <a target="blank" href="https://repl.it/@kodewithklossy/JS-Extension-Objects-and-DOM">this Repl</a>.
 
 What's different about this is, instead of interpolating the `firstName`, `studying`, and `city` variables, we are first packaging them up in an object.
 - The object is stored in a variable called `scholarInfo`
