@@ -19,9 +19,9 @@ title: Forms
 
 ## 🌎 Warm Up
 
-Visit [the DisneyPlus login page](https://www.disneyplus.com/login). As a user, if you were to enter your email, then click "Continue," what would you expect to happen next?
+Visit <a target="blank" href="https://www.disneyplus.com/login">the DisneyPlus login page</a>. As a user, if you were to enter your email, then click "Continue," what would you expect to happen next?
 
-Visit [the Discord login page](https://discordapp.com/login). As a user, if you were to enter your email and password, then click "Login," what would you expect to happen next?
+Visit <a target="blank" href="https://discordapp.com/login">the Discord login page</a>. As a user, if you were to enter your email and password, then click "Login," what would you expect to happen next?
 
 <div class="try-it">
   <h2>🗂 Brainstorm</h2>
@@ -101,7 +101,7 @@ Most often, we ask users for text. If they are registering for an event like Kod
 
 <div class="try-it">
   <h2>Try It: HTML Forms</h2>
-  <p>What kind of questions would you want to ask a user? Remix <a target="blank" href="https://glitch.com/~try-it-html-forms">this Glitch project</a>. Write at least 4 input elements in the HTML. Use at least 2 different types of inputs. Then, write a button so that the user can submit the form.</p>
+  <p>What kind of questions would you want to ask a user? Fork <a target="blank" href="https://replit.com/@kodewithklossy/14-forms-try-it#index.html">this repl.it project</a>. Write at least 4 input elements in the HTML. Use at least 2 different types of inputs. Then, write a button so that the user can submit the form.</p>
   <p>In the app, try providing a value as a user - what does each type of input do, or show the user?</p>
   <p>Finished early? Check out other types of input you have available with HTML <a target="blank" href="https://www.w3schools.com/html/html_form_input_types.asp">here</a>. Also, check out the <code class="try-it-code">textarea</code> element.</p>
 </div>
@@ -151,19 +151,11 @@ To make this happen, we will have to write code that:
 - Gets the information that the user typed in
 - Use that information in a message/response
 
-Check out the Glitch project below to see what that looks like in JavaScript:
-
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/example-forms-with-js?path=index.html&previewSize=100&attributionHidden=true"
-    title="example-forms-with-js on Glitch"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div><br>
+Open up <a target="blank" href="https://replit.com/@kodewithklossy/14-forms-user-input#index.html">this repl.it project</a> to see what that looks like in JavaScript.
 
 <div class="try-it">
   <h2>🐣 Explore</h2>
-  <p>While referencing the Glitch project above, do your best to answer each question with your breakout group.</p>
+  <p>While referencing the repl.it project above, do your best to answer each question with your breakout group.</p>
   <ul>
     <li>What is the name of the event handler?</li>
     <li>Based on the name of the event handler, what do you think its job is to do?</li>
@@ -198,14 +190,14 @@ The `event` variable we are passing around represents the click event. This is a
 
 <div class="try-it">
   <h2>Try It: Refactor into a Form</h2>
-  <p>Go back to the Glitch project where we asked your user for four different inputs. Refactor it so that the inputs are wrapped in a form. Make sure it has the same functionality it did before your refactor!</p>
+  <p>Go back to the repl.it project where we asked your user for four different inputs. Refactor it so that the inputs are wrapped in a form. Make sure it has the same functionality it did before your refactor!</p>
 </div>
 
 Take some time to put together everything we've learned today and complete the practice below.
 
 <div class="practice">
   <h2>Practice: Forms</h2>
-  <p>Create a new Glitch project. Don't forget to add the script tag for jQuery! You can copy and paste that line from a previous project.</p>
+  <p>Create a new repl.it project. Don't forget to add the script tag for jQuery! You can copy and paste that line from a previous project.</p>
 
   <div class="challenge-container mild-heat">
     <p class="spicy-click">Click here for a Mild Challenge 🌶</p>
