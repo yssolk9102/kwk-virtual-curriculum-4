@@ -59,7 +59,7 @@ As you can see above, we have an empty `section` element in the HTML document. I
 
 <div class="try-it">
   <h2>🐣 Check It Out: Basic Append</h2>
-  <p>Remix <a href="https://glitch.com/~explore-basic-append">this Glitch project</a>.</p>
+  <p>Fork <a target="blank" href="https://replit.com/@kodewithklossy/15-intermediateDOM-try-it-basic-append#script.js">this repl.it project</a>.</p>
   <p>First, answer the following questions with your partner:</p>
   <ul>
     <li>If you compare the HTML to what you see in the browser, you'll notice that "Make coffee" and the other 2 to-dos are not in the HTML. What code got them to appear in the browser?</li>
@@ -89,22 +89,11 @@ This is great, but the append is happening right away, so it's not really helpin
   <p>Write out a list (pseudo-code) of things we want to the computer to do to make a working to-do list, in order. Include in the order: when the user would interact?</p>
 </div>
 
-We can't just append directly in our JavaScript file, or as we saw, that HTML will be added immediately. We want to respond to our user with an event listener and handler. Here's a more realistic example, with a little more going on.
-
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/example-append?path=script.js&previewSize=0&attributionHidden=true"
-    title="example-append on Glitch"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
-<br>
-
-Read through each line of the JavaScript; make sure to reference the HTML, so you know which DOM element we are accessing.
+We can't just append directly in our JavaScript file, or as we saw, that HTML will be added immediately. We want to respond to our user with an event listener and handler. <a target="blank" href="https://replit.com/@kodewithklossy/15-when-to-append#script.js">Here's a more realistic example</a>, with a little more going on. Read through each line of the JavaScript; make sure to reference the HTML, so you know which DOM element we are accessing.
 
 <div class="try-it">
   <h2>🐣 Discuss: Append</h2>
-  <p>While referencing the Glitch project above, answer these questions with your breakout group:</p>
+  <p>While referencing the repl.it project above, answer these questions with your breakout group:</p>
   <ul>
     <li>What are the two steps that are taken inside the event listener?</li>
     <li>When a name is submitted, the card that it is displayed on has a white background. Where in the code was this style applied? How did the HTML element know about that style?</li>
@@ -139,7 +128,7 @@ The code above would append a `div` that contains two `p`s to the `cardContainer
 
 <div class="try-it">
   <h2>Try It: Append</h2>
-  <p>Remix <a target="blank" href="https://glitch.com/~try-it-append">this Glitch project</a>.</p>
+  <p>Fork <a target="blank" href="https://replit.com/@kodewithklossy/15-intermediateDOM-try-it-append-and-delete-a-to-do#index.html">this repl.it project</a>.</p>
   <p>First, change the blank spaces on lines 12, 13, and 16 to tailor the form to whatever kind of list you want your user to make.</p>
   <p>Then, write JavaScript so that the user can write a list. A couple of commented out notes were provided to get you started!</p>
 
@@ -228,7 +217,7 @@ You've learned a **lot** and have already come so far. Put all your skills toget
 <div class="practice">
   <h2>Practice: Build a To-Do List</h2>
   <p>Brainstorm a small app idea that would require the user to type in at least one input. The user should see their inputted information in the browser and should be able to enter more information and also see that listed. The user should also be able to delete items previously added to the list.</p>
-  <p><em>If you are starting a Glitch project from scratch, don't forget the script tag for jQuery!</em></p>
+  <p><em>If you are starting a repl.it project from scratch, don't forget the script tag for jQuery!</em></p>
 
   <div class="challenge-container spicy-heat">
     <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
