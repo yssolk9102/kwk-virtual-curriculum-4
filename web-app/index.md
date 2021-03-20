@@ -2,7 +2,7 @@
 title: Virtual WebDev Curriculum
 ---
 
-Start here to access all resources for the 2020 Virtual WebDev Camp!
+Start here to access all resources for the 2021 Virtual WebDev Camp!
 
 - [Calendar]({{ site.url }}/web-app/calendar)
 - [Lessons]({{ site.url }}/web-app/lessons)
