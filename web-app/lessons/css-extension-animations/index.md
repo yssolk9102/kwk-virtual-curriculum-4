@@ -16,22 +16,14 @@ title: CSS Animations
 - Keyframes
 - Transformation
 
-<div class="try-it">
-  <h2>New Tech: CodePen</h2>
-  <p>Throughout this lesson, instead of Repl, you'll see a new browser-based code editor called <a href="https://codepen.io/">CodePen!</a></p>
-  <p>CodePen works a lot like Repl. It was designed specifically for front-end development. Unlike Repl, which can run lots of different languages, CodePen just does HTML, CSS, and JavaScript (along with the libraries that work with those languages).</p>
-  <p>Because you're familiar with Repl, learning to use CodePen will be fun! You don't have to create an account, but if you want to save your work, you'll need to log in.</p>
-  <p>Try opening up a new CodePen and playing around with it! See if you can duplicate one of your Repls in CodePen!</p>
-</div>
-
 ## Overview
 
 CSS has some "behavior tricks" up its sleeve. Through CSS transitions, transformations, and animations you can create quite a bit of movement on your page without any real JavaScript. Check out some of these stunning examples:
 
-- [Type Terms](https://www.supremo.co.uk/typeterms/)
-- [Code Pen: Page Flip](https://codepen.io/_fbrz/pen/whxbF?editors=1100#0)
-- [Movie Posters](http://demo.marcofolio.net/3d_animation_css3/)
-- [Coke Can](http://www.romancortes.com/ficheros/css-coke.html)
+- <a target="blank" href="https://www.supremo.co.uk/typeterms/">Type Terms</a>
+- <a target="blank" href="https://codepen.io/_fbrz/pen/whxbF?editors=1100#0">Code Pen: Page Flip</a>
+- <a target="blank" href="http://demo.marcofolio.net/3d_animation_css3/">Movie Posters</a>
+- <a target="blank" href="http://www.romancortes.com/ficheros/css-coke.html">Coke Can</a>
 
 ## Transformations
 
@@ -45,28 +37,31 @@ Each of the examples above provides specific values (40px, 100px, 4, and 180deg)
 
 <div class="try-it">
   <h2>Try It: Transformations</h2>
-  <p>Open up the CodePen below, fork it, and play around with these examples. We already have <code class="try-it-code">transform: rotate(90deg);</code> in there right now; what is that property doing?</p>
+  <p>Open up the <a target="blank" href="https://replit.com/@kodewithklossy/css-animations-try-it-transform#style.css">repl.it project</a> demonstrated below, fork it, and play around with these examples. We already have <code class="try-it-code">transform: rotate(90deg);</code> in there right now; what is that property doing?</p>
 </div>
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="wbKbwo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Try It: Transformations">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/wbKbwo/">
-  Try It: Transformations</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<div style="height: 300px;">
+  <img src='https://static.boredpanda.com/blog/wp-content/uploads/2016/02/cute-hedgehogs-44__700.jpg' style="height: 300px; transform: rotate(90deg);">
+</div>
 <br>
+
 
 ## Animations
 
-`animation` is a CSS property that can be used to animate other CSS properties like color, background-color, height, width, and more! The value of the `animation` consists of 3 things: the name, duration, and timing. More can be added, but those 3 are the main things you will use and see. Look at the example below and try to make sense of how the CSS is making the change of colors happen.
+`animation` is a CSS property that can be used to animate other CSS properties like color, background-color, height, width, and more! The value of the `animation` consists of 3 things: the name, duration, and timing. More can be added, but those 3 are the main things you will use and see.
 
-<p class="codepen" data-height="300" data-theme-id="36709" data-default-tab="css,result" data-user="turing-kwk" data-slug-hash="PvPgGr" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Check It Out: Animations">
-  <span>See the Pen <a href="https://codepen.io/turing-kwk/pen/PvPgGr/">
-  Check It Out: Animations</a> by Turing KWK (<a href="https://codepen.io/turing-kwk">@turing-kwk</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<div class="try-it">
+  <h2>Try It: Transformations</h2>
+  <p>Open up the <a target="blank" href="https://replit.com/@kodewithklossy/css-animations-change-me#style.css">repl.it project</a> demonstrated below, fork it, and play around with this animation, as you read through the animation walkthrough below</p>
+</div>
+
+<div class="animation-change-me">
+
+</div>
 <br>
+
+
 
 ### Animation Values
 
@@ -100,18 +95,13 @@ Let's break down what's happening with that 3-part value for the `animation` pro
 
 In between the 0% and 50%, and 50% and 100% directions, CSS is smart enough to make that change between those two rules very gradually so it's a smooth transition!
 
-<div class="try-it">
-  <h2>Try It: Animations</h2>
-  <p>Either in the CodePen you forked from the first Try It or a new one, write an animation for something that's <em>not</em> changing the background-color! Also, try using percentages other than 0%/50%/100% - play around with different ones and see how it impacts the animation. Have some fun!</p>
-</div>
-
 ## Building a CSS Ghost
 
 For the rest of this lesson, we will work through building a little bouncing ghost with CSS animations! Eventually, he/she/they will look like this:
 
 <img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-shadow.gif" alt="finished ghost">
 
-But we've got to start simple. First, let's create a container `div` that we can use to contain all of our ghost parts (body, eyeballs, flaps, etc.). We'll give this container a width of 100px in CSS.
+Create a new repl.it prject and then we'll start simple. First, let's create a container `div` that we can use to contain all of our ghost parts (body, eyeballs, flaps, etc.). We'll give this container a width of 100px in CSS.
 
 ```html
 <div class="ghost-container">
@@ -137,7 +127,7 @@ Let's use a `border-radius` to create the head of the ghost.
 
 #### Ghost with Basic Flaps
 
-Next, we'll add three more `div`s to create flaps. Give these flaps the class of "flap". We'll use CSS to get these divs to line up next to each other. NOTE: This part may take some tinkering, [like this](https://giphy.com/gifs/13XW2MJE0XCoM0).
+Next, we'll add three more `div`s to create flaps. Give these flaps the class of "flap". We'll use CSS to get these divs to line up next to each other. NOTE: This part may take some tinkering, <a target="blank" href="http://gph.is/1c4Sfem">like this</a>.
 
 <img class="small" src="{{ site.url }}/web-app/lessons/css-extension-animations/assets/ghost-step-three.png" alt="basic flaps ghost">
 
@@ -174,9 +164,9 @@ Earlier, we talked about some of the transformations at our disposal. You can al
 
 Keyframes allow us to define a specific set of styles over the course of a time period. For example, if you said you wanted an animation to last 10 seconds, you could then define what you want the element to do at specific percents through the time period.
 
-There are two parts to this process: First, you must define the keyframes. [Mozilla Keyframes Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
+There are two parts to this process: First, you must define the keyframes. <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes">Mozilla Keyframes Docs</a>
 
-Then, you need to define the animation property for a specific element. [Mozilla Animation Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+Then, you need to define the animation property for a specific element. <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations">Mozilla Animation Docs</a>
 
 This is what they look like when used in conjunction:
 

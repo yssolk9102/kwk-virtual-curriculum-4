@@ -31,3 +31,22 @@ pre {
 .codepen-embed-body {
   margin-bottom: 40px;
 }
+
+.animation-change-me {
+  height: 300px;
+  animation: change 5s infinite;
+}
+
+@keyframes change {
+  0% {
+    background-color: #331C82;
+  }
+
+  50% {
+    background-color: #1C8266;
+  }
+
+  100% {
+    background-color: #331C82;
+  }
+}
