@@ -14,7 +14,7 @@ If you'd like direct links to resources for each day of training, click the appr
   <h3 class="solo-day-label solo-day-click">April 3 - Kick Off</h3>
   <div class="solo-day-toggle">
     <ol>
-      <li><a target="blank" href="https://turingschool.zoom.us/j/99117115295">Zoom Link</a></li>
+      <li><a target="blank" href="https://zoom.us/j/91082517657?pwd=SGNBYTc5MWU2bEkvRTlOd29NWXowQT09">Zoom Link</a></li>
       <li><a target="blank" href="https://docs.google.com/presentation/d/1jG9u5e_XNQv9UxSENMnYsK8AB1P7MTM9LijHLJ2isNo/edit">Slides</a></li>
       <li><a target="blank" href="https://open.spotify.com/playlist/3ldsP7rk4wGWxclnXQpkNi?si=5oqyzLVHSX61qtvA9jTq0w">Playlist</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/18HQvrLLE_yubmrOO1RwKaXoapSFWcAV8pU9VqblQwec/edit">Prework Overview</a></li>
@@ -42,7 +42,7 @@ If you'd like direct links to resources for each day of training, click the appr
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">May 8 - Pitches, Projects, People</h3>
+  <h3 class="solo-day-label solo-day-click">May 16 - Pitches, Projects, People</h3>
   <div class="solo-day-toggle">
     <ol>
       <li><a target="blank" href="">Zoom Link - TBD</a></li>
@@ -62,12 +62,12 @@ If you'd like direct links to resources for each day of training, click the appr
 WebDev Links to prework:
 - [New Instructor](https://docs.google.com/document/d/1syrfx0OBDT8AP9zC0gxdf_nVtjaSu_rBB90zqTyL9ds/edit)
 - [Returning Instructor](https://docs.google.com/document/d/1K672v2XzlkQSCAAv8P_gkcczUojH2S_cnI1jBSHk2Dk/edit)
-- [INstructor Assistant](https://docs.google.com/document/d/1uuabq-NS1qlL0VBSFMwnTIlxnzwBTwOrjxqBa43Ge4Y/edit)
+- [Instructor Assistant](https://docs.google.com/document/d/1uuabq-NS1qlL0VBSFMwnTIlxnzwBTwOrjxqBa43Ge4Y/edit)
 
 Mobile Links to prework:
 - [New Instructor](https://docs.google.com/document/d/19c-wtMieGgo96ztAdD6XdeBxCEzyk3wltng5Z_DnLAg/edit)
 - [Returning Instructor](https://docs.google.com/document/d/1CR8WQpqUUPoplnbjAN5xznCd8az5om5CtK3rvvoOOuk/edit)
-- [INstructor Assistant](https://docs.google.com/document/d/1v_AJJOg4o7KfuqaBAGtnr8iiSeDexNFCzD0IOxD8W2A/edit)
+- [Instructor Assistant](https://docs.google.com/document/d/1v_AJJOg4o7KfuqaBAGtnr8iiSeDexNFCzD0IOxD8W2A/edit)
 
 ## DTR Templates
 
