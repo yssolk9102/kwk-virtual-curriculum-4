@@ -15,7 +15,7 @@ If you'd like direct links to resources for each day of training, click the appr
   <div class="solo-day-toggle">
     <ol>
       <li><a target="blank" href="https://zoom.us/j/91082517657?pwd=SGNBYTc5MWU2bEkvRTlOd29NWXowQT09">Zoom Link</a></li>
-      <li><a target="blank" href="https://docs.google.com/presentation/d/1jG9u5e_XNQv9UxSENMnYsK8AB1P7MTM9LijHLJ2isNo/edit">Slides</a></li>
+      <li><a target="blank" href="https://drive.google.com/drive/u/0/folders/1ni73f0cTCqdBpVxiDuuNi2QVEWLYxzch">Slides</a></li>
       <li><a target="blank" href="https://open.spotify.com/playlist/3ldsP7rk4wGWxclnXQpkNi?si=5oqyzLVHSX61qtvA9jTq0w">Playlist</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/18HQvrLLE_yubmrOO1RwKaXoapSFWcAV8pU9VqblQwec/edit">Prework Overview</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/10rYrrFGHKk4qrnXN90u8usjmsySU0TyjLjsSJP6cllE/edit">Senior Instructor Overview</a></li>
@@ -29,7 +29,7 @@ If you'd like direct links to resources for each day of training, click the appr
   <div class="solo-day-toggle">
     <ol>
       <li><a target="blank" href="">Zoom Link - TBD</a></li>
-      <li><a target="blank" href="https://docs.google.com/presentation/d/1G6c76nDsj2neXwZNxIGQDUAtUYt3AlXFxBmwljPU_wY/edit#slide=id.g77f6f28101_1_56">Slides</a></li>
+      <li><a target="blank" href="">Slides</a></li>
       <li><a target="blank" href="https://www.mentimeter.com/app ">Welcome Poll</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1j-sH59ItrOWonoefxWv-N5Qmli4q1hQ4k5iZVlm_244/edit">Camp Norms</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/1O3v5POIjI_bKQjscvIX6vS7IotFGE2ORbV0yNBXVsUA/edit">Brain Break Encyclopedia</a></li>
