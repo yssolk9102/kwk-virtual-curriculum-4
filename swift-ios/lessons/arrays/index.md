@@ -167,24 +167,24 @@ print(trending)
 A common way to add something to an already existing array is to use the `.append()` method - which will add an element to the _end_ of the array.
 
 ```swift
-var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"]
-trending.append("@jamescharles")
+var trending = ["@thecardguy", "@cosette", "@avani"]
+trending.append("@lorengray")
 
 print(trending)
-//-> ["@thecardguy", "@cosette", "@avani", "@lorengray", "@jamescharles"]
+//-> ["@thecardguy", "@cosette", "@avani", "@lorengray"]
 ```
 
-In the code snippet above, `.append()` is called on the `trending` array. We give `.append()` an argument of the new element we want to be added to the array. In this case, it was the string of `@jamescharles`.
+In the code snippet above, `.append()` is called on the `trending` array. We give `.append()` an argument of the new element we want to be added to the array. In this case, it was the string of `@lorengray`.
 
 ### Removing Information
 
 A common way of removing elements is to use the remove(at:) method - which will remove an element at whatever index you type in after the `at:`.
 
 ```swift
-var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray", "@jamescharles"]
+var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"]
 trending.remove(at: 0)
 
-//-> ["@cosette", "@avani", "@lorengray", "@jamescharles"]
+//-> ["@cosette", "@avani", "@lorengray"]
 ```
 `.remove()` was called on the `trending` array, and we passed `0` as an argument, indicating that the element in the 0 index position should be removed.
 <br>

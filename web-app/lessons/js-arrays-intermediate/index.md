@@ -159,7 +159,7 @@ In our Intro to Arrays lesson, you learned about the array methods `.push()` and
 The benefit of iterators is they save us time. When we want to repeat the same thing for a lot of items, we only have to write that command once. For example, if we wanted to do something with each string in the `trending` array, our code would look like this:
 
 ```js
-var trending = ["@cosette", "@avani", "@lorengray", "@jamescharles"];
+var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"];
 
 console.log(`Have you seen that TikTok from ${trending[0]} yet?!`);
 console.log(`Have you seen that TikTok from ${trending[1]} yet?!`);
@@ -172,7 +172,7 @@ Right now, this doesn’t seem so bad. What if we had 100 creators on our list? 
 ### Syntax
 
 ```js
-var trending = ["@cosette", "@avani", "@lorengray", "@jamescharles"];
+var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"];
 
 trending.forEach(function(creator) {
   console.log(creator);

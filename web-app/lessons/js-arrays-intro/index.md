@@ -97,9 +97,9 @@ trending[2];
 We can also check how many elements are in an array with the `.length` property:
 
 ```js
-var trending = ["@thecardguy", "@spencerx", "@avani", "@lorengray"];
+var trending = ["@thecardguy", "@spencerx", "@avani"];
 trending.length;
-//=> 4
+//=> 3
  ```
 
 <div class="try-it">
@@ -126,27 +126,27 @@ console.log(trending);
 A common way to add something to an already existing array is to use the `push()` method, which will add an element to the end of the array.
 
 ```js
-var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"];
+var trending = ["@thecardguy", "@cosette", "@avani"];
 
-trending.push("@jamescharles");
+trending.push("@lorengray");
 
 console.log(trending);
-//=> ["@thecardguy", "@cosette", "@avani", "@lorengray", "@jamescharles"]
+//=> ["@thecardguy", "@cosette", "@avani", "@lorengray"]
 ```
 
-In the code snippet above, `.push()` is called on the `trending` array. We add to the array by giving `.push()` an argument of the new element we want to add. In this case, it was the string of `@jamescharles`.
+In the code snippet above, `.push()` is called on the `trending` array. We add to the array by giving `.push()` an argument of the new element we want to add. In this case, it was the string of `@lorengray`.
 
 ### Removing Elements
 
 There are a few ways we can remove elements from an array. Most often, we either want to remove the first or last element. To do this, we have the `pop()` and `shift()` methods. Check it out:
 
 ```js
-var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray", "@jamescharles"];
+var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"];
 
 trending.pop();
 
 console.log(trending);
-//=> ["@thecardguy", "@cosette", "@avani", "@lorengray"]
+//=> ["@thecardguy", "@cosette", "@avani"]
 ```
 
 `pop()` was called on the `trending` array, and it removed the **last** element from the array.

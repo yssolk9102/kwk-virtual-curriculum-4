@@ -159,7 +159,7 @@ A `for-in` loop is a block that will run code a specific number of times. It can
 The benefit of loops is they save us time. When we want to do to the same thing for a lot of items, we only have to write that command once. For example, if we wanted to do something with each string in the `trending` array, our code would look like this:
 
 ```swift
-var trending = ["@cosette", "@avani", "@lorengray", "@jamescharles"]
+var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"]
 
 print("Have you seen that TikTok from /(trending[0]) yet?!");
 print("Have you seen that TikTok from /(trending[1]) yet?!");
@@ -174,7 +174,7 @@ Right now, this doesn’t seem so bad. What if we had 100 creators on our list? 
 We can use `for-in` loops to do something with each individual element from an array. If we use our array of trending TikTok creators, we could write a `for-in` loop to do the same thing with each of the string elements.
 
 ```swift
-var trendingCreators = ["@cosette", "@avani", "@lorengray", "@jamescharles"]
+var trendingCreators = ["@thecardguy", "@cosette", "@avani", "@lorengray"]
 
 for creator in trendingCreators {
   print(creator)
@@ -195,16 +195,16 @@ for creator in trendingCreators {
 Let's try to understand what's going on here.
 
 ```swift
-var trendingCreators = ["@cosette", "@avani", "@lorengray", "@jamescharles"]
+var trendingCreators = ["@thecardguy", "@cosette", "@avani", "@lorengray"]
 
 for creator in trendingCreators {
   print(creator)
 }
 
+// => @thecardguy
 // => @cosette
 // => @avani
 // => @lorengray
-// => @jamescharles
 ```
 
 The word `creator` right after the keyword `for` refers to each element of our array, and the `trendingCreators` after the `in` keyword is the name of the array we are telling the computer to iterate over. We've told our loop to run the same number of times as there are elements in the array. So, since we currently have 4 elements in the array, it will run 4 times. If we added another creator to our array, the loop would run 5 times.
