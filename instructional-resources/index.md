@@ -15,7 +15,7 @@ If you'd like direct links to resources for each day of training, click the appr
   <div class="solo-day-toggle">
     <ol>
       <li><a target="blank" href="https://zoom.us/j/91082517657?pwd=SGNBYTc5MWU2bEkvRTlOd29NWXowQT09">Zoom Link</a></li>
-      <li><a target="blank" href="https://drive.google.com/drive/u/0/folders/1ni73f0cTCqdBpVxiDuuNi2QVEWLYxzch">Slides</a></li>
+      <li><a target="blank" href="https://drive.google.com/drive/u/0/folders/1Eu0mSvwnz-_licXrbwHtLwbeQtkMK4Ps">Slides</a></li>
       <li><a target="blank" href="https://open.spotify.com/playlist/3ldsP7rk4wGWxclnXQpkNi?si=5oqyzLVHSX61qtvA9jTq0w">Playlist</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/18HQvrLLE_yubmrOO1RwKaXoapSFWcAV8pU9VqblQwec/edit">Prework Overview</a></li>
       <li><a target="blank" href="https://docs.google.com/document/d/10rYrrFGHKk4qrnXN90u8usjmsySU0TyjLjsSJP6cllE/edit">Senior Instructor Overview</a></li>
