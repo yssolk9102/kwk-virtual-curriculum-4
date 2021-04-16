@@ -107,14 +107,10 @@ func walkDog(numberOfDogs : Int) {
 }
 
 walkDog(numberOfDogs : 2)
-//=> Put on 2 leashes
-//=> Put 2 treats in pocket
-//=> Put 2 poop bags in pocket
+//=> There are 2 dogs in the house 
 
 walkDog(numberOfDogs : 7)
-//=> Put on 7 leashes
-//=> Put 7 treats in pocket
-//=> Put 7 poop bags in pocket
+//=> There are 7 dogs in the house 
 ```
 
 To allow our functions to be more _dynamic_ or work in more situations, we can write the declaration with **parameters**. The parameter(s) live inside the parenthesis right after the function name. If there are more than one, they should be separated by a comma and a space.
