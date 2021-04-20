@@ -66,6 +66,8 @@ Notice the `==`. This checks if two pieces of data are equal to each other. The 
 //=> true
 ```
 
+The `not equal` operator - `!=` - checks that two values are not equal. It is the opposite of our `==` operator - the first `=` is replaced with an `!`.
+
 ```swift
 11 % 2
 //=> 1
@@ -79,8 +81,6 @@ Notice the `==`. This checks if two pieces of data are equal to each other. The 
 15 % 3
 //=> 0
 ```
-
-The `not equal` operator - `!=` - checks that two values are not equal. It is the opposite of our `==` operator - the first `=` is replaced with an `!`.
 
 The `modulo` operator - `%` - finds the remainder of two numbers. It is a helpful tool to determine if numbers are even or odd. Learn more <a target="blank" href="https://www.codevscolor.com/swift-odd-even-check/">here</a>!
 
