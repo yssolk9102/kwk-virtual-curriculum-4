@@ -26,7 +26,7 @@ Actions and Outlets are the way that our program lets the design files communica
 
 Before we get started, we need a `Label`, `Text Field`, and `Button` from the Object Library. The focus of this is not design, so don't worry about applying constraints. The goal of this app is that when the user types something in the text field and clicks the button, the text they typed becomes the title in the label!
 
-Before you can start creating connections, your work space needs to be set up correctly. Click on the small icon in the top right corner of the Editor pane that include a plus sign to open the Assistant Editor, picutred below:
+Before you can start creating connections, your work space needs to be set up correctly. Click on the small icon in the top right corner of the Editor pane that include a plus sign to open the Assistant Editor, pictured below:
 
 <img class="medium" src="./assets/open-new-tab.png">
 
@@ -71,7 +71,7 @@ When we created the outlet, Xcode generated some swift code for us, which lives 
 
 > This code was generated when we established the connection, and we should **not** make any changes to it. If you need to edit the spelling or change the variable name, watch <a target="blank" href="{{ site.url }}/swift-ios/lessons/videos/change-actions-outlets">this video</a>.
 
-We created this first outlet so that we can control the text in this `AppTitle Label`. This means we can change it once we have whatever text the user typed in.
+We created this first outlet so that we can control the text in this `question` label. This means we can change it once we have whatever text the user typed in.
 
 ### Establishing Second Outlet
 
@@ -91,7 +91,7 @@ The main action a user will take is clicking submit. You may think that typing i
 
 ### Establishing an Action
 
-Press down the `control` button as you click the submit button, then drag your mouse to the code, below the already written functions. A blue arrow should show what you are doing. When the little box appears, make sure to select "ACTION" in the Connection drop down if it doesn't defaul to that. Then give it a name - this is a function so should follow naming conventions for functions. Under "Type" change "Any" to "UIButton".
+Press down the `control` button as you click the submit button, then drag your mouse to the code, below the already written functions. A blue arrow should show what you are doing. When the little box appears, make sure to select "ACTION" in the Connection drop down if it doesn't default to that. Then give it a name - this is a function so should follow naming conventions for functions. Under "Type" change "Any" to "UIButton."
 
 <img class="medium" src="./assets/action1.gif">
 
@@ -111,13 +111,13 @@ Now that we have a function which will run once the user clicks the button, we n
 ```swift
 @IBAction func submitButtonTapped(_ sender: UIButton) {
     if let newTitle = textField.text {
-        appTitle.text = newTitle
+        question.text = newTitle
     }
 }
 ```
 
 Let's break down what is happening here. First, we have to **unwrap** the `textField.text` to make sure it is not nil. We assign the `textField.text` value to a new constant called `newTitle`.
-If we make it into that code block (if textField.text is not nil), then the `appTitle.text` is assigned to the `newTitle`.
+If we make it into that code block (if textField.text is not nil), then the `question.text` is assigned to the `newTitle`.
 
 Get your code up-to-date with this, and run in simulator. It should be working! If it's not, ask a neighbor or instructor.
 
@@ -137,7 +137,7 @@ Whether you followed along in class or watched your instructor model, this is a 
   <div class="challenge-container spicy-heat">
     <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶🌶</p>
     <div class="spicy-toggle">        
-      <p>Use the Date Object from the Object Library so your user can select a time. Figure out how to format the string that is provided to write the time in a more readable format such as "8:30 am".</p>
+      <p>Use the Date Object from the Object Library so your user can select a time. Figure out how to format the string that is provided to write the time in a more readable format such as "8:30 am."</p>
     </div>
   </div>
 
