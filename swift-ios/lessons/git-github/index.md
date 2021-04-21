@@ -33,6 +33,7 @@ Next, click the small "+" button in the bottom-left corner of the Preferences bo
 <img class="small" src="./assets/gh2.png" alt="Screenshot illustrating directions above">
 
 Now, enter YOUR GitHub username in the first text input box that appears. Click the blue link and follow the instructions to create an access token. Once you create the access token, copy and paste it into the second text input box.
+  - _In step 7 of the instructions, make sure to select all the scopes as not doing so can cause errors on Xcode later on._
 
 <img class="small" src="./assets/gh3.png" alt="Screenshot illustrating directions above">
 
