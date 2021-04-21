@@ -28,7 +28,6 @@ We'll build the project step-by-step:
 
 * [I0: Build UI]({{ site.url }}/swift-ios/projects/emojional/i0)
 * [I1: Configuration & Alerts]({{ site.url }}/swift-ios/projects/emojional/i1)
-alert
 * [I2: Custom Alerts]({{ site.url }}/swift-ios/projects/emojional/i2)
 * [I3: Randomize Messages]({{ site.url }}/swift-ios/projects/emojional/i3)
 
