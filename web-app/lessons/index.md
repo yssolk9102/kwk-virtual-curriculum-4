@@ -36,7 +36,6 @@ title: Virtual WebDev Lessons
 ## Other
 
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
-- [Intro to Glitch]({{ site.url }}/web-app/lessons/glitch)
 - [Intro to repl.it]({{ site.url }}/web-app/lessons/repl)
 - [How to Demo]({{ site.url }}/web-app/lessons/how-to-demo)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
