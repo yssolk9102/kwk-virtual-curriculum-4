@@ -12,11 +12,11 @@ Each step listed below will pertain to one partner or the other. The emojis are 
 
 ### 💖 🔮 Step 0: Connect Xcode to GitHub
 
-Both partners must complete steps 1-2 of the [Git & GitHub walk-thru]() before continuing. It is likely that you've already done this!
+Both partners must complete steps 1-2 of the [Git & GitHub walk-thru]({{ site.url }}/swift-ios/lessons/git-github) before continuing. It is likely that you've already done this!
 
 ### 💖 Step 1: Create Project
 
-Partner A should follow steps 3-7 in the [Git & GitHub walk-thru](). For step 5, they don't need to build the entire project; just take the first step in building the project.
+Partner A should follow steps 3-7 in the [Git & GitHub walk-thru]({{ site.url }}/swift-ios/lessons/git-github). For step 5, they don't need to build the entire project; just take the first step in building the project.
 
 Send the URL of the GitHub repository to Partner B in Slack.
 

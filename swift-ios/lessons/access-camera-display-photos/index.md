@@ -35,7 +35,7 @@ To access a user's data - whether it be from the microphone, camera, health info
 
 <div class="try-it">
   <h2>🗂 Brainstorm</h2>
-  <p>What apps have you used that have asked for your permission to access your data? Why type of data did it want access to?</p>
+  <p>What apps have you used that have asked for your permission to access your data? What type of data did it want access to?</p>
   <p>Be ready to share out!</p>
 </div>
 
@@ -47,7 +47,7 @@ To tell the app that we want to ask for permission for the camera, we need to fi
 
 Click on the top row - `Information Property List`, click the small plus sign, and it will create a new row. Under Key, select `Privacy - Camera Usage ...`, then under Value, type in a short message explaining how the camera will be used.
 
-Once you set this up in your project, it is set up forever and you should never need to some back to this page (unless you have other permissions to tell the app about!)
+Once you set this up in your project, it is set up forever and you should never need to come back to this page (unless you have other permissions to tell the app about!).
 
 ## UIImagePickerController
 
@@ -64,7 +64,7 @@ Let's break the <a href="https://developer.apple.com/documentation/uikit/uiimage
 
 <img class="medium" src="./assets/apple_ui_intro.png">
 
-When we see this `view controller` - this tells us this a view controller, or the code behind a storyboard, in which Apple has already written all the code for. It's a 'freebie'!
+When we see `view controller` - it tells us that this is a view controller, or the code behind a storyboard, in which Apple has already written all the code for. It's a 'freebie'!
 `Manages the system interface` - interface is referring to anytime more than one program works together. We know that a program is just code, so this means that different pieces of code are coming together to make this view controller. `... for taking pictures, etc.` tells us what use this view controller has. The name `ImagePicker` should provide a hint, but reading the documentation carefully to make sure we are working with what we really want to work with is important.
 
 <img class="medium" src="./assets/apple_ui_overview.png">
@@ -75,10 +75,10 @@ Now we get a little more info: we get these code snippets that tell us what code
 
 We need to do a little set up. Our class needs to **inherit**, or take in the information that two apple classes have - `UIImagePickerControllerDelegate` and `UINavigationControllerDelegate`.
 
-We already know about `UIImagePickerController`. The `Delegate` added on tells the program, whenever I get information from the camera, this delegate class is the place I will send that information back to (information being the photo selected/taken). The `UINavigationControllerDelegate` is what allows us to navigate from our screen to the camera screen. Behind the scenes, it's a `seque`, just written with code rather than the segue's we've seen with the arrows on the storyboard.
+We already know about `UIImagePickerController`. The `Delegate` added on tells the program, whenever I get information from the camera, this delegate class is the place I will send that information back to (information being the photo selected/taken). The `UINavigationControllerDelegate` is what allows us to navigate from our screen to the camera screen. Behind the scenes, it's a `segue`, just written with code rather than the segues we've seen with the arrows on the storyboard.
 > Step 1. Inherit from `UIImagePickerControllerDelegate` and `UINavigationControllerDelegate` (line 10)
 
-Then, we need to create a property (variable) in this class. The value of it will store an object created from `UIImagePickerController`
+Then, we need to create a property (variable) in this class. The value of it will store an object created from `UIImagePickerController`.
 > Step 2. Create an object from `UIImagePickerController` class, stored in variable (line 12)
 
 Last, in the `viewDidLoad` function, which runs each time the view loads, we need to tell the `imagePicker`, or object from `UIImagePickerController` that it needs to send, or delegate, information back to this class (self).

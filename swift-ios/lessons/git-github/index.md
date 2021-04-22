@@ -90,7 +90,7 @@ Make sure that all files available are checked in the top left corner. Then, wri
 
 <img class="medium" src="./assets/gh10.png" alt="Screenshot illustrating directions above">
 
-After committing your changes, you can continue working, then commit again later. Or, you can move to Step 6 and send your code to GitHub.
+After committing your changes, you can continue working, then commit again later. Or, you can move to Step 7 and send your code to GitHub.
 
 ## Step 7: Push Repository to GitHub
 
