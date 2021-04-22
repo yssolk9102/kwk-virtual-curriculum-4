@@ -49,7 +49,7 @@ Now that we know this blog gives us the info we want and is on our level, we can
 
 <div class="try-it">
   <h2>🌎 Class Discussion: Second Read Debrief</h2>
-  <p>From your first read through the blog:</p>
+  <p>From your second read through the blog:</p>
   <ul>
     <li>What challenges came up in completing this?</li>
     <li>Did reading it one time through first seem to help? Why or why not?</li>
