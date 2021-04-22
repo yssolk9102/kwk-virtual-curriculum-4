@@ -174,7 +174,6 @@ Click on a day below to see the details about what you'll be learning and buildi
     <h4>Night Hacks</h4>
     <ul>
       <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/solo/">Watch: Forms</a></li>
-      <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/el/">Continue to work on the Estēe Lauder Challenge</a></li>
     </ul>
     </div>
   </div>
