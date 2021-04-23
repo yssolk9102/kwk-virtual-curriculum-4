@@ -4,18 +4,15 @@ title: Intro to Repl
 
 ## What is Repl.it?
 
-
-## Repl.it Files
-
-Repl.it is an online platform where we can write and run our JavaScript code quickly. It's a great place to learn fundamentals and use as a playground! Watch [this video](https://screencast-o-matic.com/watch/cYfIo7aLBQ), or read each section below to learn a little about how we will use repl.it at camp this summer. _Note: since the video was made, Repl made a small change to the "share/invite" button._
+Repl.it is an online platform where we can write and run our JavaScript code quickly. It's a great place to learn fundamentals and use as a playground! Watch <a href='https://vimeo.com/540389232' target='_blank'>this video</a>, or read each section below to learn a little about how we will use <a href="https://replit.com/~" target="_blank">repl.it</a> at camp this summer.
 
 ## Creating a New File
 
-To create a new repl file, click the blue "+ new repl" button in the top right corner.
+To create a new repl file, click the blue "+" button in the top right corner.
 
 <img class="medium" src="./assets/new.png" alt="">
 
-Then, select JavaScript as your language. Name your file, then click "Create Repl".
+Then, select `HTMS, CSS, JS` as your language. Name your file, then click "Create Repl".
 
 <img class="medium" src="./assets/create.png" alt="">
 
@@ -31,7 +28,7 @@ For some practice exercises, your instructors will give you a starter file. It w
 
 ## Adding Libraries (like jQuery)
 
-In the left-hand side, you'll see a list of icons. 
+In the left-hand side, you'll see a list of icons.
 
 1. Click the one that looks like a cube (the tooltip when you hover will say "Packages")
 1. In the search bar that opens, type "jquery"
