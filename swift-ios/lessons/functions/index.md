@@ -183,7 +183,7 @@ print("You should walk a total of \(minutes) minutes.")
 
 Important things to know about returning a value:
 - We must indicate that we want to return a value in two different places in the function declaration:
-  1. After the parenthesis where we declare any parameters, we must include `-> [DATA TYPE TO BE RETURNED]`
+  1. After the parenthesis where we declare any parameters, we must include `-> *DATA TYPE TO BE RETURNED*`
   2. The last line of the function must use the `return` keyword, and the data we want to return should follow it
 - Each function can only return **one** value
 - Once the program reads the `return` keyword and the rest of the code on that line, it will exit that function. So, any code written on a line after the `return` statement will never be executed.
