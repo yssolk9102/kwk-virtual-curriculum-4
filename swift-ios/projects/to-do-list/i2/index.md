@@ -1,4 +1,6 @@
-# Iteration 2: Add & Delete with Core Data
+---
+title: Iteration 2: Add & Delete with Core Data
+---
 
 ## 🎯 Learning Goals
 
@@ -187,4 +189,4 @@ And now we have a fully functional ToDo List application! Great Job!!!
 
 ### Commit Your Work
 
-From the top nav, select "Source Control", then "Commit". Follow the steps outlined in the GitHub lesson to commit your work! Your commit message should be something like “Complete Iteration 2”.
+From the top nav, select "Source Control," then "Commit." Follow the steps outlined in the GitHub lesson to commit your work! Your commit message should be something like “Complete Iteration 2.”

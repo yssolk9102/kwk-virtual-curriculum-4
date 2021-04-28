@@ -64,7 +64,7 @@ There are three groupings that colors fall into: warm, cool, and neutral. The co
 
 ### Contrast
 
-Contrast is the difference between two colors. You usually want a high contrast might be alarming or unsettling. Black and white create the highest contrast possible. Usually, when you think you see black/white combinations on pages, it's a very light grey and/or very dark grey.
+Contrast is the difference between two colors. A high contrast might be alarming or unsettling; black and white create the highest contrast possible. Usually, when you think you see black/white combinations on pages, it's a very light grey and/or very dark grey.
 
 It's important to provide a contrast for your page to be pleasant, but it's essential that you do so for users who may be colorblind or have limited vision. This is an <a href="https://colorable.jxnblk.com/b25e06/213338">awesome tool</a> that allows you to enter two color and get an analysis on if the contrast is acceptable.
 

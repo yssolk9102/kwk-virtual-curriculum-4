@@ -36,9 +36,9 @@ There are a lot of steps involved in setting up tables, and not one can be misse
 
 ## Project Setup
 
-Create a new `App` project in Xcode. Name it "TablePractice".
+Create a new `App` project in Xcode. Name it "TablePractice."
 
-Right-click the `ViewController.swift` that was generated when you created the project, then select "Delete" to delete this file. If you receive a prompt, select "Move To Trash".
+Right-click the `ViewController.swift` that was generated when you created the project, then select "Delete" to delete this file. If you receive a prompt, select "Move To Trash."
 
 <img class="extra-small" src="./assets/tables1.png">
 
@@ -54,7 +54,7 @@ We want this to be the entry point for the app, but we don't have the arrow on t
 
 <img class="medium" src="./assets/tables3.png">
 
-While the `Table View` is selected in the Document Outline, go to the Utilities Pane. From the Table View - Content drop-down, select "Static Cells".
+While the `Table View` is selected in the Document Outline, go to the Utilities Pane. From the Table View - Content drop-down, select "Static Cells."
 
 <img class="medium" src="./assets/tables4.png">
 
@@ -87,7 +87,7 @@ We will start by creating a new ViewController file in the project, which we wil
 
 <img class="small" src="./assets/tables8.png">
 
-Select "Cocoa Touch File", then click "Next":
+Select "Cocoa Touch File," then click "Next":
 
 <img class="small" src="./assets/tables9.png">
 
@@ -97,13 +97,13 @@ Make sure to select `UITableViewController` in the Subclass dropdown, and type a
 
 You'll see new file be generated with a lot of code and comments already in it - almost 100 lines! Let's leave that be for now; we will utilize some of it later.
 
-Now, we need to tell Xcode that we want this new file to be connected to the StoryBoard. Open the StoryBoard, select it in the Document Outline, then in the Utilies Pane, navigate to the Identity Inspector. In the drop-down for "Class", select the file you just created.
+Now, we need to tell Xcode that we want this new file to be connected to the StoryBoard. Open the StoryBoard, select it in the Document Outline, then in the Utilies Pane, navigate to the Identity Inspector. In the drop-down for "Class," select the file you just created.
 
 <img class="medium" src="./assets/tables11.png">
 
 ### Halfway There - Take a Pom 🎉
 
-Now, instead of making "Static Cells", static meaning not-changing, we want to make dynamic cells so that the data can vary based on the array we use to fill the table. While the `Table View` is selected in the Document Outline, change the "Content Type" to "Dynamic Prototypes" and the "Style" to "Plain".
+Now, instead of making "Static Cells," static meaning not-changing, we want to make dynamic cells so that the data can vary based on the array we use to fill the table. While the `Table View` is selected in the Document Outline, change the "Content Type" to "Dynamic Prototypes" and the "Style" to "Plain."
 
 <img class="medium" src="./assets/tables12.png">
 
@@ -136,14 +136,14 @@ override func tableView(_ tableView: UITableView, numberOfRowsInSection section:
 ```
 
 Next, uncomment the `func tableView` that has an argument `cellForRowAt indexPath`. We need to do two things in this function:
-1. Replace "reuseIdentifier" with "LabelCell".
+1. Replace "reuseIdentifier" with "LabelCell."
 2. Where a comment currently lives that says `// Configure the cell...`, add:
 
 ```swift
 cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
 ```
 
-This is change the text of the label in each cell to say "Section 1 Row 3" (if the cell were in section 1, row 3).
+This is to change the text of the label in each cell to say "Section 1 Row 3" (if the cell were in section 1, row 3).
 
 The next step involves using abuilt-in function that is not already written. Make sure your cursor is still since the class, but outside any other function. Now, we need to start typing `tableTitleHeader`, then Xcode will autocomplete the appropriate `tableView` function for us. It will look like this: 
 
@@ -159,7 +159,7 @@ Run the simulator - you should see a table with three sections, labeled Section 
 
 <img class="extra-small" src="./assets/tables14.png">
 
-**Pro-Tip:** Did the "build success" but you now see a SIGABRT error in Xcode? Make sure you followed step 1, replacing "reuseIdentifier" with "LabelCell".
+**Pro-Tip:** Did the "build success" but you now see a SIGABRT error in Xcode? Make sure you followed step 1, replacing "reuseIdentifier" with "LabelCell."
 
 Let's clean up our code a little bit: go back into Xcode and delete all the comments that are remaining in the `___TableViewController` file. Re-run in the simulator to make sure you didn't accidentally delete something you didn't want to!
 
@@ -235,7 +235,7 @@ cell.textLabel?.text = allCacti[indexPath.row].title
 
 Let's run the project and see what we've got.
 
-The header of the section still says "Section 0". To change this, change the return value `tableView` function that handles `titleForHeaderInSection`.
+The header of the section still says "Section 0." To change this, change the return value `tableView` function that handles `titleForHeaderInSection`.
 
 ## Style Table Cells
 
@@ -267,7 +267,7 @@ If we run this in the simulator, we won't see the pictures, not yet. We've loade
 cell.imageView?.image = UIImage(named: allCacti[indexPath.row].image)
 ```
 
->This line of code probably won't work as expected, yet. It is expecting image files names of "prickly-pear", "hedgehog" and "rebutia" because those are listed as the images in the `allCacti` array. If you want images to show up, you'll need to save iamges with those file names to this project!
+>This line of code probably won't work as expected, yet. It is expecting image files names of "prickly-pear," "hedgehog" and "rebutia" because those are listed as the images in the `allCacti` array. If you want images to show up, you'll need to save images with those file names to this project!
 
 A little more is going on with this line. Because the file name was stored as a string but we need to access an image, we wrapped the file name in `UIImage()` to convert it to an image.
 

@@ -42,7 +42,7 @@ Everything looks great on my iPhone 8 screen, but in the simulator... not so muc
 Because there are many ways to apply constraints and combinations of them for working solutions, there are links to several other resources you may find helpful. Watch them, try to implement on your own, and you'll begin to develop your preferred approach!
 - [This video from CodeWithChris](https://www.youtube.com/watch?v=emojd8GFB0o) goes into a lot of detail and walks you through how to build a professional looking UI.
 - [This video](https://www.youtube.com/watch?v=OtHd0vCbiKQ) walks through using constraints to set a background color and launch screen.
-- If you prefer to read documentations, [the official Apple documentation](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html#//apple_ref/doc/uid/TP40010853-CH7-SW1) provides an in-depth explanation of how constraints work, and cookbook, and tips on debugging layout!
+- If you prefer to read documentations, [the official Apple documentation](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html#//apple_ref/doc/uid/TP40010853-CH7-SW1) provides an in-depth explanation of how constraints work, auto layout cookbook, and tips on debugging layout!
 
 <div class="try-it">
   <h2>Try It: Constraints</h2>

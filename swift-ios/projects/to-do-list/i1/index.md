@@ -1,4 +1,6 @@
-# Iteration 1: Dynamic To-Dos
+---
+title: Iteration 1: Dynamic To-Dos
+---
 
 ## 🎯 Learning Goals
 
@@ -217,6 +219,6 @@ The only piece of functionality that we are missing is being able to remove a To
 
 ### Commit Your Work
 
-From the top nav, select "Source Control", then "Commit". Follow the steps outlined in the GitHub lesson to commit your work! Your commit message should be something like “Complete Iteration 1”.
+From the top nav, select "Source Control," then "Commit." Follow the steps outlined in the GitHub lesson to commit your work! Your commit message should be something like “Complete Iteration 1.”
 
 Let's keep going! [Move on to Iteration 2]({{ site.url }}/swift-ios/projects/to-do-list/i2)

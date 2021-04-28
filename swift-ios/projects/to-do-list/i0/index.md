@@ -1,4 +1,6 @@
-# Iteration 0: Static To-Dos
+---
+title: Iteration 0: Static To-Dos
+---
 
 ## 🎯 Learning Goals
 
@@ -12,7 +14,7 @@
 * Under `Choose a template for your new project`, select `iOS` and `App`
 * Click the blue `Next` button in the bottom right corner
 * ❗️You must check the `Use Core Data` box!❗️
-* You will be prompted to save this file. For `Product Name`, type in "whatever name your want to officially title your app", then click the blue `Create` button in the bottom right corner
+* You will be prompted to save this file. For `Product Name`, type in whatever name your want to officially title your app, then click the blue `Create` button in the bottom right corner.
 * **NOTE:** This will be your ACTUAL project! From now on, you won't really be creating new projects, just opening this one up and working from wherever you left off.
 * From the top menu, select `Source Control` then `New Git Repositories`. Click `Create` on the pop up.
 
@@ -40,7 +42,7 @@ This should have added a `Navigation Controller` to the Storyboard and added a `
 
 <img class="medium" src="{{ site.url }}/swift-ios/projects/to-do-list/assets/todo2.png">
 
-If we select the `Navigation Item` in the `Table View Controller`, we can now add a Title to our app (ToDo List or whatever you prefer)
+If we select the `Navigation Item` in the `Table View Controller`, we can now add a Title to our app (ToDo List or whatever you prefer).
 
 <img class="medium" src="{{ site.url }}/swift-ios/projects/to-do-list/assets/todo3.png">
 
@@ -66,7 +68,7 @@ It probably makes sense to initialize `name` to an *empty string* and `important
 
 ## Create Some Static ToDos
 
-* Back in our `ToDoTableViewController`, we need to make a function that will create toDos and return an array of toDos (we'll hard-code this for now and replace it a little later when we hook up CoreData)
+* Back in our `ToDoTableViewController`, we need to make a function that will create ToDos and return an array of ToDos (we'll hard-code this for now and replace it a little later when we hook up CoreData)
   - The code below should live inside of the `ToDoTableViewController` class, but outside of any of the existing functions. A great place is right below the `viewDidLoad` function. Be careful with the curly braces!
 
 ```swift
@@ -151,6 +153,6 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 ### Commit Your Work
 
-From the top nav, select "Source Control", then "Commit". Follow the steps outlined in the GitHub lesson to commit your work! Your commit message should be something like “Complete Iteration 0”.
+From the top nav, select "Source Control," then "Commit." Follow the steps outlined in the GitHub lesson to commit your work! Your commit message should be something like “Complete Iteration 0.”
 
 Let's keep going! [Move on to Iteration 1]({{ site.url }}/swift-ios/projects/to-do-list/i1)

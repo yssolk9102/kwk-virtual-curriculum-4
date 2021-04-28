@@ -29,7 +29,7 @@ Your Instructors or IAs can now screenshare and show you the main features highl
 Follow the steps below to practice navigating Xcode Projects!
 
 - Create a new iOS App
-  - Name it, and make sure to select "Storyboard" for the _Interface Dropdown_
+  - Name it, and make sure to select "Storyboard" for the _Interface Dropdown_, "UIKit App Delegate" for the _Life Cycle_, and Swift for the language. No need to check "Use Core Data"!
 - Navigate to the Main StoryBoard
 - View your StoryBoard on an iPhone 12 Mini
 - Run the simulator on an iPhone 12 Mini
