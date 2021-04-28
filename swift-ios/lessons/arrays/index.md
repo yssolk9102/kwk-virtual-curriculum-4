@@ -95,7 +95,7 @@ trending
 //-> ["@thecardguy", "@spencerx", "@avani", "@lorengray"]
 ```
 
-Side note: The lines starting with `//->` indicate the return value of the previous code; it's a way to notate what happens after writing some code.
+Side note: The lines starting with `//->` indicate the return value of the previous code; it's a way to notate what happens after writing some code. Because it's is a comment, this code won't run.
 
 <div class="try-it">
   <h2>🐣Check In & Discuss</h2>
