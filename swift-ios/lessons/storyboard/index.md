@@ -21,7 +21,7 @@ title: StoryBoard
 
 Before we write all the Swift code we've been learning to make our app DO something, we want to completely set up the **UI (user interface)**. We will drag and drop components of the UI from the Object Library onto the **StoryBoard**.
 
-Either watch the video below, or watch you instructor walk through how to add objects from the Object Library to the StoryBoard.
+Either watch the video below, or watch your instructor walk through how to add objects from the Object Library to the StoryBoard.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/afe71ea39a9140b8a2377dc3651027de" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div><br>
 
