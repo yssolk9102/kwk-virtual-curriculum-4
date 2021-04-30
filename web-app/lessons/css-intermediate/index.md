@@ -25,7 +25,7 @@ What is your favorite thing about CSS so far? Be ready to share out!
 
 ## 🌎 Block vs. Inline
 
-In the last HTML lesson, we talked about the difference between inline and block elements. With CSS, we have the power to override an elements default state of inline or block by using the `display` property.
+In the last HTML lesson, we talked about the difference between inline and block elements. With CSS, we have the power to override an element's default state of inline or block by using the `display` property.
 
 Here's an example:
 

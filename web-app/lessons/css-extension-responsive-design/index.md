@@ -53,7 +53,7 @@ With the code above, when the screen it full sized, it will have a lime backgrou
 - You can write CSS rules in a media query that will override old code
 - You can also write rules in a media query for an element that never had that rule before
 - If you don't give a property a new value, the old one stays. In the code above, the background changes, but the color of the `h1` remains teal
-- You get to choose the breakpoints (max-width). There are two things to keep in ming when you decide where to create breakpoints: 1) When you squish your app, when does it start looking bad? 2) What are the widths of commonly used devices?
+- You get to choose the breakpoints (max-width). There are two things to keep in mind when you decide where to create breakpoints: 1) When you squish your app, when does it start looking bad? 2) What are the widths of commonly used devices?
 
 **NOTE:** Before we write any queries, you’ll want to add a viewport meta tag in the head of your main html file (which is often named index.html). This tag will make sure that our site works on devices. The viewport meta tag gives the browser instructions on how to control the pages dimensions and sets the width of the page based on the screen width of the device it is being viewed on. Magic! If you want to learn more, Mozilla has an <a target="blank" href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag">article</a> that’s full of good information.
 

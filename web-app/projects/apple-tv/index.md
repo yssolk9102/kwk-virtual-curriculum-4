@@ -33,9 +33,9 @@ Example: `var newNumber = parseInt("1723");` `newNumber` stores the number of `1
 
 - Draw out your vision for the way your Instrument will look - on a desktop, iPad size, and phone size
 - Like we did with the Twitter card, label each section with the HTML element that will be used
-- Find your inspiration! Find any images, color, fonts, etc. that you want to use. Jot this information down in your notebook, a GoogleDoc or in comments in a CodePen
+- Find your inspiration! Find any images, color, fonts, etc. that you want to use. Jot this information down in your notebook, a GoogleDoc or in comments in a Repl
 
-**Notice:** you haven't written any code in CodePen yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
+**Notice:** you haven't written any code in Repl yet. The planning process is extremely important and professional developers spend a lot of time in this phase.
 <br>
 
 ## Iteration 2 - HTML & CSS

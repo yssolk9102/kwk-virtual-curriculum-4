@@ -178,13 +178,12 @@ For the example above, an alert will display the text, "You are correct!". Let's
 var queen = "Beyoncé";          // new variable created
 
 if (queen === "Beyoncé") {       // program checks for this condition
-                                // if it evaluates to true, it will execute this block
-  alert("You are correct!")
+    alert("You are correct!")    // if it evaluates to true, it will execute this block
 } else {                        // if it evaluates to false, it will execute this block
   alert("Beyoncé is the only queen.")
 }
 ```
-We call this entire piece of code an `if statement.`
+We call this entire piece of code an `if statement`.
 
 Inside the parenthesis after the keyword `if`, we have to give JavaScript an expression that can evaluate to `true` or `false`. That expression is called a **condition**.
 - If the condition evaluates to `true`, the code in the block below it will execute or run. It will then ignore the rest of the options.

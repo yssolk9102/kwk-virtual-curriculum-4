@@ -44,7 +44,7 @@ Let's look an some HTML to make sure we are all on the same page:
 </section>
 ```
 
-In the code above, the `section` is the parent/container, and the 3 `article`s are all children/items because they are directly nested inside of that `section`. Let's looks at one more example:
+In the code above, the `section` is the parent/container, and the 3 `article`s are all children/items because they are directly nested inside of that `section`. Let's look at one more example:
 
 ```html
 <section class="container">
@@ -76,7 +76,7 @@ Without Flexbox, 10 colorful `article`s might look like this:
   style="height: 420px; width: 100%; border: 0;">
 </iframe>
 
-But with Flexbox, we can start, having some control over them:
+But with Flexbox, we can start having some control over them:
 
 <!-- <div class="glitch-embed-wrap" style="height: 420px; width: 100%; margin-bottom: 24px;"> -->
   <iframe

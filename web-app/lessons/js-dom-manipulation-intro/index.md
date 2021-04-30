@@ -7,7 +7,7 @@ title: Intro to DOM Manipulation
 ## 🎯 Learning Goals
 
 * Use the console in the Chrome Developer Tools
-* Query and update a page after its been loaded
+* Query and update a page after it's been loaded
 * Respond to user interactions with event listeners
 
 ## 📗 Technical Vocabulary
