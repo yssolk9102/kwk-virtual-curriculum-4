@@ -80,11 +80,11 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function checkLogin(login) {
-    return login === "kwk";
+    return login === "kwk2021";
   }
 
   function checkPassword(password) {
-    return password === "boss";
+    return password === "campmagic";
   }
 
   function checkStaffLogin(login) {
