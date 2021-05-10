@@ -161,10 +161,10 @@ The benefit of loops is they save us time. When we want to do to the same thing 
 ```swift
 var trending = ["@thecardguy", "@cosette", "@avani", "@lorengray"]
 
-print("Have you seen that TikTok from /(trending[0]) yet?!");
-print("Have you seen that TikTok from /(trending[1]) yet?!");
-print("Have you seen that TikTok from /(trending[2]) yet?!");
-print("Have you seen that TikTok from /(trending[3]) yet?!");
+print("Have you seen that TikTok from \(trending[0]) yet?!");
+print("Have you seen that TikTok from \(trending[1]) yet?!");
+print("Have you seen that TikTok from \(trending[2]) yet?!");
+print("Have you seen that TikTok from \(trending[3]) yet?!");
 ```
 
 Right now, this doesn’t seem so bad. What if we had 100 creators on our list? 1000? That’s a LOT of lines of code to write and potentially a lot of places we would need to update it every time we added or removed a creator.
