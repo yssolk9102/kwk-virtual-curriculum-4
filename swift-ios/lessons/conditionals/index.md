@@ -122,7 +122,6 @@ year < nextYear
     <li>Is your age not the same as 15?</li>
     <li>Is your age greater than 7?</li>
     <li>Is your age less than or equal to 10?</li>
-    <li>Is your age less than or equal to 10?</li>
     <li>What is the remainder when your age is divided by 2?</li>
   </ul>
 
