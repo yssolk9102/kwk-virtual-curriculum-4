@@ -129,7 +129,7 @@ year < nextYear
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
     <div class="spicy-toggle">        
-      <p>Have you ever tried to create a password, but the application told you you need at least 8 characters? Time to solve a real-world challenge! Declare a new variable called <code class="medium-code">fakePassword</code> and assign it to a string of your choice. Then, check that the value stored in <code class="medium-code">fakePassword</code> is equal to or greater than 8 characters. Change the string that <code class="medium-code">fakePassword</code> is assigned to a  couple times to make 100% sure it's working as expected.</p>
+      <p>Have you ever tried to create a password, but the application told you you need at least 8 characters? Time to solve a real-world challenge! Declare a new variable called <code class="medium-code">fakePassword</code> and assign it to a string of your choice. Then, check that the value stored in <code class="medium-code">fakePassword</code> is greater than or equal to than 8 characters. Change the string that <code class="medium-code">fakePassword</code> is assigned to a  couple times to make 100% sure it's working as expected.</p>
     </div>
   </div>
 
