@@ -138,21 +138,21 @@ func timeToWalk(numberOfDogs : Int) {
   <div class="challenge-container mild-heat">
     <p class="spicy-click">Click here for a Mild Challenge 🌶🌶</p>
     <div class="spicy-toggle">        
-      <p>Write a function that will take 1 argument when called, a number. The function should <code class="mild-code">print</code> the sum of that number and 5. Make sure to name your function something related to its job.</p>
+      <p>Write a function that will take 1 argument when called, an integer. The function should <code class="mild-code">print</code> the sum of that integer and 5. Make sure to name your function something related to its job.</p>
     </div>
   </div>
 
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
     <div class="spicy-toggle">        
-      <p>Write a function that will take 2 arguments when called, both being numbers, and that will <code class="medium-code">print</code> the sum of those two numbers. Make sure to name your function something related to its job.</p>
+      <p>Write a function that will take 2 arguments when called, both being integers, and that will <code class="medium-code">print</code> the sum of those two integers. Make sure to name your function something related to its job.</p>
     </div>
   </div>
 
   <div class="challenge-container spicy-heat">
     <p class="spicy-click">Click here for a Spicy Challenge 🌶🌶</p>
     <div class="spicy-toggle">        
-      <p>Write a function that will take 3 arguments when called, all being numbers. It should sum the first two numbers, then multiply that sum by the third number and <code class="spicy-code">print</code> the result. Make sure to name your function something related to its job.</p>
+      <p>Write a function that will take 3 arguments when called, all being integers. It should sum the first two integers, then multiply that sum by the third integer and <code class="spicy-code">print</code> the result. Make sure to name your function something related to its job.</p>
     </div>
   </div>
 </div>
@@ -178,7 +178,7 @@ func timeToWalk(numberOfDogs : Int) -> Int {
 
 var minutes = timeToWalk(numberOfDogs : 3)
 print("You should walk a total of \(minutes) minutes.")
-//=> You should walk a total of 3 minutes.
+//=> You should walk a total of 45 minutes.
 ```
 
 Important things to know about returning a value:
@@ -197,9 +197,9 @@ Takeaways:
 - `func timeToWalk(numberOfDogs : Int) -> Int {` declares the function
 - `(numberOfDogs : Int)` states that we plan to get one piece of data when this function is called. It must be an Integer returned when we call `numberOfDogs`
 - `-> Int` declares that we plan to return an Integer out of this function
-- `var totalMinutes = numberOfDogs * 15;` declares a new variable that stores the result of 15 multiplied by the number passed into the function
-- `return totalMinutes;` returns the value of the `totalMinutes` variable (which is an Integer)
-- `var minutes = timeToWalk(numberOfDogs : 3);` calls the function `timeToWalk` and passes in 3 as the argument. The return value of that is stored in the new variable `minutes`
+- `var totalMinutes = numberOfDogs * 15` declares a new variable that stores the result of 15 multiplied by the number passed into the function
+- `return totalMinutes` returns the value of the `totalMinutes` variable (which is an Integer)
+- `var minutes = timeToWalk(numberOfDogs : 3)` calls the function `timeToWalk` and passes in 3 as the argument. The return value of that is stored in the new variable `minutes`
 
 ### Incorporating Conditionals
 
@@ -222,7 +222,7 @@ func walkDog(numberOfDogs : Int) {
 <div class="try-it">
   <h2>Try It: Logic Inside a Function</h2>
   <p>Write a function that takes one argument, a <code class="try-it-code">gradeLevel</code>. It should then print out "You are in elementary school" or "You are in middle school", etc. based on the grade level passed in.</p>
-  <p>Now, write another function that takes in a number, a <code class="try-it-code">dogAge</code>, and multiplies it by 7. It should print out a sentence telling the dog how old it is in human years.</p>
+  <p>Now, write another function that takes in an integer, a <code class="try-it-code">dogAge</code>, and multiplies it by 7. It should print out a sentence telling the dog how old it is in human years.</p>
 </div>
 
 ## Functions
