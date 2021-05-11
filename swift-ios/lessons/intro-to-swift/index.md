@@ -293,10 +293,10 @@ var mealsDonatedPerTin = 10
 var mealsDonated = tinsOfKookies * mealsDonatedPerTin;
 
 print(mealsDonated);
-//=> 12,000
+//=> 12000
 
 print("Because \(tinsOfKookies) tins of kookies were purchased during Fashion's Night Out, \(mealsDonated) meals were donated to starving children all over the world. Thanks, \(name)!")
-//=> "Because 1200 tins of kookies were purchased during Fashion's Night Out, 12,000 meals were donated to starving children all over the world. Thanks, Karlie!"
+//=> "Because 1200 tins of kookies were purchased during Fashion's Night Out, 12000 meals were donated to starving children all over the world. Thanks, Karlie!"
 ```
 
 <div class="try-it">
