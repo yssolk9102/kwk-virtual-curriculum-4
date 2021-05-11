@@ -23,7 +23,7 @@ title: Design
 
 ## 🌎 Design Principals
 
-Gestalt Psychology is a concept used to describe how we perceive the world around us as complete units and patterns vs. a series of unrelated parts. "Gestalt" means "shape" or "form". Humans are hard-wired to see patterns and apply structures to quickly understand their surroundings.
+Gestalt Psychology is a concept used to describe how we perceive the world around us as complete units and patterns vs. a series of unrelated parts. "Gestalt" means "shape" or "form." Humans are hard-wired to see patterns and apply structures to quickly understand their surroundings.
 
 The Gestalt psychologists developed 7 laws, or principals, to explain the way smaller objects are organized and grouped to form larger, complete objects. These principals can be thought of as mental shortcuts for visual problem solving. Today, we will look at 3 of them.
 
@@ -94,7 +94,6 @@ Another common combination:
   <ul>
     <li><a href="https://builtbybuffalo.com/">Built By Buffalo</a></li>
     <li><a href="https://www.miukimiu.com/">Miuki Miu</a></li>
-    <li><a href="http://adayinbigdata.com/">A Day In Big Data</a></li>
     <li><a href="https://www.teachersguild.org/">Teachers Guild</a></li>
   </ul>
   <p></p>

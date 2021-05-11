@@ -88,7 +88,6 @@ There are many ways we can choose to select colors. One common color pairing is 
   <ul>
     <li><a target="blank" href="https://builtbybuffalo.com/">Built By Buffalo</a></li>
     <li><a target="blank" href="https://www.miukimiu.com/">Miuki Miu</a></li>
-    <li><a target="blank" href="http://adayinbigdata.com/">A Day In Big Data</a></li>
     <li><a target="blank" href="https://www.teachersguild.org/">Teachers Guild</a></li>
   </ul>
   <p></p>
