@@ -170,7 +170,7 @@ function deleteCard() {
   if (event.target.className === "delete") {
     // event.target refers to the element that was clicked on
     // parentNode travels up and looks for the direct parent element
-    // then we will remove it's PARENT element, which will be a card
+    // then we will remove its PARENT element, which will be a card
     event.target.parentNode.remove();
   }  
 }

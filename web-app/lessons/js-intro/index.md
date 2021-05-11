@@ -215,7 +215,7 @@ console.log(points);
 </div>
 
 Takeaways:
-- On a users birthday, an app should increment their age
+- On a user's birthday, an app should increment their age
 - Social media apps use incrementing to keep track of the number of likes, replies, followers, etc.
 - Apps that involve scheduling - calendar events, flights, live video classes, etc. usually have a countdown timer to keep the user informed on the amount of time until something will happen
 <br>
@@ -223,7 +223,7 @@ Takeaways:
 <div class="practice">
   <h2>🦄 Pro Tip</h2>
   <p>Have you noticed that sometimes lines of code in example are greyed out and start with two forward slashes <code class="practice-code">//</code>?</p>
-  <p><strong>Comments</strong> are a way we can take notes in plain english, or use snippets of code that aren't complete. They appear in a shade less obvious than most lines of code and will not be read by the interpreter!</p>
+  <p><strong>Comments</strong> are a way we can take notes in plain English, or use snippets of code that aren't complete. They appear in a shade less obvious than most lines of code and will not be read by the interpreter!</p>
   <p>To write a comment in your JavaScript code, start the line with two forward slashes <code class="practice-code">//</code>.</p>
   <p>Or, you can use a keyboard shortcut: <code class="practice-code">cmd + /</code> on your Mac, or <code class="practice-code">ctrl + /</code> on your PC!</p>
 </div>
@@ -251,7 +251,7 @@ We can do math with numbers in JavaScript! The same math operators you're used t
 //=> 10
 ```
 
-We can also use parenthesis, and the Order of Operation rule applies here as well.
+We can also use parenthesis, and the Order of Operations rule applies here as well.
 
 ```js
 (3 + 2) * 8
@@ -269,10 +269,10 @@ var mealsDonatedPerTin = 10;
 var mealsDonated = tinsOfKookies * mealsDonatedPerTin;
 
 console.log(mealsDonated);
-//=> 12,000
+//=> 12000
 
 console.log(`Because ${tinsOfKookies} tins of kookies were purchased during Fashion's Night Out, ${mealsDonated} meals were donated to starving children all over the world. Thanks, ${name}!`);
-//=> "Because 1200 tins of kookies were purchased during Fashion's Night Out, 12,000 meals were donated to starving children all over the world. Thanks, Karlie!"
+//=> "Because 1200 tins of kookies were purchased during Fashion's Night Out, 12000 meals were donated to starving children all over the world. Thanks, Karlie!"
 ```
 
 <div class="try-it">

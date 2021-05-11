@@ -208,7 +208,7 @@ Notice the syntax - when we were just targeting a `p` element, we would type `p`
   <div class="challenge-container medium-heat">
     <p class="spicy-click">Click here for a Medium Challenge 🌶🌶</p>
     <div class="spicy-toggle">
-      <p>We know that each container used for each mathematician is a block element. Do some research, and try to find a way that you can change these "rows" into "columns". Example below:</p>
+      <p>We know that each container used for each mathematician is a block element. Do some research, and try to find a way that you can change these "rows" into "columns." Example below:</p>
       <img src="./assets/hidden-figures-cols.png">
     </div>
   </div>

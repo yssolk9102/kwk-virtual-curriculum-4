@@ -18,7 +18,7 @@ title: Intro to Arrays
 
 ## 🌎 Warm Up
 
-In a repl, declare a variable for every scholar in the zoom. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names. Be ready to share your code!
+In a repl, declare a variable for every scholar in the Zoom. The variable names should be something like `scholar1`, `scholar2`, etc. and the values should be strings of their first names. Be ready to share your code!
 
 ## Collections
 
@@ -44,7 +44,7 @@ It's very likely that every application you've used - on a phone or laptop - uti
 
 We can't see all the code that built every application, but there are some places where it's very clear that an array would be the best tool to use. Here are some examples from popular sites:
 
-- [Instagram](https://www.instagram.com/alfie_the_alpaca_in_adelaide/) uses arrays to hold all the posts for a given user. Alfie the Alpaca has over 700 posts, so the array is over 700 elements long!
+- [Instagram](https://www.instagram.com/alfie_the_alpaca_in_adelaide/) uses arrays to hold all the posts for a given user. Alfie the Alpaca has over 1000 posts, so the array is over 1000 elements long!
 - [Twitch](https://www.twitch.tv/) has an array of recommended channels. They advertise these channels in the top left corner of their landing page.
 - [TikTok](https://www.tiktok.com/discover?lang=en) has an array of trending creators stored in their program. TikTok shows the information of the first four creators on the "Discover" page. When a user clicks the arrow to see more, TikTok shows the information of the second four trending creators, etc.
 
@@ -104,7 +104,7 @@ trending.length;
 
 <div class="try-it">
   <h2>Try It: Creating Arrays</h2>
-  <p>In the same repl from the Warm Up, create a variable that stores an array of at least 4 strings - you choose what the content is about. The variable name should describe the type of data those 4 strings hold.</p>
+  <p>In the same repl from the Warm Up, create a variable that stores an array of at least 4 strings - you choose what the content is about. The variable name should describe the kind of data those 4 strings hold.</p>
   <p>Write a series of <code class="try-it-code">console.log()</code>  statements: print out the first element, the last element, and then the second element.</p>
 </div>
 

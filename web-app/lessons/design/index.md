@@ -23,7 +23,7 @@ title: Design
 
 ## 🌎 Design Principles
 
-Gestalt Psychology is a concept used to describe how we perceive the world around us as complete units and patterns vs. a series of unrelated parts. "Gestalt" means "shape" or "form". Humans are hard-wired to see patterns and apply structures to quickly understand their surroundings.
+Gestalt Psychology is a concept used to describe how we perceive the world around us as complete units and patterns vs. a series of unrelated parts. "Gestalt" means "shape" or "form." Humans are hard-wired to see patterns and apply structures to quickly understand their surroundings.
 
 The Gestalt psychologists developed 7 laws, or principles, to explain the way smaller objects are organized and grouped to form larger, complete objects. These principles can be thought of as mental shortcuts for visual problem solving. Today, we will look at 3 of them.
 
@@ -64,7 +64,7 @@ There are three groupings that colors fall into: warm, cool, and neutral. The co
 
 ### Contrast
 
-Contrast is the difference between two colors. You usually want a high contrast might be alarming or unsettling. Black and white create the highest contrast possible. Usually, when you think you see black/white combinations on pages, it's a very light grey and/or very dark grey.
+Contrast is the difference between two colors. A high contrast might be alarming or unsettling; black and white create the highest contrast possible. Usually, when you think you see black/white combinations on pages, it's a very light grey and/or very dark grey.
 
 It's important to provide a contrast for your page to be pleasant, but it's essential that you do so for users who may be colorblind or have limited vision. This is an <a target="blank" href="https://colorable.jxnblk.com/b25e06/213338">awesome tool</a> that allows you to enter two color and get an analysis on if the contrast is acceptable.
 

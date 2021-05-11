@@ -51,7 +51,7 @@ function walkDog() {
 
 We start with the keyword `function`, then name our function whatever we want. The name should describe the type of action our function is taking. Like variables, we use camelCase.
 
-Directly after the function name, we see open and close parentheses, then open and close curly brackets. The directions we want our function to take will live inside the curly braces. We can give a function as many directions as we'd like!
+Directly after the function name, we see open and closed parentheses, then open and closed curly brackets. The directions we want our function to take will live inside the curly braces. We can give a function as many directions as we'd like!
 
 Let's add some of the steps our robot needs to take to walk a dog. For now, we will use `console.log()` to print out the steps, so we know when our function is working.
 
@@ -111,13 +111,13 @@ function walkDog(numberOfDogs) {
 walkDog(2);
 
 //=>Put on 2 leashes
-//=>Put 4 treats in pocket
+//=>Put 2 treats in pocket
 //=>Put 2 poop bags in pocket
 
 walkDog(7);
 
 //=>Put on 7 leashes
-//=>Put 14 treats in pocket
+//=>Put 7 treats in pocket
 //=>Put 7 poop bags in pocket
 ```
 
@@ -187,7 +187,7 @@ function timeToWalk(numberOfDogs) {
 
 var minutes = timeToWalk(3);
 console.log(`You should walk a total of ${minutes} minutes.`);
-//=> You should walk a total of 3 minutes.
+//=> You should walk a total of 45 minutes.
 ```
 
 A couple of things to know about `return`:

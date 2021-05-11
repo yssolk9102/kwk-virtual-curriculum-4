@@ -15,7 +15,7 @@ Applying what you've learned about HTML, CSS, and JavaScript, then pushing yours
 ### Tips
 
 - You will need to have link to 2 different images - an icon of an empty and filled in star (<a target="blank" href="https://www.flaticon.com/">FlatIcon</a> is a great resource.)
-- Instead of using `<img` elements, you will probably want to use `<div>`s and insert the star icons as a background image in CSS.
+- Instead of using `<img>` elements, you will probably want to use `<div>`s and insert the star icons as a background image in CSS.
 
 Here is the star rating feature on Amazon:
 

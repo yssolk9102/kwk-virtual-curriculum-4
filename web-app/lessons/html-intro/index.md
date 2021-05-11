@@ -6,7 +6,7 @@ title: Intro to HTML
 
 ## 🎯 Learning Goals
 
-* Understand what HTML stands for and it's purpose
+* Understand what HTML stands for and its purpose
 * Recognize and use some common HTML elements
 * Identify and use attributes on HTML elements
 
