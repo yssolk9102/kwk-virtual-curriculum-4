@@ -134,6 +134,43 @@ year < nextYear
 
 </div>
 
+### Logical Operators
+
+Logical operators allow us to do some even more powerful work:
+
+```swift
+var language1 = "JavaScript"
+var language2 = "Swift"
+
+print((language1 == "JavaScript") || (language2 == "JavaScript"))
+// true
+
+print((language1 == "Swift") || (language2 == "Swift"))
+// // // true
+
+print((language1 == "Python") || (language2 == "Python"))
+// // // false
+
+print((language1 == "JavaScript") && (language2 == "JavaScript"))
+// // // false
+
+print((language1 == "Swift") && (language2 == "Swift"))
+// false
+```
+
+<div class="try-it">
+  <h2>Try It: Logical Operators</h2>
+  <p>For this Try It, write all your code in the repl from the previous activity. You will need to use <code class="try-it-code">print()</code> to check the output of your statements.</p>
+  <p>Use the same two variables as the previous activity - <code class="try-it-code">firstName</code> and <code class="try-it-code">age</code>, and assign them to appropriate values. Now, check for the following things:</p>
+  <ul>
+    <li>Is your age less than 30 and greater than 10?</li>
+    <li>Is your age less than 20 or greater than 10?</li>
+    <li>Is your age exactly 15 or less than 18?</li>
+    <li>Is your age greater than 12 or exactly 14?</li>
+    <li>Is your age greater than 10 but not exactly 16?</li>
+  </ul>
+</div>
+
 ## Conditionals
 
 Just like in real life, programming is full of decisions. We usually make decisions based on our current state or mood.
