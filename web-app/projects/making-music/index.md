@@ -17,7 +17,7 @@ Applying what you've learned about HTML, CSS, and JavaScript, then pushing yours
 - jQuery does not play nice with the `<audio>` element; you will have to use vanilla JavaScript. Remember, anytime we use `$` in our JavaScript and some other methods like `.on` for event listeners, that is jQuery. You'll have to google how to do the same things in vanilla JavaScript.
 - A good resource for mp3 files is <a target="blank" href="http://soundbible.com/free-sound-effects-1.html">SoundBible</a>.
 
-Here's <a target="blank" href="https://turingschool-projects.github.io/countdown-timer-js/">a screenshot of an example</a>, but there is no sound😥:
+Here's a screenshot of an example:
 
 <img alt="Screenshot of countdown timer, ticking each second" src="{{ site.url }}/web-app/projects/making-music/assets/example.png">
 
