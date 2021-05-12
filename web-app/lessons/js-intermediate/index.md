@@ -162,7 +162,7 @@ console.log(language1 === "Swift" && language2 === "Swift");
 ```
 
 <div class="try-it">
-  <h2>Try It: Comparison Operators</h2>
+  <h2>Try It: Logical Operators</h2>
   <p>For this Try It, write all your code in the repl from the previous activity. You will need to use <code class="try-it-code">console.log()</code> to check the output of your statements.</p>
   <p>Use the same two variables as the previous activity - <code class="try-it-code">firstName</code> and <code class="try-it-code">age</code>, and assign them to appropriate values. Now, check for the following things:</p>
   <ul>
