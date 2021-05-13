@@ -37,6 +37,7 @@ title: Mobile Lessons
 - [Intro to Repl]({{ site.url }}/swift-ios/lessons/repl)
 - [Git & GitHub]({{ site.url }}/swift-ios/lessons/git-github)
 - [Git & GitHub - Pairs]({{ site.url }}/swift-ios/lessons/git-github-pairs)
+- [App Design Workbook - Template](https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit?usp=sharing)
 - [How to Demo]({{ site.url }}/swift-ios/lessons/how-to-demo)
 - [Code Challenges]({{ site.url }}/swift-ios/lessons/code-challenges)
 - [Videos]({{ site.url }}/swift-ios/lessons/videos)
