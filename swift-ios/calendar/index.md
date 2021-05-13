@@ -18,7 +18,6 @@ Click on a day below to see the details about what you'll be learning and buildi
 <article class="day-card">
   <h3 class="day-label day-click">Monday</h3>
   <div class="day-toggle">
-
     <div class="day-left">
       <h4>Community</h4>
       <ul>
@@ -29,7 +28,6 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li>Closing Circle</li>
       </ul>
     </div>
-
     <div class="day-middle">
       <h4>Technical</h4>
       <ul>
@@ -37,7 +35,6 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../lessons/conditionals">Learn: Conditionals</a></li>
       </ul>
     </div>
-
     <div class="day-right">
       <h4>Homework</h4>
       <ul>
@@ -45,14 +42,12 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/swift-ios/solo/">Practice: Swift, Conditionals</a></li>
       </ul>
     </div>
-
   </div>
 </article>
 
 <article class="day-card">
   <h3 class="day-label day-click">Tuesday</h3>
   <div class="day-toggle">
-
     <div class="day-left">
       <h4>Community</h4>
       <ul>
@@ -61,7 +56,6 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li>Closing Circle</li>
       </ul>
     </div>
-
     <div class="day-middle">
       <h4>Technical</h4>
       <ul>
@@ -73,7 +67,6 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../lessons/loops">Practice: For-In Loops</a></li>
       </ul>
     </div>
-
     <div class="day-right">
       <h4>Homework</h4>
       <ul>
@@ -81,202 +74,12 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../solo/dictionaries">Practice: Dictionaries</a></li>
       </ul>
     </div>
-
   </div>
 </article>
 
 <article class="day-card">
-<h3 class="day-label day-click">Wednesday</h3>
+  <h3 class="day-label day-click">Wednesday</h3>
   <div class="day-toggle">
-
-  <div class="day-left">
-    <h4>Community</h4>
-    <ul>
-      <li>Icebreaker</li>
-      <li>Lunch</li>
-      <li>Closing Circle</li>
-    </ul>
-  </div>
-  <div class="day-middle">
-    <h4>Technical</h4>
-    <ul>
-      <li>Review: Loops & Dictionaries</li>
-      <li><a href="../lessons/storyboard">Learn: StoryBoards</a></li>
-      <li><a href="../practice/storyboard">Practice: StoryBoards</a></li>
-      <li><a href="../lessons/actions-outlets">Learn: Actions & Outlets</a></li>
-      <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
-    </ul>
-  </div>
-  <div class="day-right">
-    <h4>Homework</h4>
-    <ul>
-      <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
-      <li><a href="../solo/brainstorm">App Design Journal: Brainstorm</a></li>
-    </ul>
-    </div>
-  </div>
-</article>
-
-<article class="day-card">
-<h3 class="day-label day-click">Thursday</h3>
-  <div class="day-toggle">
-
-  <div class="day-left">
-    <h4>Community</h4>
-    <ul>
-      <li>Icebreaker</li>
-      <li>Lunch</li>
-      <li>Closing Circle</li>
-    </ul>
-  </div>
-  <div class="day-middle">
-    <h4>Technical</h4>
-    <ul>
-      <li>Review: Contraints</li>
-      <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
-      <li><a href="../lessons/segues">Learn: Segues</a></li>
-      <li><a href="../lessons/design">Learn: Design</a></li>
-      <li><a href="../projects/mini-2">Build: Mini Project 2</a></li>
-    </ul>
-  </div>
-  <div class="day-right">
-    <h4>Homework</h4>
-    <ul>
-      <li><a href="../projects/mini-2">Build: Mini Project 2</a></li>
-      <li><a href="../solo">App Design Journal: Plan UI/UX</a></li>
-    </ul>
-    </div>
-  </div>
-</article>
-
-<article class="day-card">
-<h3 class="day-label day-click">Friday</h3>
-  <div class="day-toggle">
-
-  <div class="day-left">
-    <h4>Community</h4>
-    <ul>
-      <li>Icebreaker</li>
-      <li>Lunch</li>
-      <li>Culture of Tech</li>
-      <li>Closing Circle</li>
-    </ul>
-  </div>
-  <div class="day-middle">
-    <h4>Technical</h4>
-    <ul>
-      <li>Review & Share: Mini Project 2</li>
-      <li><a href="../lessons/classes-objects">Learn: Classes & Objects</a></li>
-      <li><a href="../practice/classes-objects">Practice: Classes & Objects</a></li>
-      <li><a href="../">App Design Journal: Plan Design</a></li>
-    </ul>
-  </div>
-  <div class="day-right">
-    <h4>Homework</h4>
-    <ul>
-      <li><a href="../solo">App Design Journal: Prototype</a></li>
-    </ul>
-    </div>
-  </div>
-</article>
-<br>
-
-<h2>Week 2</h2>
-
-<article class="day-card">
-<h3 class="day-label day-click">Monday</h3>
-  <div class="day-toggle">
-
-  <div class="day-left">
-    <h4>Community</h4>
-    <ul>
-      <li>Icebreakers</li>
-      <li>Lunch</li>
-      <li>Pitch Party</li>
-      <li>Closing Circle</li>
-    </ul>
-  </div>
-  <div class="day-middle">
-    <h4>Technical</h4>
-    <ul>
-      <li>Share Out: Prototypes</li>
-      <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/swift-ios/lessons/core-data-intro/">Learn: Core Data Overview</a></li>
-      <li><a href="../projects/to-do-list">Build: ToDo List</a></li>
-      <li><a href="../projects/to-do-list">App Journal: Write Pitch</a></li>
-    </ul>
-  </div>
-  <div class="day-right">
-    <h4>Homework</h4>
-    <ul>
-      <li><a href="../solo">Build: ToDo List</a></li>
-    </ul>
-    </div>
-  </div>
-</article>
-
-<article class="day-card">
-<h3 class="day-label day-click">Tuesday</h3>
-  <div class="day-toggle">
-
-  <div class="day-left">
-    <h4>Community</h4>
-    <ul>
-      <li>Icebreaker</li>
-      <li>Lunch</li>
-      <li>Final Project Group: DTR</li>
-      <li>Closing Circle</li>
-    </ul>
-  </div>
-  <div class="day-middle">
-    <h4>Technical</h4>
-    <ul>
-      <li>Review: ToDo List</li>
-      <li><a href="../projects/personal-project">Learn: Access Camera</a></li>
-      <li><a href="../lessons/git-github-pairs">Learn: Git & GitHub for Pairs</a></li>
-    </ul>
-  </div>
-  <div class="day-right">
-    <h4>Homework</h4>
-    <ul>
-      <li>Final Project Group: Set Up StoryBoard</li>
-    </ul>
-    </div>
-  </div>
-</article>
-
-<article class="day-card">
-<h3 class="day-label day-click">Wednesday</h3>
-  <div class="day-toggle">
-
-  <div class="day-left">
-    <h4>Community</h4>
-    <ul>
-      <li>Icebreaker</li>
-      <li>Culture of Tech</li>
-      <li>Lunch</li>
-      <li>Closing Circle</li>
-    </ul>
-  </div>
-  <div class="day-middle">
-    <h4>Technical</h4>
-    <ul>
-      <li>PFinal Project Group: Work Time</li>
-      <li>Final Project Group: Project Check In</li>
-    </ul>
-  </div>
-  <div class="day-right">
-    <h4>Homework</h4>
-    <ul>
-      <li>Final Project Group: Work on Project</li>
-    </ul>
-    </div>
-  </div>
-</article>
-
-<article class="day-card">
-<h3 class="day-label day-click">Thursday</h3>
-  <div class="day-toggle">
-
     <div class="day-left">
       <h4>Community</h4>
       <ul>
@@ -288,9 +91,163 @@ Click on a day below to see the details about what you'll be learning and buildi
     <div class="day-middle">
       <h4>Technical</h4>
       <ul>
+        <li>Review: Loops & Dictionaries</li>
+        <li><a href="../lessons/storyboard">Learn: StoryBoards</a></li>
+        <li><a href="../practice/storyboard">Practice: StoryBoards</a></li>
+        <li><a href="../lessons/actions-outlets">Learn: Actions & Outlets</a></li>
+        <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
+        <li>App Design Workbook: Define (Discover)</li>
+      </ul>
+    </div>
+    <div class="day-right">
+      <h4>Homework</h4>
+      <ul>
+        <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
+        <li>App Design Workbook: Define (Analyze)</li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<article class="day-card">
+  <h3 class="day-label day-click">Thursday</h3>
+  <div class="day-toggle">
+    <div class="day-left">
+      <h4>Community</h4>
+      <ul>
+        <li>Icebreaker</li>
+        <li>Lunch</li>
+        <li>Closing Circle</li>
+      </ul>
+    </div>
+    <div class="day-middle">
+      <h4>Technical</h4>
+      <ul>
+        <li>Review: Contraints</li>
+        <li><a href="../projects/mini-1">Build: Mini Project 1</a></li>
+        <li><a href="../lessons/segues">Learn: Segues</a></li>
+        <li><a href="../lessons/design">Learn: Design</a></li>
+        <li><a href="../projects/mini-2">Build: Mini Project 2</a></li>
+      </ul>
+    </div>
+    <div class="day-right">
+      <h4>Homework</h4>
+      <ul>
+        <li><a href="../projects/mini-2">Build: Mini Project 2</a></li>
+        <li>App Design Workbook: Define (Plan)</li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<article class="day-card">
+  <h3 class="day-label day-click">Friday</h3>
+  <div class="day-toggle">
+    <div class="day-left">
+      <h4>Community</h4>
+      <ul>
+        <li>Icebreaker</li>
+        <li>Lunch</li>
+        <li>Culture of Tech</li>
+        <li>Closing Circle</li>
+      </ul>
+    </div>
+    <div class="day-middle">
+      <h4>Technical</h4>
+      <ul>
+        <li>Review & Share: Mini Project 2</li>
+        <li><a href="../lessons/classes-objects">Learn: Classes & Objects</a></li>
+        <li><a href="../practice/classes-objects">Practice: Classes & Objects</a></li>
+        <li>App Design Workbook: Prototype</li>
+      </ul>
+    </div>
+    <div class="day-right">
+      <h4>Homework</h4>
+      <ul>
+        <li>App Design Workbook: Prototype</li>
+      </ul>
+    </div>
+  </div>
+</article>
+<br>
+
+<h2>Week 2</h2>
+
+<article class="day-card">
+  <h3 class="day-label day-click">Monday</h3>
+  <div class="day-toggle">
+    <div class="day-left">
+      <h4>Community</h4>
+      <ul>
+        <li>Icebreakers</li>
+        <li>Lunch</li>
+        <li>Pitch Party</li>
+        <li>Closing Circle</li>
+      </ul>
+    </div>
+    <div class="day-middle">
+      <h4>Technical</h4>
+      <ul>
+        <li>Share Out: Prototypes</li>
+        <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/swift-ios/lessons/core-data-intro/">Learn: Core Data Overview</a></li>
+        <li><a href="../projects/to-do-list">Build: ToDo List</a></li>
+      </ul>
+    </div>
+    <div class="day-right">
+      <h4>Homework</h4>
+      <ul>
+        <li><a href="../solo">Build: ToDo List</a></li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<article class="day-card">
+  <h3 class="day-label day-click">Tuesday</h3>
+  <div class="day-toggle">
+    <div class="day-left">
+      <h4>Community</h4>
+      <ul>
+        <li>Icebreaker</li>
+        <li>Lunch</li>
+        <li>Final Project Group: DTR</li>
+        <li>Closing Circle</li>
+      </ul>
+    </div>
+    <div class="day-middle">
+      <h4>Technical</h4>
+      <ul>
+        <li>Review: ToDo List</li>
+        <li><a href="../projects/personal-project">Learn: Access Camera</a></li>
+        <li><a href="../lessons/git-github-pairs">Learn: Git & GitHub for Pairs</a></li>
+      </ul>
+    </div>
+    <div class="day-right">
+      <h4>Homework</h4>
+      <ul>
+        <li>App Design Workbook: Build (set up StoryBoard)</li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<article class="day-card">
+  <h3 class="day-label day-click">Wednesday</h3>
+  <div class="day-toggle">
+    <div class="day-left">
+      <h4>Community</h4>
+      <ul>
+        <li>Icebreaker</li>
+        <li>Culture of Tech</li>
+        <li>Lunch</li>
+        <li>Closing Circle</li>
+      </ul>
+    </div>
+    <div class="day-middle">
+      <h4>Technical</h4>
+      <ul>
         <li>Final Project Group: Work Time</li>
         <li>Final Project Group: Project Check In</li>
-        <li><a href="../lessons/how-to-demo">Prepare: Demo</a></li>
       </ul>
     </div>
     <div class="day-right">
@@ -303,9 +260,37 @@ Click on a day below to see the details about what you'll be learning and buildi
 </article>
 
 <article class="day-card">
+  <h3 class="day-label day-click">Thursday</h3>
+  <div class="day-toggle">
+    <div class="day-left">
+      <h4>Community</h4>
+      <ul>
+        <li>Icebreaker</li>
+        <li>Lunch</li>
+        <li>Closing Circle</li>
+      </ul>
+    </div>
+    <div class="day-middle">
+      <h4>Technical</h4>
+      <ul>
+        <li>Final Project Group: Work Time, Check-In</li>
+        <li>App Design Workbook: Test</li>
+        <li><a href="../lessons/how-to-demo">Prepare: Demo</a></li>
+      </ul>
+    </div>
+    <div class="day-right">
+      <h4>Homework</h4>
+      <ul>
+        <li>Final Project Group: Work on Project</li>
+        <li>App Design Workbook: Iterate</li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<article class="day-card">
   <h3 class="day-label day-click">Friday</h3>
   <div class="day-toggle">
-
     <div class="day-left">
       <h4>Community</h4>
       <ul>
@@ -315,7 +300,6 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li>Closing Circle</li>
       </ul>
     </div>
-
     <div class="day-middle">
       <h4>Technical</h4>
       <ul>
@@ -323,18 +307,14 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li>Pair: Finish Project</li>
       </ul>
     </div>
-
     <div class="day-right">
       <h4>Homework</h4>
       <ul>
-        <li>Keep in touch!</li>
+        <li>Keep in touch ❤️</li>
       </ul>
     </div>
-
   </div>
 </article>
-
-
 
 <br>
 [Back to main Mobile page]({{ site.url }}/swift-ios)

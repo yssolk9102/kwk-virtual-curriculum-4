@@ -37,6 +37,7 @@ title: Virtual WebDev Lessons
 
 - [Welcome to KWK]({{ site.url }}/web-app/lessons/welcome-to-kwk)
 - [Intro to repl.it]({{ site.url }}/web-app/lessons/repl)
+- [App Design Workbook - Template](https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit?usp=sharing)
 - [How to Demo]({{ site.url }}/web-app/lessons/how-to-demo)
 - [Videos]({{ site.url }}/web-app/lessons/videos)
 
