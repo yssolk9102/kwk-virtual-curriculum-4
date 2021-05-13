@@ -246,7 +246,7 @@ Click on a day below to see the details about what you'll be learning and buildi
     <div class="day-middle">
       <h4>Technical</h4>
       <ul>
-        <li>PFinal Project Group: Work Time</li>
+        <li>Final Project Group: Work Time</li>
         <li>Final Project Group: Project Check In</li>
       </ul>
     </div>
