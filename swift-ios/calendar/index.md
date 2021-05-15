@@ -159,12 +159,14 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../lessons/classes-objects">Learn: Classes & Objects</a></li>
         <li><a href="../practice/classes-objects">Practice: Classes & Objects</a></li>
         <li>App Design Workbook: Prototype</li>
+        <li><a href="../projects/el-2021"><em>KickOff: Estée Lauder 2021 Challenge</em></a></li>
       </ul>
     </div>
     <div class="day-right">
       <h4>Homework</h4>
       <ul>
         <li>App Design Workbook: Prototype</li>
+        <li><a href="../projects/el-2021"><em>Optional: Estée Lauder 2021 Challenge</em></a></li>
       </ul>
     </div>
   </div>
@@ -197,6 +199,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <h4>Homework</h4>
       <ul>
         <li><a href="../solo">Build: ToDo List</a></li>
+        <li><a href="../projects/el-2021"><em>Optional: Estée Lauder 2021 Challenge</em></a></li>
       </ul>
     </div>
   </div>
@@ -226,6 +229,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <h4>Homework</h4>
       <ul>
         <li>App Design Workbook: Build (set up StoryBoard)</li>
+        <li><a href="../projects/el-2021"><em>Optional: Estée Lauder 2021 Challenge</em></a></li>
       </ul>
     </div>
   </div>
