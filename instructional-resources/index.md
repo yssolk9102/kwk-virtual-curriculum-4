@@ -86,6 +86,8 @@ Direct links to resources you probably want to reference during camps:
 - [Meaningful Co-Teaching](https://docs.google.com/document/d/1W7W0EiKz4Zuhw3GaYNNpsV3I-fLhbQp7LIJmncp1qQw/edit?usp=sharing)
 - [Culture of Tech](https://drive.google.com/drive/folders/1pctju-LcifB5um_Gg01Gt1ilk5Gu9Ge6?usp=sharing)
 - [App Design Workbook - Template](https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit?usp=sharing)
+- [Instructor Facing Final Project Overview](https://docs.google.com/document/d/1ewwEJmkzwCPG0uNuLUXjuWCbrAoyfdQFYm4yUU9ru7c/edit#)
+- [Scholar Facing Final Project Overview](https://docs.google.com/document/d/1_feRg10-rw6RhaoPmUCWibcOTM6QFW-ulN9Ksri1u_U/edit#)
 
 Mobile 📱:
 - [Detailed Calendar](https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing)
