@@ -9,6 +9,7 @@ title: Mobile Projects
 - [Mini Project 1]({{ site.url}}/swift-ios/projects/mini-1)
 - [Mini Project 2]({{ site.url}}/swift-ios/projects/mini-2)
 - [Emojional]({{ site.url}}/swift-ios/projects/emojional)
+- [Estée Lauder 2021 Challenge]({{ site.url}}/swift-ios/projects/el-2021)
 - [To-Do List]({{ site.url }}/swift-ios/projects/to-do-list)
 - [Final Project]({{ site.url }}/swift-ios/projects/personal-project)
 

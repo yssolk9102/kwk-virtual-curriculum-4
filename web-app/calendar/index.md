@@ -124,6 +124,7 @@ Click on a day below to see the details about what you'll be learning and buildi
         <li><a href="../practice/functions">Practice: Functions</a></li>
         <li><a href="../lessons/js-arrays-intro">Learn: Intro to Arrays</a></li>
         <li><a href="../lessons/js-objects">Learn: Intro to Objects</a></li>
+        <li><a href="../projects/el-2021">KickOff: Estée Lauder 2021 Challenge</a></li>
       </ul>
     </div>
     <div class="day-right">
@@ -131,6 +132,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <ul>
         <li><a href="../practice/objects-arrays">Practice: Objects & Arrays</a></li>
         <li>App Design Workbook: Define (Analyze)</li>
+        <li><a href="../projects/el-2021"><em>Optional: Estée Lauder 2021 Challenge</em></a></li>
       </ul>
     </div>
   </div>
@@ -163,6 +165,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <h4>Night Hacks</h4>
       <ul>
         <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/solo/">Watch: Forms</a></li>
+        <li><a href="../projects/el-2021"><em>Optional: Estée Lauder 2021 Challenge</em></a></li>
       </ul>
     </div>
   </div>
@@ -195,6 +198,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <h4>Night Hacks</h4>
       <ul>
         <li><a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/mini-3/">Build: Mini Project 3</a></li>
+        <li><a href="../projects/el-2021"><em>Optional: Estée Lauder 2021 Challenge</em></a></li>
       </ul>
     </div>
   </div>
@@ -224,6 +228,7 @@ Click on a day below to see the details about what you'll be learning and buildi
       <h4>Night Hacks</h4>
       <ul>
         <li>App Design Workbook: Build (Write HTML and start CSS)</li>
+        <li><a href="../projects/el-2021"><em>Optional: Estée Lauder 2021 Challenge</em></a></li>
       </ul>
     </div>
   </div>
