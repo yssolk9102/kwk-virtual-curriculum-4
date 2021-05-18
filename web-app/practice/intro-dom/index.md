@@ -4,19 +4,13 @@ title: Intro to DOM Practice
 
 [Back to Practice Index]({{ site.url }}/web-app/practice)
 
-## Practice in a Glitch Project
+## Practice in repl.it
 
-Follow the directions in the Glitch project below to get some practice with accessing elements, changing text and CSS, and event listeners!
+Follow the directions in the repl.it project below to get some practice with accessing elements, changing text and CSS, and event listeners!
 
-You can either type your code in the embedded Glitch project below by clicking "Edit Project", or click the name of the project in the bottom left corner of the project below to open it in another tab and see it full-page. Then, you'll need to Remix it.
+You can either type your code and run it in the browser here, or click the “open in repl” button in the top right corner of the repl below to open it in another tab and see it full-page.
 
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/intro-to-dom-practice?path=script.js&previewSize=0&attributionHidden=true"
-    title="intro-to-dom-practice on Glitch"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+<iframe height="400px" width="100%" src="https://replit.com/@kodewithklossy/Intro-to-DOM-Practice?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <br>
 [Back to Practice Index]({{ site.url }}/web-app/practice)
