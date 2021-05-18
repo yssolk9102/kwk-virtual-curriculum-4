@@ -92,6 +92,7 @@ Direct links to resources you probably want to reference during camps:
 Mobile 📱:
 - [Detailed Calendar](https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing)
 - [Review + CFU Resources](https://drive.google.com/drive/folders/1zfsNlNjueWpMJGTZrv5RxcL0VT_perg1) - please contribute any resources you've found or created!
+- [Git + GitHub for Pairs Video](https://drive.google.com/file/d/1yvgL-qI46rLpNk0ff8fZo_sdZnXfNL27/view?usp=sharing)
 
 WebDev 💻:
 - [Detailed Calendar](https://docs.google.com/document/d/1sIPdOY8SFbZNNng8A0AoJ1oXSZcRKNwNfq8qVy2scx4/edit)
