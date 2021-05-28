@@ -217,7 +217,7 @@ All resources for training and post-training session can be found [in this folde
     <p>This <a href="https://drive.google.com/file/d/1lg7SmoMq71Jb-dxQbQFR48VVdIV2kyg7/view?usp=sharing">tutorial</a> will walk you through how to navigate and use your Airtable base. In the weeks leading up to your camp, you will receive access to a "sandbox" Airtable base that you can use to play around with and practice using Airtable, as well as your camp's base.</p>
   </div>
 </article>
-
+<br>
 
 ## Training Resources
 
