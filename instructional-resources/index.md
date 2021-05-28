@@ -167,14 +167,14 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">👩‍🎓 Attendance</h3>
   <div class="solo-day-toggle">
-    Please refer to this <a href="https://docs.google.com/document/d/13NIcfEAJ6E8Fi4lqXCdRM8KIkxeYfb6JwQQKeFn3tbI/edit"> Google Document </a> for all the information your team will need regarding attendance policies. 
+    <p> Please refer to this <a href="https://docs.google.com/document/d/13NIcfEAJ6E8Fi4lqXCdRM8KIkxeYfb6JwQQKeFn3tbI/edit"> Google Document</a> for all the information your team will need regarding attendance policies. </p> 
   </div>
 </article>
 
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">📽 Zoom</h3>
   <div class="solo-day-toggle">
-    <p><a href="https://docs.google.com/document/d/1_15HMgMSbvq6gGoBBH5NoZEhbGevFRnHuvMcr2gBVIQ/edit#heading=h.cq2qxzmgcq9n">https://docs.google.com/document/d/1_15HMgMSbvq6gGoBBH5NoZEhbGevFRnHuvMcr2gBVIQ/edit#heading=h.cq2qxzmgcq9n</a><p>
+    <p> Please refer to <a href="https://docs.google.com/document/d/1_15HMgMSbvq6gGoBBH5NoZEhbGevFRnHuvMcr2gBVIQ/edit#heading=h.cq2qxzmgcq9n">this document</a> for all the information that you may need regarding Zoom policies.</p>
   </div>
 </article>
 
