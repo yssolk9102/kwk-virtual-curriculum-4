@@ -155,9 +155,8 @@ All resources for training and post-training session can be found [in this folde
   <h3 class="solo-day-label solo-day-click">🔑 Answer Keys</h3>
   <div class="solo-day-toggle">
     <p>These answer keys are for instructional leaders to reference for instruction. Please do not share these links with scholars.</p>
-    <p><a href="https://replit.com/@kodewithklossy/webdevanswerkey-2">WebDev Answer Key</a>
-    <p><a href="https://replit.com/@kodewithklossy/mobileanswerkey">MobileApp Answer Key</a>
-  </div>
+    <p><a href="https://replit.com/@kodewithklossy/webdevanswerkey-2">WebDev Answer Key</a></p> 
+    <p><a href="https://replit.com/@kodewithklossy/mobileanswerkey">MobileApp Answer Key</a></p> 
   </div> 
 </article>
 
