@@ -181,15 +181,15 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">📂 Google Drive</h3>
   <div class="solo-day-toggle">
-    <p>There’s such a wealth knowledge and variety of strategies that you all have-- we want to make sure all of that is captured, shared, and that information is as easy for scholars to find as possible and your team to find as possible. We’re using a shared Google Drive so any documents and resources should be placed in your camp folder.<p>
+    <p>There’s such a wealth knowledge and variety of strategies that you all have-- we want to make sure all of that is captured, shared, and that information is as easy for scholars to find as possible and your team to find as possible. We’re using a shared Google Drive so any documents and resources should be placed in your camp folder.</p> 
   </div>
 </article>
 
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">🔗 Quick Links</h3>
   <div class="solo-day-toggle">
-    <p>This is a one-stop-shop that will help scholars find the most important information they need each day for camps. Our team has created a template that can be found in your camp folder, but each camp should add links and regularly update this document. The Quick Links doc includes the following: <p>
-    <ol>
+    <p>This is a one-stop-shop that will help scholars find the most important information they need each day for camps. Our team has created a template that can be found in your camp folder, but each camp should add links and regularly update this document. The Quick Links doc includes the following: </p>
+    <ul>
         <li>a link to the curriculum website</li>
         <li>the Zoom meeting link for your camp sessions</li>
         <li>a collaborative playlist you can create with your scholars throughout camp</li>
@@ -198,7 +198,7 @@ All resources for training and post-training session can be found [in this folde
         <li>daily lesson slide decks</li>
         <li>daily lesson recordings</li>
         <li>night hack information</li>
-    </ol>
+    </ul>
   </div>
 </article>
 
