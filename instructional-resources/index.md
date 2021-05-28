@@ -167,22 +167,7 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">👩‍🎓 Attendance</h3>
   <div class="solo-day-toggle">
-    <li>Attendance should be taken on a daily basis during the morning and afternoon session by one IA, in your camp's Airtable tracker. There is also a space to write any relevant notes.
-    <img src="" alt="airtable screenshot">
-    </li>
-    <li>Attendance should be taken on a daily basis during the morning and afternoon session by one IA, in your camp's Airtable tracker. There is also a space to write any relevant notes.
-      
-            <li>The IA managing attendance should reach out to the scholar via Slack and update the tracker to reflect the communication that has occurred.
-            <img src="" alt="airtable screenshot">
-            </li>
-            <li>If the scholar does not respond,  the IA should inform the Kode With Klossy team using the Slack "Scholar Inquiry" workflow. This can be done by: 
-
-                    <li>Opening your "team" channel</li>
-                    <li>Clicking on the lightning bolt next to the message box</li>
-                    <li>Clicking "Scholar inquiry"</li>
-                </ol>
-            </li>
-            <li>If a scholar is chronically absent and you are concerned about their ability to complete the program, reach out to the Kode With Klossy Team using the Slack workflow.</li> <!-- include screenshots -->
+    Please refer to this <a href="https://docs.google.com/document/d/13NIcfEAJ6E8Fi4lqXCdRM8KIkxeYfb6JwQQKeFn3tbI/edit"> Google Document </a> for all the information your team will need regarding attendance policies. 
   </div>
 </article>
 
