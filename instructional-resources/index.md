@@ -11,7 +11,7 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">Day in the Life</h3>
   <div class="solo-day-toggle">
-    <p>This table details a typical day-in-the-life at camps. These times align with the time zone that your camp is slotted to. While the vast majority of camps will follow this general structure, some camps may have slight adjustments in timing.</p>
+    <p><a href="https://docs.google.com/document/d/1-YMA6-OQqMDlmILn8_QUXcJBexEGbmMdpl-n7bAUQkI/edit?usp=sharing">This table</a> details a typical day-in-the-life at camps. These times align with the time zone that your camp is slotted to. While the vast majority of camps will follow this general structure, some camps may have slight adjustments in timing.</p>
   </div>
 </article>
 
@@ -26,7 +26,7 @@ All resources for training and post-training session can be found [in this folde
   <h3 class="solo-day-label solo-day-click">👗 Theme Days</h3>
   <div class="solo-day-toggle">
     <p>Here are some examples of theme days that you can have at Kode With Klossy camps this summer.</p>
-    <ul>
+    <ol>
       <li>Pajama Day 🛌</li>
       <li>Meme Day 🤣</li>
       <li>Disney Day 🏰</li>
@@ -39,7 +39,7 @@ All resources for training and post-training session can be found [in this folde
       <li>Super Hero Day 🦸‍♀️</li>
       <li>Dress Fancy Day 👗</li>
       <li>Blast From the Past / Throwback Day 🕰</li>
-    </ul>
+    </ol>
   </div>
 </article>
 
@@ -54,31 +54,32 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">Office Hours</h3>
   <div class="solo-day-toggle">
-    <ul>
+    <ol>
         <li>We use office hours to:
-            <ul>
+            <ol>
                 <li>provide additional and differentiated support to scholars on content taught that day or night hacks</li>
                 <li>help scholars consolidate and synthesize their learning</li>
                 <li>continue building community and scholar confidence in their skills</li>
-             </ul>
+             </ol>
         </li>
         <li>They should be flexible and driven by scholar needs, but could involve:
-        <ul>
+        <ol>
             <li>Concept review</li>
             <li>Collaborative work time on night hacks</li>
             <li>Additional practice (use medium and spicy challenges)</li>
-        </ul>
+        </ol>
         </li>
         <li>Should be led by any two instructional leaders, daily, for 1 hour
-            <ul>
+            <ol>
                 <li>Up to you how you want to schedule the time and divide it up
-                    <ul>
+                    <ol>
                         <li>i.e. is it the same time every night? Or do you want to vary it?</li>
                         <li>i.e. Will Awa and Kariann always do M, T, and Tara and Hallie will always do W, Th?</li>
-                    </ul>
+                    </ol>
                 </li>
-            </ul>
+            </ol>
         </li>
+    </ol>
   </div>
 </article>
 
@@ -87,17 +88,17 @@ All resources for training and post-training session can be found [in this folde
   <div class="solo-day-toggle">
     <p>Feedback is incredibly important to the success of current and future camps.</p>
     <p>Scholar feedback is solicited through:
-        <ul>
+        <ol>
             <li>Microfeedback (every day)</li>
             <li>Mid-Camp & End of Camp Surveys</li>
-        </ul>
+        </ol>
     </p>
     <p>Instructional Leader Feedback is solicited & shared through: 
-        <ul>
+        <ol>
             <li>End of Camp Surveys</li>
             <li>Via Slack (by tagging '@' kodewithklossyhq)</li>
             <li>Informal check-ins & observations</li>
-        </ul>
+        </ol>
     </p>
   </div>
 </article>
@@ -125,6 +126,114 @@ All resources for training and post-training session can be found [in this folde
 </article>
 
 <br>
+
+## Curriculum Resources
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">Pacing Guide / Daily Agenda</h3>
+  <div class="solo-day-toggle">
+    <p><a href="https://docs.google.com/spreadsheets/d/1wuN1ggFoOxGzvoZkTRIsFDvDsc34pVs_KVcDJVF3ENc/edit#gid=0">WebDev Pacing Guide and Detailed Daily Agenda</a></p>
+    <p><a href="https://docs.google.com/spreadsheets/d/1YYcH3LUs5kiqeDBQRP_fKVwdRDx7uVhonghH1a48gpc/edit#gid=0">MobileApp Pacing Guide and Detailed Daily Agenda</a></p>
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">Night Hacks</h3>
+  <div class="solo-day-toggle">
+    <p>Night hacks are due by 7am local time the next day. We know that scholars have varying responsibilities at the end of the camp day, so want to provide them with as much time as possible to get the hacks done. You should review the hacks, score them, and provide scholars with feedback on their submissions. You’re welcome to review them on a rolling basis as they come in, but should be sure to spend time after the deadline each morning reviewing all of them. During your DTR meeting, you’ll decide how to divide and conquer scholars on your roster to review night hacks.</p>
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">Slides</h3>
+  <div class="solo-day-toggle">
+    <p>Slides will be provided for you to use if you’d like - we highly encourage you to personalize, edit, and change to best fit your personality and your scholars’ needs. A link will be updated soon for the slides.</p>
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">🔑 Answer Keys</h3>
+  <div class="solo-day-toggle">
+    <p>These answer keys are for instructional leaders to reference for instruction. Please do not share these links with scholars.</p>
+    <p><a href="https://replit.com/@kodewithklossy/webdevanswerkey-2">WebDev Answer Key</a><p>
+    <p><a href="https://replit.com/@kodewithklossy/mobileanswerkey">MobileApp Answer Key</a><p>
+  </div>
+</article>
+
+<br>
+
+## Systems Resources
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">Attendance</h3>
+  <div class="solo-day-toggle">
+    <ol>
+    <li>Attendance should be taken on a daily basis during the morning and afternoon session by one IA, in your camp's Airtable tracker. There is also a space to write any relevant notes.
+    <img src="" alt="airtable screenshot">
+    </li>
+    <li>Attendance should be taken on a daily basis during the morning and afternoon session by one IA, in your camp's Airtable tracker. There is also a space to write any relevant notes.
+        <ol>
+            <li>The IA managing attendance should reach out to the scholar via Slack and update the tracker to reflect the communication that has occurred.
+            <img src="" alt="airtable screenshot">
+            </li>
+            <li>If the scholar does not respond,  the IA should inform the Kode With Klossy team using the Slack "Scholar Inquiry" workflow. This can be done by: 
+                <ol>
+                    <li>Opening your "team" channel</li>
+                    <li>Clicking on the lightning bolt next to the message box</li>
+                    <li>Clicking "Scholar inquiry"</li>
+                </ol>
+            </li>
+            <li>If a scholar is chronically absent and you are concerned about their ability to complete the program, reach out to the Kode With Klossy Team using the Slack workflow.</li> <!-- include screenshots -->
+  </div>
+</article>
+
+## Training Resources
+
+If you'd like direct links to resources for each day of training, click the appropriate box:
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">April 3 - Kick Off</h3>
+  <div class="solo-day-toggle">
+    <ol>
+      <li><a target="blank" href="https://zoom.us/j/91082517657?pwd=SGNBYTc5MWU2bEkvRTlOd29NWXowQT09">Zoom Link</a></li>
+      <li><a target="blank" href="https://drive.google.com/drive/u/0/folders/1Eu0mSvwnz-_licXrbwHtLwbeQtkMK4Ps">Slides</a></li>
+      <li><a target="blank" href="https://open.spotify.com/playlist/3ldsP7rk4wGWxclnXQpkNi?si=5oqyzLVHSX61qtvA9jTq0w">Playlist</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/18HQvrLLE_yubmrOO1RwKaXoapSFWcAV8pU9VqblQwec/edit">Prework Overview</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/1oXXtaUQoyK3pd6jB85YeegX7_xrxFTvV87fIg7IMBZY/edit">Prework Cohort DTR Template</a></li>
+    </ol>
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">April 17 - Creating Camp Magic</h3>
+  <div class="solo-day-toggle">
+    <ol>
+      <li><a target="blank" href="">Zoom Link - TBD</a></li>
+      <li><a target="blank" href="">Slides</a></li>
+      <li><a target="blank" href="https://www.mentimeter.com/app ">Welcome Poll</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/1j-sH59ItrOWonoefxWv-N5Qmli4q1hQ4k5iZVlm_244/edit">Camp Norms</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/1O3v5POIjI_bKQjscvIX6vS7IotFGE2ORbV0yNBXVsUA/edit">Brain Break Encyclopedia</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit">MicroFeedback Analysis</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/1W7W0EiKz4Zuhw3GaYNNpsV3I-fLhbQp7LIJmncp1qQw/edit">Meaningful Co-Teaching</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/1FgT8kH5vdHZ9LwOepLWEm91DsQfBF84w1Hi_YR4hEd8/edit">5 Pillars of Instruction</a></li>
+      <li><a target="blank" href="https://docs.google.com/document/d/1DSW0FuohPsDWPCfxL3jcU1QsjpISqSh-6FDnIcJPY8Y/edit">New Instructor Resource</a></li>
+    </ol>
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">May 16 - Pitches, Projects, People</h3>
+  <div class="solo-day-toggle">
+    <ol>
+      <li><a target="blank" href="">Zoom Link - TBD</a></li>
+      <li><a target="blank" href="">Slides - TBD</a></li>
+      <li><a target="blank" href=""></a></li>
+      <li><a target="blank" href=""></a></li>
+      <li><a target="blank" href=""></a></li>
+      <li><a target="blank" href=""></a></li>
+    </ol>
+  </div>
+</article>
 
 ## Prework
 
