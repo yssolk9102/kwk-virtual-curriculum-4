@@ -167,7 +167,6 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">Attendance</h3>
   <div class="solo-day-toggle">
-    <ol>
     <li>Attendance should be taken on a daily basis during the morning and afternoon session by one IA, in your camp's Airtable tracker. There is also a space to write any relevant notes.
     <img src="" alt="airtable screenshot">
     </li>
