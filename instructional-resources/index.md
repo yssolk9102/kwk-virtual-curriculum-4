@@ -187,6 +187,53 @@ All resources for training and post-training session can be found [in this folde
   </div>
 </article>
 
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">Zoom</h3>
+  <div class="solo-day-toggle">
+    <p><a href="https://docs.google.com/document/d/1_15HMgMSbvq6gGoBBH5NoZEhbGevFRnHuvMcr2gBVIQ/edit#heading=h.cq2qxzmgcq9n">https://docs.google.com/document/d/1_15HMgMSbvq6gGoBBH5NoZEhbGevFRnHuvMcr2gBVIQ/edit#heading=h.cq2qxzmgcq9n</a><p>
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">Google Drive</h3>
+  <div class="solo-day-toggle">
+    <p>There’s such a wealth knowledge and variety of strategies that you all have-- we want to make sure all of that is captured, shared, and that information is as easy for scholars to find as possible and your team to find as possible. We’re using a shared Google Drive so any documents and resources should be placed in your camp folder.<p>
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">Quick Links</h3>
+  <div class="solo-day-toggle">
+    <p>This is a one-stop-shop that will help scholars find the most important information they need each day for camps. Our team has created a template that can be found in your camp folder, but each camp should add links and regularly update this document. The Quick Links doc includes the following: <p>
+    <ol>
+        <li>a link to the curriculum website</li>
+        <li>the Zoom meeting link for your camp sessions</li>
+        <li>a collaborative playlist you can create with your scholars throughout camp</li>
+        <li>a link to the folder housing lesson recordings</li>
+        <li>the daily microfeedback form</li>
+        <li>daily lesson slide decks</li>
+        <li>daily lesson recordings</li>
+        <li>night hack information</li>
+    </ol>
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">AirTable Tracking Systems</h3>
+  <div class="solo-day-toggle">
+    <p>Throughout camps, you should track specific information about scholars using the platform, Airtable. Airtable is a spreadsheet-database hybrid that is used to house scholar records. Each camp will have its own Airtable base to track scholar progress and key information throughout camps. Each base includes: <p>
+    <ol>
+        <li>Roster</li>
+        <li>Attendance and Hack tracker</li>
+        <li>Scholar Microfeedback Responses</li>
+        <li>Team Microfeedback Plan</li>
+        <li>Final Project Interest Form</li>
+        <li>Final Project Tracker</li>
+    </ol>
+    <p>This <a href="https://drive.google.com/file/d/1lg7SmoMq71Jb-dxQbQFR48VVdIV2kyg7/view?usp=sharing">tutorial</a> will walk you through how to navigate and use your Airtable base. In the weeks leading up to your camp, you will receive access to a "sandbox" Airtable base that you can use to play around with and practice using Airtable, as well as your camp's base.</p>
+  </div>
+</article>
+
 ## Training Resources
 
 If you'd like direct links to resources for each day of training, click the appropriate box:
