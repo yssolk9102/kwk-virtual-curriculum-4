@@ -140,7 +140,7 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">🌑 Night Hacks</h3>
   <div class="solo-day-toggle">
-    <p>Night hacks are due by 7am local time the next day. We know that scholars have varying responsibilities at the end of the camp day, so want to provide them with as much time as possible to get the hacks done. You should review the hacks, score them, and provide scholars with feedback on their submissions. You’re welcome to review them on a rolling basis as they come in, but should be sure to spend time after the deadline each morning reviewing all of them. During your DTR meeting, you’ll decide how to divide and conquer scholars on your roster to review night hacks.</p>
+    <p>Please refer to the <a href="https://docs.google.com/document/d/1Hti5TQ99iL8m0Ypy8Myvg-0kpYr4iOpH_QVhOSR9gl8/edit">following document</a> for more information regarding Night Hacks.</p>
   </div>
 </article>
 
