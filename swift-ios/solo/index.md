@@ -82,6 +82,7 @@ title: Night Hacks
     <div>
       <h4>App Design Journal: Prototype</h4>
       <p>Complete the Prototype section of your App Design Journal. Be ready to share out when we meet on Monday!</p>
+      <p>(Optional) Start on the <a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/swift-ios/projects/el-2021/">Estee Lauder Challenge</a> due next Wednesday.</p>
     </div>
 
   </div>
