@@ -1,5 +1,5 @@
 ---
-title: Estée Lauder Mobile Design Challenge
+title: Estée Lauder Website Mobile Design Challenge
 ---
 
 [Back to Projects]({{ site.url }}/web-app/projects)

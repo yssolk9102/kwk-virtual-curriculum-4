@@ -40,7 +40,7 @@ title: Night Hacks
 
     <div>
       <h4>Practice: Intermediate JS</h4>
-      <p>Complete the challenges in the <a href="../practice/intermediate-js" target="blank">Intermediate JS Practice Exercise</a>. Share the "invite" link in the Slack thread. Afterwards, start on the <a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/el/" target="blank"> Estee Lauder Project </a></p>
+      <p>Complete the challenges in the <a href="../practice/intermediate-js" target="blank">Intermediate JS Practice Exercise</a>. Share the "invite" link in the Slack thread.</p>
     </div>
 
   </div>
@@ -69,7 +69,7 @@ title: Night Hacks
 
     <div>
       <h4>Build: Mini Project 2</h4>
-      <p>Spend 30-45 minutes working on Mini Project 2! Share the "invite others" link in the Slack thread.</p>
+      <p>Spend 30-45 minutes working on Mini Project 2! Share the "invite others" link in the Slack thread. Afterwards, start on the <a href="https://kodewithklossy.github.io/kwk-virtual-curriculum/web-app/projects/el-2021/" target="blank"> Estee Lauder Challenge</a>.</p>
     </div>
 
   </div>
