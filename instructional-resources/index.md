@@ -160,6 +160,19 @@ All resources for training and post-training session can be found [in this folde
   </div> 
 </article>
 
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">✏️ Final Project</h3>
+  <div class="solo-day-toggle">
+    <p><a href="https://docs.google.com/document/d/1ewwEJmkzwCPG0uNuLUXjuWCbrAoyfdQFYm4yUU9ru7c/edit#">Final Project Instructor Guide</a></p> 
+    <p><a href="https://docs.google.com/document/d/1_feRg10-rw6RhaoPmUCWibcOTM6QFW-ulN9Ksri1u_U/edit#">Final Project Scholar Guide</a></p> 
+    <p><a href="https://docs.google.com/document/d/1TxWJZqCvHFrAHgTsq2CdDc_o9RGoMrTmVXCmXhXjq5g/edit">Final Project Management Guide</a></p> 
+    <p><a href="https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit">App Design Workbook Template</a></p> 
+  </div> 
+</article>
+
+
+
 <br>
 
 ## Systems Resources
@@ -221,63 +234,28 @@ All resources for training and post-training session can be found [in this folde
 
 ## Training Resources
 
-If you'd like direct links to resources for each day of training, click the appropriate box:
-
-<article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">April 3 - Kick Off</h3>
-  <div class="solo-day-toggle">
-    <ol>
-      <li><a target="blank" href="https://zoom.us/j/91082517657?pwd=SGNBYTc5MWU2bEkvRTlOd29NWXowQT09">Zoom Link</a></li>
-      <li><a target="blank" href="https://drive.google.com/drive/u/0/folders/1Eu0mSvwnz-_licXrbwHtLwbeQtkMK4Ps">Slides</a></li>
-      <li><a target="blank" href="https://open.spotify.com/playlist/3ldsP7rk4wGWxclnXQpkNi?si=5oqyzLVHSX61qtvA9jTq0w">Playlist</a></li>
-      <li><a target="blank" href="https://docs.google.com/document/d/18HQvrLLE_yubmrOO1RwKaXoapSFWcAV8pU9VqblQwec/edit">Prework Overview</a></li>
-      <li><a target="blank" href="https://docs.google.com/document/d/1oXXtaUQoyK3pd6jB85YeegX7_xrxFTvV87fIg7IMBZY/edit">Prework Cohort DTR Template</a></li>
-    </ol>
-  </div>
-</article>
-
-<article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">April 17 - Creating Camp Magic</h3>
-  <div class="solo-day-toggle">
-    <ol>
-      <li><a target="blank" href="">Zoom Link - TBD</a></li>
-      <li><a target="blank" href="">Slides</a></li>
-      <li><a target="blank" href="https://www.mentimeter.com/app ">Welcome Poll</a></li>
-      <li><a target="blank" href="https://docs.google.com/document/d/1j-sH59ItrOWonoefxWv-N5Qmli4q1hQ4k5iZVlm_244/edit">Camp Norms</a></li>
-      <li><a target="blank" href="https://docs.google.com/document/d/1O3v5POIjI_bKQjscvIX6vS7IotFGE2ORbV0yNBXVsUA/edit">Brain Break Encyclopedia</a></li>
-      <li><a target="blank" href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit">MicroFeedback Analysis</a></li>
-      <li><a target="blank" href="https://docs.google.com/document/d/1W7W0EiKz4Zuhw3GaYNNpsV3I-fLhbQp7LIJmncp1qQw/edit">Meaningful Co-Teaching</a></li>
-      <li><a target="blank" href="https://docs.google.com/document/d/1FgT8kH5vdHZ9LwOepLWEm91DsQfBF84w1Hi_YR4hEd8/edit">5 Pillars of Instruction</a></li>
-      <li><a target="blank" href="https://docs.google.com/document/d/1DSW0FuohPsDWPCfxL3jcU1QsjpISqSh-6FDnIcJPY8Y/edit">New Instructor Resource</a></li>
-    </ol>
-  </div>
-</article>
-
-<article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">May 16 - Pitches, Projects, People</h3>
-  <div class="solo-day-toggle">
-    <ol>
-      <li><a target="blank" href="">Zoom Link - TBD</a></li>
-      <li><a target="blank" href="">Slides - TBD</a></li>
-      <li><a target="blank" href=""></a></li>
-      <li><a target="blank" href=""></a></li>
-      <li><a target="blank" href=""></a></li>
-      <li><a target="blank" href=""></a></li>
-    </ol>
-  </div>
-</article>
+If you'd like to reference old training sessions, please refer to  <a href="https://drive.google.com/drive/u/0/folders/1ni73f0cTCqdBpVxiDuuNi2QVEWLYxzch">this folder</a> 
 
 ## Prework
-
-WebDev Links to prework:
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">🖥 WebDev</h3>
+  <div class="solo-day-toggle">
 - [New Instructor](https://docs.google.com/document/d/1syrfx0OBDT8AP9zC0gxdf_nVtjaSu_rBB90zqTyL9ds/edit)
 - [Returning Instructor](https://docs.google.com/document/d/1K672v2XzlkQSCAAv8P_gkcczUojH2S_cnI1jBSHk2Dk/edit)
 - [Instructor Assistant](https://docs.google.com/document/d/1uuabq-NS1qlL0VBSFMwnTIlxnzwBTwOrjxqBa43Ge4Y/edit)
 
-Mobile Links to prework:
+  </div>
+</article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">📱 MobileApp</h3>
+  <div class="solo-day-toggle">
 - [New Instructor](https://docs.google.com/document/d/19c-wtMieGgo96ztAdD6XdeBxCEzyk3wltng5Z_DnLAg/edit)
 - [Returning Instructor](https://docs.google.com/document/d/1CR8WQpqUUPoplnbjAN5xznCd8az5om5CtK3rvvoOOuk/edit)
 - [Instructor Assistant](https://docs.google.com/document/d/1v_AJJOg4o7KfuqaBAGtnr8iiSeDexNFCzD0IOxD8W2A/edit)
+
+  </div>
+</article>
 
 ## DTR Templates
 
