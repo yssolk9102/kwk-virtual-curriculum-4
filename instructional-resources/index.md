@@ -9,6 +9,13 @@ All resources for training and post-training session can be found [in this folde
 ## General Camp Resources
 
 <article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">📝 Sample Teach</h3>
+  <div class="solo-day-toggle">
+    <p>Prior to the start of your first camp, all instructor and instructor assistants will complete a Sample Teach to practice teaching software development in a remote setting and get feedback from peers on the execution of lessons. These sessions will be led by senior instructors and the Kode With Klossy team. Read through <a href="https://docs.google.com/document/d/1y62yZGV28rpO_C6fldIQDncK3YhLZK7WTnRfbctzGuE/edit?usp=sharing">this document</a> to learn more about how to prepare for your sample teach.</p>
+  </div>
+</article>
+
+<article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">📅 Day in the Life</h3>
   <div class="solo-day-toggle">
     <p><a href="https://docs.google.com/document/d/1-YMA6-OQqMDlmILn8_QUXcJBexEGbmMdpl-n7bAUQkI/edit?usp=sharing">This table</a> details a typical day-in-the-life at camps. These times align with the time zone that your camp is slotted to. While the vast majority of camps will follow this general structure, some camps may have slight adjustments in timing.</p>
@@ -120,13 +127,6 @@ All resources for training and post-training session can be found [in this folde
   <h3 class="solo-day-label solo-day-click">👩‍🏫 Mentors</h3>
   <div class="solo-day-toggle">
     <p>We have some incredible engineers and technologists in the Kode With Klossy extended network who are excited to provide support and mentorship to scholars this summer. We have partnered with companies like IBM and others to provide mentors into many camps for scholars. These mentors will join your Pitch Parties on Day 6 and Demo Days on Day 10. Their role will be to provide feedback and encouragement on pitches and then see the evolution during work time on Days 8 and 9 (optional for them to join during project work time) and return on Day 10 to see final projects presented. A list of mentors that will join your camp will be provided to you by the end of the first week of camp. Kode With Klossy will communicate all Zoom details to mentors so you don't have to. We encourage you to allow all mentors to introduce themselves at the beginning of the Pitch Party so scholars know who is in the room.</p>
-  </div>
-</article>
-
-<article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">📝 Sample Teach</h3>
-  <div class="solo-day-toggle">
-    <p>Prior to the start of your first camp, all instructor and instructor assistants will complete a Sample Teach to practice teaching software development in a remote setting and get feedback from peers on the execution of lessons. These sessions will be led by senior instructors and the Kode With Klossy team. Read through <a href="https://docs.google.com/document/d/1y62yZGV28rpO_C6fldIQDncK3YhLZK7WTnRfbctzGuE/edit?usp=sharing">this document</a> to learn more about how to prepare for your sample teach.</p>
   </div>
 </article>
 
