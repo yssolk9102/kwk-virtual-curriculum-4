@@ -188,7 +188,6 @@ All resources for training and post-training session can be found [in this folde
   </div> 
 </article>
 
-
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">💚 Final Project</h3>
   <div class="solo-day-toggle">
@@ -199,14 +198,12 @@ All resources for training and post-training session can be found [in this folde
   </div> 
 </article>
 
-
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">📺 MobileApp Remote Pairing</h3>
   <div class="solo-day-toggle">
     <p><a href="https://drive.google.com/file/d/1yvgL-qI46rLpNk0ff8fZo_sdZnXfNL27/view"> This video </a> walks you through remote pairing for MobileApp! 
   </div> 
 </article>
-
 
 <br>
 
@@ -270,11 +267,11 @@ All resources for training and post-training session can be found [in this folde
   <h3 class="solo-day-label solo-day-click">💬 Microfeedback</h3>
   <div class="solo-day-toggle">
     <p> At the end of each day, you should plan on taking 30 minutes to prepare for your Microfeedback session.  This should include: </p> 
-<p> ~ 10 min. - standing up and taking a break from your computer </p> 
-<p> ~ 10 min. - reading the microfeedback comments from your scholars </p> 
-<p> ~ 10 min. - preparing your own thinking and analysis of what went well and what needs improvement. This does not need to be written down concretely, but you should be prepared to share this thinking with your team. </p>
+      <p> ~ 10 min. - standing up and taking a break from your computer </p> 
+      <p> ~ 10 min. - reading the microfeedback comments from your scholars </p> 
+      <p> ~ 10 min. - preparing your own thinking and analysis of what went well and what needs improvement. This does not need to be written down concretely, but you should be prepared to share this thinking with your team. </p>
 
-<p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document.</a></p> 
+  <p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document.</a></p> 
   </div>
 </article>
 
@@ -283,18 +280,17 @@ All resources for training and post-training session can be found [in this folde
   <div class="solo-day-toggle">
     <p>Your success for the summer will be greatly influenced by your instructional team.  The way you set expectations for communication, feedback, and working styles is critical to create a positive experience for scholars.  We call this process DTR -- Define the Relationship.  The more detailed and specific you can be at the start, the better your full instructional team will work together. </p> 
 
-<p> Recommended Process</p> 
-<ol>
-<li> DTR with your co-instructor as soon as possible</li>
-<li> DTR with your full instructional team including your IAs at least 1 week before camp</li>
-<li> Return to the DTR at the end of the first day of camp</li>
-<li> Return to your DTR any time you come into a team conflict</li>
-</ol>
+  <p> Recommended Process</p> 
+    <ol>
+      <li> DTR with your co-instructor as soon as possible</li>
+      <li> DTR with your full instructional team including your IAs at least 1 week before camp</li>
+      <li> Return to the DTR at the end of the first day of camp</li>
+      <li> Return to your DTR any time you come into a team conflict</li>
+    </ol>
 
-<p> You’ll find this document in your camps folder. </p> 
+  <p> You’ll find this document in your camps folder. </p> 
   </div>
 </article>
-
 
 <br>
 
@@ -303,6 +299,7 @@ All resources for training and post-training session can be found [in this folde
 If you'd like to reference old training sessions, please refer to  <a href="https://drive.google.com/drive/u/0/folders/1ni73f0cTCqdBpVxiDuuNi2QVEWLYxzch">this folder</a>. 
 
 ## Prework
+
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">🖥 WebDev</h3>
   <div class="solo-day-toggle">
