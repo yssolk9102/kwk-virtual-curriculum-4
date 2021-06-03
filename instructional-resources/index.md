@@ -201,7 +201,7 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">📺 MobileApp Remote Pairing</h3>
   <div class="solo-day-toggle">
-    <p><a href="https://drive.google.com/file/d/1yvgL-qI46rLpNk0ff8fZo_sdZnXfNL27/view"> This video </a> walks you through remote pairing for MobileApp! 
+    <p><a href="https://drive.google.com/file/d/1yvgL-qI46rLpNk0ff8fZo_sdZnXfNL27/view"> This video </a> walks you through remote pairing for MobileApp!</p>
   </div> 
 </article>
 
