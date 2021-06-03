@@ -15,6 +15,17 @@ All resources for training and post-training session can be found [in this folde
   </div>
 </article>
 
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">👩‍🏫 Co-Teaching</h3>
+  <div class="solo-day-toggle">
+    <p>- Co-Teaching in remote settings makes lessons much easier!  However, it requires a high level of coordination across the instructional team. Refer to <a href="https://docs.google.com/document/d/1W7W0EiKz4Zuhw3GaYNNpsV3I-fLhbQp7LIJmncp1qQw/edit">this document</a> for various co-teaching models that you can use with your co-instructor.
+     </p>
+  </div>
+</article>
+
+
+
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">🎤 Speaker Series</h3>
   <div class="solo-day-toggle">
@@ -50,6 +61,8 @@ All resources for training and post-training session can be found [in this folde
     <p>In advance of your camp, we will send some guidelines for good moments to capture, including culture of tech, brain breaks, and organic moments, such as scholars hyping each other up, or laughing, or generally being a community. </p>
   </div>
 </article>
+
+
 
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">⏰ Office Hours</h3>
@@ -160,9 +173,24 @@ All resources for training and post-training session can be found [in this folde
   </div> 
 </article>
 
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">🥼 Culture of Tech</h3>
+  <div class="solo-day-toggle">
+    <p><a href="https://drive.google.com/drive/folders/1pctju-LcifB5um_Gg01Gt1ilk5Gu9Ge6">This folder</a> has all the resources you need to lead the Culture of Tech sessions! </p>
+  </div> 
+</article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">✏️ Final Project</h3>
+  <h3 class="solo-day-label solo-day-click">🎉 Kahoots</h3>
+  <div class="solo-day-toggle">
+    <p><a href="https://docs.google.com/document/d/1U_SLbV9OJHh4BT_9R5a5qNh5KRMIe-yfNgB1JS8Q6Dk/edit?usp=sharing"> Web Dev Kahoots</a>
+    <p><a href="https://docs.google.com/document/d/1KkyIQkWNeHNw0ocfRkF6XBpUIdKZttfEWLvsopMZoOM/edit?usp=sharing"> Mobile App Kahoots</a>
+  </div> 
+</article>
+
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">💚 Final Project</h3>
   <div class="solo-day-toggle">
     <p><a href="https://docs.google.com/document/d/1ewwEJmkzwCPG0uNuLUXjuWCbrAoyfdQFYm4yUU9ru7c/edit#">Final Project Instructor Guide</a></p> 
     <p><a href="https://docs.google.com/document/d/1_feRg10-rw6RhaoPmUCWibcOTM6QFW-ulN9Ksri1u_U/edit#">Final Project Scholar Guide</a></p> 
@@ -171,6 +199,13 @@ All resources for training and post-training session can be found [in this folde
   </div> 
 </article>
 
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">📺 MobileApp Remote Pairing</h3>
+  <div class="solo-day-toggle">
+    <p><a href="https://drive.google.com/file/d/1yvgL-qI46rLpNk0ff8fZo_sdZnXfNL27/view"> This video </a> walks you through remote pairing for MobileApp! 
+  </div> 
+</article>
 
 
 <br>
@@ -230,6 +265,37 @@ All resources for training and post-training session can be found [in this folde
     <p>This <a href="https://drive.google.com/file/d/1lg7SmoMq71Jb-dxQbQFR48VVdIV2kyg7/view?usp=sharing">tutorial</a> will walk you through how to navigate and use your Airtable base. In the weeks leading up to your camp, you will receive access to a "sandbox" Airtable base that you can use to play around with and practice using Airtable, as well as your camp's base.</p>
   </div>
 </article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">💬 Microfeedback</h3>
+  <div class="solo-day-toggle">
+    <p> At the end of each day, you should plan on taking 30 minutes to prepare for your Microfeedback session.  This should include: </p> 
+<li> ~ 10 min. - standing up and taking a break from your computer
+<li> ~ 10 min. - reading the microfeedback comments from your scholars
+<li> ~ 10 min. - preparing your own thinking and analysis of what went well and what needs improvement. This does not need to be written down concretely, but you should be prepared to share this thinking with your team. 
+
+<p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document. </a>
+</p> 
+  </div>
+</article>
+
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">👩‍💻 DTR</h3>
+  <div class="solo-day-toggle">
+    <p>Your success for the summer will be greatly influenced by your instructional team.  The way you set expectations for communication, feedback, and working styles is critical to create a positive experience for scholars.  We call this process DTR -- Define the Relationship.  The more detailed and specific you can be at the start, the better your full instructional team will work together. </p> 
+
+<p> Recommended Process</p> 
+<li> DTR with your co-instructor as soon as possible 
+<li> DTR with your full instructional team including your IAs at least 1 week before camp 
+<li>  Return to the DTR at the end of the first day of camp 
+<li> Return to your DTR any time you come into a team conflict
+
+<p> You’ll find this document in your camps folder. </p> 
+  </div>
+</article>
+
+
 <br>
 
 ## Training Resources
