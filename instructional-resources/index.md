@@ -210,7 +210,6 @@ All resources for training and post-training session can be found [in this folde
 
 <br>
 
-
 ## Systems Resources
 
 <article class="solo-day-card">
@@ -275,11 +274,9 @@ All resources for training and post-training session can be found [in this folde
 <p> ~ 10 min. - reading the microfeedback comments from your scholars </p> 
 <p> ~ 10 min. - preparing your own thinking and analysis of what went well and what needs improvement. This does not need to be written down concretely, but you should be prepared to share this thinking with your team. </p>
 
-<p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document. </a>
-</p> 
+<p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document.</a></p> 
   </div>
 </article>
-
 
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">👩‍💻 DTR</h3>
@@ -288,10 +285,10 @@ All resources for training and post-training session can be found [in this folde
 
 <p> Recommended Process</p> 
 <ol>
-<li> DTR with your co-instructor as soon as possible 
-<li> DTR with your full instructional team including your IAs at least 1 week before camp 
-<li>  Return to the DTR at the end of the first day of camp 
-<li> Return to your DTR any time you come into a team conflict
+<li> DTR with your co-instructor as soon as possible</li>
+<li> DTR with your full instructional team including your IAs at least 1 week before camp</li>
+<li> Return to the DTR at the end of the first day of camp</li>
+<li> Return to your DTR any time you come into a team conflict</li>
 </ol>
 
 <p> You’ll find this document in your camps folder. </p> 
@@ -302,6 +299,7 @@ All resources for training and post-training session can be found [in this folde
 <br>
 
 ## Training Resources
+
 If you'd like to reference old training sessions, please refer to  <a href="https://drive.google.com/drive/u/0/folders/1ni73f0cTCqdBpVxiDuuNi2QVEWLYxzch">this folder</a>. 
 
 ## Prework
