@@ -271,9 +271,9 @@ All resources for training and post-training session can be found [in this folde
   <h3 class="solo-day-label solo-day-click">💬 Microfeedback</h3>
   <div class="solo-day-toggle">
     <p> At the end of each day, you should plan on taking 30 minutes to prepare for your Microfeedback session.  This should include: </p> 
-<li> ~ 10 min. - standing up and taking a break from your computer
-<li> ~ 10 min. - reading the microfeedback comments from your scholars
-<li> ~ 10 min. - preparing your own thinking and analysis of what went well and what needs improvement. This does not need to be written down concretely, but you should be prepared to share this thinking with your team. 
+<p> ~ 10 min. - standing up and taking a break from your computer </p> 
+<p> ~ 10 min. - reading the microfeedback comments from your scholars </p> 
+<p> ~ 10 min. - preparing your own thinking and analysis of what went well and what needs improvement. This does not need to be written down concretely, but you should be prepared to share this thinking with your team. </p>
 
 <p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document. </a>
 </p> 
@@ -287,10 +287,12 @@ All resources for training and post-training session can be found [in this folde
     <p>Your success for the summer will be greatly influenced by your instructional team.  The way you set expectations for communication, feedback, and working styles is critical to create a positive experience for scholars.  We call this process DTR -- Define the Relationship.  The more detailed and specific you can be at the start, the better your full instructional team will work together. </p> 
 
 <p> Recommended Process</p> 
+<ol>
 <li> DTR with your co-instructor as soon as possible 
 <li> DTR with your full instructional team including your IAs at least 1 week before camp 
 <li>  Return to the DTR at the end of the first day of camp 
 <li> Return to your DTR any time you come into a team conflict
+</ol>
 
 <p> You’ll find this document in your camps folder. </p> 
   </div>
@@ -321,33 +323,3 @@ If you'd like to reference old training sessions, please refer to  <a href="http
   <li> <a href= "https://docs.google.com/document/d/1v_AJJOg4o7KfuqaBAGtnr8iiSeDexNFCzD0IOxD8W2A/edit" > Instructor Assistant </a>
   </div>
 </article>
-
-## DTR Templates
-
-Direct links to resources you'll be using post-training, in your planning;
-
-- [Prework Cohort DTR](https://docs.google.com/document/d/1oXXtaUQoyK3pd6jB85YeegX7_xrxFTvV87fIg7IMBZY/edit?usp=sharing)
-- [Camp Team DTR](https://docs.google.com/document/d/1eVMC5GJ_Q3jI1DFDvT6kD01EPIduxmjMdJyGhxfPhec/edit?usp=sharing)
-- [Scholar Project DTR](https://docs.google.com/document/d/1gzxHdbLgEcRQS5lavsl7hzZSgLUTsCCJRap-UW_7RXE/edit?usp=sharing)
-
-## Camp Resources
-
-Direct links to resources you probably want to reference during camps:
-
-- [Using Zoom Education](https://screencast-o-matic.com/watch/cYhnrPBBQT)
-- [Project Management](https://docs.google.com/document/d/1TxWJZqCvHFrAHgTsq2CdDc_o9RGoMrTmVXCmXhXjq5g/edit?usp=sharing)
-- [MicroFeedback Template](https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit?usp=sharing)
-- [Meaningful Co-Teaching](https://docs.google.com/document/d/1W7W0EiKz4Zuhw3GaYNNpsV3I-fLhbQp7LIJmncp1qQw/edit?usp=sharing)
-- [Culture of Tech](https://drive.google.com/drive/folders/1pctju-LcifB5um_Gg01Gt1ilk5Gu9Ge6?usp=sharing)
-- [App Design Workbook - Template](https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit?usp=sharing)
-- [Instructor Facing Final Project Overview](https://docs.google.com/document/d/1ewwEJmkzwCPG0uNuLUXjuWCbrAoyfdQFYm4yUU9ru7c/edit#)
-- [Scholar Facing Final Project Overview](https://docs.google.com/document/d/1_feRg10-rw6RhaoPmUCWibcOTM6QFW-ulN9Ksri1u_U/edit#)
-
-Mobile 📱:
-- [Detailed Calendar](https://docs.google.com/document/d/1y5GefQYqTusz1gGd-UvYX18gp9XlXJX97TjcF7RSMOc/edit?usp=sharing)
-- [Review + CFU Resources](https://drive.google.com/drive/folders/1zfsNlNjueWpMJGTZrv5RxcL0VT_perg1) - please contribute any resources you've found or created!
-- [Git + GitHub for Pairs Video](https://drive.google.com/file/d/1yvgL-qI46rLpNk0ff8fZo_sdZnXfNL27/view?usp=sharing)
-
-WebDev 💻:
-- [Detailed Calendar](https://docs.google.com/document/d/1sIPdOY8SFbZNNng8A0AoJ1oXSZcRKNwNfq8qVy2scx4/edit)
-- [Review + CFU Resources](https://drive.google.com/drive/folders/1QvTx3ugBVKq9Y0_QFlBUQ2Oqd3GiA_zP) - please contribute any resources you've found or created!
