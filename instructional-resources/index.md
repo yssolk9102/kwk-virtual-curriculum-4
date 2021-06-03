@@ -210,6 +210,7 @@ All resources for training and post-training session can be found [in this folde
 
 <br>
 
+
 ## Systems Resources
 
 <article class="solo-day-card">
@@ -299,7 +300,6 @@ All resources for training and post-training session can be found [in this folde
 <br>
 
 ## Training Resources
-
 If you'd like to reference old training sessions, please refer to  <a href="https://drive.google.com/drive/u/0/folders/1ni73f0cTCqdBpVxiDuuNi2QVEWLYxzch">this folder</a>. 
 
 ## Prework
