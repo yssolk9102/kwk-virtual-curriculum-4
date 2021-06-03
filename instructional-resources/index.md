@@ -183,8 +183,8 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">🎉 Kahoots</h3>
   <div class="solo-day-toggle">
-    <p><a href="https://docs.google.com/document/d/1U_SLbV9OJHh4BT_9R5a5qNh5KRMIe-yfNgB1JS8Q6Dk/edit?usp=sharing"> Web Dev Kahoots</a>
-    <p><a href="https://docs.google.com/document/d/1KkyIQkWNeHNw0ocfRkF6XBpUIdKZttfEWLvsopMZoOM/edit?usp=sharing"> Mobile App Kahoots</a>
+    <p><a href="https://docs.google.com/document/d/1U_SLbV9OJHh4BT_9R5a5qNh5KRMIe-yfNgB1JS8Q6Dk/edit?usp=sharing"> Web Dev Kahoots</a></p>
+    <p><a href="https://docs.google.com/document/d/1KkyIQkWNeHNw0ocfRkF6XBpUIdKZttfEWLvsopMZoOM/edit?usp=sharing"> Mobile App Kahoots</a></p>
   </div> 
 </article>
 
