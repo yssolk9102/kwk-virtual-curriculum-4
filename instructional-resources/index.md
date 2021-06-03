@@ -271,7 +271,8 @@ All resources for training and post-training session can be found [in this folde
       <p> ~ 10 min. - reading the microfeedback comments from your scholars </p> 
       <p> ~ 10 min. - preparing your own thinking and analysis of what went well and what needs improvement. This does not need to be written down concretely, but you should be prepared to share this thinking with your team. </p>
 
-  <p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document.</a></p> 
+  <p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> 
+  <p>You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document.</a></p> 
   </div>
 </article>
 
