@@ -304,9 +304,9 @@ If you'd like to reference old training sessions, please refer to  <a href="http
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">🖥 WebDev</h3>
   <div class="solo-day-toggle">
-  <li> <a href = "https://docs.google.com/document/d/1syrfx0OBDT8AP9zC0gxdf_nVtjaSu_rBB90zqTyL9ds/edit"> New Instructor </a>
-  <li> <a href = "https://docs.google.com/document/d/1K672v2XzlkQSCAAv8P_gkcczUojH2S_cnI1jBSHk2Dk/edit"> Returning Instructor </a>
-  <li> <a href= "https://docs.google.com/document/d/1uuabq-NS1qlL0VBSFMwnTIlxnzwBTwOrjxqBa43Ge4Y/edit" > Instructor Assistant </a>
+  <li> <a href = "https://docs.google.com/document/d/1syrfx0OBDT8AP9zC0gxdf_nVtjaSu_rBB90zqTyL9ds/edit"> New Instructor </a> </li>
+  <li> <a href = "https://docs.google.com/document/d/1K672v2XzlkQSCAAv8P_gkcczUojH2S_cnI1jBSHk2Dk/edit"> Returning Instructor </a> </li>
+  <li> <a href= "https://docs.google.com/document/d/1uuabq-NS1qlL0VBSFMwnTIlxnzwBTwOrjxqBa43Ge4Y/edit" > Instructor Assistant </a> </li>
 
   </div>
 </article>
@@ -314,8 +314,8 @@ If you'd like to reference old training sessions, please refer to  <a href="http
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">📱 MobileApp</h3>
   <div class="solo-day-toggle">
-  <li> <a href = "https://docs.google.com/document/d/19c-wtMieGgo96ztAdD6XdeBxCEzyk3wltng5Z_DnLAg/edit"> New Instructor </a>
-  <li> <a href = "https://docs.google.com/document/d/1CR8WQpqUUPoplnbjAN5xznCd8az5om5CtK3rvvoOOuk/edit"> Returning Instructor </a>
-  <li> <a href= "https://docs.google.com/document/d/1v_AJJOg4o7KfuqaBAGtnr8iiSeDexNFCzD0IOxD8W2A/edit" > Instructor Assistant </a>
+  <li> <a href = "https://docs.google.com/document/d/19c-wtMieGgo96ztAdD6XdeBxCEzyk3wltng5Z_DnLAg/edit"> New Instructor </a> </li>
+  <li> <a href = "https://docs.google.com/document/d/1CR8WQpqUUPoplnbjAN5xznCd8az5om5CtK3rvvoOOuk/edit"> Returning Instructor </a> </li>
+  <li> <a href= "https://docs.google.com/document/d/1v_AJJOg4o7KfuqaBAGtnr8iiSeDexNFCzD0IOxD8W2A/edit" > Instructor Assistant </a> </li>
   </div>
 </article>
