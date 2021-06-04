@@ -50,7 +50,7 @@ All resources for training and post-training session can be found [in this folde
       <li> After showing scholars a handful of brain breaks, in the second week, you can even ask them to vote on brain breaks to give them a say on what they’d like </li> 
       <li> Allow scholars a space to opt out if they are uncomfortable. You can say “Hi everyone, we’re going to be playing {{GAMEHERE}} for the next five minutes. Here’s how to play! {{BRIEF DESCRIPTION OF GAME}}. If you’re interested in playing, we’d love to have you. If not, feel free to turn your webcam off” </li>  
  
-    </ol>
+   </ol>
   </div>
 </article>
 
