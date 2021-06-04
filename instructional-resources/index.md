@@ -160,7 +160,7 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">🖥 Slides</h3>
   <div class="solo-day-toggle">
-    <p>Slides will be provided for you to use if you’d like - we highly encourage you to personalize, edit, and change to best fit your personality and your scholars’ needs. A link will be updated soon for the slides.</p>
+    <p>Slides are provided for you to use if you’d like - we highly encourage you to personalize, edit, and change to best fit your personality and your scholars’ needs. Please find them <a href="https://drive.google.com/drive/u/0/folders/1TqgCYZX6VFNnN0wBh1VozTxIb7L_B-gI">here</a>. </p>
   </div>
 </article>
 
