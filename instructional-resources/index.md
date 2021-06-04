@@ -41,6 +41,24 @@ All resources for training and post-training session can be found [in this folde
 </article>
 
 <article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">🧠 Brain Breaks </h3>
+  <div class="solo-day-toggle">
+    <p>For the slides to brain breaks, please click <a href="https://docs.google.com/presentation/d/1iG5UUiGTMFdwQHnsHlcmjDIZCTGDgSOnMt-OoJaYQkE/edit#slide=id.gce2e7c6425_0_45"> here </a> </p>
+    
+    <p> Please consider the following brain break best practices: </p> 
+    <ol>
+      <li>Consider ahead of time, “what kind of brain break would best fit my scholars right now?” Something a bit more active to get them out of their seats. Something team-related to build morale? From there, find the brain break that fits what logistical constraints you have, maybe, such as timing, or the amount of people. </li> 
+
+       <li> After showing scholars a handful of brain breaks, in the second week, you can even ask them to vote on brain breaks to give them a say on what they’d like </li> 
+
+      <li> Allow scholars a space to opt out if they are uncomfortable. You can say “Hi everyone, we’re going to be playing {{GAMEHERE}} for the next five minutes. Here’s how to play! {{BRIEF DESCRIPTION OF GAME}}. If you’re interested in playing, we’d love to have you. If not, feel free to turn your webcam off” </li>  
+ 
+    </ol>
+  </div>
+</article>
+
+
+<article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">👗 Theme Days</h3>
   <div class="solo-day-toggle">
     <p>Here are some examples of theme days that you can have at Kode With Klossy camps this summer.</p>
