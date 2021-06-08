@@ -206,12 +206,20 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">💚 Final Project</h3>
   <div class="solo-day-toggle">
-    <p><a href="https://docs.google.com/document/d/1ewwEJmkzwCPG0uNuLUXjuWCbrAoyfdQFYm4yUU9ru7c/edit#">Final Project Instructor Guide</a></p> 
-    <p><a href="https://docs.google.com/document/d/1_feRg10-rw6RhaoPmUCWibcOTM6QFW-ulN9Ksri1u_U/edit#">Final Project Scholar Guide</a></p> 
-    <p><a href="https://docs.google.com/document/d/1TxWJZqCvHFrAHgTsq2CdDc_o9RGoMrTmVXCmXhXjq5g/edit">Final Project Management Guide</a></p> 
-    <p><a href="https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit">App Design Workbook Template</a></p> 
+    <p><a href="https://docs.google.com/document/d/1ewwEJmkzwCPG0uNuLUXjuWCbrAoyfdQFYm4yUU9ru7c/edit#">Final Project Instructor Guide</a> - a one-stop-shop guide for instructors to lead final projects </p>
+    <p><a href="https://docs.google.com/document/d/1_feRg10-rw6RhaoPmUCWibcOTM6QFW-ulN9Ksri1u_U/edit#">Final Project Scholar Guide</a>- a one-stop-shop guide for scholars to build their final projects</p> 
+    <p><a href="https://docs.google.com/document/d/1TxWJZqCvHFrAHgTsq2CdDc_o9RGoMrTmVXCmXhXjq5g/edit">Final Project Management Guide</a> - for instructors to think through managing groups for final project</p> 
+    <p><a href="https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit">App Design Workbook Template</a> - for scholars to work through their final projects. While this says 'App Design', it can be used interchangeably for their curricula.</p> 
   </div> 
 </article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">🎓 Demo Day & Graduation Ceremony</h3>
+  <div class="solo-day-toggle">
+    <p> In <a href="https://drive.google.com/drive/u/0/folders/1D470vaYwcMSxcq7SVNyC5K2bwqNOmsYT">this folder</a>, you’ll find a run-of-show and a slide deck that we made for you to celebrate the big day!</p>
+  </div> 
+</article>
+
 
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">📺 MobileApp Remote Pairing</h3>
