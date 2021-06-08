@@ -204,12 +204,20 @@ All resources for training and post-training session can be found [in this folde
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">💚 Final Project</h3>
+  <h3 class="solo-day-label solo-day-click">💚 Pitch Party & Final Project</h3>
   <div class="solo-day-toggle">
-    <p><a href="https://docs.google.com/document/d/1ewwEJmkzwCPG0uNuLUXjuWCbrAoyfdQFYm4yUU9ru7c/edit#">Final Project Instructor Guide</a> - a one-stop-shop guide for instructors to lead final projects </p>
-    <p><a href="https://docs.google.com/document/d/1_feRg10-rw6RhaoPmUCWibcOTM6QFW-ulN9Ksri1u_U/edit#">Final Project Scholar Guide</a>- a one-stop-shop guide for scholars to build their final projects</p> 
+    <p> All of the resources for Pitch Party and Final Projects can be found <a href="https://drive.google.com/drive/folders/12crutGjr7bEtW4QPCDDOZzP3ZXt7nrZ0?usp=sharing">here.</a> As an overview, you can find the:</p> 
+    
+    <p><a href="https://docs.google.com/document/d/1VE62PSnvhE-2cP4_Wx_GjXIpqgjgTEEKMCyUdF-_EiQ/edit">Final Project Instructor Guide</a> - a one-stop-shop guide for instructors to lead final projects </p>
+    <p><a href="https://docs.google.com/document/d/1hjVCtJn4bo3w8oGtOffkK20WFWi2gUO91_v5Na6P26A/edit">Final Project Scholar Guide</a>- a one-stop-shop guide for scholars to build their final projects</p> 
     <p><a href="https://docs.google.com/document/d/1TxWJZqCvHFrAHgTsq2CdDc_o9RGoMrTmVXCmXhXjq5g/edit">Final Project Management Guide</a> - for instructors to think through managing groups for final project</p> 
     <p><a href="https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit">App Design Workbook Template</a> - for scholars to work through their final projects. While this says 'App Design', it can be used interchangeably for their curricula.</p> 
+    
+    <p><a href="https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit">App Design Workbook Template</a> - for scholars to work through their final projects. While this says 'App Design', it can be used interchangeably for their curricula.</p> 
+    
+    <p><a href="https://docs.google.com/presentation/d/18t0gp-fCMSJsfrkLUHJm_xc547EWfwLHtkDlnRyOJiI/edit#slide=id.gdf23bf8b70_0_0">Scholar Pitch Party Slide Deck Template</a> - for scholars as a resource to plan their pitch party presentations.</p> 
+    
+     <p><a href="https://docs.google.com/presentation/d/1v72MR0j6LpigFAjGqZFlbowGQMjdiYF-pdsOdCcusiA/edit#slide=id.gdf23bf8b70_0_0">Scholar Demo Day Presentation Slide Deck Template</a> - for scholars as a resource to plan their demo day presentations.</p> 
   </div> 
 </article>
 
