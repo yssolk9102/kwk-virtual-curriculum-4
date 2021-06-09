@@ -6,7 +6,7 @@ title: Estée Lauder Mobile Design Challenge
 
 **Estée Lauder is looking to YOU** to design and build an app best viewed on mobile devices to help promote their new "Double Wear Stay in Place" product line. Here are the parameters:
 
-- Use the photo assets provided by the Estée team - [they can be found here](). You can use them all or choose a subset of them to use on your app!
+- Use the photo assets provided by the Estée team - [they can be found here](https://drive.google.com/drive/u/0/folders/1tlQtrMpXFd7fqJvMkXxs0UsOGu36zim9). You can use them all or choose a subset of them to use on your app!
 - Decide on a color palette. Here are a few great resources:
   - [Color Hunt](https://colorhunt.co/)
   - [Coolers](https://coolors.co/)
@@ -19,11 +19,11 @@ Not only will this give you great practice as you continue to develop your skill
 ### Submission
 
 Here's how it will work:
-- You'll submit [this Google Form](). It will ask you to include:
+- You'll submit [this Airtable Form](https://airtable.com/shrcOApM5wBWBiHki). It will ask you to include:
   - Screenshots and a screen recording of your app being used
-  - Link to the GitHub repository that holds your final code
+  - Link to the GitHub repository that holds your final code (please note, you'll learn this on the second Tuesday of camps) 
   - Your responses to a few questions about your process, design, and rationale for decisions you made!
-- Submission deadline: Wednesday evening your second week of camp at 8pm local time
+- Submission deadline: Thursday evening your second week of camp at 8pm local time
 
 Karlie and the Estée Lauder team can't wait to see what you submit!
 
