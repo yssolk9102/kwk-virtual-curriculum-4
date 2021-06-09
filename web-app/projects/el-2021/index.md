@@ -19,7 +19,7 @@ Not only will this give you great practice as you continue to develop your skill
 ### Submission
 
 Here's how it will work:
-- Submit your repl.it project links and responses to a few questions about your inspiration and process using [this Google Form](https://airtable.com/shrEwdXuwudMZ4g0Q). 
+- Submit your repl.it project links and responses to a few questions about your inspiration and process using [this Airtable Form](https://airtable.com/shrEwdXuwudMZ4g0Q). 
 - Submission deadline: Thursday evening your second week of camp at 8pm local time
 
 Karlie and the Estée Lauder team can't wait to see what you submit!
