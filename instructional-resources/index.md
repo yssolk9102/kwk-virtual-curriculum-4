@@ -304,6 +304,8 @@ All resources for training and post-training session can be found [in this folde
 
   <p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> 
   <p>You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document.</a></p> 
+    
+    <p>As a note, to the best of your ability, please encourage all scholars to complete the microfeedback. If a scholar leaves early, they should still complete the microfeedback. </p> 
   </div>
 </article>
 
