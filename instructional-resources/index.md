@@ -41,6 +41,21 @@ All resources for training and post-training session can be found [in this folde
 </article>
 
 <article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">🧠 Brain Breaks </h3>
+  <div class="solo-day-toggle">
+    <p>For the slides to brain breaks, please click <a href="https://docs.google.com/presentation/d/1iG5UUiGTMFdwQHnsHlcmjDIZCTGDgSOnMt-OoJaYQkE/edit#slide=id.gce2e7c6425_0_45"> here </a> </p>
+    <p> Please consider the following brain break best practices: </p> 
+    <ol>
+      <li>Consider ahead of time, “what kind of brain break would best fit my scholars right now?” Something a bit more active to get them out of their seats. Something team-related to build morale? From there, find the brain break that fits what logistical constraints you have, maybe, such as timing, or the amount of people. </li> 
+      <li> After showing scholars a handful of brain breaks, in the second week, you can even ask them to vote on brain breaks to give them a say on what they’d like </li> 
+      <li> Allow scholars a space to opt out if they are uncomfortable. You can say “Hi everyone, we’re going to be playing {{GAMEHERE}} for the next five minutes. Here’s how to play! {{BRIEF DESCRIPTION OF GAME}}. If you’re interested in playing, we’d love to have you. If not, feel free to turn your webcam off” </li>  
+ 
+   </ol>
+  </div>
+</article>
+
+
+<article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">👗 Theme Days</h3>
   <div class="solo-day-toggle">
     <p>Here are some examples of theme days that you can have at Kode With Klossy camps this summer.</p>
@@ -160,7 +175,7 @@ All resources for training and post-training session can be found [in this folde
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">🖥 Slides</h3>
   <div class="solo-day-toggle">
-    <p>Slides will be provided for you to use if you’d like - we highly encourage you to personalize, edit, and change to best fit your personality and your scholars’ needs. A link will be updated soon for the slides.</p>
+    <p>Slides are provided for you to use if you’d like - we highly encourage you to personalize, edit, and change to best fit your personality and your scholars’ needs. Please find them <a href="https://drive.google.com/drive/u/0/folders/1TqgCYZX6VFNnN0wBh1VozTxIb7L_B-gI">here</a>. </p>
   </div>
 </article>
 
@@ -191,14 +206,30 @@ All resources for training and post-training session can be found [in this folde
 </article>
 
 <article class="solo-day-card">
-  <h3 class="solo-day-label solo-day-click">💚 Final Project</h3>
+  <h3 class="solo-day-label solo-day-click">💚 Pitch Party & Final Project</h3>
   <div class="solo-day-toggle">
-    <p><a href="https://docs.google.com/document/d/1ewwEJmkzwCPG0uNuLUXjuWCbrAoyfdQFYm4yUU9ru7c/edit#">Final Project Instructor Guide</a></p> 
-    <p><a href="https://docs.google.com/document/d/1_feRg10-rw6RhaoPmUCWibcOTM6QFW-ulN9Ksri1u_U/edit#">Final Project Scholar Guide</a></p> 
-    <p><a href="https://docs.google.com/document/d/1TxWJZqCvHFrAHgTsq2CdDc_o9RGoMrTmVXCmXhXjq5g/edit">Final Project Management Guide</a></p> 
-    <p><a href="https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit">App Design Workbook Template</a></p> 
+    <p> All of the resources for Pitch Party and Final Projects can be found <a href="https://drive.google.com/drive/folders/12crutGjr7bEtW4QPCDDOZzP3ZXt7nrZ0?usp=sharing">here.</a> As an overview, you can find the:</p> 
+    
+    <p><a href="https://docs.google.com/document/d/1VE62PSnvhE-2cP4_Wx_GjXIpqgjgTEEKMCyUdF-_EiQ/edit">Final Project Instructor Guide</a> - a one-stop-shop guide for instructors to lead final projects </p>
+    <p><a href="https://docs.google.com/document/d/1hjVCtJn4bo3w8oGtOffkK20WFWi2gUO91_v5Na6P26A/edit">Final Project Scholar Guide</a>- a one-stop-shop guide for scholars to build their final projects</p> 
+    <p><a href="https://docs.google.com/document/d/1TxWJZqCvHFrAHgTsq2CdDc_o9RGoMrTmVXCmXhXjq5g/edit">Final Project Management Guide</a> - for instructors to think through managing groups for final project</p> 
+    <p><a href="https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit">App Design Workbook Template</a> - for scholars to work through their final projects. While this says 'App Design', it can be used interchangeably for their curricula.</p> 
+    
+    <p><a href="https://docs.google.com/document/d/15Gi0HqcETma_k3yfqX4jiEt0lHBKMuGWN8dGjF5INb8/edit">App Design Workbook Template</a> - for scholars to work through their final projects. While this says 'App Design', it can be used interchangeably for their curricula.</p> 
+    
+    <p><a href="https://docs.google.com/presentation/d/18t0gp-fCMSJsfrkLUHJm_xc547EWfwLHtkDlnRyOJiI/edit#slide=id.gdf23bf8b70_0_0">Scholar Pitch Party Slide Deck Template</a> - for scholars as a resource to plan their pitch party presentations.</p> 
+    
+     <p><a href="https://docs.google.com/presentation/d/1v72MR0j6LpigFAjGqZFlbowGQMjdiYF-pdsOdCcusiA/edit#slide=id.gdf23bf8b70_0_0">Scholar Demo Day Presentation Slide Deck Template</a> - for scholars as a resource to plan their demo day presentations.</p> 
   </div> 
 </article>
+
+<article class="solo-day-card">
+  <h3 class="solo-day-label solo-day-click">🎓 Demo Day & Graduation Ceremony</h3>
+  <div class="solo-day-toggle">
+    <p> In <a href="https://drive.google.com/drive/u/0/folders/1D470vaYwcMSxcq7SVNyC5K2bwqNOmsYT">this folder</a>, you’ll find a run-of-show and a slide deck that we made for you to celebrate the big day!</p>
+  </div> 
+</article>
+
 
 <article class="solo-day-card">
   <h3 class="solo-day-label solo-day-click">📺 MobileApp Remote Pairing</h3>
@@ -275,6 +306,8 @@ All resources for training and post-training session can be found [in this folde
 
   <p> After this 30 minute break, you should meet with your instructional team to discuss microfeedback and develop next steps for the next day. You will capture these notes in your camp’s Airtable tracker. </p> 
   <p>You can learn more about this overall process in <a href="https://docs.google.com/document/d/1vrnU0NkpHSMkvOu8JPR2oUGJNbDgqZ5Re9Sl6uoHt-U/edit"> this document.</a></p> 
+    
+    <p>As a note, to the best of your ability, please encourage all scholars to complete the microfeedback. If a scholar leaves early, they should still complete the microfeedback. </p> 
   </div>
 </article>
 

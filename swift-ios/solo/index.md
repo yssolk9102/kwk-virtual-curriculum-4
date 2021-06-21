@@ -47,7 +47,7 @@ title: Night Hacks
 
     <div>
       <h4>Build: Mini Project 1</h4>
-      <p>Spend 30-45 minutes working on Mini Project 1! Share the "invite others" link in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
+      <p>Spend 30-45 minutes working on Mini Project 1! Submit a screenshot in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
     </div>
 
     <div>
@@ -64,7 +64,7 @@ title: Night Hacks
 
     <div>
       <h4>Build: Mini Project 2</h4>
-      <p>Spend 45-60 minutes working on Mini Project 2! Share the "invite others" link in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
+      <p>Spend 45-60 minutes working on Mini Project 2! Submit a screenshot in the Slack thread. Keep in mind, you'll have another 30+ minutes to work on it tomorrow.</p>
     </div>
 
     <div>
