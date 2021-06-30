@@ -227,6 +227,11 @@ All resources for training and post-training session can be found [in this folde
   <h3 class="solo-day-label solo-day-click">🎓 Demo Day & Graduation Ceremony</h3>
   <div class="solo-day-toggle">
     <p> In <a href="https://drive.google.com/drive/u/0/folders/1D470vaYwcMSxcq7SVNyC5K2bwqNOmsYT">this folder</a>, you’ll find a run-of-show and a slide deck that we made for you to celebrate the big day!</p>
+    
+    <p> For those returning to the KWK community, we implemented 3 main changes to this year: 
+    <li> 1. We will not be inviting parents to Demo Day & Graduation Ceremony live (instead, we will send them an amazing recording) and </li> 
+    <li> 2. Thus, we will not be using Zoom Webinar, and instead, will only use Zoom Meetings (the platform we currently use!) </li> 
+    <li> 3. There will be no scholar screencast video. Instead, scholars will demo their projects live once during the afternoon. The morning will be spent prepping for this presentation! </li> </p> 
   </div> 
 </article>
 
