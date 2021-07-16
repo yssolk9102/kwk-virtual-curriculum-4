@@ -186,7 +186,8 @@ All resources for training and post-training session can be found [in this folde
     <p><a href="https://replit.com/@kodewithklossy/webdevanswerkey-2">WebDev Answer Key</a><br>
     <a href="https://replit.com/@kodewithklossy/mobileanswerkey-1">MobileApp Try-Its Answer Key</a><br>
     <a href="https://replit.com/@kodewithklossy/SOLUTION-Intro-to-Swift-Conditionals-Practice">MobileApp Conditionals Practice Answer Key</a><br>
-    <a href="https://replit.com/@kodewithklossy/SOLUTION-For-In-Loops-Practice">MobileApp For-In Loops Practice Answer Key</a></p> 
+    <a href="https://replit.com/@kodewithklossy/SOLUTION-For-In-Loops-Practice">MobileApp For-In Loops Practice Answer Key</a><br>
+    <a href="https://replit.com/@kodewithklossy/Functions-Answer-Key">MobileApp Functions Practice Answer Key</a></p> 
   </div> 
 </article>
 
