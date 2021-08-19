@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const logInForm = document.querySelector('.login-form');
 
   function checkLocation() {
-    const check = localStorage.getItem('loggedIn') || 'false';
+    const check = localStorage.getItem('loggedIn') || 'true';
     const isStaff = localStorage.getItem('isStaff') || 'false';
 
     if (relativeURL === '/kwk-virtual-curriculum/login/' && check === 'true') {
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function logOut(event) {
     event.preventDefault();
-    localStorage.setItem('loggedIn', 'false');
+    localStorage.setItem('loggedIn', 'true');
     localStorage.setItem('isStaff', 'false');
     window.location.replace("/kwk-virtual-curriculum/login/");
     hideLinks();
